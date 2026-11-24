@@ -1,6 +1,6 @@
 ---
 name: titulo-accion-sociedad-anonima-mer-0089
-description: "Título de acción de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Título de acción de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Título de acción de una sociedad anónima

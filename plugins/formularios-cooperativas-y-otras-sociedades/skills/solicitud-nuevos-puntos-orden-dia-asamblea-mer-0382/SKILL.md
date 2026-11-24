@@ -1,6 +1,6 @@
 ---
 name: solicitud-nuevos-puntos-orden-dia-asamblea-mer-0382
-description: "Solicitud de nuevos puntos del orden del día de la asamblea por interventores y minoría de socios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de nuevos puntos del orden del día de la asamblea por interventores y minoría de socios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de nuevos puntos del orden del día de la asamblea por interventores y minoría de socios

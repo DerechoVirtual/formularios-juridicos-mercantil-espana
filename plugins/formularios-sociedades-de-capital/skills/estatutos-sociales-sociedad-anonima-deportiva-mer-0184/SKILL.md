@@ -1,6 +1,6 @@
 ---
 name: estatutos-sociales-sociedad-anonima-deportiva-mer-0184
-description: "Estatutos sociales de una sociedad anónima deportiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos sociales de una sociedad anónima deportiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos sociales de una sociedad anónima deportiva

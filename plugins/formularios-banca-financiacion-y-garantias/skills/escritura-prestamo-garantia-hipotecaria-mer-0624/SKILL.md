@@ -1,6 +1,6 @@
 ---
 name: escritura-prestamo-garantia-hipotecaria-mer-0624
-description: "Escritura de préstamo con garantía hipotecaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de préstamo con garantía hipotecaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de préstamo con garantía hipotecaria

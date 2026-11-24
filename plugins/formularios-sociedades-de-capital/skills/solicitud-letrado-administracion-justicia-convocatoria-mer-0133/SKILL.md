@@ -1,6 +1,6 @@
 ---
 name: solicitud-letrado-administracion-justicia-convocatoria-mer-0133
-description: "Solicitud al letrado de la Administración de Justicia de convocatoria de junta extraordinaria de SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al letrado de la Administración de Justicia de convocatoria de junta extraordinaria de SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al letrado de la Administración de Justicia de convocatoria de junta extraordinaria de SA

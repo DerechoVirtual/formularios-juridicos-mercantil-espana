@@ -1,6 +1,6 @@
 ---
 name: contrato-distribucion-exclusiva-concesion-mer-0498
-description: "Contrato de distribución en exclusiva o concesión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de distribución en exclusiva o concesión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de distribución en exclusiva o concesión

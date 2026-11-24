@@ -1,6 +1,6 @@
 ---
 name: escritura-hipoteca-mobiliaria-sobre-derechos-propiedad-mer-0677
-description: "Escritura de hipoteca mobiliaria sobre derechos de propiedad intelectual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de hipoteca mobiliaria sobre derechos de propiedad intelectual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de hipoteca mobiliaria sobre derechos de propiedad intelectual

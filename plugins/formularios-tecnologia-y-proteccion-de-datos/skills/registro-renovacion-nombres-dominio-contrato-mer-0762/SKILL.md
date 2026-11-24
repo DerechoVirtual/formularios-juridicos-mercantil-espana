@@ -1,6 +1,6 @@
 ---
 name: registro-renovacion-nombres-dominio-contrato-mer-0762
-description: "Registro y renovación de nombres de dominio (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Registro y renovación de nombres de dominio (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Registro y renovación de nombres de dominio (contrato)

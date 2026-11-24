@@ -1,6 +1,6 @@
 ---
 name: solicitud-sobrevenida-medida-cautelar-suspension-mer-0789
-description: "Solicitud sobrevenida de medida cautelar de suspensión de acuerdo social sin audiencia del demandado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud sobrevenida de medida cautelar de suspensión de acuerdo social sin audiencia del demandado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud sobrevenida de medida cautelar de suspensión de acuerdo social sin audiencia del demandado

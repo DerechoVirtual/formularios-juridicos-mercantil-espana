@@ -1,6 +1,6 @@
 ---
 name: preaviso-consejo-rector-baja-voluntaria-socio-mer-0391
-description: "Preaviso al consejo rector de baja voluntaria del socio de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Preaviso al consejo rector de baja voluntaria del socio de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Preaviso al consejo rector de baja voluntaria del socio de una cooperativa

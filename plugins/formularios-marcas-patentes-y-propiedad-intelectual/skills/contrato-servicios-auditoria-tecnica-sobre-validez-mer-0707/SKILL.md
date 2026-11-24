@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-auditoria-tecnica-sobre-validez-mer-0707
-description: "Contrato de servicios de auditoría técnica sobre la validez de una patente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de auditoría técnica sobre la validez de una patente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de auditoría técnica sobre la validez de una patente

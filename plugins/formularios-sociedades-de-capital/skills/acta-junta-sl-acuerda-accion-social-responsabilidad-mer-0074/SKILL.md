@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-acuerda-accion-social-responsabilidad-mer-0074
-description: "Acta de junta de SL que acuerda la acción social de responsabilidad contra administradores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que acuerda la acción social de responsabilidad contra administradores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que acuerda la acción social de responsabilidad contra administradores

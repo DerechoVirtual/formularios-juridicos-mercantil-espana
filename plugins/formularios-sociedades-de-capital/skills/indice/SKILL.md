@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 310 formularios de Sociedades de capital: juntas, administradores, capital y cuentas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 310 formularios de Sociedades de capital: juntas, administradores, capital y cuentas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Sociedades de capital: juntas, administradores, capital y cuentas: índice de formularios

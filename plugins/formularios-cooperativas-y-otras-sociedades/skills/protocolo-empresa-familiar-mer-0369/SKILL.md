@@ -1,6 +1,6 @@
 ---
 name: protocolo-empresa-familiar-mer-0369
-description: "Protocolo de empresa familiar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Protocolo de empresa familiar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Protocolo de empresa familiar

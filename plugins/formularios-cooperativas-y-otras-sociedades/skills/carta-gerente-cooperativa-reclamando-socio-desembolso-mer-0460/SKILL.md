@@ -1,6 +1,6 @@
 ---
 name: carta-gerente-cooperativa-reclamando-socio-desembolso-mer-0460
-description: "Carta del gerente de la cooperativa reclamando al socio el desembolso pendiente de su aportación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta del gerente de la cooperativa reclamando al socio el desembolso pendiente de su aportación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta del gerente de la cooperativa reclamando al socio el desembolso pendiente de su aportación

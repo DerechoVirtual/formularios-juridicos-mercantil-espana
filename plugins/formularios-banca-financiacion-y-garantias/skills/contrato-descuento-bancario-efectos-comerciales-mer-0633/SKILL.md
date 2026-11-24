@@ -1,6 +1,6 @@
 ---
 name: contrato-descuento-bancario-efectos-comerciales-mer-0633
-description: "Contrato de descuento bancario de efectos comerciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de descuento bancario de efectos comerciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de descuento bancario de efectos comerciales

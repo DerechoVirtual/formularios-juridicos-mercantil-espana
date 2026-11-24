@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-modificacion-estatutos-sl-mer-0029
-description: "Escritura pública de modificación de estatutos de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de modificación de estatutos de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de modificación de estatutos de una SL

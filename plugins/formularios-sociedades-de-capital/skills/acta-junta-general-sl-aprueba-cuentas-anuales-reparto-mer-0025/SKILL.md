@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-sl-aprueba-cuentas-anuales-reparto-mer-0025
-description: "Acta de junta general de SL que aprueba las cuentas anuales y el reparto de beneficios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general de SL que aprueba las cuentas anuales y el reparto de beneficios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general de SL que aprueba las cuentas anuales y el reparto de beneficios

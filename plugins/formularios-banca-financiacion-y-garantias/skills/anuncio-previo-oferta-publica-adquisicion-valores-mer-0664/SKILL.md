@@ -1,6 +1,6 @@
 ---
 name: anuncio-previo-oferta-publica-adquisicion-valores-mer-0664
-description: "Anuncio previo de una oferta pública de adquisición de valores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio previo de una oferta pública de adquisición de valores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio previo de una oferta pública de adquisición de valores

@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-aumento-capital-sa-mer-0041
-description: "Escritura pública de aumento de capital de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de aumento de capital de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de aumento de capital de una SA

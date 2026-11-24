@@ -1,6 +1,6 @@
 ---
 name: requerimiento-interventores-socios-consejo-rector-mer-0407
-description: "Requerimiento de interventores y socios al consejo rector para convocar asamblea extraordinaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento de interventores y socios al consejo rector para convocar asamblea extraordinaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento de interventores y socios al consejo rector para convocar asamblea extraordinaria

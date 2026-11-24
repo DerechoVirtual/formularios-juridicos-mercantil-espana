@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-constitucion-union-temporal-empresas-mer-0415
-description: "Escritura pública de constitución de una unión temporal de empresas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de constitución de una unión temporal de empresas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de constitución de una unión temporal de empresas

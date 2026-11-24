@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 32 formularios de Contratos tecnológicos, comercio electrónico y protección de datos. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 32 formularios de Contratos tecnológicos, comercio electrónico y protección de datos. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Contratos tecnológicos, comercio electrónico y protección de datos: índice de formularios

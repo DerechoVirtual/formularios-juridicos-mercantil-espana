@@ -1,6 +1,6 @@
 ---
 name: asistencia-tecnica-sistemas-informaticos-contrato-mer-0756
-description: "Asistencia técnica de sistemas informáticos (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Asistencia técnica de sistemas informáticos (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Asistencia técnica de sistemas informáticos (contrato)

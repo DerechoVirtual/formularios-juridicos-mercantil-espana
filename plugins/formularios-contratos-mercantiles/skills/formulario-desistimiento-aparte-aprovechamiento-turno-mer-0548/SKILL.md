@@ -1,6 +1,6 @@
 ---
 name: formulario-desistimiento-aparte-aprovechamiento-turno-mer-0548
-description: "Formulario de desistimiento aparte para aprovechamiento por turno y productos vacacionales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Formulario de desistimiento aparte para aprovechamiento por turno y productos vacacionales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Formulario de desistimiento aparte para aprovechamiento por turno y productos vacacionales

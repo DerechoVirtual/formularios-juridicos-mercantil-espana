@@ -1,6 +1,6 @@
 ---
 name: contrato-reserva-alojamiento-agroturismo-mer-0531
-description: "Contrato de reserva de alojamiento en agroturismo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de reserva de alojamiento en agroturismo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de reserva de alojamiento en agroturismo

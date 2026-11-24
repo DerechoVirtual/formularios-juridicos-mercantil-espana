@@ -1,6 +1,6 @@
 ---
 name: franquicia-produccion-distribucion-servicios-contrato-mer-0489
-description: "Franquicia de producción, distribución y servicios (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Franquicia de producción, distribución y servicios (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Franquicia de producción, distribución y servicios (contrato)

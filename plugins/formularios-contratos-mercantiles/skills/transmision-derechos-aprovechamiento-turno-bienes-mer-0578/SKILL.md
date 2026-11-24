@@ -1,6 +1,6 @@
 ---
 name: transmision-derechos-aprovechamiento-turno-bienes-mer-0578
-description: "Transmisión de derechos de aprovechamiento por turno de bienes inmuebles (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Transmisión de derechos de aprovechamiento por turno de bienes inmuebles (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Transmisión de derechos de aprovechamiento por turno de bienes inmuebles (contrato)

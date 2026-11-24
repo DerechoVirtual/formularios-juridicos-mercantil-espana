@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-marketing-digital-mer-0821
-description: "Contrato de servicios de marketing digital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de marketing digital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de marketing digital

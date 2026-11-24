@@ -1,6 +1,6 @@
 ---
 name: impugnacion-acuerdo-consejo-rector-impone-socio-baja-mer-0433
-description: "Impugnación del acuerdo del consejo rector que impone al socio la baja obligatoria o expulsión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación del acuerdo del consejo rector que impone al socio la baja obligatoria o expulsión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación del acuerdo del consejo rector que impone al socio la baja obligatoria o expulsión

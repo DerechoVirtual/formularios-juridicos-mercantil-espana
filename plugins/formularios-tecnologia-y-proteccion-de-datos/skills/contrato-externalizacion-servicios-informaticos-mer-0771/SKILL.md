@@ -1,6 +1,6 @@
 ---
 name: contrato-externalizacion-servicios-informaticos-mer-0771
-description: "Contrato de externalización de servicios informáticos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de externalización de servicios informáticos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de externalización de servicios informáticos

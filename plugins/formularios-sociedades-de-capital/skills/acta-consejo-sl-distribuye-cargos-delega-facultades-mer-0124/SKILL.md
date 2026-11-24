@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-sl-distribuye-cargos-delega-facultades-mer-0124
-description: "Acta del consejo de SL que distribuye cargos, delega facultades y otorga poderes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo de SL que distribuye cargos, delega facultades y otorga poderes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo de SL que distribuye cargos, delega facultades y otorga poderes

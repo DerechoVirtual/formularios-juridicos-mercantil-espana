@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-sobre-cese-nombramiento-administradores-mer-0024
-description: "Acta de junta de SL sobre cese y nombramiento de administradores o consejo de administración. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL sobre cese y nombramiento de administradores o consejo de administración. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL sobre cese y nombramiento de administradores o consejo de administración

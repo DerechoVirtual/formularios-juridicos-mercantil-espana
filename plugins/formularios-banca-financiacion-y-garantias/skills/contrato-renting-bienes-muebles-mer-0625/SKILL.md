@@ -1,6 +1,6 @@
 ---
 name: contrato-renting-bienes-muebles-mer-0625
-description: "Contrato de renting de bienes muebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de renting de bienes muebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de renting de bienes muebles

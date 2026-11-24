@@ -1,6 +1,6 @@
 ---
 name: publicacion-propuesta-compra-acciones-propias-reducir-mer-0137
-description: "Publicación de la propuesta de compra de acciones propias para reducir capital de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Publicación de la propuesta de compra de acciones propias para reducir capital de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Publicación de la propuesta de compra de acciones propias para reducir capital de una SA

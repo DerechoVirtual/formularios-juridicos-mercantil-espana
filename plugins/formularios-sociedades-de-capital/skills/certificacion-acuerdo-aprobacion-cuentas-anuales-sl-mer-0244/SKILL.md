@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-aprobacion-cuentas-anuales-sl-mer-0244
-description: "Certificación del acuerdo de aprobación de las cuentas anuales de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de aprobación de las cuentas anuales de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de aprobación de las cuentas anuales de una SL

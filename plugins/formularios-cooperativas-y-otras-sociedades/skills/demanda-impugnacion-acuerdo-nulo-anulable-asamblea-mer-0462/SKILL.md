@@ -1,6 +1,6 @@
 ---
 name: demanda-impugnacion-acuerdo-nulo-anulable-asamblea-mer-0462
-description: "Demanda de impugnación de un acuerdo nulo o anulable de la asamblea general de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de impugnación de un acuerdo nulo o anulable de la asamblea general de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de impugnación de un acuerdo nulo o anulable de la asamblea general de una cooperativa

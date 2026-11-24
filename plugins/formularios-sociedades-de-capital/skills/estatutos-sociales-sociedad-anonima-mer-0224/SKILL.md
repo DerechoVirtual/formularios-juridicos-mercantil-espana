@@ -1,6 +1,6 @@
 ---
 name: estatutos-sociales-sociedad-anonima-mer-0224
-description: "Estatutos sociales de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos sociales de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos sociales de una sociedad anónima

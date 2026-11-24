@@ -1,6 +1,6 @@
 ---
 name: notificacion-notarial-participada-haber-superado-diez-mer-0106
-description: "Notificación notarial a la participada de haber superado el diez por ciento de su capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación notarial a la participada de haber superado el diez por ciento de su capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación notarial a la participada de haber superado el diez por ciento de su capital

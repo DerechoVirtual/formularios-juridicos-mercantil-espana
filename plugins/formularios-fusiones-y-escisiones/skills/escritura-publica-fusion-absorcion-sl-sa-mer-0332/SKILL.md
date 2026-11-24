@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-fusion-absorcion-sl-sa-mer-0332
-description: "Escritura pública de fusión por absorción de SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de fusión por absorción de SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de fusión por absorción de SL o SA

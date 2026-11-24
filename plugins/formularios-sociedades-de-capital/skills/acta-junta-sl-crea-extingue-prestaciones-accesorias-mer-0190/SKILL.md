@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-crea-extingue-prestaciones-accesorias-mer-0190
-description: "Acta de junta de una SL que crea o extingue prestaciones accesorias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de una SL que crea o extingue prestaciones accesorias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de una SL que crea o extingue prestaciones accesorias

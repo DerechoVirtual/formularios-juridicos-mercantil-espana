@@ -1,6 +1,6 @@
 ---
 name: anuncio-borme-reclamacion-desembolsos-pendientes-mer-0121
-description: "Anuncio en el BORME de la reclamación de desembolsos pendientes a los accionistas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio en el BORME de la reclamación de desembolsos pendientes a los accionistas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio en el BORME de la reclamación de desembolsos pendientes a los accionistas

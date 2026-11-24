@@ -1,6 +1,6 @@
 ---
 name: reglamento-interno-comunidad-bienes-titular-marca-mer-0723
-description: "Reglamento interno de la comunidad de bienes titular de una marca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reglamento interno de la comunidad de bienes titular de una marca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reglamento interno de la comunidad de bienes titular de una marca

@@ -1,6 +1,6 @@
 ---
 name: pacto-parasocial-constitucion-sociedad-mer-0017
-description: "Pacto parasocial para la constitución de una sociedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Pacto parasocial para la constitución de una sociedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Pacto parasocial para la constitución de una sociedad

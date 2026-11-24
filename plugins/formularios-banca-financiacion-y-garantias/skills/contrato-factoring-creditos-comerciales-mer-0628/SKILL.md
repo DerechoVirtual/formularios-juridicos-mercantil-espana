@@ -1,6 +1,6 @@
 ---
 name: contrato-factoring-creditos-comerciales-mer-0628
-description: "Contrato de factoring de créditos comerciales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de factoring de créditos comerciales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de factoring de créditos comerciales

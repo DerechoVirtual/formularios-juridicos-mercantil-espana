@@ -1,6 +1,6 @@
 ---
 name: contrato-credito-cuenta-corriente-reconocimiento-deuda-mer-0665
-description: "Contrato de crédito en cuenta corriente con reconocimiento de deuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de crédito en cuenta corriente con reconocimiento de deuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de crédito en cuenta corriente con reconocimiento de deuda

@@ -1,6 +1,6 @@
 ---
 name: contrato-distribucion-obras-arte-mer-0742
-description: "Contrato de distribución de obras de arte. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de distribución de obras de arte. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de distribución de obras de arte

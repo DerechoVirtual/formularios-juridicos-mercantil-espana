@@ -1,6 +1,6 @@
 ---
 name: contrato-forfaiting-creditos-exportacion-mer-0627
-description: "Contrato de forfaiting de créditos de exportación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de forfaiting de créditos de exportación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de forfaiting de créditos de exportación

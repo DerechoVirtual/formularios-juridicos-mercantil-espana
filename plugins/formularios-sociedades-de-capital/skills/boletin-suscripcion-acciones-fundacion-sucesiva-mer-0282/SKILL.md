@@ -1,6 +1,6 @@
 ---
 name: boletin-suscripcion-acciones-fundacion-sucesiva-mer-0282
-description: "Boletín de suscripción de acciones en la fundación sucesiva de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Boletín de suscripción de acciones en la fundación sucesiva de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Boletín de suscripción de acciones en la fundación sucesiva de una sociedad anónima

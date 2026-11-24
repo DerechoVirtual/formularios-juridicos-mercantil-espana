@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-plazos-bienes-muebles-mer-0579
-description: "Contrato de venta a plazos de bienes muebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta a plazos de bienes muebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta a plazos de bienes muebles

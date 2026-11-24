@@ -1,6 +1,6 @@
 ---
 name: compraventa-acciones-nominativas-entre-personas-mer-0145
-description: "Compraventa de acciones nominativas entre personas físicas (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Compraventa de acciones nominativas entre personas físicas (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Compraventa de acciones nominativas entre personas físicas (contrato)

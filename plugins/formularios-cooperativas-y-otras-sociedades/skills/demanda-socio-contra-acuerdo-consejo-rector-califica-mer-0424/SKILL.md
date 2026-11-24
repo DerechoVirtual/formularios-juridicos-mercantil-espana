@@ -1,6 +1,6 @@
 ---
 name: demanda-socio-contra-acuerdo-consejo-rector-califica-mer-0424
-description: "Demanda del socio contra el acuerdo del consejo rector que califica su baja en la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del socio contra el acuerdo del consejo rector que califica su baja en la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del socio contra el acuerdo del consejo rector que califica su baja en la cooperativa

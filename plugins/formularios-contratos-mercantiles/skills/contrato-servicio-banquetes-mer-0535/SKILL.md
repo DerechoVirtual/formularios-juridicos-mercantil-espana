@@ -1,6 +1,6 @@
 ---
 name: contrato-servicio-banquetes-mer-0535
-description: "Contrato de servicio de banquetes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicio de banquetes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicio de banquetes

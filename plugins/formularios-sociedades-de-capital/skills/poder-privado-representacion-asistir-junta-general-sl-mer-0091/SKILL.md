@@ -1,6 +1,6 @@
 ---
 name: poder-privado-representacion-asistir-junta-general-sl-mer-0091
-description: "Poder privado de representación para asistir a la junta general de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Poder privado de representación para asistir a la junta general de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Poder privado de representación para asistir a la junta general de una SL o SA

@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-sa-ampliar-capital-aportaciones-mer-0178
-description: "Convocatoria de junta de SA para ampliar capital con aportaciones dinerarias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta de SA para ampliar capital con aportaciones dinerarias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta de SA para ampliar capital con aportaciones dinerarias

@@ -1,6 +1,6 @@
 ---
 name: poliza-tipo-seguro-multirriesgo-hogar-mer-0696
-description: "Póliza tipo de seguro multirriesgo del hogar. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Póliza tipo de seguro multirriesgo del hogar. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Póliza tipo de seguro multirriesgo del hogar

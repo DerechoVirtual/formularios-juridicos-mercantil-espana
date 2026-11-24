@@ -1,6 +1,6 @@
 ---
 name: estatutos-sociales-sociedad-limitada-profesional-mer-0419
-description: "Estatutos sociales de una sociedad limitada profesional. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos sociales de una sociedad limitada profesional. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos sociales de una sociedad limitada profesional

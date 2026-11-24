@@ -1,6 +1,6 @@
 ---
 name: solicitud-registrador-experto-valore-participaciones-mer-0096
-description: "Solicitud al registrador de experto que valore las participaciones del socio separado o excluido. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al registrador de experto que valore las participaciones del socio separado o excluido. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al registrador de experto que valore las participaciones del socio separado o excluido

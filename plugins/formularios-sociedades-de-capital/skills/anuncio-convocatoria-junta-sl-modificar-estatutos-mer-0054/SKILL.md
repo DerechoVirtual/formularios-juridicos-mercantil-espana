@@ -1,6 +1,6 @@
 ---
 name: anuncio-convocatoria-junta-sl-modificar-estatutos-mer-0054
-description: "Anuncio de convocatoria de junta de SL para modificar los estatutos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de convocatoria de junta de SL para modificar los estatutos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de convocatoria de junta de SL para modificar los estatutos

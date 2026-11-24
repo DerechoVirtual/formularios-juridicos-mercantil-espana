@@ -1,6 +1,6 @@
 ---
 name: anuncio-comunicacion-individual-acuerdo-transformacion-mer-0344
-description: "Anuncio o comunicación individual del acuerdo de transformación de la sociedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio o comunicación individual del acuerdo de transformación de la sociedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio o comunicación individual del acuerdo de transformación de la sociedad

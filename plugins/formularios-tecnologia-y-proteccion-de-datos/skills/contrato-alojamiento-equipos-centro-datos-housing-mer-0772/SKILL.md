@@ -1,6 +1,6 @@
 ---
 name: contrato-alojamiento-equipos-centro-datos-housing-mer-0772
-description: "Contrato de alojamiento de equipos en centro de datos (housing). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de alojamiento de equipos en centro de datos (housing). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de alojamiento de equipos en centro de datos (housing)

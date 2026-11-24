@@ -1,6 +1,6 @@
 ---
 name: comunicacion-individual-socios-sl-acuerdo-genera-mer-0063
-description: "Comunicación individual a los socios de la SL del acuerdo que genera derecho de separación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación individual a los socios de la SL del acuerdo que genera derecho de separación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación individual a los socios de la SL del acuerdo que genera derecho de separación

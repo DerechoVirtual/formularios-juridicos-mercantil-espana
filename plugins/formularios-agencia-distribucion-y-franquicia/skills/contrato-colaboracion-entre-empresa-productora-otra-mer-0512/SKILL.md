@@ -1,6 +1,6 @@
 ---
 name: contrato-colaboracion-entre-empresa-productora-otra-mer-0512
-description: "Contrato de colaboración entre una empresa productora y otra que vende sus productos por internet. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de colaboración entre una empresa productora y otra que vende sus productos por internet. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de colaboración entre una empresa productora y otra que vende sus productos por internet

@@ -1,6 +1,6 @@
 ---
 name: declaracion-sobre-prestacion-servicios-terceros-mer-0519
-description: "Declaración sobre prestación de servicios a terceros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Declaración sobre prestación de servicios a terceros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Declaración sobre prestación de servicios a terceros

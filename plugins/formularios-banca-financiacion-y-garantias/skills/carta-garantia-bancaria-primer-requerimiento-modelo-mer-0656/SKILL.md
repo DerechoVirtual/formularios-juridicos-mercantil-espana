@@ -1,6 +1,6 @@
 ---
 name: carta-garantia-bancaria-primer-requerimiento-modelo-mer-0656
-description: "Carta de garantía bancaria a primer requerimiento (modelo). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de garantía bancaria a primer requerimiento (modelo). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de garantía bancaria a primer requerimiento (modelo)

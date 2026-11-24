@@ -1,6 +1,6 @@
 ---
 name: escritura-notarial-otorgamiento-poder-mer-0198
-description: "Escritura notarial de otorgamiento de poder. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura notarial de otorgamiento de poder. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura notarial de otorgamiento de poder

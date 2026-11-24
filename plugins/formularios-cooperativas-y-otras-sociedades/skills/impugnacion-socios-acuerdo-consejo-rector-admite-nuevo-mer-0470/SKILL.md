@@ -1,6 +1,6 @@
 ---
 name: impugnacion-socios-acuerdo-consejo-rector-admite-nuevo-mer-0470
-description: "Impugnación por socios del acuerdo del consejo rector que admite a un nuevo socio de la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación por socios del acuerdo del consejo rector que admite a un nuevo socio de la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación por socios del acuerdo del consejo rector que admite a un nuevo socio de la cooperativa

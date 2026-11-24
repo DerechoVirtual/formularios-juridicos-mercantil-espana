@@ -1,6 +1,6 @@
 ---
 name: certificacion-reduccion-capital-sa-como-consecuencia-mer-0363
-description: "Certificación de reducción de capital de una SA como consecuencia de una escisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de reducción de capital de una SA como consecuencia de una escisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de reducción de capital de una SA como consecuencia de una escisión

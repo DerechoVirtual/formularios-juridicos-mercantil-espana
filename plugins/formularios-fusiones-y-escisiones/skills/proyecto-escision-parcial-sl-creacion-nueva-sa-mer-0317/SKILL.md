@@ -1,6 +1,6 @@
 ---
 name: proyecto-escision-parcial-sl-creacion-nueva-sa-mer-0317
-description: "Proyecto de escisión parcial de una SL con creación de una nueva SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de escisión parcial de una SL con creación de una nueva SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de escisión parcial de una SL con creación de una nueva SA

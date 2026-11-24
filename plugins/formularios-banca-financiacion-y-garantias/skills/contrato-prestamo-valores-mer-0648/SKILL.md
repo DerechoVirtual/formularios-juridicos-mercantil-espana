@@ -1,6 +1,6 @@
 ---
 name: contrato-prestamo-valores-mer-0648
-description: "Contrato de préstamo de valores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de préstamo de valores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de préstamo de valores

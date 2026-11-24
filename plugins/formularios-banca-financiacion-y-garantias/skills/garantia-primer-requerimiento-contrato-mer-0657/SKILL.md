@@ -1,6 +1,6 @@
 ---
 name: garantia-primer-requerimiento-contrato-mer-0657
-description: "Garantía a primer requerimiento (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Garantía a primer requerimiento (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Garantía a primer requerimiento (contrato)

@@ -1,6 +1,6 @@
 ---
 name: contrato-contraaval-entre-entidad-avalista-avalado-mer-0638
-description: "Contrato de contraaval entre la entidad avalista y el avalado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de contraaval entre la entidad avalista y el avalado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de contraaval entre la entidad avalista y el avalado

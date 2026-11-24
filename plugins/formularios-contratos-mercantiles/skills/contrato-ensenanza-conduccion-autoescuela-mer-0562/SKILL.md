@@ -1,6 +1,6 @@
 ---
 name: contrato-ensenanza-conduccion-autoescuela-mer-0562
-description: "Contrato de enseñanza de conducción con autoescuela. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de enseñanza de conducción con autoescuela. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de enseñanza de conducción con autoescuela

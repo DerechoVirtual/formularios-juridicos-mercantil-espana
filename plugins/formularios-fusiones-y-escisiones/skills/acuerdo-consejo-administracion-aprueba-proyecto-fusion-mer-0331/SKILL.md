@@ -1,6 +1,6 @@
 ---
 name: acuerdo-consejo-administracion-aprueba-proyecto-fusion-mer-0331
-description: "Acuerdo del consejo de administración que aprueba el proyecto de fusión por absorción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo del consejo de administración que aprueba el proyecto de fusión por absorción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo del consejo de administración que aprueba el proyecto de fusión por absorción

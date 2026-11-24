@@ -1,6 +1,6 @@
 ---
 name: contrato-constitucion-garantia-pignoraticia-mer-0685
-description: "Contrato de constitución de una garantía pignoraticia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de constitución de una garantía pignoraticia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de constitución de una garantía pignoraticia

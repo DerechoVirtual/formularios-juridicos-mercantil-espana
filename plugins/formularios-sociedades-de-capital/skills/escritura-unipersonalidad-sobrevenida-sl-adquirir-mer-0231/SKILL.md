@@ -1,6 +1,6 @@
 ---
 name: escritura-unipersonalidad-sobrevenida-sl-adquirir-mer-0231
-description: "Escritura de unipersonalidad sobrevenida de una SL por adquirir un socio todas las participaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de unipersonalidad sobrevenida de una SL por adquirir un socio todas las participaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de unipersonalidad sobrevenida de una SL por adquirir un socio todas las participaciones

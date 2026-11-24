@@ -1,6 +1,6 @@
 ---
 name: informacion-precontractual-normalizada-contratos-viaje-mer-0520
-description: "Información precontractual normalizada para contratos de viaje combinado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Información precontractual normalizada para contratos de viaje combinado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Información precontractual normalizada para contratos de viaje combinado

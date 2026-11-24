@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-junta-disolver-liquidar-vez-mer-0301
-description: "Certificación del acuerdo de junta de disolver y liquidar a la vez una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de junta de disolver y liquidar a la vez una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de junta de disolver y liquidar a la vez una sociedad anónima

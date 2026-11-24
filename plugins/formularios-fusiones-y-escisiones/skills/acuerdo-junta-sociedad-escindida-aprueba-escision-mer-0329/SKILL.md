@@ -1,6 +1,6 @@
 ---
 name: acuerdo-junta-sociedad-escindida-aprueba-escision-mer-0329
-description: "Acuerdo de junta de la sociedad escindida que aprueba la escisión total o parcial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de junta de la sociedad escindida que aprueba la escisión total o parcial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de junta de la sociedad escindida que aprueba la escisión total o parcial

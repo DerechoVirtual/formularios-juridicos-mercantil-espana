@@ -1,6 +1,6 @@
 ---
 name: separacion-socio-cooperativa-cambio-clase-mer-0385
-description: "Separación del socio de la cooperativa por cambio de clase, transformación, fusión o escisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Separación del socio de la cooperativa por cambio de clase, transformación, fusión o escisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Separación del socio de la cooperativa por cambio de clase, transformación, fusión o escisión

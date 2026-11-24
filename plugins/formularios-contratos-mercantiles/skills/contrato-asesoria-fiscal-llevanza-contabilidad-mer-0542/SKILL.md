@@ -1,6 +1,6 @@
 ---
 name: contrato-asesoria-fiscal-llevanza-contabilidad-mer-0542
-description: "Contrato de asesoría fiscal y llevanza de contabilidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de asesoría fiscal y llevanza de contabilidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de asesoría fiscal y llevanza de contabilidad

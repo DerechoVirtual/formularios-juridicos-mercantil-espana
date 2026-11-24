@@ -1,6 +1,6 @@
 ---
 name: acta-creacion-comunidad-titulares-marca-mer-0734
-description: "Acta de creación de una comunidad de titulares de una marca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de creación de una comunidad de titulares de una marca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de creación de una comunidad de titulares de una marca

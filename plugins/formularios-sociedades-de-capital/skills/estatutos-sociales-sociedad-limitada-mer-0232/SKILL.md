@@ -1,6 +1,6 @@
 ---
 name: estatutos-sociales-sociedad-limitada-mer-0232
-description: "Estatutos sociales de una sociedad limitada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos sociales de una sociedad limitada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos sociales de una sociedad limitada

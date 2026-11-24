@@ -1,6 +1,6 @@
 ---
 name: diligencia-ordenacion-acusa-recibo-juicio-civil-mer-0810
-description: "Diligencia de ordenación que acusa recibo del juicio civil acumulado al concurso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de ordenación que acusa recibo del juicio civil acumulado al concurso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de ordenación que acusa recibo del juicio civil acumulado al concurso

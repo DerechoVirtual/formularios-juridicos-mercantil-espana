@@ -1,6 +1,6 @@
 ---
 name: contrato-emplazamiento-soporte-publicitario-audiovisual-mer-0593
-description: "Contrato de emplazamiento de un soporte publicitario audiovisual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de emplazamiento de un soporte publicitario audiovisual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de emplazamiento de un soporte publicitario audiovisual

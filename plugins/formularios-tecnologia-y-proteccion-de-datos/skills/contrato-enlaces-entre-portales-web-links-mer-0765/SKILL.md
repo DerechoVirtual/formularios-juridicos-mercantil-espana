@@ -1,6 +1,6 @@
 ---
 name: contrato-enlaces-entre-portales-web-links-mer-0765
-description: "Contrato de enlaces entre portales web (links). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de enlaces entre portales web (links). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de enlaces entre portales web (links)

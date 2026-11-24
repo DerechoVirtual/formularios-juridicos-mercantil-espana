@@ -1,6 +1,6 @@
 ---
 name: carta-encargo-trabajo-auditoria-cuentas-mer-0566
-description: "Carta de encargo de un trabajo de auditoría de cuentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de encargo de un trabajo de auditoría de cuentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de encargo de un trabajo de auditoría de cuentas

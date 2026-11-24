@@ -1,6 +1,6 @@
 ---
 name: contrato-internacional-fabricar-suministrar-materiales-mer-0609
-description: "Contrato internacional para fabricar y suministrar materiales y equipos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato internacional para fabricar y suministrar materiales y equipos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato internacional para fabricar y suministrar materiales y equipos

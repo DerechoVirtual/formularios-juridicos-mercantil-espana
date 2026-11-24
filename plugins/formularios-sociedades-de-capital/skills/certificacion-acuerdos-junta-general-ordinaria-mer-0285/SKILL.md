@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdos-junta-general-ordinaria-mer-0285
-description: "Certificación de los acuerdos de la junta general ordinaria, universal o no, de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de los acuerdos de la junta general ordinaria, universal o no, de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de los acuerdos de la junta general ordinaria, universal o no, de una sociedad anónima

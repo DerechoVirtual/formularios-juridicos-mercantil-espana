@@ -1,6 +1,6 @@
 ---
 name: solicitud-convocatoria-junta-extraordinaria-sl-socios-mer-0309
-description: "Solicitud de convocatoria de junta extraordinaria de SL por socios con el 5 por ciento del capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de convocatoria de junta extraordinaria de SL por socios con el 5 por ciento del capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de convocatoria de junta extraordinaria de SL por socios con el 5 por ciento del capital

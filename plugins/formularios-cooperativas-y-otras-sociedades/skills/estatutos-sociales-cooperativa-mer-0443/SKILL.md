@@ -1,6 +1,6 @@
 ---
 name: estatutos-sociales-cooperativa-mer-0443
-description: "Estatutos sociales de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos sociales de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos sociales de una cooperativa

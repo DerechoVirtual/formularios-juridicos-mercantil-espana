@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-sa-ampliar-capital-cargo-reservas-mer-0177
-description: "Convocatoria de junta de SA para ampliar capital con cargo a reservas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta de SA para ampliar capital con cargo a reservas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta de SA para ampliar capital con cargo a reservas

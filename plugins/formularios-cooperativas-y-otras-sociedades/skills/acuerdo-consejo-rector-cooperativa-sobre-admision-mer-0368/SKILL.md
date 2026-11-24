@@ -1,6 +1,6 @@
 ---
 name: acuerdo-consejo-rector-cooperativa-sobre-admision-mer-0368
-description: "Acuerdo del consejo rector de una cooperativa sobre la admisión o denegación de un socio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo del consejo rector de una cooperativa sobre la admisión o denegación de un socio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo del consejo rector de una cooperativa sobre la admisión o denegación de un socio

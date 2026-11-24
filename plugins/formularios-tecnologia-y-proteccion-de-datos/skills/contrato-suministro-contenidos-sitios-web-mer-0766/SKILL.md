@@ -1,6 +1,6 @@
 ---
 name: contrato-suministro-contenidos-sitios-web-mer-0766
-description: "Contrato de suministro de contenidos para sitios web. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de suministro de contenidos para sitios web. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de suministro de contenidos para sitios web

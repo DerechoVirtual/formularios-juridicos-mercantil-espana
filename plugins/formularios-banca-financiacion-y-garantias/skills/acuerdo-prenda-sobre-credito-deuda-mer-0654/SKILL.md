@@ -1,6 +1,6 @@
 ---
 name: acuerdo-prenda-sobre-credito-deuda-mer-0654
-description: "Acuerdo de prenda sobre un crédito o deuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de prenda sobre un crédito o deuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de prenda sobre un crédito o deuda

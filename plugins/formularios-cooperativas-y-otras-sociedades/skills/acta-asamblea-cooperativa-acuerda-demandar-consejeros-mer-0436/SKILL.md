@@ -1,6 +1,6 @@
 ---
 name: acta-asamblea-cooperativa-acuerda-demandar-consejeros-mer-0436
-description: "Acta de asamblea de cooperativa que acuerda demandar a consejeros sin constar en el orden del día. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de asamblea de cooperativa que acuerda demandar a consejeros sin constar en el orden del día. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de asamblea de cooperativa que acuerda demandar a consejeros sin constar en el orden del día

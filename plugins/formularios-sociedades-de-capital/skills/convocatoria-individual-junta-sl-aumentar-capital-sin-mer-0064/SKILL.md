@@ -1,6 +1,6 @@
 ---
 name: convocatoria-individual-junta-sl-aumentar-capital-sin-mer-0064
-description: "Convocatoria individual de junta de SL para aumentar capital sin derecho de preferencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria individual de junta de SL para aumentar capital sin derecho de preferencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria individual de junta de SL para aumentar capital sin derecho de preferencia

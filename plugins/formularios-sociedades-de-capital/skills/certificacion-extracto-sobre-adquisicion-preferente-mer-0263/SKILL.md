@@ -1,6 +1,6 @@
 ---
 name: certificacion-extracto-sobre-adquisicion-preferente-mer-0263
-description: "Certificación en extracto sobre la adquisición preferente en la venta de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación en extracto sobre la adquisición preferente en la venta de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación en extracto sobre la adquisición preferente en la venta de acciones nominativas

@@ -1,6 +1,6 @@
 ---
 name: acuerdo-junta-general-adoptar-calificacion-sociedad-mer-0374
-description: "Acuerdo de la junta general de adoptar la calificación de sociedad laboral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de la junta general de adoptar la calificación de sociedad laboral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de la junta general de adoptar la calificación de sociedad laboral

@@ -1,6 +1,6 @@
 ---
 name: demanda-reduccion-precio-vicios-ocultos-contra-mer-0814
-description: "Demanda de reducción de precio por vicios ocultos contra la sociedad vendedora y sus administradores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de reducción de precio por vicios ocultos contra la sociedad vendedora y sus administradores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de reducción de precio por vicios ocultos contra la sociedad vendedora y sus administradores

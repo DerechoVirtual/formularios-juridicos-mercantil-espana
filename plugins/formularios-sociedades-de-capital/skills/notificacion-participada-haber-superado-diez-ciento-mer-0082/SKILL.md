@@ -1,6 +1,6 @@
 ---
 name: notificacion-participada-haber-superado-diez-ciento-mer-0082
-description: "Notificación a la participada de haber superado el diez por ciento de su capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación a la participada de haber superado el diez por ciento de su capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación a la participada de haber superado el diez por ciento de su capital

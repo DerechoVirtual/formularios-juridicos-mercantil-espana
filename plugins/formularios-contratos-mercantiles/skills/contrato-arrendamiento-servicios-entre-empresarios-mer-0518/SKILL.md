@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-servicios-entre-empresarios-mer-0518
-description: "Contrato de arrendamiento de servicios entre empresarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento de servicios entre empresarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento de servicios entre empresarios

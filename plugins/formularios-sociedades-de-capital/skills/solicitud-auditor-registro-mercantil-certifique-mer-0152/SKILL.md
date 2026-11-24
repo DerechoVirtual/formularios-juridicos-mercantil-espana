@@ -1,6 +1,6 @@
 ---
 name: solicitud-auditor-registro-mercantil-certifique-mer-0152
-description: "Solicitud de auditor al Registro Mercantil que certifique los créditos a compensar en una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de auditor al Registro Mercantil que certifique los créditos a compensar en una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de auditor al Registro Mercantil que certifique los créditos a compensar en una SA

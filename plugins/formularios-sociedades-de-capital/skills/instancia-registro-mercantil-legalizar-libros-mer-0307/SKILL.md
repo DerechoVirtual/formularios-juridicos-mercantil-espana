@@ -1,6 +1,6 @@
 ---
 name: instancia-registro-mercantil-legalizar-libros-mer-0307
-description: "Instancia al Registro Mercantil para legalizar los libros del empresario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Instancia al Registro Mercantil para legalizar los libros del empresario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Instancia al Registro Mercantil para legalizar los libros del empresario

@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sa-acuerda-aumentar-capital-social-mer-0037
-description: "Acta de junta de SA que acuerda aumentar el capital social. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SA que acuerda aumentar el capital social. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SA que acuerda aumentar el capital social

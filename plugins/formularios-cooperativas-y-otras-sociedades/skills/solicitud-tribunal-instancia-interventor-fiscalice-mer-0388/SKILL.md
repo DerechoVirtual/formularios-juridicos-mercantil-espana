@@ -1,6 +1,6 @@
 ---
 name: solicitud-tribunal-instancia-interventor-fiscalice-mer-0388
-description: "Solicitud al Tribunal de Instancia de interventor que fiscalice la liquidación de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al Tribunal de Instancia de interventor que fiscalice la liquidación de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al Tribunal de Instancia de interventor que fiscalice la liquidación de una cooperativa

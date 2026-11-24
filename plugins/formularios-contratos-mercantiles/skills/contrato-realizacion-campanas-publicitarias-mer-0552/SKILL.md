@@ -1,6 +1,6 @@
 ---
 name: contrato-realizacion-campanas-publicitarias-mer-0552
-description: "Contrato de realización de campañas publicitarias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de realización de campañas publicitarias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de realización de campañas publicitarias

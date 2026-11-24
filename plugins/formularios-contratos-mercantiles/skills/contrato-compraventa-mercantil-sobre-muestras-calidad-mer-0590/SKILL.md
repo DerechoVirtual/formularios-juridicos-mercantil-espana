@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-mercantil-sobre-muestras-calidad-mer-0590
-description: "Contrato de compraventa mercantil sobre muestras o calidad conocida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa mercantil sobre muestras o calidad conocida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa mercantil sobre muestras o calidad conocida

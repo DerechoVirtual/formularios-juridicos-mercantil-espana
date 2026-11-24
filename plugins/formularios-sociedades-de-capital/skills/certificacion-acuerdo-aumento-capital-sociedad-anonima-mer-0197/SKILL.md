@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-aumento-capital-sociedad-anonima-mer-0197
-description: "Certificación del acuerdo de aumento de capital de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de aumento de capital de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de aumento de capital de una sociedad anónima

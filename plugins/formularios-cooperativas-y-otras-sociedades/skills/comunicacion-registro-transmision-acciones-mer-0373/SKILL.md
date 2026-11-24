@@ -1,6 +1,6 @@
 ---
 name: comunicacion-registro-transmision-acciones-mer-0373
-description: "Comunicación al Registro de la transmisión de acciones o participaciones de una sociedad laboral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al Registro de la transmisión de acciones o participaciones de una sociedad laboral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al Registro de la transmisión de acciones o participaciones de una sociedad laboral

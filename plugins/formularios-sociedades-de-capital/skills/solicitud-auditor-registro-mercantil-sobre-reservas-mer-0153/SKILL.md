@@ -1,6 +1,6 @@
 ---
 name: solicitud-auditor-registro-mercantil-sobre-reservas-mer-0153
-description: "Solicitud de auditor al Registro Mercantil sobre las reservas con cargo a las que se aumenta capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de auditor al Registro Mercantil sobre las reservas con cargo a las que se aumenta capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de auditor al Registro Mercantil sobre las reservas con cargo a las que se aumenta capital

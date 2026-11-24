@@ -1,6 +1,6 @@
 ---
 name: comunicacion-socio-ejerce-accion-responsabilidad-mer-0398
-description: "Comunicación del socio que ejerce la acción de responsabilidad contra el consejo rector. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del socio que ejerce la acción de responsabilidad contra el consejo rector. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del socio que ejerce la acción de responsabilidad contra el consejo rector

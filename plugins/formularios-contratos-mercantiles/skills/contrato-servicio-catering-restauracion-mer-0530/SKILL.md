@@ -1,6 +1,6 @@
 ---
 name: contrato-servicio-catering-restauracion-mer-0530
-description: "Contrato de servicio de catering o restauración. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicio de catering o restauración. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicio de catering o restauración

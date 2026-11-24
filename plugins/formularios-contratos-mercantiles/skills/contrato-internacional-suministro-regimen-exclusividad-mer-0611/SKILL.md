@@ -1,6 +1,6 @@
 ---
 name: contrato-internacional-suministro-regimen-exclusividad-mer-0611
-description: "Contrato internacional de suministro en régimen de exclusividad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato internacional de suministro en régimen de exclusividad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato internacional de suministro en régimen de exclusividad

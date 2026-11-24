@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-sa-nombra-consejero-cooptacion-tras-mer-0213
-description: "Acta del consejo de una SA que nombra un consejero por cooptación tras un fallecimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo de una SA que nombra un consejero por cooptación tras un fallecimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo de una SA que nombra un consejero por cooptación tras un fallecimiento

@@ -1,6 +1,6 @@
 ---
 name: demanda-mercantil-cesar-administrador-sl-incumple-mer-0791
-description: "Demanda mercantil para cesar al administrador de una SL que incumple la prohibición de competencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda mercantil para cesar al administrador de una SL que incumple la prohibición de competencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda mercantil para cesar al administrador de una SL que incumple la prohibición de competencia

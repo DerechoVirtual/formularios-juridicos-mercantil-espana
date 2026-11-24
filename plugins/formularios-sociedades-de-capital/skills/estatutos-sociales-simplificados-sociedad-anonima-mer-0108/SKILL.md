@@ -1,6 +1,6 @@
 ---
 name: estatutos-sociales-simplificados-sociedad-anonima-mer-0108
-description: "Estatutos sociales simplificados de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos sociales simplificados de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos sociales simplificados de una sociedad anónima

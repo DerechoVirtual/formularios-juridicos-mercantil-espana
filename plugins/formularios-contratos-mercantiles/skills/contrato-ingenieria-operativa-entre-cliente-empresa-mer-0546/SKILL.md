@@ -1,6 +1,6 @@
 ---
 name: contrato-ingenieria-operativa-entre-cliente-empresa-mer-0546
-description: "Contrato de ingeniería operativa entre cliente y empresa ejecutante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de ingeniería operativa entre cliente y empresa ejecutante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de ingeniería operativa entre cliente y empresa ejecutante

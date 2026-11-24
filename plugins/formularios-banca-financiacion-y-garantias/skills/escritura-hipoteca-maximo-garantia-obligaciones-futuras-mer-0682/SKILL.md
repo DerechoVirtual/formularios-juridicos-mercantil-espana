@@ -1,6 +1,6 @@
 ---
 name: escritura-hipoteca-maximo-garantia-obligaciones-futuras-mer-0682
-description: "Escritura de hipoteca de máximo en garantía de obligaciones futuras. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de hipoteca de máximo en garantía de obligaciones futuras. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de hipoteca de máximo en garantía de obligaciones futuras

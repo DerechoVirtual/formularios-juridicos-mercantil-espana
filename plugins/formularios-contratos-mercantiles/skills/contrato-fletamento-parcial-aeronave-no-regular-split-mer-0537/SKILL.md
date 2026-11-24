@@ -1,6 +1,6 @@
 ---
 name: contrato-fletamento-parcial-aeronave-no-regular-split-mer-0537
-description: "Contrato de fletamento parcial de aeronave no regular (split charter). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de fletamento parcial de aeronave no regular (split charter). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de fletamento parcial de aeronave no regular (split charter)

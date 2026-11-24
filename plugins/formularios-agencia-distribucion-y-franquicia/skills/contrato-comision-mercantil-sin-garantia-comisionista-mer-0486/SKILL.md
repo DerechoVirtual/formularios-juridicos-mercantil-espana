@@ -1,6 +1,6 @@
 ---
 name: contrato-comision-mercantil-sin-garantia-comisionista-mer-0486
-description: "Contrato de comisión mercantil con o sin garantía del comisionista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de comisión mercantil con o sin garantía del comisionista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de comisión mercantil con o sin garantía del comisionista

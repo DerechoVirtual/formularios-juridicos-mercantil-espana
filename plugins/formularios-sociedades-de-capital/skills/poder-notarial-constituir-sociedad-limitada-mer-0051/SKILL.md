@@ -1,6 +1,6 @@
 ---
 name: poder-notarial-constituir-sociedad-limitada-mer-0051
-description: "Poder notarial para constituir una sociedad limitada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Poder notarial para constituir una sociedad limitada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Poder notarial para constituir una sociedad limitada

@@ -1,6 +1,6 @@
 ---
 name: contrato-licencia-exclusiva-modelo-utilidad-mer-0748
-description: "Contrato de licencia exclusiva de un modelo de utilidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de licencia exclusiva de un modelo de utilidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de licencia exclusiva de un modelo de utilidad

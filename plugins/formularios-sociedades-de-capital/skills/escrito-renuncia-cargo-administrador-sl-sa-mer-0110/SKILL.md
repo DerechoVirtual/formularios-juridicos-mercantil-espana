@@ -1,6 +1,6 @@
 ---
 name: escrito-renuncia-cargo-administrador-sl-sa-mer-0110
-description: "Escrito de renuncia al cargo de administrador de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de renuncia al cargo de administrador de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de renuncia al cargo de administrador de una SL o SA

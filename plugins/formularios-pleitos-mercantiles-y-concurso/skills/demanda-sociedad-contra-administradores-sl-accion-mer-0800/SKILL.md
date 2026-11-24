@@ -1,6 +1,6 @@
 ---
 name: demanda-sociedad-contra-administradores-sl-accion-mer-0800
-description: "Demanda de la sociedad contra los administradores de una SL por la acción social de responsabilidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de la sociedad contra los administradores de una SL por la acción social de responsabilidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de la sociedad contra los administradores de una SL por la acción social de responsabilidad

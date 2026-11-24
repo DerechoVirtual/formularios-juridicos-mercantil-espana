@@ -1,6 +1,6 @@
 ---
 name: comunicacion-trabajadores-acuerdo-fusion-absorcion-mer-0357
-description: "Comunicación a los trabajadores del acuerdo de fusión por absorción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación a los trabajadores del acuerdo de fusión por absorción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación a los trabajadores del acuerdo de fusión por absorción

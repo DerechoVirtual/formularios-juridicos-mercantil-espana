@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-sa-delega-facultades-nombra-consejero-mer-0225
-description: "Acta del consejo de una SA que delega facultades y nombra consejero delegado o comisión ejecutiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo de una SA que delega facultades y nombra consejero delegado o comisión ejecutiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo de una SA que delega facultades y nombra consejero delegado o comisión ejecutiva

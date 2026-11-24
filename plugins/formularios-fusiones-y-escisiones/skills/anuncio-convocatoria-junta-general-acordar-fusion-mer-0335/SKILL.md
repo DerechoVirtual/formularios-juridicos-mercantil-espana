@@ -1,6 +1,6 @@
 ---
 name: anuncio-convocatoria-junta-general-acordar-fusion-mer-0335
-description: "Anuncio de convocatoria de junta general para acordar la fusión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de convocatoria de junta general para acordar la fusión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de convocatoria de junta general para acordar la fusión

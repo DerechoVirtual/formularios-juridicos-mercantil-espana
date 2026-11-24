@@ -1,6 +1,6 @@
 ---
 name: solicitud-inscripcion-parcial-registro-mercantil-mer-0102
-description: "Solicitud de inscripción parcial en el Registro Mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de inscripción parcial en el Registro Mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de inscripción parcial en el Registro Mercantil

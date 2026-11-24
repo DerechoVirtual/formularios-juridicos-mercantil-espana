@@ -1,6 +1,6 @@
 ---
 name: deposito-cuentas-anuales-2025-modelo-oficial-abreviado-mer-0001
-description: "Depósito de cuentas anuales 2025 en modelo oficial abreviado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Depósito de cuentas anuales 2025 en modelo oficial abreviado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Depósito de cuentas anuales 2025 en modelo oficial abreviado

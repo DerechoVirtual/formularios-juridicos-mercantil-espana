@@ -1,6 +1,6 @@
 ---
 name: anuncio-convocatoria-junta-sa-cuentas-anuales-cambio-mer-0219
-description: "Anuncio de convocatoria de junta de una SA para cuentas anuales, cambio de objeto y de denominación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de convocatoria de junta de una SA para cuentas anuales, cambio de objeto y de denominación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de convocatoria de junta de una SA para cuentas anuales, cambio de objeto y de denominación

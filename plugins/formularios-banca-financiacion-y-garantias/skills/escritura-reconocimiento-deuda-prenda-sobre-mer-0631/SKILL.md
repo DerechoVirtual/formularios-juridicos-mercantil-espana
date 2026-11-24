@@ -1,6 +1,6 @@
 ---
 name: escritura-reconocimiento-deuda-prenda-sobre-mer-0631
-description: "Escritura de reconocimiento de deuda y prenda sobre participaciones sociales de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de reconocimiento de deuda y prenda sobre participaciones sociales de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de reconocimiento de deuda y prenda sobre participaciones sociales de una SL

@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-acuerda-aumentar-capital-social-mer-0038
-description: "Acta de junta de SL que acuerda aumentar el capital social. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que acuerda aumentar el capital social. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que acuerda aumentar el capital social

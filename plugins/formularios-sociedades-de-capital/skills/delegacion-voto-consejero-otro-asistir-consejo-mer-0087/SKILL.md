@@ -1,6 +1,6 @@
 ---
 name: delegacion-voto-consejero-otro-asistir-consejo-mer-0087
-description: "Delegación de voto de un consejero en otro para asistir al consejo de administración. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Delegación de voto de un consejero en otro para asistir al consejo de administración. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Delegación de voto de un consejero en otro para asistir al consejo de administración

@@ -1,6 +1,6 @@
 ---
 name: carta-comunicacion-actividades-conflicto-intereses-mer-0173
-description: "Carta de comunicación de actividades con conflicto de intereses por un administrador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de comunicación de actividades con conflicto de intereses por un administrador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de comunicación de actividades con conflicto de intereses por un administrador

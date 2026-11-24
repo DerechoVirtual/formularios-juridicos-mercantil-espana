@@ -1,6 +1,6 @@
 ---
 name: certificacion-alta-socio-sat-sin-ampliacion-capital-mer-0421
-description: "Certificación de alta de un socio en una SAT, con o sin ampliación de capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de alta de un socio en una SAT, con o sin ampliación de capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de alta de un socio en una SAT, con o sin ampliación de capital

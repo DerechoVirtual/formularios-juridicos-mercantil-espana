@@ -1,6 +1,6 @@
 ---
 name: contrato-agencia-mercantil-exclusiva-promocion-artista-mer-0507
-description: "Contrato de agencia mercantil con exclusiva para la promoción de un artista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de agencia mercantil con exclusiva para la promoción de un artista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de agencia mercantil con exclusiva para la promoción de un artista

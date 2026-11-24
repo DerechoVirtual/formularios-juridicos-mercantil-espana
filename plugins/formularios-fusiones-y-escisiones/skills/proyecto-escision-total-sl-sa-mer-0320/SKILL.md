@@ -1,6 +1,6 @@
 ---
 name: proyecto-escision-total-sl-sa-mer-0320
-description: "Proyecto de escisión total de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de escisión total de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de escisión total de una SL o SA

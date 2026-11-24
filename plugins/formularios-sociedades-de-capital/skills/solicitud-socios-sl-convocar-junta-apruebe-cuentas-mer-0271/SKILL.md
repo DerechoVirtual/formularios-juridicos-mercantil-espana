@@ -1,6 +1,6 @@
 ---
 name: solicitud-socios-sl-convocar-junta-apruebe-cuentas-mer-0271
-description: "Solicitud de socios de una SL para convocar junta que apruebe las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de socios de una SL para convocar junta que apruebe las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de socios de una SL para convocar junta que apruebe las cuentas anuales

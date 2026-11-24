@@ -1,6 +1,6 @@
 ---
 name: demanda-impugnacion-acuerdos-junta-general-ordinaria-mer-0798
-description: "Demanda de impugnación de acuerdos de la junta general ordinaria de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de impugnación de acuerdos de la junta general ordinaria de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de impugnación de acuerdos de la junta general ordinaria de una sociedad anónima

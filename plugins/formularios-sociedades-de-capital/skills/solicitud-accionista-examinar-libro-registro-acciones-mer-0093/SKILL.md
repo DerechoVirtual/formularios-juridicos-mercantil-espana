@@ -1,6 +1,6 @@
 ---
 name: solicitud-accionista-examinar-libro-registro-acciones-mer-0093
-description: "Solicitud del accionista de examinar el libro registro de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del accionista de examinar el libro registro de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del accionista de examinar el libro registro de acciones nominativas

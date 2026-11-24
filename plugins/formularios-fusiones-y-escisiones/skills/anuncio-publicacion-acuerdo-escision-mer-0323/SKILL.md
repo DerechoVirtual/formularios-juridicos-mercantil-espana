@@ -1,6 +1,6 @@
 ---
 name: anuncio-publicacion-acuerdo-escision-mer-0323
-description: "Anuncio de publicación del acuerdo de escisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de publicación del acuerdo de escisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de publicación del acuerdo de escisión

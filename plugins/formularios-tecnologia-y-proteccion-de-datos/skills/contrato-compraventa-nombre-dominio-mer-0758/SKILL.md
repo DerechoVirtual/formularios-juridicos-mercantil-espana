@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-nombre-dominio-mer-0758
-description: "Contrato de compraventa de un nombre de dominio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de un nombre de dominio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de un nombre de dominio

@@ -1,6 +1,6 @@
 ---
 name: comunicacion-socios-restitucion-aportaciones-aumento-mer-0058
-description: "Comunicación a los socios de la restitución de aportaciones por aumento de capital no suscrito. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación a los socios de la restitución de aportaciones por aumento de capital no suscrito. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación a los socios de la restitución de aportaciones por aumento de capital no suscrito

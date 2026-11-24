@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-aprueba-operaciones-balance-final-mer-0079
-description: "Acta de junta de SL que aprueba las operaciones y el balance final de liquidación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que aprueba las operaciones y el balance final de liquidación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que aprueba las operaciones y el balance final de liquidación

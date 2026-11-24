@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-extraordinaria-aprobar-balance-mer-0142
-description: "Convocatoria de junta extraordinaria para aprobar el balance final de liquidación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta extraordinaria para aprobar el balance final de liquidación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta extraordinaria para aprobar el balance final de liquidación

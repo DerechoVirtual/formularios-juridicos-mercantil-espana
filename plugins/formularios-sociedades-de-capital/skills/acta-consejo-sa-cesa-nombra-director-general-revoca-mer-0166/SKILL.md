@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-sa-cesa-nombra-director-general-revoca-mer-0166
-description: "Acta del consejo de SA que cesa y nombra director general y revoca y otorga poderes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo de SA que cesa y nombra director general y revoca y otorga poderes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo de SA que cesa y nombra director general y revoca y otorga poderes

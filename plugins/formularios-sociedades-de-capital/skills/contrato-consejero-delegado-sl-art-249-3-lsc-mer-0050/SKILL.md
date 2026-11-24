@@ -1,6 +1,6 @@
 ---
 name: contrato-consejero-delegado-sl-art-249-3-lsc-mer-0050
-description: "Contrato con el consejero delegado de una SL (art. 249.3 LSC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato con el consejero delegado de una SL (art. 249.3 LSC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato con el consejero delegado de una SL (art. 249.3 LSC)

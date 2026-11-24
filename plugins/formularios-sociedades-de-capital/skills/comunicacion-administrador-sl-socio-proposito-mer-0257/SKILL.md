@@ -1,6 +1,6 @@
 ---
 name: comunicacion-administrador-sl-socio-proposito-mer-0257
-description: "Comunicación del administrador de una SL a un socio de su propósito de rectificar el libro de socios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del administrador de una SL a un socio de su propósito de rectificar el libro de socios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del administrador de una SL a un socio de su propósito de rectificar el libro de socios

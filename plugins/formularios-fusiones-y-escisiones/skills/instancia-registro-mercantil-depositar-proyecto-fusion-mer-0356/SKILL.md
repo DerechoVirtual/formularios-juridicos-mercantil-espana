@@ -1,6 +1,6 @@
 ---
 name: instancia-registro-mercantil-depositar-proyecto-fusion-mer-0356
-description: "Instancia al Registro Mercantil para depositar el proyecto de fusión de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Instancia al Registro Mercantil para depositar el proyecto de fusión de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Instancia al Registro Mercantil para depositar el proyecto de fusión de una SA

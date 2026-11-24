@@ -1,6 +1,6 @@
 ---
 name: escrito-manuscrito-delegacion-voto-socio-cooperativa-mer-0473
-description: "Escrito manuscrito de delegación de voto de un socio de cooperativa en la asamblea. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito manuscrito de delegación de voto de un socio de cooperativa en la asamblea. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito manuscrito de delegación de voto de un socio de cooperativa en la asamblea

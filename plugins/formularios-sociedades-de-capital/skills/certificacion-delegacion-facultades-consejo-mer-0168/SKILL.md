@@ -1,6 +1,6 @@
 ---
 name: certificacion-delegacion-facultades-consejo-mer-0168
-description: "Certificación de la delegación de facultades del consejo de administración de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de la delegación de facultades del consejo de administración de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de la delegación de facultades del consejo de administración de una SA

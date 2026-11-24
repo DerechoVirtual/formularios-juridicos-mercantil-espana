@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdos-junta-general-extraordinaria-mer-0216
-description: "Certificación de los acuerdos de la junta general extraordinaria de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de los acuerdos de la junta general extraordinaria de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de los acuerdos de la junta general extraordinaria de una sociedad anónima

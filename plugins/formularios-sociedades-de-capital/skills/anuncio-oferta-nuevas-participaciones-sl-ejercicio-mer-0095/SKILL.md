@@ -1,6 +1,6 @@
 ---
 name: anuncio-oferta-nuevas-participaciones-sl-ejercicio-mer-0095
-description: "Anuncio de oferta de nuevas participaciones de SL para el ejercicio del derecho de preferencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de oferta de nuevas participaciones de SL para el ejercicio del derecho de preferencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de oferta de nuevas participaciones de SL para el ejercicio del derecho de preferencia

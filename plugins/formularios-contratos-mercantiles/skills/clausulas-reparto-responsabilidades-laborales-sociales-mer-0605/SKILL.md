@@ -1,6 +1,6 @@
 ---
 name: clausulas-reparto-responsabilidades-laborales-sociales-mer-0605
-description: "Cláusulas de reparto de responsabilidades laborales y sociales en obra o servicios con subcontrata. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusulas de reparto de responsabilidades laborales y sociales en obra o servicios con subcontrata. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusulas de reparto de responsabilidades laborales y sociales en obra o servicios con subcontrata

@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-negocio-arrendamiento-local-mer-0540
-description: "Contrato de compraventa de negocio con arrendamiento del local. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de negocio con arrendamiento del local. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de negocio con arrendamiento del local

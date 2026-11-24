@@ -1,6 +1,6 @@
 ---
 name: relacion-libros-firma-digital-legalizar-registro-mer-0048
-description: "Relación de libros con su firma digital para legalizar en el Registro Mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Relación de libros con su firma digital para legalizar en el Registro Mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Relación de libros con su firma digital para legalizar en el Registro Mercantil

@@ -1,6 +1,6 @@
 ---
 name: certificacion-decision-socio-unico-slu-aprueba-cuentas-mer-0204
-description: "Certificación de la decisión del socio único de una SLU que aprueba las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de la decisión del socio único de una SLU que aprueba las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de la decisión del socio único de una SLU que aprueba las cuentas anuales

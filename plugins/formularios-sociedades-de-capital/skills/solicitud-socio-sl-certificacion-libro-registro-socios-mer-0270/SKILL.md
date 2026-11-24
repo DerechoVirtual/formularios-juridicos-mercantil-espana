@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-sl-certificacion-libro-registro-socios-mer-0270
-description: "Solicitud de un socio de SL de certificación del libro registro de socios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de un socio de SL de certificación del libro registro de socios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de un socio de SL de certificación del libro registro de socios

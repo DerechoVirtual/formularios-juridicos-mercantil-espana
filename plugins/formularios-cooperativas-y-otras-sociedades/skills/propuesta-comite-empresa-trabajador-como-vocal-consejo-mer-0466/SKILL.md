@@ -1,6 +1,6 @@
 ---
 name: propuesta-comite-empresa-trabajador-como-vocal-consejo-mer-0466
-description: "Propuesta del comité de empresa de un trabajador como vocal del consejo rector de la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Propuesta del comité de empresa de un trabajador como vocal del consejo rector de la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Propuesta del comité de empresa de un trabajador como vocal del consejo rector de la cooperativa

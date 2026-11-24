@@ -1,6 +1,6 @@
 ---
 name: contrato-ejecucion-obra-entre-empresarios-mer-0527
-description: "Contrato de ejecución de obra entre empresarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de ejecución de obra entre empresarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de ejecución de obra entre empresarios

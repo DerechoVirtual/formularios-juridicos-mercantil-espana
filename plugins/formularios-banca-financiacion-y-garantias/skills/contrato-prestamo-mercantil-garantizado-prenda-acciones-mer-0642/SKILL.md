@@ -1,6 +1,6 @@
 ---
 name: contrato-prestamo-mercantil-garantizado-prenda-acciones-mer-0642
-description: "Contrato de préstamo mercantil garantizado con prenda de acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de préstamo mercantil garantizado con prenda de acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de préstamo mercantil garantizado con prenda de acciones

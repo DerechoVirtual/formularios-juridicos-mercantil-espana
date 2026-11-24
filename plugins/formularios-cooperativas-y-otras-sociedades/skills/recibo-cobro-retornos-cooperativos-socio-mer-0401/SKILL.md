@@ -1,6 +1,6 @@
 ---
 name: recibo-cobro-retornos-cooperativos-socio-mer-0401
-description: "Recibo de cobro de retornos cooperativos por el socio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Recibo de cobro de retornos cooperativos por el socio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Recibo de cobro de retornos cooperativos por el socio

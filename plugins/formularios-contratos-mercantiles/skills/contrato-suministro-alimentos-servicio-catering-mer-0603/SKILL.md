@@ -1,6 +1,6 @@
 ---
 name: contrato-suministro-alimentos-servicio-catering-mer-0603
-description: "Contrato de suministro de alimentos y servicio de catering. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de suministro de alimentos y servicio de catering. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de suministro de alimentos y servicio de catering

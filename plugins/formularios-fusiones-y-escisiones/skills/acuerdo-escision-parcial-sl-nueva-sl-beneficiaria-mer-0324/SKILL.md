@@ -1,6 +1,6 @@
 ---
 name: acuerdo-escision-parcial-sl-nueva-sl-beneficiaria-mer-0324
-description: "Acuerdo de escisión parcial de SL con nueva SL beneficiaria y aprobación del proyecto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de escisión parcial de SL con nueva SL beneficiaria y aprobación del proyecto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de escisión parcial de SL con nueva SL beneficiaria y aprobación del proyecto

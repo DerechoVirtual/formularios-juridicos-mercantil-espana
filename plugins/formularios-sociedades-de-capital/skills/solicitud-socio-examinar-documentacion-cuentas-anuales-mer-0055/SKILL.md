@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-examinar-documentacion-cuentas-anuales-mer-0055
-description: "Solicitud del socio de examinar la documentación de las cuentas anuales antes de la junta de SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del socio de examinar la documentación de las cuentas anuales antes de la junta de SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del socio de examinar la documentación de las cuentas anuales antes de la junta de SL

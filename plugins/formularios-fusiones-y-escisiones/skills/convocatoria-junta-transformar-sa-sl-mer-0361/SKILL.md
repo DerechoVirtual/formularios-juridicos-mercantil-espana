@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-transformar-sa-sl-mer-0361
-description: "Convocatoria de junta para transformar una SA en SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta para transformar una SA en SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta para transformar una SA en SL

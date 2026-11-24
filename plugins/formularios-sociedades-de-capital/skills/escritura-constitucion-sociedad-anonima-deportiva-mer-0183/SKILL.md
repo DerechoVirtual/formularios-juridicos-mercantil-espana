@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-sociedad-anonima-deportiva-mer-0183
-description: "Escritura de constitución de una sociedad anónima deportiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de una sociedad anónima deportiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de una sociedad anónima deportiva

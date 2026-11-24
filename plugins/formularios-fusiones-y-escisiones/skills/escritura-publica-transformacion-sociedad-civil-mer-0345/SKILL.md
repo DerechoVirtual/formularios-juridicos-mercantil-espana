@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-transformacion-sociedad-civil-mer-0345
-description: "Escritura pública de transformación de una sociedad civil en sociedad limitada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de transformación de una sociedad civil en sociedad limitada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de transformación de una sociedad civil en sociedad limitada

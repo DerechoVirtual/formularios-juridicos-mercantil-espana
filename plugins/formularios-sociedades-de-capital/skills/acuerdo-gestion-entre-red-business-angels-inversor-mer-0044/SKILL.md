@@ -1,6 +1,6 @@
 ---
 name: acuerdo-gestion-entre-red-business-angels-inversor-mer-0044
-description: "Acuerdo de gestión entre red de business angels, inversor y emprendedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de gestión entre red de business angels, inversor y emprendedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de gestión entre red de business angels, inversor y emprendedor

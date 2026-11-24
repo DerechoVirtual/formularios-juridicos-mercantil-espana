@@ -1,6 +1,6 @@
 ---
 name: transferencia-tecnologia-know-how-secretos-mer-0703
-description: "Transferencia de tecnología, Know-How o Secretos empresariales (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Transferencia de tecnología, Know-How o Secretos empresariales (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Transferencia de tecnología, Know-How o Secretos empresariales (contrato)

@@ -1,6 +1,6 @@
 ---
 name: informe-especial-auditor-sobre-reservas-usadas-mer-0167
-description: "Informe especial del auditor sobre las reservas usadas en la ampliación de capital de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Informe especial del auditor sobre las reservas usadas en la ampliación de capital de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Informe especial del auditor sobre las reservas usadas en la ampliación de capital de una SA

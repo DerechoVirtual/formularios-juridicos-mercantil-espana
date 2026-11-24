@@ -1,6 +1,6 @@
 ---
 name: comunicacion-consejo-rector-solicitante-admision-como-mer-0474
-description: "Comunicación del consejo rector al solicitante de su admisión como socio de la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del consejo rector al solicitante de su admisión como socio de la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del consejo rector al solicitante de su admisión como socio de la cooperativa

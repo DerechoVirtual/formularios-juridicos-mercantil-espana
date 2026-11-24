@@ -1,6 +1,6 @@
 ---
 name: solicitud-calificacion-e-inscripcion-sociedad-laboral-mer-0377
-description: "Solicitud de calificación e inscripción de una sociedad laboral nueva o preexistente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de calificación e inscripción de una sociedad laboral nueva o preexistente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de calificación e inscripción de una sociedad laboral nueva o preexistente

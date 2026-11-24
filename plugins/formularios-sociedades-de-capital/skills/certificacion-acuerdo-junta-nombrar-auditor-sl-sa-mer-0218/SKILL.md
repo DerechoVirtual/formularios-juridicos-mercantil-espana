@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-junta-nombrar-auditor-sl-sa-mer-0218
-description: "Certificación del acuerdo de junta de nombrar auditor en una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de junta de nombrar auditor en una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de junta de nombrar auditor en una SL o SA

@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-marca-escritura-notarial-mer-0749
-description: "Contrato de cesión de marca en escritura notarial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de marca en escritura notarial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de marca en escritura notarial

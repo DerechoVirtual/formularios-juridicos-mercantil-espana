@@ -1,6 +1,6 @@
 ---
 name: acta-reunion-consejo-rector-cooperativa-mer-0439
-description: "Acta de una reunión del consejo rector de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de una reunión del consejo rector de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de una reunión del consejo rector de una cooperativa

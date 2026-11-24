@@ -1,6 +1,6 @@
 ---
 name: distribucion-obras-musicales-plataformas-digitales-mer-0700
-description: "Distribución de obras musicales en plataformas digitales (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Distribución de obras musicales en plataformas digitales (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Distribución de obras musicales en plataformas digitales (contrato)

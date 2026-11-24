@@ -1,6 +1,6 @@
 ---
 name: contrato-licencia-marca-know-how-canon-mensual-mer-0746
-description: "Contrato de licencia de marca y de know how con canon mensual y royalties anuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de licencia de marca y de know how con canon mensual y royalties anuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de licencia de marca y de know how con canon mensual y royalties anuales

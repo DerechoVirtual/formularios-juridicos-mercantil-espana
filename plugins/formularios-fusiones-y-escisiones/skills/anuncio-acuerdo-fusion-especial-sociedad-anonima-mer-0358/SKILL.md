@@ -1,6 +1,6 @@
 ---
 name: anuncio-acuerdo-fusion-especial-sociedad-anonima-mer-0358
-description: "Anuncio del acuerdo de fusión especial de sociedad anónima íntegramente participada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio del acuerdo de fusión especial de sociedad anónima íntegramente participada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio del acuerdo de fusión especial de sociedad anónima íntegramente participada

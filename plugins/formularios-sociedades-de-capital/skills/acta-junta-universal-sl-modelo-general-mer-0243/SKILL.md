@@ -1,6 +1,6 @@
 ---
 name: acta-junta-universal-sl-modelo-general-mer-0243
-description: "Acta de junta universal de una SL, modelo general. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta universal de una SL, modelo general. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta universal de una SL, modelo general

@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 20 formularios de Traspasos de negocio, confidencialidad y acuerdos de empresa. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 20 formularios de Traspasos de negocio, confidencialidad y acuerdos de empresa. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Traspasos de negocio, confidencialidad y acuerdos de empresa: índice de formularios

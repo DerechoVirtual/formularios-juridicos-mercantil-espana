@@ -1,6 +1,6 @@
 ---
 name: estatutos-sociales-sociedad-colectiva-mer-0420
-description: "Estatutos sociales de una sociedad colectiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos sociales de una sociedad colectiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos sociales de una sociedad colectiva

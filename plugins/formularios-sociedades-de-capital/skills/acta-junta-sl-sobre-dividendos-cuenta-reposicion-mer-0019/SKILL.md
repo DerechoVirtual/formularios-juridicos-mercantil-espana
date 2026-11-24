@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-sobre-dividendos-cuenta-reposicion-mer-0019
-description: "Acta de junta de SL sobre dividendos a cuenta, reposición de pérdidas y reparto de reservas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL sobre dividendos a cuenta, reposición de pérdidas y reparto de reservas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL sobre dividendos a cuenta, reposición de pérdidas y reparto de reservas

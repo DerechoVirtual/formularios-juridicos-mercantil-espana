@@ -1,6 +1,6 @@
 ---
 name: acta-notarial-junta-universal-sl-mer-0023
-description: "Acta notarial de una junta universal de SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta notarial de una junta universal de SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta notarial de una junta universal de SL

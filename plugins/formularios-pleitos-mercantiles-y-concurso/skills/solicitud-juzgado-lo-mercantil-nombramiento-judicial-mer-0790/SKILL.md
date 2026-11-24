@@ -1,6 +1,6 @@
 ---
 name: solicitud-juzgado-lo-mercantil-nombramiento-judicial-mer-0790
-description: "Solicitud al Juzgado de lo Mercantil de nombramiento judicial de auditor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al Juzgado de lo Mercantil de nombramiento judicial de auditor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al Juzgado de lo Mercantil de nombramiento judicial de auditor

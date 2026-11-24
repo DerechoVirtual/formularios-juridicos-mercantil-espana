@@ -1,6 +1,6 @@
 ---
 name: aviso-socio-vencimiento-plazo-aportacion-obligatoria-mer-0392
-description: "Aviso al socio del vencimiento del plazo de la aportación obligatoria pendiente en cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Aviso al socio del vencimiento del plazo de la aportación obligatoria pendiente en cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Aviso al socio del vencimiento del plazo de la aportación obligatoria pendiente en cooperativa

@@ -1,6 +1,6 @@
 ---
 name: deposito-cuentas-anuales-consolidadas-2025-modelo-mer-0007
-description: "Depósito de cuentas anuales consolidadas 2025 en modelo oficial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Depósito de cuentas anuales consolidadas 2025 en modelo oficial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Depósito de cuentas anuales consolidadas 2025 en modelo oficial

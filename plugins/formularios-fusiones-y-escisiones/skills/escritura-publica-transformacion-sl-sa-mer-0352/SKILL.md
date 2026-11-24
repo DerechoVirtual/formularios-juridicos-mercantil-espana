@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-transformacion-sl-sa-mer-0352
-description: "Escritura pública de transformación de una SL en SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de transformación de una SL en SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de transformación de una SL en SA

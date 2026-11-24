@@ -1,6 +1,6 @@
 ---
 name: acta-notarial-junta-general-sa-mer-0080
-description: "Acta notarial de la junta general de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta notarial de la junta general de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta notarial de la junta general de una SA

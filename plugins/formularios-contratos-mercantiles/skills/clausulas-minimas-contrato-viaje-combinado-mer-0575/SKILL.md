@@ -1,6 +1,6 @@
 ---
 name: clausulas-minimas-contrato-viaje-combinado-mer-0575
-description: "Cláusulas mínimas del contrato de viaje combinado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusulas mínimas del contrato de viaje combinado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusulas mínimas del contrato de viaje combinado

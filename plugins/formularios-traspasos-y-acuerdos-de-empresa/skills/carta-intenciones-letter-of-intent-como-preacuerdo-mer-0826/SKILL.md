@@ -1,6 +1,6 @@
 ---
 name: carta-intenciones-letter-of-intent-como-preacuerdo-mer-0826
-description: "Carta de intenciones (letter of intent) como preacuerdo contractual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de intenciones (letter of intent) como preacuerdo contractual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de intenciones (letter of intent) como preacuerdo contractual

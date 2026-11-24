@@ -1,6 +1,6 @@
 ---
 name: contrato-auditoria-cuentas-anuales-sociedad-mercantil-mer-0565
-description: "Contrato de auditoría de las cuentas anuales de una sociedad mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de auditoría de las cuentas anuales de una sociedad mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de auditoría de las cuentas anuales de una sociedad mercantil

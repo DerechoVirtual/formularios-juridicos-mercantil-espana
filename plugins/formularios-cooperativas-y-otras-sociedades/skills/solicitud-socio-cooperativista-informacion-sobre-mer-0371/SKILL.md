@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-cooperativista-informacion-sobre-mer-0371
-description: "Solicitud del socio cooperativista de información sobre derechos económicos y orden del día. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del socio cooperativista de información sobre derechos económicos y orden del día. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del socio cooperativista de información sobre derechos económicos y orden del día

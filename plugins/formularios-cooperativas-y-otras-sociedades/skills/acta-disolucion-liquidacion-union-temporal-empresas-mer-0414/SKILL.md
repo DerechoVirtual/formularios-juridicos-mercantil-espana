@@ -1,6 +1,6 @@
 ---
 name: acta-disolucion-liquidacion-union-temporal-empresas-mer-0414
-description: "Acta de disolución y liquidación de una unión temporal de empresas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de disolución y liquidación de una unión temporal de empresas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de disolución y liquidación de una unión temporal de empresas

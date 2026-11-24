@@ -1,6 +1,6 @@
 ---
 name: reclamacion-banco-importe-aval-primer-requerimiento-mer-0620
-description: "Reclamación al banco del importe de un aval a primer requerimiento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Reclamación al banco del importe de un aval a primer requerimiento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Reclamación al banco del importe de un aval a primer requerimiento

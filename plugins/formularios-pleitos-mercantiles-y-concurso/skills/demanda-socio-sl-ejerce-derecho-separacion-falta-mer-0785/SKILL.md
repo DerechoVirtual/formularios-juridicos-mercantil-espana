@@ -1,6 +1,6 @@
 ---
 name: demanda-socio-sl-ejerce-derecho-separacion-falta-mer-0785
-description: "Demanda del socio de una SL que ejerce el derecho de separación por falta de reparto de dividendos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del socio de una SL que ejerce el derecho de separación por falta de reparto de dividendos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del socio de una SL que ejerce el derecho de separación por falta de reparto de dividendos

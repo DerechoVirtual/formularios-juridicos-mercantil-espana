@@ -1,6 +1,6 @@
 ---
 name: poliza-credito-negociacion-descuento-documentos-mer-0661
-description: "Póliza de crédito para la negociación o el descuento de documentos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Póliza de crédito para la negociación o el descuento de documentos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Póliza de crédito para la negociación o el descuento de documentos

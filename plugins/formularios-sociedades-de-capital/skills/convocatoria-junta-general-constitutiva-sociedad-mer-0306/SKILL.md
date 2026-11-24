@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-general-constitutiva-sociedad-mer-0306
-description: "Convocatoria de la junta general constitutiva de una sociedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de la junta general constitutiva de una sociedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de la junta general constitutiva de una sociedad

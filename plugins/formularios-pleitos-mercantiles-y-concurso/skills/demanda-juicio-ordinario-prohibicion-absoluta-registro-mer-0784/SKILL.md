@@ -1,6 +1,6 @@
 ---
 name: demanda-juicio-ordinario-prohibicion-absoluta-registro-mer-0784
-description: "Demanda de juicio ordinario por prohibición absoluta de registro de marca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de juicio ordinario por prohibición absoluta de registro de marca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de juicio ordinario por prohibición absoluta de registro de marca

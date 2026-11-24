@@ -1,6 +1,6 @@
 ---
 name: informe-administradores-sobre-proyecto-fusion-mer-0338
-description: "Informe de los administradores sobre el proyecto de fusión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Informe de los administradores sobre el proyecto de fusión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Informe de los administradores sobre el proyecto de fusión

@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-jardineria-mer-0564
-description: "Contrato de servicios de jardinería. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de jardinería. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de jardinería

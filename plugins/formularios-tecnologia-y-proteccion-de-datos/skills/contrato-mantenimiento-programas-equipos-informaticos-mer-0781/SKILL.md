@@ -1,6 +1,6 @@
 ---
 name: contrato-mantenimiento-programas-equipos-informaticos-mer-0781
-description: "Contrato de mantenimiento de programas y equipos informáticos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de mantenimiento de programas y equipos informáticos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de mantenimiento de programas y equipos informáticos

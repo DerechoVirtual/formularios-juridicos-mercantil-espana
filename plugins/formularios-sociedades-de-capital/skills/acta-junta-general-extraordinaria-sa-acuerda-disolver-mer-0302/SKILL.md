@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-extraordinaria-sa-acuerda-disolver-mer-0302
-description: "Acta de junta general extraordinaria de una SA que acuerda disolver y liquidar la sociedad a la vez. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general extraordinaria de una SA que acuerda disolver y liquidar la sociedad a la vez. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general extraordinaria de una SA que acuerda disolver y liquidar la sociedad a la vez

@@ -1,6 +1,6 @@
 ---
 name: condiciones-generales-seguro-accidentes-mer-0694
-description: "Condiciones generales del seguro de accidentes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Condiciones generales del seguro de accidentes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Condiciones generales del seguro de accidentes

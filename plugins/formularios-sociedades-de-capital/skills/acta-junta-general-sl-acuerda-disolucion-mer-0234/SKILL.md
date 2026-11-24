@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-sl-acuerda-disolucion-mer-0234
-description: "Acta de junta general de una SL que acuerda la disolución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general de una SL que acuerda la disolución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general de una SL que acuerda la disolución

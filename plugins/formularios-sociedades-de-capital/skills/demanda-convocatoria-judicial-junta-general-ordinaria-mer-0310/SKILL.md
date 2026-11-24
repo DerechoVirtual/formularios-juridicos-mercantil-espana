@@ -1,6 +1,6 @@
 ---
 name: demanda-convocatoria-judicial-junta-general-ordinaria-mer-0310
-description: "Demanda de convocatoria judicial de junta general ordinaria de sociedad anónima (art. 169.1 TRLSC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de convocatoria judicial de junta general ordinaria de sociedad anónima (art. 169.1 TRLSC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de convocatoria judicial de junta general ordinaria de sociedad anónima (art. 169.1 TRLSC)

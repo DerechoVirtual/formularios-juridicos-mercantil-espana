@@ -1,6 +1,6 @@
 ---
 name: escrito-socio-reclama-pago-dividendos-no-prescritos-mer-0116
-description: "Escrito del socio que reclama el pago de dividendos no prescritos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del socio que reclama el pago de dividendos no prescritos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del socio que reclama el pago de dividendos no prescritos

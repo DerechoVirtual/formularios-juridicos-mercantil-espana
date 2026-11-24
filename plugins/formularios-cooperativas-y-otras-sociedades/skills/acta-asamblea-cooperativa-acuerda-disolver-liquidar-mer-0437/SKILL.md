@@ -1,6 +1,6 @@
 ---
 name: acta-asamblea-cooperativa-acuerda-disolver-liquidar-mer-0437
-description: "Acta de asamblea de cooperativa que acuerda disolver, liquidar o reactivar la sociedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de asamblea de cooperativa que acuerda disolver, liquidar o reactivar la sociedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de asamblea de cooperativa que acuerda disolver, liquidar o reactivar la sociedad

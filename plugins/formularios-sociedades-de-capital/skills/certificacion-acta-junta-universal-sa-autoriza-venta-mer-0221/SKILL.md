@@ -1,6 +1,6 @@
 ---
 name: certificacion-acta-junta-universal-sa-autoriza-venta-mer-0221
-description: "Certificación del acta de junta universal de una SA que autoriza la venta de acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acta de junta universal de una SA que autoriza la venta de acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acta de junta universal de una SA que autoriza la venta de acciones

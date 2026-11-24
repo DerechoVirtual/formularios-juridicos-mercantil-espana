@@ -1,6 +1,6 @@
 ---
 name: seguro-vida-temporal-fallecimiento-garantias-mer-0695
-description: "Seguro de vida temporal de fallecimiento con garantías complementarias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Seguro de vida temporal de fallecimiento con garantías complementarias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Seguro de vida temporal de fallecimiento con garantías complementarias

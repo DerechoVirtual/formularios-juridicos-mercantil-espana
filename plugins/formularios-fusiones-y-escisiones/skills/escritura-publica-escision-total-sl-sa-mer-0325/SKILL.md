@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-escision-total-sl-sa-mer-0325
-description: "Escritura pública de escisión total de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de escisión total de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de escisión total de una SL o SA

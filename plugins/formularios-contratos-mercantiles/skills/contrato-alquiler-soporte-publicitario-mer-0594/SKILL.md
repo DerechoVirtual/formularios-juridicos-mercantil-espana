@@ -1,6 +1,6 @@
 ---
 name: contrato-alquiler-soporte-publicitario-mer-0594
-description: "Contrato de alquiler de un soporte publicitario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de alquiler de un soporte publicitario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de alquiler de un soporte publicitario

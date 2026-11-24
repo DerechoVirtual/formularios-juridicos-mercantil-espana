@@ -1,6 +1,6 @@
 ---
 name: escrito-adhesion-socios-transformacion-sa-sociedad-mer-0355
-description: "Escrito de adhesión de socios a la transformación de una SA en sociedad colectiva o comanditaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de adhesión de socios a la transformación de una SA en sociedad colectiva o comanditaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de adhesión de socios a la transformación de una SA en sociedad colectiva o comanditaria

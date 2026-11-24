@@ -1,9 +1,10 @@
 {
   "name": "formularios-contratos-mercantiles",
   "version": "1.0.0",
-  "description": "Contratos mercantiles: compraventa, suministro, transporte y servicios: 105 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para los contratos entre empresas del día a día: compraventa mercantil e internacional, suministro, transporte terrestre, marítimo y aéreo, logística, obra y servicios profesionales, consultoría, publicidad, eventos y turismo, condiciones generales de venta y cláusulas especiales. Requiere Jurisprudenciator.",
+  "description": "Contratos mercantiles: compraventa, suministro, transporte y servicios: 105 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para los contratos entre empresas del día a día: compraventa mercantil e internacional, suministro, transporte terrestre, marítimo y aéreo, logística, obra y servicios profesionales, consultoría, publicidad, eventos y turismo, condiciones generales de venta y cláusulas especiales. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
-    "name": "Derecho Virtual"
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
   },
   "displayName": "Contratos mercantiles: compraventa, suministro, transporte y servicios · España",
   "icon": "./.claude-plugin/icon.png",
@@ -19,5 +20,7 @@
     "modelos",
     "mercantil",
     "compraventa-servicios"
-  ]
+  ],
+  "repository": "https://github.com/DerechoVirtual/formularios-juridicos-mercantil-espana",
+  "documentationUrl": "https://github.com/DerechoVirtual/formularios-juridicos-mercantil-espana/tree/main/plugins/formularios-contratos-mercantiles"
 }

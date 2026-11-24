@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-liquidacion-sociedad-anonima-mer-0208
-description: "Escritura pública de liquidación de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de liquidación de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de liquidación de una sociedad anónima

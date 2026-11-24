@@ -1,6 +1,6 @@
 ---
 name: contrato-comercializacion-marca-merchandising-mer-0484
-description: "Contrato de comercialización de marca o merchandising. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de comercialización de marca o merchandising. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de comercialización de marca o merchandising

@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-junta-sa-reducir-ampliar-capital-mer-0212
-description: "Certificación del acuerdo de junta de una SA de reducir y ampliar capital a la vez (acordeón). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de junta de una SA de reducir y ampliar capital a la vez (acordeón). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de junta de una SA de reducir y ampliar capital a la vez (acordeón)

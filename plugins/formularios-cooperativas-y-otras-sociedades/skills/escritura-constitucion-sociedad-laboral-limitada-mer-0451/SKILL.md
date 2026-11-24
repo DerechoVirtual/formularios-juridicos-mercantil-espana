@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-sociedad-laboral-limitada-mer-0451
-description: "Escritura de constitución de una sociedad laboral limitada o anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de una sociedad laboral limitada o anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de una sociedad laboral limitada o anónima

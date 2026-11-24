@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 53 formularios de Marcas, patentes y propiedad intelectual. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 53 formularios de Marcas, patentes y propiedad intelectual. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Marcas, patentes y propiedad intelectual: índice de formularios

@@ -1,6 +1,6 @@
 ---
 name: contrato-representacion-obra-teatral-mer-0715
-description: "Contrato de representación de una obra teatral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de representación de una obra teatral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de representación de una obra teatral

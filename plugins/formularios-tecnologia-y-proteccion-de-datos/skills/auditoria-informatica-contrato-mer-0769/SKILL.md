@@ -1,6 +1,6 @@
 ---
 name: auditoria-informatica-contrato-mer-0769
-description: "Auditoría informática (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auditoría informática (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auditoría informática (contrato)

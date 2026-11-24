@@ -1,6 +1,6 @@
 ---
 name: carta-representacion-socio-sl-asistir-junta-general-mer-0191
-description: "Carta de representación de un socio de SL para asistir a la junta general. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de representación de un socio de SL para asistir a la junta general. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de representación de un socio de SL para asistir a la junta general

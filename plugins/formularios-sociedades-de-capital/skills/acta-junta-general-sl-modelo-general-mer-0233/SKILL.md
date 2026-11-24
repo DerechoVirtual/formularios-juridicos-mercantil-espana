@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-sl-modelo-general-mer-0233
-description: "Acta de junta general de una SL, modelo general. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general de una SL, modelo general. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general de una SL, modelo general

@@ -1,6 +1,6 @@
 ---
 name: contrato-mercantil-cuenta-corriente-mer-0669
-description: "Contrato mercantil de cuenta corriente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato mercantil de cuenta corriente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato mercantil de cuenta corriente

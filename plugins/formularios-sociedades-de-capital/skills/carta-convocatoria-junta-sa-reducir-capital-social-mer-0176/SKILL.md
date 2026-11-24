@@ -1,6 +1,6 @@
 ---
 name: carta-convocatoria-junta-sa-reducir-capital-social-mer-0176
-description: "Carta de convocatoria de junta de SA para reducir el capital social. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de convocatoria de junta de SA para reducir el capital social. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de convocatoria de junta de SA para reducir el capital social

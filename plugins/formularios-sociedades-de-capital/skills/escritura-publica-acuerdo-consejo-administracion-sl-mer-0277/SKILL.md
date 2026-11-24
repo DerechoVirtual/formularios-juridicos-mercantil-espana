@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-acuerdo-consejo-administracion-sl-mer-0277
-description: "Escritura pública del acuerdo del consejo de administración de una SL de crear una sucursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública del acuerdo del consejo de administración de una SL de crear una sucursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública del acuerdo del consejo de administración de una SL de crear una sucursal

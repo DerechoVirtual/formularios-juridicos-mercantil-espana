@@ -1,6 +1,6 @@
 ---
 name: burofax-requerimiento-pago-arrendatario-industria-mer-0819
-description: "Burofax de requerimiento de pago al arrendatario de una industria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Burofax de requerimiento de pago al arrendatario de una industria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Burofax de requerimiento de pago al arrendatario de una industria

@@ -1,6 +1,6 @@
 ---
 name: poliza-seguro-vida-condiciones-particulares-mer-0687
-description: "Póliza de seguro de vida con condiciones particulares. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Póliza de seguro de vida con condiciones particulares. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Póliza de seguro de vida con condiciones particulares

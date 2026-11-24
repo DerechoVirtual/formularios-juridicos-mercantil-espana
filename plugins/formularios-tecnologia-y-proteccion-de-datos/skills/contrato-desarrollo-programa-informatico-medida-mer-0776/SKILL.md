@@ -1,6 +1,6 @@
 ---
 name: contrato-desarrollo-programa-informatico-medida-mer-0776
-description: "Contrato de desarrollo de un programa informático a medida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de desarrollo de un programa informático a medida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de desarrollo de un programa informático a medida

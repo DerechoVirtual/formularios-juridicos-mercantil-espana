@@ -1,6 +1,6 @@
 ---
 name: demanda-acreedor-contra-liquidador-socios-sl-arts-397-mer-0787
-description: "Demanda del acreedor contra el liquidador y los socios de una SL (arts. 397 y 399 LSC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del acreedor contra el liquidador y los socios de una SL (arts. 397 y 399 LSC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del acreedor contra el liquidador y los socios de una SL (arts. 397 y 399 LSC)

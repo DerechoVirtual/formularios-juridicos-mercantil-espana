@@ -1,6 +1,6 @@
 ---
 name: acuerdo-junta-sociedad-absorbente-aprueba-fusion-mer-0341
-description: "Acuerdo de junta de la sociedad absorbente que aprueba la fusión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de junta de la sociedad absorbente que aprueba la fusión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de junta de la sociedad absorbente que aprueba la fusión

@@ -1,6 +1,6 @@
 ---
 name: acuerdo-transformacion-sl-sociedad-colectiva-mer-0348
-description: "Acuerdo de transformación de una SL en sociedad colectiva o comanditaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de transformación de una SL en sociedad colectiva o comanditaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de transformación de una SL en sociedad colectiva o comanditaria

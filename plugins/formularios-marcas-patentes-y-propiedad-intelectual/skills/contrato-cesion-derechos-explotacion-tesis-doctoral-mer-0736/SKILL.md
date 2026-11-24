@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-derechos-explotacion-tesis-doctoral-mer-0736
-description: "Contrato de cesión de los derechos de explotación de una tesis doctoral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de los derechos de explotación de una tesis doctoral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de los derechos de explotación de una tesis doctoral

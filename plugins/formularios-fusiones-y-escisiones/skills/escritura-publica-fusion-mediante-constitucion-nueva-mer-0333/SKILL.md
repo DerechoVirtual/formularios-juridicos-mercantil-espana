@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-fusion-mediante-constitucion-nueva-mer-0333
-description: "Escritura pública de fusión mediante constitución de una nueva sociedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de fusión mediante constitución de una nueva sociedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de fusión mediante constitución de una nueva sociedad

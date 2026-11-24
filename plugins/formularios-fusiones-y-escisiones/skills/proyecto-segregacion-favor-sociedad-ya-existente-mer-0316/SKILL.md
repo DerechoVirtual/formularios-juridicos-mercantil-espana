@@ -1,6 +1,6 @@
 ---
 name: proyecto-segregacion-favor-sociedad-ya-existente-mer-0316
-description: "Proyecto de segregación a favor de una sociedad ya existente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de segregación a favor de una sociedad ya existente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de segregación a favor de una sociedad ya existente

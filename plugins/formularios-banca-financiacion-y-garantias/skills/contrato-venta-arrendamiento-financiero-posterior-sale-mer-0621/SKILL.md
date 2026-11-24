@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-arrendamiento-financiero-posterior-sale-mer-0621
-description: "Contrato de venta con arrendamiento financiero posterior (sale and lease back). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta con arrendamiento financiero posterior (sale and lease back). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta con arrendamiento financiero posterior (sale and lease back)

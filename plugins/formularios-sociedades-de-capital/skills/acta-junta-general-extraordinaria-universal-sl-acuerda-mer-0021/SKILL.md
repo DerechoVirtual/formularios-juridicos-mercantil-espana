@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-extraordinaria-universal-sl-acuerda-mer-0021
-description: "Acta de junta general extraordinaria y universal de SL que acuerda emitir obligaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general extraordinaria y universal de SL que acuerda emitir obligaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general extraordinaria y universal de SL que acuerda emitir obligaciones

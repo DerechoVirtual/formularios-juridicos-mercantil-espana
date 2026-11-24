@@ -1,6 +1,6 @@
 ---
 name: leasing-equipos-informaticos-contrato-mer-0651
-description: "Leasing de equipos informáticos (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Leasing de equipos informáticos (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Leasing de equipos informáticos (contrato)

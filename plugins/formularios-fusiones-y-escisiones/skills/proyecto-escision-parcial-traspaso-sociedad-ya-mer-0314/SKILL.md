@@ -1,6 +1,6 @@
 ---
 name: proyecto-escision-parcial-traspaso-sociedad-ya-mer-0314
-description: "Proyecto de escisión parcial con traspaso a una sociedad ya existente (escisión-absorción). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de escisión parcial con traspaso a una sociedad ya existente (escisión-absorción). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de escisión parcial con traspaso a una sociedad ya existente (escisión-absorción)

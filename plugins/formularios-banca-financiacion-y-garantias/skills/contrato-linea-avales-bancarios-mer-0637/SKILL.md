@@ -1,6 +1,6 @@
 ---
 name: contrato-linea-avales-bancarios-mer-0637
-description: "Contrato de línea de avales bancarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de línea de avales bancarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de línea de avales bancarios

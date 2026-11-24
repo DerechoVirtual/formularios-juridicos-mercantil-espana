@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-donacion-participaciones-sl-mer-0237
-description: "Escritura pública de donación de participaciones de una SL a un descendiente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de donación de participaciones de una SL a un descendiente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de donación de participaciones de una SL a un descendiente

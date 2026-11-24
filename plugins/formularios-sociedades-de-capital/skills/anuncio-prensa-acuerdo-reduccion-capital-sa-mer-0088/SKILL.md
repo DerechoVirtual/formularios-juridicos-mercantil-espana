@@ -1,6 +1,6 @@
 ---
 name: anuncio-prensa-acuerdo-reduccion-capital-sa-mer-0088
-description: "Anuncio en prensa del acuerdo de reducción del capital de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio en prensa del acuerdo de reducción del capital de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio en prensa del acuerdo de reducción del capital de una SA

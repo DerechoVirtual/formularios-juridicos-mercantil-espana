@@ -1,6 +1,6 @@
 ---
 name: anuncio-acuerdo-disolucion-cooperativa-mer-0410
-description: "Anuncio del acuerdo de disolución de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio del acuerdo de disolución de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio del acuerdo de disolución de una cooperativa

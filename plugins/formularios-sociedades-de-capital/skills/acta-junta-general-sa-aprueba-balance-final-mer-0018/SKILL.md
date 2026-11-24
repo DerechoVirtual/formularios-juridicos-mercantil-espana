@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-sa-aprueba-balance-final-mer-0018
-description: "Acta de junta general de SA que aprueba el balance final de liquidación y cesa a los liquidadores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general de SA que aprueba el balance final de liquidación y cesa a los liquidadores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general de SA que aprueba el balance final de liquidación y cesa a los liquidadores

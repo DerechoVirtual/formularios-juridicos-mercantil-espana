@@ -1,6 +1,6 @@
 ---
 name: solicitud-registro-mercantil-auditor-determine-valor-mer-0170
-description: "Solicitud al Registro Mercantil de auditor que determine el valor de acciones o participaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al Registro Mercantil de auditor que determine el valor de acciones o participaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al Registro Mercantil de auditor que determine el valor de acciones o participaciones

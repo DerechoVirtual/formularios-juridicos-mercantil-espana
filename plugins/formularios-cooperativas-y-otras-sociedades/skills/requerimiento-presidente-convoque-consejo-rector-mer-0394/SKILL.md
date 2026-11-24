@@ -1,6 +1,6 @@
 ---
 name: requerimiento-presidente-convoque-consejo-rector-mer-0394
-description: "Requerimiento al presidente para que convoque el consejo rector de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento al presidente para que convoque el consejo rector de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento al presidente para que convoque el consejo rector de una cooperativa

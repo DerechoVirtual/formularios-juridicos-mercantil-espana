@@ -1,6 +1,6 @@
 ---
 name: solicitud-experto-unico-administradores-sociedad-mer-0353
-description: "Solicitud de experto único por los administradores de la sociedad que se escinde. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de experto único por los administradores de la sociedad que se escinde. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de experto único por los administradores de la sociedad que se escinde

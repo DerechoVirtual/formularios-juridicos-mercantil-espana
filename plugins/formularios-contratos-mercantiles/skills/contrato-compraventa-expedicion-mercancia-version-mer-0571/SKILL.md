@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-expedicion-mercancia-version-mer-0571
-description: "Contrato de compraventa con expedición de la mercancía (versión abreviada). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa con expedición de la mercancía (versión abreviada). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa con expedición de la mercancía (versión abreviada)

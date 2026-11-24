@@ -1,6 +1,6 @@
 ---
 name: impugnacion-importe-reembolso-fijado-consejo-rector-mer-0438
-description: "Impugnación del importe del reembolso fijado por el consejo rector tras la baja voluntaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación del importe del reembolso fijado por el consejo rector tras la baja voluntaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación del importe del reembolso fijado por el consejo rector tras la baja voluntaria

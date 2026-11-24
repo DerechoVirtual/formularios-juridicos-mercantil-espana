@@ -1,6 +1,6 @@
 ---
 name: estatutos-sociales-sociedad-limitada-unipersonal-mer-0016
-description: "Estatutos sociales de una sociedad limitada unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos sociales de una sociedad limitada unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos sociales de una sociedad limitada unipersonal

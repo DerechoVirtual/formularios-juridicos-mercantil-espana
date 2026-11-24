@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-sa-ampliar-capital-compensacion-mer-0180
-description: "Convocatoria de junta de SA para ampliar capital por compensación de créditos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta de SA para ampliar capital por compensación de créditos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta de SA para ampliar capital por compensación de créditos

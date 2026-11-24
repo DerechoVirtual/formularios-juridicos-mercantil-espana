@@ -1,6 +1,6 @@
 ---
 name: acta-decisiones-socio-unico-slu-sobre-cuentas-anuales-mer-0203
-description: "Acta de decisiones del socio único de una SLU sobre cuentas anuales, dividendo a cuenta y auditor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de decisiones del socio único de una SLU sobre cuentas anuales, dividendo a cuenta y auditor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de decisiones del socio único de una SLU sobre cuentas anuales, dividendo a cuenta y auditor

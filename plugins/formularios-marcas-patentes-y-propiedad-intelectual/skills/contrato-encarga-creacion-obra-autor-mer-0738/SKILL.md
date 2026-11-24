@@ -1,6 +1,6 @@
 ---
 name: contrato-encarga-creacion-obra-autor-mer-0738
-description: "Contrato por el que se encarga la creación de una obra a su autor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato por el que se encarga la creación de una obra a su autor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato por el que se encarga la creación de una obra a su autor

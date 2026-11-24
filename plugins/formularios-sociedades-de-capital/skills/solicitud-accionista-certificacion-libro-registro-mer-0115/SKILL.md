@@ -1,6 +1,6 @@
 ---
 name: solicitud-accionista-certificacion-libro-registro-mer-0115
-description: "Solicitud del accionista de certificación del libro registro de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del accionista de certificación del libro registro de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del accionista de certificación del libro registro de acciones nominativas

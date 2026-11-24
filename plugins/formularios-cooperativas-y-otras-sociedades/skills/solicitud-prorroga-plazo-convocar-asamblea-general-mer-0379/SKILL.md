@@ -1,6 +1,6 @@
 ---
 name: solicitud-prorroga-plazo-convocar-asamblea-general-mer-0379
-description: "Solicitud de prórroga del plazo para convocar la asamblea general ordinaria de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de prórroga del plazo para convocar la asamblea general ordinaria de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de prórroga del plazo para convocar la asamblea general ordinaria de una cooperativa

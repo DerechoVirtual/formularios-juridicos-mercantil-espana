@@ -1,6 +1,6 @@
 ---
 name: carta-manifestaciones-administracion-auditor-mer-0175
-description: "Carta de manifestaciones de la administración al auditor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de manifestaciones de la administración al auditor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de manifestaciones de la administración al auditor

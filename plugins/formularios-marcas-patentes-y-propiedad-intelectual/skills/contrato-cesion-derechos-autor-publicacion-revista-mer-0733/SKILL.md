@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-derechos-autor-publicacion-revista-mer-0733
-description: "Contrato de cesión de derechos de autor para su publicación en una revista o periódico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de derechos de autor para su publicación en una revista o periódico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de derechos de autor para su publicación en una revista o periódico

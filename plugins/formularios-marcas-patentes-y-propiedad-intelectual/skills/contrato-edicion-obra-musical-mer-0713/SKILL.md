@@ -1,6 +1,6 @@
 ---
 name: contrato-edicion-obra-musical-mer-0713
-description: "Contrato de edición de una obra musical. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de edición de una obra musical. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de edición de una obra musical

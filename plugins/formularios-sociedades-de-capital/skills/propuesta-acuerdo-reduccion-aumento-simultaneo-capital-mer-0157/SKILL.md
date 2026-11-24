@@ -1,6 +1,6 @@
 ---
 name: propuesta-acuerdo-reduccion-aumento-simultaneo-capital-mer-0157
-description: "Propuesta de acuerdo de reducción y aumento simultáneo de capital de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Propuesta de acuerdo de reducción y aumento simultáneo de capital de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Propuesta de acuerdo de reducción y aumento simultáneo de capital de una SA

@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-sa-sobre-transmision-acciones-propuesta-mer-0206
-description: "Acta del consejo de una SA sobre transmisión de acciones y propuesta de ampliación de capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo de una SA sobre transmisión de acciones y propuesta de ampliación de capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo de una SA sobre transmisión de acciones y propuesta de ampliación de capital

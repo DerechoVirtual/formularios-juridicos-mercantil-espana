@@ -1,6 +1,6 @@
 ---
 name: prestacion-servicios-informaticos-contrato-mer-0757
-description: "Prestación de servicios informáticos (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Prestación de servicios informáticos (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Prestación de servicios informáticos (contrato)

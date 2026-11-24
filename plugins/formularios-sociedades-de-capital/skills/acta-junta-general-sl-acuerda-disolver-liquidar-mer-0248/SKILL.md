@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-sl-acuerda-disolver-liquidar-mer-0248
-description: "Acta de junta general de una SL que acuerda disolver y liquidar la sociedad a la vez. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general de una SL que acuerda disolver y liquidar la sociedad a la vez. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general de una SL que acuerda disolver y liquidar la sociedad a la vez

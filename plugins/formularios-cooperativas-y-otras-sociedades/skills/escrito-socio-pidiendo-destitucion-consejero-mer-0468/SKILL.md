@@ -1,6 +1,6 @@
 ---
 name: escrito-socio-pidiendo-destitucion-consejero-mer-0468
-description: "Escrito de un socio pidiendo la destitución de un consejero de cooperativa por incompatibilidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de un socio pidiendo la destitución de un consejero de cooperativa por incompatibilidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de un socio pidiendo la destitución de un consejero de cooperativa por incompatibilidad

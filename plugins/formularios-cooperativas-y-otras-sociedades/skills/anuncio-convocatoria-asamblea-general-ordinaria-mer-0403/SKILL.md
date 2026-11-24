@@ -1,6 +1,6 @@
 ---
 name: anuncio-convocatoria-asamblea-general-ordinaria-mer-0403
-description: "Anuncio de convocatoria de asamblea general ordinaria o extraordinaria de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de convocatoria de asamblea general ordinaria o extraordinaria de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de convocatoria de asamblea general ordinaria o extraordinaria de una cooperativa

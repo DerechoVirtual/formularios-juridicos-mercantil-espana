@@ -1,6 +1,6 @@
 ---
 name: demanda-exclusion-socio-sl-participacion-igual-mer-0794
-description: "Demanda de exclusión de un socio de SL con participación igual o superior al 25 por ciento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de exclusión de un socio de SL con participación igual o superior al 25 por ciento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de exclusión de un socio de SL con participación igual o superior al 25 por ciento

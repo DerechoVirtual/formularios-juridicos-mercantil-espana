@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-sujeta-prueba-ensayo-previo-mer-0587
-description: "Contrato de compraventa sujeta a prueba o ensayo previo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa sujeta a prueba o ensayo previo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa sujeta a prueba o ensayo previo

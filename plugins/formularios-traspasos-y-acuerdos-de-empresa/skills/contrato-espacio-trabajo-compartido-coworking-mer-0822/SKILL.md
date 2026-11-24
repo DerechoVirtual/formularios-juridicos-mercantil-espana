@@ -1,6 +1,6 @@
 ---
 name: contrato-espacio-trabajo-compartido-coworking-mer-0822
-description: "Contrato de espacio de trabajo compartido (coworking). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de espacio de trabajo compartido (coworking). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de espacio de trabajo compartido (coworking)

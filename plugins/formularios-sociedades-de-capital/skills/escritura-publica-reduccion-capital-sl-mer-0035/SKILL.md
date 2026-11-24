@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-reduccion-capital-sl-mer-0035
-description: "Escritura pública de reducción del capital de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de reducción del capital de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de reducción del capital de una SL

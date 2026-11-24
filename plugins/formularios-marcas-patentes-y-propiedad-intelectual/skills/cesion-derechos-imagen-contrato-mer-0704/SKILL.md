@@ -1,6 +1,6 @@
 ---
 name: cesion-derechos-imagen-contrato-mer-0704
-description: "Cesión de derechos de imagen (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cesión de derechos de imagen (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cesión de derechos de imagen (contrato)

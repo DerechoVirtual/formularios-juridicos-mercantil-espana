@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-acuerdo-disolucion-sociedad-anonima-mer-0193
-description: "Escritura pública del acuerdo de disolución de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública del acuerdo de disolución de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública del acuerdo de disolución de una sociedad anónima

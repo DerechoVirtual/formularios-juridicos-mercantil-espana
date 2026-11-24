@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-constitucion-sociedad-comanditaria-mer-0447
-description: "Escritura pública de constitución de una sociedad comanditaria simple. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de constitución de una sociedad comanditaria simple. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de constitución de una sociedad comanditaria simple

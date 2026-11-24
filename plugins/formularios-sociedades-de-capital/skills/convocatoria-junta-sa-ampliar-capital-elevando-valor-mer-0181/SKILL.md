@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-sa-ampliar-capital-elevando-valor-mer-0181
-description: "Convocatoria de junta de SA para ampliar capital elevando el valor nominal de las acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta de SA para ampliar capital elevando el valor nominal de las acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta de SA para ampliar capital elevando el valor nominal de las acciones

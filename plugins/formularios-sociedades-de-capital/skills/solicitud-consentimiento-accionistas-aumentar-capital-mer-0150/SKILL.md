@@ -1,6 +1,6 @@
 ---
 name: solicitud-consentimiento-accionistas-aumentar-capital-mer-0150
-description: "Solicitud de consentimiento a los accionistas para aumentar capital elevando el valor nominal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de consentimiento a los accionistas para aumentar capital elevando el valor nominal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de consentimiento a los accionistas para aumentar capital elevando el valor nominal

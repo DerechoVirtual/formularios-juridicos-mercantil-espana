@@ -1,6 +1,6 @@
 ---
 name: programa-fundacion-sa-suscripcion-publica-acciones-mer-0227
-description: "Programa de fundación de una SA por suscripción pública de acciones (fundación sucesiva). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Programa de fundación de una SA por suscripción pública de acciones (fundación sucesiva). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Programa de fundación de una SA por suscripción pública de acciones (fundación sucesiva)

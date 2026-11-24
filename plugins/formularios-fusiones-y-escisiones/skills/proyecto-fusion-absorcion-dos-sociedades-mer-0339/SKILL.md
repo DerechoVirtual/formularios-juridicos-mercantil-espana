@@ -1,6 +1,6 @@
 ---
 name: proyecto-fusion-absorcion-dos-sociedades-mer-0339
-description: "Proyecto de fusión por absorción de dos sociedades. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de fusión por absorción de dos sociedades. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de fusión por absorción de dos sociedades

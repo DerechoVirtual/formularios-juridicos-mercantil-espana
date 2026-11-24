@@ -1,6 +1,6 @@
 ---
 name: deposito-cuentas-anuales-2025-modelo-oficial-pymes-mer-0002
-description: "Depósito de cuentas anuales 2025 en modelo oficial para PYMES. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Depósito de cuentas anuales 2025 en modelo oficial para PYMES. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Depósito de cuentas anuales 2025 en modelo oficial para PYMES

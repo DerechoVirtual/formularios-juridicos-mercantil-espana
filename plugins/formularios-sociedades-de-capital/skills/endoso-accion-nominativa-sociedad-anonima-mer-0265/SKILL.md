@@ -1,6 +1,6 @@
 ---
 name: endoso-accion-nominativa-sociedad-anonima-mer-0265
-description: "Endoso de una acción nominativa de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Endoso de una acción nominativa de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Endoso de una acción nominativa de una sociedad anónima

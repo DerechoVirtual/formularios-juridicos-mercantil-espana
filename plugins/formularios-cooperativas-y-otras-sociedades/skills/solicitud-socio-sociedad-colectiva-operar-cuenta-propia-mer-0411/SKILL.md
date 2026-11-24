@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-sociedad-colectiva-operar-cuenta-propia-mer-0411
-description: "Solicitud del socio de una sociedad colectiva para operar por cuenta propia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del socio de una sociedad colectiva para operar por cuenta propia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del socio de una sociedad colectiva para operar por cuenta propia

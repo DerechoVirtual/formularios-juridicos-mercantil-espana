@@ -1,6 +1,6 @@
 ---
 name: acta-acuerdos-consejo-administracion-sa-adoptados-mer-0130
-description: "Acta de acuerdos del consejo de administración de SA adoptados por escrito y sin sesión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de acuerdos del consejo de administración de SA adoptados por escrito y sin sesión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de acuerdos del consejo de administración de SA adoptados por escrito y sin sesión

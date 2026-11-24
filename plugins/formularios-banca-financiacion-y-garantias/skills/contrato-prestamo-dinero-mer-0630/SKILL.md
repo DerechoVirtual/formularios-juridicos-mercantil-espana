@@ -1,6 +1,6 @@
 ---
 name: contrato-prestamo-dinero-mer-0630
-description: "Contrato de préstamo de dinero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de préstamo de dinero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de préstamo de dinero

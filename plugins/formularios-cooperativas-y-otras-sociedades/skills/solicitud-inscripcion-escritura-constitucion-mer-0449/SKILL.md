@@ -1,6 +1,6 @@
 ---
 name: solicitud-inscripcion-escritura-constitucion-mer-0449
-description: "Solicitud de inscripción de la escritura de constitución de una cooperativa en su Registro. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de inscripción de la escritura de constitución de una cooperativa en su Registro. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de inscripción de la escritura de constitución de una cooperativa en su Registro

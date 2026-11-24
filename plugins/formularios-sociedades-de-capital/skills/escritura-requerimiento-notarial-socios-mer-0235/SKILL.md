@@ -1,6 +1,6 @@
 ---
 name: escritura-requerimiento-notarial-socios-mer-0235
-description: "Escritura de requerimiento notarial de socios a los administradores de una SL para convocar junta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de requerimiento notarial de socios a los administradores de una SL para convocar junta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de requerimiento notarial de socios a los administradores de una SL para convocar junta

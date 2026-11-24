@@ -1,6 +1,6 @@
 ---
 name: solicitud-experto-independiente-informar-sobre-mer-0147
-description: "Solicitud de experto independiente para informar sobre adquisiciones onerosas de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de experto independiente para informar sobre adquisiciones onerosas de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de experto independiente para informar sobre adquisiciones onerosas de una SA

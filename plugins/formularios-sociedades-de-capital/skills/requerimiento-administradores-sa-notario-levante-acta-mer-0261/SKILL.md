@@ -1,6 +1,6 @@
 ---
 name: requerimiento-administradores-sa-notario-levante-acta-mer-0261
-description: "Requerimiento a los administradores de una SA para que un notario levante acta de la junta general. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento a los administradores de una SA para que un notario levante acta de la junta general. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento a los administradores de una SA para que un notario levante acta de la junta general

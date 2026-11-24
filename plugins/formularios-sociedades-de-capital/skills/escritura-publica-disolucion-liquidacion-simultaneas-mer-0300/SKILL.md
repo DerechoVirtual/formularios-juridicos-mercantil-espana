@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-disolucion-liquidacion-simultaneas-mer-0300
-description: "Escritura pública de disolución y liquidación simultáneas de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de disolución y liquidación simultáneas de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de disolución y liquidación simultáneas de una sociedad anónima

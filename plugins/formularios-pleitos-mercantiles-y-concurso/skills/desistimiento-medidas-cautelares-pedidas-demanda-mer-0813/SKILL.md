@@ -1,6 +1,6 @@
 ---
 name: desistimiento-medidas-cautelares-pedidas-demanda-mer-0813
-description: "Desistimiento de las medidas cautelares pedidas con la demanda en juicio por publicidad ilícita. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Desistimiento de las medidas cautelares pedidas con la demanda en juicio por publicidad ilícita. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Desistimiento de las medidas cautelares pedidas con la demanda en juicio por publicidad ilícita

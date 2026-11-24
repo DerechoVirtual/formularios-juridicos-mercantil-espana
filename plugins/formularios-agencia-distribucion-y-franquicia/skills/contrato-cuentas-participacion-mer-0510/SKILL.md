@@ -1,6 +1,6 @@
 ---
 name: contrato-cuentas-participacion-mer-0510
-description: "Contrato de cuentas en participación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cuentas en participación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cuentas en participación

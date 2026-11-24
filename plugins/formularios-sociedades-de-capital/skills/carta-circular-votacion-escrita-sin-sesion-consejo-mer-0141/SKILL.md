@@ -1,6 +1,6 @@
 ---
 name: carta-circular-votacion-escrita-sin-sesion-consejo-mer-0141
-description: "Carta circular para votación escrita y sin sesión del consejo de administración de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta circular para votación escrita y sin sesión del consejo de administración de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta circular para votación escrita y sin sesión del consejo de administración de una SA

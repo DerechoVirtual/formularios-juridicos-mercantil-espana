@@ -1,6 +1,6 @@
 ---
 name: poliza-seguro-transporte-maritimo-mercancias-mer-0686
-description: "Póliza de seguro de transporte marítimo de mercancías. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Póliza de seguro de transporte marítimo de mercancías. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Póliza de seguro de transporte marítimo de mercancías

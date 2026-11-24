@@ -1,6 +1,6 @@
 ---
 name: requerimiento-notarial-exsocio-vender-acciones-mer-0376
-description: "Requerimiento notarial al exsocio para vender sus acciones o participaciones laborales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento notarial al exsocio para vender sus acciones o participaciones laborales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento notarial al exsocio para vender sus acciones o participaciones laborales

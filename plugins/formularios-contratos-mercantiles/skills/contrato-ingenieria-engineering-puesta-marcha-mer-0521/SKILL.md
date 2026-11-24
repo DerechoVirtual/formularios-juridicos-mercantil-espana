@@ -1,6 +1,6 @@
 ---
 name: contrato-ingenieria-engineering-puesta-marcha-mer-0521
-description: "Contrato de ingeniería (engineering) para la puesta en marcha de un establecimiento u obra. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de ingeniería (engineering) para la puesta en marcha de un establecimiento u obra. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de ingeniería (engineering) para la puesta en marcha de un establecimiento u obra

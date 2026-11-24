@@ -1,6 +1,6 @@
 ---
 name: contrato-deposito-codigo-fuente-programa-ante-tercero-mer-0780
-description: "Contrato de depósito del código fuente de un programa ante un tercero (escrow). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de depósito del código fuente de un programa ante un tercero (escrow). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de depósito del código fuente de un programa ante un tercero (escrow)

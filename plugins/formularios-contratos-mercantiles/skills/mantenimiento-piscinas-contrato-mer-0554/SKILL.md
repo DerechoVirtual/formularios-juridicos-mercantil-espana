@@ -1,6 +1,6 @@
 ---
 name: mantenimiento-piscinas-contrato-mer-0554
-description: "Mantenimiento de piscinas (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Mantenimiento de piscinas (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Mantenimiento de piscinas (contrato)

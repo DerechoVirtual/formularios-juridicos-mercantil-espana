@@ -1,6 +1,6 @@
 ---
 name: contrato-aval-bancario-entre-banco-cliente-mer-0619
-description: "Contrato de aval bancario entre banco y cliente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de aval bancario entre banco y cliente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de aval bancario entre banco y cliente

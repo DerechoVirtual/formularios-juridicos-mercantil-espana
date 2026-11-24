@@ -1,6 +1,6 @@
 ---
 name: acta-asamblea-cooperativa-sobre-aportaciones-no-mer-0464
-description: "Acta de asamblea de cooperativa sobre aportaciones no dinerarias y nuevas aportaciones de socios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de asamblea de cooperativa sobre aportaciones no dinerarias y nuevas aportaciones de socios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de asamblea de cooperativa sobre aportaciones no dinerarias y nuevas aportaciones de socios

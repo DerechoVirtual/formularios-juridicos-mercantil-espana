@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-asesoria-laboral-mer-0561
-description: "Contrato de servicios de asesoría laboral. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de asesoría laboral. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de asesoría laboral

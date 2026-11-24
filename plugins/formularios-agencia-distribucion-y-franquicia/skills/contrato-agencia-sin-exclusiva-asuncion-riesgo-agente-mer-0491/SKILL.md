@@ -1,6 +1,6 @@
 ---
 name: contrato-agencia-sin-exclusiva-asuncion-riesgo-agente-mer-0491
-description: "Contrato de agencia sin exclusiva con asunción del riesgo por el agente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de agencia sin exclusiva con asunción del riesgo por el agente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de agencia sin exclusiva con asunción del riesgo por el agente

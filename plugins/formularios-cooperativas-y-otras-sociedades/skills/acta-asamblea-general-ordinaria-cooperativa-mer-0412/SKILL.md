@@ -1,6 +1,6 @@
 ---
 name: acta-asamblea-general-ordinaria-cooperativa-mer-0412
-description: "Acta de asamblea general ordinaria de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de asamblea general ordinaria de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de asamblea general ordinaria de una cooperativa

@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-donacion-acciones-nominativas-sa-mer-0220
-description: "Escritura pública de donación de acciones nominativas de una SA a un descendiente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de donación de acciones nominativas de una SA a un descendiente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de donación de acciones nominativas de una SA a un descendiente

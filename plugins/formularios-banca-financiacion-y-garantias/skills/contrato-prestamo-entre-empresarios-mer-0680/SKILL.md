@@ -1,6 +1,6 @@
 ---
 name: contrato-prestamo-entre-empresarios-mer-0680
-description: "Contrato de préstamo entre empresarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de préstamo entre empresarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de préstamo entre empresarios

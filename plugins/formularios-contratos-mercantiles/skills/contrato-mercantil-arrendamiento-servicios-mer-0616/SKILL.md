@@ -1,6 +1,6 @@
 ---
 name: contrato-mercantil-arrendamiento-servicios-mer-0616
-description: "Contrato mercantil de arrendamiento de servicios profesionales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato mercantil de arrendamiento de servicios profesionales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato mercantil de arrendamiento de servicios profesionales

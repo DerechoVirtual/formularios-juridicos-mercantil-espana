@@ -1,6 +1,6 @@
 ---
 name: acta-notarial-titularidad-real-sl-sa-mer-0010
-description: "Acta notarial de titularidad real de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta notarial de titularidad real de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta notarial de titularidad real de una SL o SA

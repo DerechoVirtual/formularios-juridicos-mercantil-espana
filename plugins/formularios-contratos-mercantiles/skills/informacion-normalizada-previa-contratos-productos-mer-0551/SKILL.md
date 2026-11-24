@@ -1,6 +1,6 @@
 ---
 name: informacion-normalizada-previa-contratos-productos-mer-0551
-description: "Información normalizada previa para contratos de productos vacacionales de larga duración. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Información normalizada previa para contratos de productos vacacionales de larga duración. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Información normalizada previa para contratos de productos vacacionales de larga duración

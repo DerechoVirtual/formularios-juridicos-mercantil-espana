@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-universal-ordinaria-sociedad-anonima-mer-0284
-description: "Acta de junta general universal ordinaria de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general universal ordinaria de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general universal ordinaria de una sociedad anónima

@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-crear-sucursal-extranjero-sa-mer-0014
-description: "Certificación del acuerdo de crear una sucursal en el extranjero de una SA unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de crear una sucursal en el extranjero de una SA unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de crear una sucursal en el extranjero de una SA unipersonal

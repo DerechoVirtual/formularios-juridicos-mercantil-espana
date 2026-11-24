@@ -1,6 +1,6 @@
 ---
 name: escritura-apoderamiento-mercantil-otorgada-sociedad-mer-0236
-description: "Escritura de apoderamiento mercantil otorgada por una sociedad anónima a favor de un tercero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de apoderamiento mercantil otorgada por una sociedad anónima a favor de un tercero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de apoderamiento mercantil otorgada por una sociedad anónima a favor de un tercero

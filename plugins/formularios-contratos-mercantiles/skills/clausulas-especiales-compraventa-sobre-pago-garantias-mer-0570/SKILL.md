@@ -1,6 +1,6 @@
 ---
 name: clausulas-especiales-compraventa-sobre-pago-garantias-mer-0570
-description: "Cláusulas especiales de compraventa sobre pago, garantías, representación y compra a prueba. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusulas especiales de compraventa sobre pago, garantías, representación y compra a prueba. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusulas especiales de compraventa sobre pago, garantías, representación y compra a prueba

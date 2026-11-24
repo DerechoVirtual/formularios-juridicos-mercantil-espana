@@ -1,6 +1,6 @@
 ---
 name: certificacion-nombramiento-nueva-junta-rectora-sat-mer-0422
-description: "Certificación del nombramiento de una nueva junta rectora de una SAT. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del nombramiento de una nueva junta rectora de una SAT. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del nombramiento de una nueva junta rectora de una SAT

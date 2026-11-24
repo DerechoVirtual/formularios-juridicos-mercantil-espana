@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-buque-mer-0588
-description: "Contrato de venta de un buque. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta de un buque. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta de un buque

@@ -1,6 +1,6 @@
 ---
 name: comunicacion-banco-uso-indebido-tarjeta-tercero-no-mer-0646
-description: "Comunicación al banco del uso indebido de una tarjeta por un tercero no autorizado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación al banco del uso indebido de una tarjeta por un tercero no autorizado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación al banco del uso indebido de una tarjeta por un tercero no autorizado

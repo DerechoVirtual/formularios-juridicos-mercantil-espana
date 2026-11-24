@@ -1,6 +1,6 @@
 ---
 name: contrato-franquicia-entre-franquiciador-franquiciado-mer-0504
-description: "Contrato de franquicia entre franquiciador y franquiciado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de franquicia entre franquiciador y franquiciado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de franquicia entre franquiciador y franquiciado

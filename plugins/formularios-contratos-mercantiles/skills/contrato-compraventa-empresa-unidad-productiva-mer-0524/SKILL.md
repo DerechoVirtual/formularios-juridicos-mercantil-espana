@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-empresa-unidad-productiva-mer-0524
-description: "Contrato de compraventa de una empresa o unidad productiva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de una empresa o unidad productiva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de una empresa o unidad productiva

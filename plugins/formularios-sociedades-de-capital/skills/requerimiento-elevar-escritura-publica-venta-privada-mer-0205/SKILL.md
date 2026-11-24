@@ -1,6 +1,6 @@
 ---
 name: requerimiento-elevar-escritura-publica-venta-privada-mer-0205
-description: "Requerimiento para elevar a escritura pública la venta privada de participaciones de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento para elevar a escritura pública la venta privada de participaciones de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento para elevar a escritura pública la venta privada de participaciones de una SL

@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 34 formularios de Agencia, distribución, franquicia y colaboración entre empresas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 34 formularios de Agencia, distribución, franquicia y colaboración entre empresas. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Agencia, distribución, franquicia y colaboración entre empresas: índice de formularios

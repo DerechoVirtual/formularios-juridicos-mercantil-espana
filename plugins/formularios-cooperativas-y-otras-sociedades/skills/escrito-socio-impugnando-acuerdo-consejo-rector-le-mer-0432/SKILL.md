@@ -1,6 +1,6 @@
 ---
 name: escrito-socio-impugnando-acuerdo-consejo-rector-le-mer-0432
-description: "Escrito del socio impugnando el acuerdo del consejo rector que le deniega la baja voluntaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito del socio impugnando el acuerdo del consejo rector que le deniega la baja voluntaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito del socio impugnando el acuerdo del consejo rector que le deniega la baja voluntaria

@@ -1,6 +1,6 @@
 ---
 name: acuerdo-transformacion-sl-sa-patrimonio-dinerario-no-mer-0313
-description: "Acuerdo de transformación de SL en SA con patrimonio dinerario y no dinerario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de transformación de SL en SA con patrimonio dinerario y no dinerario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de transformación de SL en SA con patrimonio dinerario y no dinerario

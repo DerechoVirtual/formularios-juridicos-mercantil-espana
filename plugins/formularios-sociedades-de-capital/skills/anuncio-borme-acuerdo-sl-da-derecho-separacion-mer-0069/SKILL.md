@@ -1,6 +1,6 @@
 ---
 name: anuncio-borme-acuerdo-sl-da-derecho-separacion-mer-0069
-description: "Anuncio en el BORME de un acuerdo de SL que da derecho de separación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio en el BORME de un acuerdo de SL que da derecho de separación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio en el BORME de un acuerdo de SL que da derecho de separación

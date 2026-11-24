@@ -1,6 +1,6 @@
 ---
 name: requerimiento-desembolso-aportaciones-pendientes-socio-mer-0053
-description: "Requerimiento de desembolso de aportaciones pendientes a un socio de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento de desembolso de aportaciones pendientes a un socio de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento de desembolso de aportaciones pendientes a un socio de una SA

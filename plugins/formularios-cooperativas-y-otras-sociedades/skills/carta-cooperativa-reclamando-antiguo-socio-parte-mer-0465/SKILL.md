@@ -1,6 +1,6 @@
 ---
 name: carta-cooperativa-reclamando-antiguo-socio-parte-mer-0465
-description: "Carta de la cooperativa reclamando a un antiguo socio su parte de las pérdidas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de la cooperativa reclamando a un antiguo socio su parte de las pérdidas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de la cooperativa reclamando a un antiguo socio su parte de las pérdidas

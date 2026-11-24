@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-acuerda-reducir-ampliar-capital-vez-mer-0241
-description: "Acta de junta de una SL que acuerda reducir y ampliar capital a la vez (operación acordeón). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de una SL que acuerda reducir y ampliar capital a la vez (operación acordeón). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de una SL que acuerda reducir y ampliar capital a la vez (operación acordeón)

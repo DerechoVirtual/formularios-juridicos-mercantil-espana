@@ -1,6 +1,6 @@
 ---
 name: condiciones-generales-contratacion-electronica-modelo-mer-0767
-description: "Condiciones generales de contratación electrónica (modelo). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Condiciones generales de contratación electrónica (modelo). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Condiciones generales de contratación electrónica (modelo)

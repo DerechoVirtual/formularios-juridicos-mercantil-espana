@@ -1,6 +1,6 @@
 ---
 name: convocatoria-asamblea-general-cooperativa-notificacion-mer-0458
-description: "Convocatoria de asamblea general de una cooperativa con notificación individual a cada socio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de asamblea general de una cooperativa con notificación individual a cada socio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de asamblea general de una cooperativa con notificación individual a cada socio

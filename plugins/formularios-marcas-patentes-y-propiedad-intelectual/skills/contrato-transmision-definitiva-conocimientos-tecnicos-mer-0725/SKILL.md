@@ -1,6 +1,6 @@
 ---
 name: contrato-transmision-definitiva-conocimientos-tecnicos-mer-0725
-description: "Contrato de transmisión definitiva de conocimientos técnicos (know how). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de transmisión definitiva de conocimientos técnicos (know how). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de transmisión definitiva de conocimientos técnicos (know how)

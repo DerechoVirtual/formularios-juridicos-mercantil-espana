@@ -1,6 +1,6 @@
 ---
 name: instancia-registro-mercantil-experto-independiente-mer-0354
-description: "Instancia al Registro Mercantil de experto independiente para la transformación de SL en SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Instancia al Registro Mercantil de experto independiente para la transformación de SL en SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Instancia al Registro Mercantil de experto independiente para la transformación de SL en SA

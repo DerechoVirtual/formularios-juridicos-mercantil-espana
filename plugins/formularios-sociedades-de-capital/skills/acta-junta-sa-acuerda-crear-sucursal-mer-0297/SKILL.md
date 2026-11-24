@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sa-acuerda-crear-sucursal-mer-0297
-description: "Acta de junta de una SA que acuerda crear una sucursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de una SA que acuerda crear una sucursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de una SA que acuerda crear una sucursal

@@ -1,6 +1,6 @@
 ---
 name: escritura-prestamo-hipotecario-interes-variable-mer-0649
-description: "Escritura de préstamo hipotecario a interés variable. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de préstamo hipotecario a interés variable. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de préstamo hipotecario a interés variable

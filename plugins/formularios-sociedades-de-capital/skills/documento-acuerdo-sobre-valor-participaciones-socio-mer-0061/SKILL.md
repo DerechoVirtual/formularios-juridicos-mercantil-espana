@@ -1,6 +1,6 @@
 ---
 name: documento-acuerdo-sobre-valor-participaciones-socio-mer-0061
-description: "Documento de acuerdo sobre el valor de las participaciones del socio que se separa de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Documento de acuerdo sobre el valor de las participaciones del socio que se separa de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Documento de acuerdo sobre el valor de las participaciones del socio que se separa de una SL

@@ -1,6 +1,6 @@
 ---
 name: custodia-administracion-valores-contrato-mer-0671
-description: "Custodia y administración de valores (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Custodia y administración de valores (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Custodia y administración de valores (contrato)

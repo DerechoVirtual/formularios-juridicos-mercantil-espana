@@ -1,6 +1,6 @@
 ---
 name: carta-socios-administradores-solicitando-convocar-mer-0303
-description: "Carta de socios a los administradores solicitando convocar la junta general de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de socios a los administradores solicitando convocar la junta general de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de socios a los administradores solicitando convocar la junta general de una SL o SA

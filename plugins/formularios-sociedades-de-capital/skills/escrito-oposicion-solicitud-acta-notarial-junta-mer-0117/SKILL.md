@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-solicitud-acta-notarial-junta-mer-0117
-description: "Escrito de oposición a la solicitud de acta notarial de junta formulada por la minoría. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición a la solicitud de acta notarial de junta formulada por la minoría. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición a la solicitud de acta notarial de junta formulada por la minoría

@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-licencia-exclusiva-derechos-autor-mer-0716
-description: "Contrato de cesión o licencia exclusiva de derechos de autor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión o licencia exclusiva de derechos de autor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión o licencia exclusiva de derechos de autor

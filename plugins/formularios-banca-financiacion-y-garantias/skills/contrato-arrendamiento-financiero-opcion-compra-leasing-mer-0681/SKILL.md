@@ -1,6 +1,6 @@
 ---
 name: contrato-arrendamiento-financiero-opcion-compra-leasing-mer-0681
-description: "Contrato de arrendamiento financiero con opción de compra (leasing). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de arrendamiento financiero con opción de compra (leasing). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de arrendamiento financiero con opción de compra (leasing)

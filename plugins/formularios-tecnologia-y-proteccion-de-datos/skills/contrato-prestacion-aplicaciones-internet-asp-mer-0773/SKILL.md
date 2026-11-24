@@ -1,6 +1,6 @@
 ---
 name: contrato-prestacion-aplicaciones-internet-asp-mer-0773
-description: "Contrato de prestación de aplicaciones por internet (ASP). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de prestación de aplicaciones por internet (ASP). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de prestación de aplicaciones por internet (ASP)

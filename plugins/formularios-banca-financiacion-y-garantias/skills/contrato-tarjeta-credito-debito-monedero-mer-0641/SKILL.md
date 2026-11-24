@@ -1,6 +1,6 @@
 ---
 name: contrato-tarjeta-credito-debito-monedero-mer-0641
-description: "Contrato de tarjeta de crédito, débito o monedero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de tarjeta de crédito, débito o monedero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de tarjeta de crédito, débito o monedero

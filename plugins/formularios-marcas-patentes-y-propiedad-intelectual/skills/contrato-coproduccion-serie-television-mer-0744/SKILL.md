@@ -1,6 +1,6 @@
 ---
 name: contrato-coproduccion-serie-television-mer-0744
-description: "Contrato de coproducción de una serie de televisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de coproducción de una serie de televisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de coproducción de una serie de televisión

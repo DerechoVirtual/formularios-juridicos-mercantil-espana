@@ -1,6 +1,6 @@
 ---
 name: diligencia-aprobacion-diferida-acta-junta-general-mer-0111
-description: "Diligencia de aprobación diferida del acta de la junta general. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Diligencia de aprobación diferida del acta de la junta general. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Diligencia de aprobación diferida del acta de la junta general

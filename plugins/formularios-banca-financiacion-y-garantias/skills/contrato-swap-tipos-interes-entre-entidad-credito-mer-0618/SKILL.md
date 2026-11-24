@@ -1,6 +1,6 @@
 ---
 name: contrato-swap-tipos-interes-entre-entidad-credito-mer-0618
-description: "Contrato de swap de tipos de interés entre entidad de crédito y cliente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de swap de tipos de interés entre entidad de crédito y cliente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de swap de tipos de interés entre entidad de crédito y cliente

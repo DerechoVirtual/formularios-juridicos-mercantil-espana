@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 68 formularios de Banca, financiación, valores y garantías. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 68 formularios de Banca, financiación, valores y garantías. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Banca, financiación, valores y garantías: índice de formularios

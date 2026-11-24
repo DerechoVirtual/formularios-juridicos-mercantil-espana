@@ -1,6 +1,6 @@
 ---
 name: contrato-licenciatario-marca-concede-sublicencia-mer-0722
-description: "Contrato por el que el licenciatario de una marca concede una sublicencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato por el que el licenciatario de una marca concede una sublicencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato por el que el licenciatario de una marca concede una sublicencia

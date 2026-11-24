@@ -1,6 +1,6 @@
 ---
 name: comunicacion-socios-modificacion-regimen-transmision-mer-0140
-description: "Comunicación a los socios de la modificación del régimen de transmisión de participaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación a los socios de la modificación del régimen de transmisión de participaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación a los socios de la modificación del régimen de transmisión de participaciones

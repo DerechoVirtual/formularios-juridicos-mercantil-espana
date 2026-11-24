@@ -1,6 +1,6 @@
 ---
 name: contrato-traduccion-obra-cesion-editor-mer-0705
-description: "Contrato de traducción de una obra con cesión al editor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de traducción de una obra con cesión al editor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de traducción de una obra con cesión al editor

@@ -1,6 +1,6 @@
 ---
 name: demanda-accion-social-responsabilidad-administrador-mer-0809
-description: "Demanda de acción social de responsabilidad de un administrador-socio contra otro administrador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de acción social de responsabilidad de un administrador-socio contra otro administrador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de acción social de responsabilidad de un administrador-socio contra otro administrador

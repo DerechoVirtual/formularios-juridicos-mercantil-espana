@@ -1,6 +1,6 @@
 ---
 name: solicitud-registro-mercantil-experto-independiente-mer-0020
-description: "Solicitud al Registro Mercantil de experto independiente para valorar aportaciones no dinerarias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud al Registro Mercantil de experto independiente para valorar aportaciones no dinerarias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud al Registro Mercantil de experto independiente para valorar aportaciones no dinerarias

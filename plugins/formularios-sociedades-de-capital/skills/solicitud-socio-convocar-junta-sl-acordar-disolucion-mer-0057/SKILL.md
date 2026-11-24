@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-convocar-junta-sl-acordar-disolucion-mer-0057
-description: "Solicitud del socio de convocar junta de SL para acordar la disolución. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del socio de convocar junta de SL para acordar la disolución. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del socio de convocar junta de SL para acordar la disolución

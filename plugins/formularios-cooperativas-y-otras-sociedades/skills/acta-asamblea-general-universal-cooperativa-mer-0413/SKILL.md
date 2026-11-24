@@ -1,6 +1,6 @@
 ---
 name: acta-asamblea-general-universal-cooperativa-mer-0413
-description: "Acta de asamblea general universal de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de asamblea general universal de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de asamblea general universal de una cooperativa

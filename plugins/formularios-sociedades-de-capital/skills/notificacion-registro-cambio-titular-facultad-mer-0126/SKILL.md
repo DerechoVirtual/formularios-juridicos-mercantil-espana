@@ -1,6 +1,6 @@
 ---
 name: notificacion-registro-cambio-titular-facultad-mer-0126
-description: "Notificación al Registro del cambio de titular de la facultad certificante. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación al Registro del cambio de titular de la facultad certificante. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación al Registro del cambio de titular de la facultad certificante

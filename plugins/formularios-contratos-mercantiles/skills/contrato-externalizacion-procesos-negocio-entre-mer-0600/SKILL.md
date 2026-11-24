@@ -1,6 +1,6 @@
 ---
 name: contrato-externalizacion-procesos-negocio-entre-mer-0600
-description: "Contrato de externalización de procesos de negocio entre empresas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de externalización de procesos de negocio entre empresas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de externalización de procesos de negocio entre empresas

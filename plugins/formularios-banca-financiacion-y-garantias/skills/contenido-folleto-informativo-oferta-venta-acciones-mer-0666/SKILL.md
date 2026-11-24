@@ -1,6 +1,6 @@
 ---
 name: contenido-folleto-informativo-oferta-venta-acciones-mer-0666
-description: "Contenido del folleto informativo de una oferta de venta de acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contenido del folleto informativo de una oferta de venta de acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contenido del folleto informativo de una oferta de venta de acciones

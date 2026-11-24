@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-cambio-socio-unico-sociedad-anonima-mer-0260
-description: "Escritura pública de cambio de socio único en una sociedad anónima unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de cambio de socio único en una sociedad anónima unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de cambio de socio único en una sociedad anónima unipersonal

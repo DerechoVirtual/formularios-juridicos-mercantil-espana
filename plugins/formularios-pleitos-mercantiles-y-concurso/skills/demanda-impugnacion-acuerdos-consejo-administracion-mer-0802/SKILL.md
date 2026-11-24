@@ -1,6 +1,6 @@
 ---
 name: demanda-impugnacion-acuerdos-consejo-administracion-mer-0802
-description: "Demanda de impugnación de acuerdos del consejo de administración de una sociedad limitada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de impugnación de acuerdos del consejo de administración de una sociedad limitada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de impugnación de acuerdos del consejo de administración de una sociedad limitada

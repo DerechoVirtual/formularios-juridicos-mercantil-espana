@@ -1,6 +1,6 @@
 ---
 name: acuerdo-confidencialidad-nda-mer-0824
-description: "Acuerdo de confidencialidad (NDA). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de confidencialidad (NDA). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de confidencialidad (NDA)

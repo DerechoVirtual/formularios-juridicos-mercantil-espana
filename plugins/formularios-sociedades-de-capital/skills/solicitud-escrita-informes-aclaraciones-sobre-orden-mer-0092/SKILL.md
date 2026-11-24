@@ -1,6 +1,6 @@
 ---
 name: solicitud-escrita-informes-aclaraciones-sobre-orden-mer-0092
-description: "Solicitud escrita de informes o aclaraciones sobre el orden del día antes de la junta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud escrita de informes o aclaraciones sobre el orden del día antes de la junta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud escrita de informes o aclaraciones sobre el orden del día antes de la junta

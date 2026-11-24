@@ -1,6 +1,6 @@
 ---
 name: contrato-suministro-periodico-bienes-mer-0597
-description: "Contrato de suministro periódico de bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de suministro periódico de bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de suministro periódico de bienes

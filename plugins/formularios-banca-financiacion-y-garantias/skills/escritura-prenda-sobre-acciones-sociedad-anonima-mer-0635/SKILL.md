@@ -1,6 +1,6 @@
 ---
 name: escritura-prenda-sobre-acciones-sociedad-anonima-mer-0635
-description: "Escritura de prenda sobre acciones de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de prenda sobre acciones de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de prenda sobre acciones de una sociedad anónima

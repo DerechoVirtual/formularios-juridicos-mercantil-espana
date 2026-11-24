@@ -1,6 +1,6 @@
 ---
 name: solicitud-judicial-interventores-convocar-asamblea-mer-0472
-description: "Solicitud judicial de interventores para convocar la asamblea ordinaria de la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud judicial de interventores para convocar la asamblea ordinaria de la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud judicial de interventores para convocar la asamblea ordinaria de la cooperativa

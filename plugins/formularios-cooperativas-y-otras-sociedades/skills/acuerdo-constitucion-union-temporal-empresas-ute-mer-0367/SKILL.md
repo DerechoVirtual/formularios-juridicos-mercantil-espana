@@ -1,6 +1,6 @@
 ---
 name: acuerdo-constitucion-union-temporal-empresas-ute-mer-0367
-description: "Acuerdo de constitución de una unión temporal de empresas (UTE). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de constitución de una unión temporal de empresas (UTE). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de constitución de una unión temporal de empresas (UTE)

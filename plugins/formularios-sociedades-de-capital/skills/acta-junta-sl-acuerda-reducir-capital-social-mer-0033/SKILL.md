@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-acuerda-reducir-capital-social-mer-0033
-description: "Acta de junta de SL que acuerda reducir el capital social. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que acuerda reducir el capital social. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que acuerda reducir el capital social

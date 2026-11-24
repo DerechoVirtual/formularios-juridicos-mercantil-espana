@@ -1,6 +1,6 @@
 ---
 name: anuncio-junta-sa-aumentar-capital-excluyendo-derecho-mer-0138
-description: "Anuncio de junta de SA para aumentar capital excluyendo el derecho de suscripción preferente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de junta de SA para aumentar capital excluyendo el derecho de suscripción preferente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de junta de SA para aumentar capital excluyendo el derecho de suscripción preferente

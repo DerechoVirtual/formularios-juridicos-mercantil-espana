@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-administracion-sl-acuerda-crear-sucursal-mer-0276
-description: "Acta del consejo de administración de una SL que acuerda crear una sucursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo de administración de una SL que acuerda crear una sucursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo de administración de una SL que acuerda crear una sucursal

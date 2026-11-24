@@ -1,6 +1,6 @@
 ---
 name: contrato-mediacion-compraventa-inmuebles-mer-0490
-description: "Contrato de mediación en la compraventa de inmuebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de mediación en la compraventa de inmuebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de mediación en la compraventa de inmuebles

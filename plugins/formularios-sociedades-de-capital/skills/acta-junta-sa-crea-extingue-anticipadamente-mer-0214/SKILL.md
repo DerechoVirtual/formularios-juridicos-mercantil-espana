@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sa-crea-extingue-anticipadamente-mer-0214
-description: "Acta de junta de una SA que crea o extingue anticipadamente prestaciones accesorias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de una SA que crea o extingue anticipadamente prestaciones accesorias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de una SA que crea o extingue anticipadamente prestaciones accesorias

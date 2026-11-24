@@ -1,6 +1,6 @@
 ---
 name: contrato-calificacion-crediticia-rating-emision-renta-mer-0608
-description: "Contrato de calificación crediticia (rating) de una emisión de renta fija. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de calificación crediticia (rating) de una emisión de renta fija. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de calificación crediticia (rating) de una emisión de renta fija

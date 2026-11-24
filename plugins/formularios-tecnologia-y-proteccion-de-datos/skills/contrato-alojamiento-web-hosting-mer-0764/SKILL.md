@@ -1,6 +1,6 @@
 ---
 name: contrato-alojamiento-web-hosting-mer-0764
-description: "Contrato de alojamiento web (hosting). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de alojamiento web (hosting). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de alojamiento web (hosting)

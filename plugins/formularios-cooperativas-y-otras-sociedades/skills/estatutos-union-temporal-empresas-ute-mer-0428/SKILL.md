@@ -1,6 +1,6 @@
 ---
 name: estatutos-union-temporal-empresas-ute-mer-0428
-description: "Estatutos de una unión temporal de empresas (UTE). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos de una unión temporal de empresas (UTE). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos de una unión temporal de empresas (UTE)

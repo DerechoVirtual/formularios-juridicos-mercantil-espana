@@ -1,6 +1,6 @@
 ---
 name: contrato-transporte-mercancias-ejecucion-continuada-mer-0514
-description: "Contrato de transporte de mercancías de ejecución continuada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de transporte de mercancías de ejecución continuada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de transporte de mercancías de ejecución continuada

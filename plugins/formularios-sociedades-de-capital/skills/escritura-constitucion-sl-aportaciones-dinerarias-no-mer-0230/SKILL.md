@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-sl-aportaciones-dinerarias-no-mer-0230
-description: "Escritura de constitución de una SL con aportaciones dinerarias, no dinerarias o mixtas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de una SL con aportaciones dinerarias, no dinerarias o mixtas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de una SL con aportaciones dinerarias, no dinerarias o mixtas

@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-sa-designa-auditor-cuentas-mer-0134
-description: "Acta de junta de SL o SA que designa al auditor de cuentas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL o SA que designa al auditor de cuentas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL o SA que designa al auditor de cuentas

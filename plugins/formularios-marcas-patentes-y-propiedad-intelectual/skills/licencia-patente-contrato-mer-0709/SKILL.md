@@ -1,6 +1,6 @@
 ---
 name: licencia-patente-contrato-mer-0709
-description: "Licencia de patente (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Licencia de patente (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Licencia de patente (contrato)

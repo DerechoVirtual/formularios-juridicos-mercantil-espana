@@ -1,6 +1,6 @@
 ---
 name: escrito-aceptacion-cargo-administrador-sl-sa-mer-0022
-description: "Escrito de aceptación del cargo de administrador de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de aceptación del cargo de administrador de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de aceptación del cargo de administrador de una SL o SA

@@ -1,6 +1,6 @@
 ---
 name: condiciones-contrato-pasaje-maritimo-mer-0569
-description: "Condiciones del contrato de pasaje marítimo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Condiciones del contrato de pasaje marítimo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Condiciones del contrato de pasaje marítimo

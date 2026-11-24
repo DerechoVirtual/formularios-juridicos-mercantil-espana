@@ -1,6 +1,6 @@
 ---
 name: contrato-adhesion-minorista-central-compras-mer-0505
-description: "Contrato de adhesión de un minorista a una central de compras. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de adhesión de un minorista a una central de compras. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de adhesión de un minorista a una central de compras

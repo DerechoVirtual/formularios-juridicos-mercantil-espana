@@ -1,6 +1,6 @@
 ---
 name: anuncio-acuerdo-reduccion-capital-sa-mer-0155
-description: "Anuncio del acuerdo de reducción del capital de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio del acuerdo de reducción del capital de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio del acuerdo de reducción del capital de una SA

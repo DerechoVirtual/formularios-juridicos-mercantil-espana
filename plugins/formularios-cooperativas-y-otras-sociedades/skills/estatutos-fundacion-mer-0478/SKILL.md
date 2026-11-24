@@ -1,6 +1,6 @@
 ---
 name: estatutos-fundacion-mer-0478
-description: "Estatutos de una fundación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Estatutos de una fundación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Estatutos de una fundación

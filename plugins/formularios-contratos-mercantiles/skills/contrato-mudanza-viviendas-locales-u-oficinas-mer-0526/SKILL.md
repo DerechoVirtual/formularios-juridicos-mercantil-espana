@@ -1,6 +1,6 @@
 ---
 name: contrato-mudanza-viviendas-locales-u-oficinas-mer-0526
-description: "Contrato de mudanza de viviendas, locales u oficinas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de mudanza de viviendas, locales u oficinas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de mudanza de viviendas, locales u oficinas

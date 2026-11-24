@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-mercantil-entrega-pago-aplazados-mer-0547
-description: "Contrato de compraventa mercantil con entrega y pago aplazados (versión abreviada). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa mercantil con entrega y pago aplazados (versión abreviada). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa mercantil con entrega y pago aplazados (versión abreviada)

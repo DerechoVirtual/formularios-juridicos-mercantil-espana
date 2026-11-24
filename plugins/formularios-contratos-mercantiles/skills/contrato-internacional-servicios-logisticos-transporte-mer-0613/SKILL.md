@@ -1,6 +1,6 @@
 ---
 name: contrato-internacional-servicios-logisticos-transporte-mer-0613
-description: "Contrato internacional de servicios logísticos para transporte por carretera. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato internacional de servicios logísticos para transporte por carretera. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato internacional de servicios logísticos para transporte por carretera

@@ -1,6 +1,6 @@
 ---
 name: anuncios-convocatoria-junta-sa-aprobar-cuentas-anuales-mer-0128
-description: "Anuncios de convocatoria de junta de SA para aprobar las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncios de convocatoria de junta de SA para aprobar las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncios de convocatoria de junta de SA para aprobar las cuentas anuales

@@ -1,6 +1,6 @@
 ---
 name: requerimiento-interventores-consejo-rector-convocar-mer-0406
-description: "Requerimiento de los interventores al consejo rector para convocar la asamblea general ordinaria. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Requerimiento de los interventores al consejo rector para convocar la asamblea general ordinaria. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Requerimiento de los interventores al consejo rector para convocar la asamblea general ordinaria

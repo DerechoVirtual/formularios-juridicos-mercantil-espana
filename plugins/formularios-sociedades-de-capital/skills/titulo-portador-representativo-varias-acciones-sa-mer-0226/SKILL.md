@@ -1,6 +1,6 @@
 ---
 name: titulo-portador-representativo-varias-acciones-sa-mer-0226
-description: "Título al portador representativo de una o varias acciones de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Título al portador representativo de una o varias acciones de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Título al portador representativo de una o varias acciones de una SA

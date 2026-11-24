@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-general-accionistas-sociedad-anonima-mer-0194
-description: "Convocatoria de junta general de accionistas de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta general de accionistas de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta general de accionistas de una sociedad anónima

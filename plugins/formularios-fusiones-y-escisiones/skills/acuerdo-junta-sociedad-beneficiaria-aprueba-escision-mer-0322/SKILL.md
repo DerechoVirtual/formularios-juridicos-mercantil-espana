@@ -1,6 +1,6 @@
 ---
 name: acuerdo-junta-sociedad-beneficiaria-aprueba-escision-mer-0322
-description: "Acuerdo de junta de la sociedad beneficiaria que aprueba la escisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de junta de la sociedad beneficiaria que aprueba la escisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de junta de la sociedad beneficiaria que aprueba la escisión

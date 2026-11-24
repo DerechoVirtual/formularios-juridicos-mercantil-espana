@@ -1,6 +1,6 @@
 ---
 name: separacion-socio-desacuerdo-acuerdo-social-falta-mer-0060
-description: "Separación del socio por desacuerdo con un acuerdo social o falta de reparto de dividendos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Separación del socio por desacuerdo con un acuerdo social o falta de reparto de dividendos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Separación del socio por desacuerdo con un acuerdo social o falta de reparto de dividendos

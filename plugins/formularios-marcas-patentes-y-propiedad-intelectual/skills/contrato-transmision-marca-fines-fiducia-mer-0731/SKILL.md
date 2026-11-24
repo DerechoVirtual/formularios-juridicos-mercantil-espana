@@ -1,6 +1,6 @@
 ---
 name: contrato-transmision-marca-fines-fiducia-mer-0731
-description: "Contrato de transmisión de una marca con fines de fiducia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de transmisión de una marca con fines de fiducia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de transmisión de una marca con fines de fiducia

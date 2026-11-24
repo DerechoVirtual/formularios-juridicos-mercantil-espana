@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-sociedad-aportacion-bien-mer-0304
-description: "Escritura de constitución de sociedad con aportación de un bien ganancial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de sociedad con aportación de un bien ganancial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de sociedad con aportación de un bien ganancial

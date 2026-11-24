@@ -1,6 +1,6 @@
 ---
 name: comunicacion-puesta-disposicion-fondo-educacion-mer-0389
-description: "Comunicación de puesta a disposición del fondo de educación y promoción al liquidar una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación de puesta a disposición del fondo de educación y promoción al liquidar una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación de puesta a disposición del fondo de educación y promoción al liquidar una cooperativa

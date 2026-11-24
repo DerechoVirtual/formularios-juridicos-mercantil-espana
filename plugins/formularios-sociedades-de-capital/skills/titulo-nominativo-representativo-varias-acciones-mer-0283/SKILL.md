@@ -1,6 +1,6 @@
 ---
 name: titulo-nominativo-representativo-varias-acciones-mer-0283
-description: "Título nominativo representativo de una o varias acciones de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Título nominativo representativo de una o varias acciones de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Título nominativo representativo de una o varias acciones de una sociedad anónima

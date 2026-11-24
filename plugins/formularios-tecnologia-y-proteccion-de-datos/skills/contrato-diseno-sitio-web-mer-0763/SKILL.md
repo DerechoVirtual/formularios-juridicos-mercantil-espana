@@ -1,6 +1,6 @@
 ---
 name: contrato-diseno-sitio-web-mer-0763
-description: "Contrato de diseño de un sitio web. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de diseño de un sitio web. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de diseño de un sitio web

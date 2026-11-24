@@ -1,6 +1,6 @@
 ---
 name: acta-notarial-firma-acciones-sa-mer-0078
-description: "Acta notarial de la firma de las acciones de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta notarial de la firma de las acciones de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta notarial de la firma de las acciones de una SA

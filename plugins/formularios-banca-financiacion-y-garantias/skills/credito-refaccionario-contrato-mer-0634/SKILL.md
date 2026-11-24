@@ -1,6 +1,6 @@
 ---
 name: credito-refaccionario-contrato-mer-0634
-description: "Crédito refaccionario (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Crédito refaccionario (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Crédito refaccionario (contrato)

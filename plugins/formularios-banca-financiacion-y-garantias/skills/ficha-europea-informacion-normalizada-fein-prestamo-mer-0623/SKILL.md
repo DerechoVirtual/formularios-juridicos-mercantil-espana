@@ -1,6 +1,6 @@
 ---
 name: ficha-europea-informacion-normalizada-fein-prestamo-mer-0623
-description: "Ficha Europea de Información Normalizada (FEIN) de préstamo hipotecario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Ficha Europea de Información Normalizada (FEIN) de préstamo hipotecario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Ficha Europea de Información Normalizada (FEIN) de préstamo hipotecario

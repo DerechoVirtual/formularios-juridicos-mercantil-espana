@@ -1,6 +1,6 @@
 ---
 name: solicitud-propio-socio-baja-obligatoria-cooperativa-mer-0435
-description: "Solicitud del propio socio de su baja obligatoria en la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del propio socio de su baja obligatoria en la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del propio socio de su baja obligatoria en la cooperativa

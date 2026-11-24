@@ -1,6 +1,6 @@
 ---
 name: clausulas-especificas-contrato-mediacion-venta-mer-0487
-description: "Cláusulas específicas para el contrato de mediación en la venta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusulas específicas para el contrato de mediación en la venta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusulas específicas para el contrato de mediación en la venta

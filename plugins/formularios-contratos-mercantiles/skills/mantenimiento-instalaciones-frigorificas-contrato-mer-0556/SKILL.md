@@ -1,6 +1,6 @@
 ---
 name: mantenimiento-instalaciones-frigorificas-contrato-mer-0556
-description: "Mantenimiento de instalaciones frigoríficas (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Mantenimiento de instalaciones frigoríficas (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Mantenimiento de instalaciones frigoríficas (contrato)

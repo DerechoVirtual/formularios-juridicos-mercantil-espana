@@ -1,6 +1,6 @@
 ---
 name: contrato-gestion-discrecional-carteras-inversion-mer-0673
-description: "Contrato de gestión discrecional de carteras de inversión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de gestión discrecional de carteras de inversión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de gestión discrecional de carteras de inversión

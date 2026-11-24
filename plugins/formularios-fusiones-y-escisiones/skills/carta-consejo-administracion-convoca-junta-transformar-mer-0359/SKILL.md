@@ -1,6 +1,6 @@
 ---
 name: carta-consejo-administracion-convoca-junta-transformar-mer-0359
-description: "Carta del consejo de administración que convoca junta para transformar una SL en SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta del consejo de administración que convoca junta para transformar una SL en SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta del consejo de administración que convoca junta para transformar una SL en SA

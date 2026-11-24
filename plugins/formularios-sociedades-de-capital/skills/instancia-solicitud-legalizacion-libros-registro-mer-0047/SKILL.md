@@ -1,6 +1,6 @@
 ---
 name: instancia-solicitud-legalizacion-libros-registro-mer-0047
-description: "Instancia de solicitud de legalización de libros en el Registro Mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Instancia de solicitud de legalización de libros en el Registro Mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Instancia de solicitud de legalización de libros en el Registro Mercantil

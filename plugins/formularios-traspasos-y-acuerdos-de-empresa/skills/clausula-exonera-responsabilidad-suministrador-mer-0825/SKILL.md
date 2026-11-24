@@ -1,6 +1,6 @@
 ---
 name: clausula-exonera-responsabilidad-suministrador-mer-0825
-description: "Cláusula que exonera de responsabilidad al suministrador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula que exonera de responsabilidad al suministrador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula que exonera de responsabilidad al suministrador

@@ -1,6 +1,6 @@
 ---
 name: contrato-concesion-distribucion-exclusiva-marcas-mer-0511
-description: "Contrato de concesión con distribución exclusiva de marcas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de concesión con distribución exclusiva de marcas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de concesión con distribución exclusiva de marcas

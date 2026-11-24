@@ -1,6 +1,6 @@
 ---
 name: certificacion-administrador-sl-sobre-inscripcion-socio-mer-0269
-description: "Certificación del administrador de una SL sobre la inscripción de un socio en el libro de socios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del administrador de una SL sobre la inscripción de un socio en el libro de socios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del administrador de una SL sobre la inscripción de un socio en el libro de socios

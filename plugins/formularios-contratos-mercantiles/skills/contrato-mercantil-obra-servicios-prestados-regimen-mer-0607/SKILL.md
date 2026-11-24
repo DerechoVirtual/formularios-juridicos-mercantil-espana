@@ -1,6 +1,6 @@
 ---
 name: contrato-mercantil-obra-servicios-prestados-regimen-mer-0607
-description: "Contrato mercantil de obra o servicios prestados en régimen de teletrabajo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato mercantil de obra o servicios prestados en régimen de teletrabajo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato mercantil de obra o servicios prestados en régimen de teletrabajo

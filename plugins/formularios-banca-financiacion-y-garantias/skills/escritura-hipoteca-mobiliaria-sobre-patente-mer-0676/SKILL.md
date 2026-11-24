@@ -1,6 +1,6 @@
 ---
 name: escritura-hipoteca-mobiliaria-sobre-patente-mer-0676
-description: "Escritura de hipoteca mobiliaria sobre una patente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de hipoteca mobiliaria sobre una patente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de hipoteca mobiliaria sobre una patente

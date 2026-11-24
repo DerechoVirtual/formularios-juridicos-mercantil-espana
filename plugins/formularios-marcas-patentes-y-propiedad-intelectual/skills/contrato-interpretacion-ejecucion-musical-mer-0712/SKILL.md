@@ -1,6 +1,6 @@
 ---
 name: contrato-interpretacion-ejecucion-musical-mer-0712
-description: "Contrato de interpretación o ejecución musical. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de interpretación o ejecución musical. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de interpretación o ejecución musical

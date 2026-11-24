@@ -1,6 +1,6 @@
 ---
 name: escritura-ampliacion-capital-aportacion-bien-ganancial-mer-0305
-description: "Escritura de ampliación de capital con aportación de un bien ganancial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de ampliación de capital con aportación de un bien ganancial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de ampliación de capital con aportación de un bien ganancial

@@ -1,6 +1,6 @@
 ---
 name: contrato-deposito-mercancia-tienda-venta-mer-0494
-description: "Contrato de depósito de mercancía en una tienda para su venta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de depósito de mercancía en una tienda para su venta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de depósito de mercancía en una tienda para su venta

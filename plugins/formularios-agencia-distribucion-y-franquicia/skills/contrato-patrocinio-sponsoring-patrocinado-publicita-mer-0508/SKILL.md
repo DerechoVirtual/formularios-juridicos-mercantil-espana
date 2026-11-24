@@ -1,6 +1,6 @@
 ---
 name: contrato-patrocinio-sponsoring-patrocinado-publicita-mer-0508
-description: "Contrato de patrocinio (sponsoring) en que el patrocinado publicita los productos del patrocinador. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de patrocinio (sponsoring) en que el patrocinado publicita los productos del patrocinador. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de patrocinio (sponsoring) en que el patrocinado publicita los productos del patrocinador

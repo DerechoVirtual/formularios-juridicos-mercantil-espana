@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-acreedor-social-reduccion-capital-sa-mer-0090
-description: "Escrito de oposición del acreedor social a la reducción de capital de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición del acreedor social a la reducción de capital de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición del acreedor social a la reducción de capital de una SA

@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-derechos-explotacion-obra-autor-mer-0745
-description: "Contrato de cesión de derechos de explotación de una obra por su autor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de derechos de explotación de una obra por su autor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de derechos de explotación de una obra por su autor

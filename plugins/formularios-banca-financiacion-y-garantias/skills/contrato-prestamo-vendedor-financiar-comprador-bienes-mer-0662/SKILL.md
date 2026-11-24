@@ -1,6 +1,6 @@
 ---
 name: contrato-prestamo-vendedor-financiar-comprador-bienes-mer-0662
-description: "Contrato de préstamo del vendedor para financiar al comprador de bienes muebles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de préstamo del vendedor para financiar al comprador de bienes muebles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de préstamo del vendedor para financiar al comprador de bienes muebles

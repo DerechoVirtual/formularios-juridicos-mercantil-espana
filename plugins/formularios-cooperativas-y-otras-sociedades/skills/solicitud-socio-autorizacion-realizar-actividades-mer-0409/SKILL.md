@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-autorizacion-realizar-actividades-mer-0409
-description: "Solicitud del socio de autorización para realizar actividades competitivas con la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del socio de autorización para realizar actividades competitivas con la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del socio de autorización para realizar actividades competitivas con la cooperativa

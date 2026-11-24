@@ -1,6 +1,6 @@
 ---
 name: votacion-escrita-sin-sesion-consejo-sa-sobre-mer-0135
-description: "Votación escrita y sin sesión del consejo de SA sobre aceptación, nombramientos y reparto de cargos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Votación escrita y sin sesión del consejo de SA sobre aceptación, nombramientos y reparto de cargos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Votación escrita y sin sesión del consejo de SA sobre aceptación, nombramientos y reparto de cargos

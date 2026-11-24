@@ -1,6 +1,6 @@
 ---
 name: comunicacion-socio-consejo-rector-baja-voluntaria-mer-0476
-description: "Comunicación del socio al consejo rector de su baja voluntaria en la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del socio al consejo rector de su baja voluntaria en la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del socio al consejo rector de su baja voluntaria en la cooperativa

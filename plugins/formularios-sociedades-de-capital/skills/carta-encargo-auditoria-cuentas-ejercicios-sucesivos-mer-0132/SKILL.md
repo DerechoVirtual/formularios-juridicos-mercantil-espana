@@ -1,6 +1,6 @@
 ---
 name: carta-encargo-auditoria-cuentas-ejercicios-sucesivos-mer-0132
-description: "Carta de encargo de auditoría de cuentas para ejercicios sucesivos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de encargo de auditoría de cuentas para ejercicios sucesivos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de encargo de auditoría de cuentas para ejercicios sucesivos

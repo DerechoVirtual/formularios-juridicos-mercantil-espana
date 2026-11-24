@@ -1,6 +1,6 @@
 ---
 name: solicitud-ingreso-como-socio-cooperativa-mer-0475
-description: "Solicitud de ingreso como socio en una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de ingreso como socio en una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de ingreso como socio en una cooperativa

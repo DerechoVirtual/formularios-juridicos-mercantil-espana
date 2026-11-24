@@ -1,6 +1,6 @@
 ---
 name: seguro-vida-entera-mixto-fallecimiento-supervivencia-mer-0693
-description: "Seguro de vida entera mixto de fallecimiento y supervivencia con garantías complementarias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Seguro de vida entera mixto de fallecimiento y supervivencia con garantías complementarias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Seguro de vida entera mixto de fallecimiento y supervivencia con garantías complementarias

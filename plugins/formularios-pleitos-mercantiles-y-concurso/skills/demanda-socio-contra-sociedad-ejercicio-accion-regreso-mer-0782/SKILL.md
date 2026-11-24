@@ -1,6 +1,6 @@
 ---
 name: demanda-socio-contra-sociedad-ejercicio-accion-regreso-mer-0782
-description: "Demanda del socio contra la sociedad en ejercicio de la acción de regreso (art. 331 LSC). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda del socio contra la sociedad en ejercicio de la acción de regreso (art. 331 LSC). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda del socio contra la sociedad en ejercicio de la acción de regreso (art. 331 LSC)

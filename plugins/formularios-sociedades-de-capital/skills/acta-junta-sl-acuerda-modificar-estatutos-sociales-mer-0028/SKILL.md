@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-acuerda-modificar-estatutos-sociales-mer-0028
-description: "Acta de junta de SL que acuerda modificar los estatutos sociales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que acuerda modificar los estatutos sociales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que acuerda modificar los estatutos sociales

@@ -1,6 +1,6 @@
 ---
 name: certificacion-administradores-sl-ningun-acreedor-ha-mer-0065
-description: "Certificación de los administradores de SL de que ningún acreedor se ha opuesto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de los administradores de SL de que ningún acreedor se ha opuesto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de los administradores de SL de que ningún acreedor se ha opuesto

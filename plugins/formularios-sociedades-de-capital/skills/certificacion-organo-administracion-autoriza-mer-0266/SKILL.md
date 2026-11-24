@@ -1,6 +1,6 @@
 ---
 name: certificacion-organo-administracion-autoriza-mer-0266
-description: "Certificación del órgano de administración que autoriza la transmisión de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del órgano de administración que autoriza la transmisión de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del órgano de administración que autoriza la transmisión de acciones nominativas

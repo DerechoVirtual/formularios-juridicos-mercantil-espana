@@ -1,6 +1,6 @@
 ---
 name: lista-asistentes-asamblea-general-cooperativa-mer-0387
-description: "Lista de asistentes a la asamblea general de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Lista de asistentes a la asamblea general de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Lista de asistentes a la asamblea general de una cooperativa

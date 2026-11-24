@@ -1,6 +1,6 @@
 ---
 name: solicitud-copia-certificada-acuerdos-asambleas-mer-0400
-description: "Solicitud de copia certificada de los acuerdos de las asambleas generales de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de copia certificada de los acuerdos de las asambleas generales de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de copia certificada de los acuerdos de las asambleas generales de una cooperativa

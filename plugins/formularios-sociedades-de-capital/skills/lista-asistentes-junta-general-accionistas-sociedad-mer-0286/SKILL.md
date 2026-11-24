@@ -1,6 +1,6 @@
 ---
 name: lista-asistentes-junta-general-accionistas-sociedad-mer-0286
-description: "Lista de asistentes a la junta general de accionistas de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Lista de asistentes a la junta general de accionistas de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Lista de asistentes a la junta general de accionistas de una sociedad anónima

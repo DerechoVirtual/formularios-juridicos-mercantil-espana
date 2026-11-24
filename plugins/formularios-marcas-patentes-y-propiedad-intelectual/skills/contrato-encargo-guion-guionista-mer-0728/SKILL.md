@@ -1,6 +1,6 @@
 ---
 name: contrato-encargo-guion-guionista-mer-0728
-description: "Contrato de encargo de un guion al guionista. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de encargo de un guion al guionista. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de encargo de un guion al guionista

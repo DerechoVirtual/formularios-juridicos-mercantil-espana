@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-perdida-unipersonalidad-sl-sa-mer-0229
-description: "Escritura pública de pérdida de la unipersonalidad de una SL o SA por transmisión de su capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de pérdida de la unipersonalidad de una SL o SA por transmisión de su capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de pérdida de la unipersonalidad de una SL o SA por transmisión de su capital

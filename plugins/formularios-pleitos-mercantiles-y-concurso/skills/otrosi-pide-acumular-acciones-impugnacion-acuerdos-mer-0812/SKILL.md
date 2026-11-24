@@ -1,6 +1,6 @@
 ---
 name: otrosi-pide-acumular-acciones-impugnacion-acuerdos-mer-0812
-description: "Otrosí que pide acumular acciones de impugnación de acuerdos sociales a la de otra demanda anterior. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Otrosí que pide acumular acciones de impugnación de acuerdos sociales a la de otra demanda anterior. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Otrosí que pide acumular acciones de impugnación de acuerdos sociales a la de otra demanda anterior

@@ -1,6 +1,6 @@
 ---
 name: contrato-prenda-entrega-posesion-acreedor-mer-0678
-description: "Contrato de prenda con entrega de la posesión al acreedor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de prenda con entrega de la posesión al acreedor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de prenda con entrega de la posesión al acreedor

@@ -1,6 +1,6 @@
 ---
 name: poliza-seguro-transporte-terrestre-mercancias-modelo-mer-0691
-description: "Póliza de seguro de transporte terrestre de mercancías (modelo). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Póliza de seguro de transporte terrestre de mercancías (modelo). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Póliza de seguro de transporte terrestre de mercancías (modelo)

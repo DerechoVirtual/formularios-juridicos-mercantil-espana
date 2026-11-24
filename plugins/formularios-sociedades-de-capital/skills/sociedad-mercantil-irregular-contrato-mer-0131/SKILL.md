@@ -1,6 +1,6 @@
 ---
 name: sociedad-mercantil-irregular-contrato-mer-0131
-description: "Sociedad mercantil irregular (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Sociedad mercantil irregular (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Sociedad mercantil irregular (contrato)

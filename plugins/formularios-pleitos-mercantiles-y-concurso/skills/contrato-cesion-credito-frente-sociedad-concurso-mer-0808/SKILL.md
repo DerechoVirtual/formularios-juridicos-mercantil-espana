@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-credito-frente-sociedad-concurso-mer-0808
-description: "Contrato de cesión de un crédito frente a una sociedad en concurso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de un crédito frente a una sociedad en concurso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de un crédito frente a una sociedad en concurso

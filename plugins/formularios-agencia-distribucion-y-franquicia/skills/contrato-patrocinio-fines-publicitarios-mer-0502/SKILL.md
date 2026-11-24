@@ -1,6 +1,6 @@
 ---
 name: contrato-patrocinio-fines-publicitarios-mer-0502
-description: "Contrato de patrocinio con fines publicitarios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de patrocinio con fines publicitarios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de patrocinio con fines publicitarios

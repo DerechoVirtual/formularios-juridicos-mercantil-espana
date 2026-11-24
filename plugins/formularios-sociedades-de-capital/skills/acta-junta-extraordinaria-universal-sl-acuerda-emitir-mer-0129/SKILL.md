@@ -1,6 +1,6 @@
 ---
 name: acta-junta-extraordinaria-universal-sl-acuerda-emitir-mer-0129
-description: "Acta de junta extraordinaria y universal de SL que acuerda emitir obligaciones convertibles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta extraordinaria y universal de SL que acuerda emitir obligaciones convertibles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta extraordinaria y universal de SL que acuerda emitir obligaciones convertibles

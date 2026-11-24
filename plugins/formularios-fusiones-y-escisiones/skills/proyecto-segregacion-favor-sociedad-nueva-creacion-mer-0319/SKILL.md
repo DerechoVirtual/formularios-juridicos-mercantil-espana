@@ -1,6 +1,6 @@
 ---
 name: proyecto-segregacion-favor-sociedad-nueva-creacion-mer-0319
-description: "Proyecto de segregación a favor de una sociedad de nueva creación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de segregación a favor de una sociedad de nueva creación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de segregación a favor de una sociedad de nueva creación

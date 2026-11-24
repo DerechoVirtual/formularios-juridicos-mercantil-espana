@@ -1,6 +1,6 @@
 ---
 name: convocatoria-individual-junta-sl-aprobar-cuentas-mer-0062
-description: "Convocatoria individual de junta de SL para aprobar las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria individual de junta de SL para aprobar las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria individual de junta de SL para aprobar las cuentas anuales

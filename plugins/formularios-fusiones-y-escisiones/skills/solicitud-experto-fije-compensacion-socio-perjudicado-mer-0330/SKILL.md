@@ -1,6 +1,6 @@
 ---
 name: solicitud-experto-fije-compensacion-socio-perjudicado-mer-0330
-description: "Solicitud de experto que fije la compensación al socio perjudicado por el tipo de canje en la fusión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de experto que fije la compensación al socio perjudicado por el tipo de canje en la fusión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de experto que fije la compensación al socio perjudicado por el tipo de canje en la fusión

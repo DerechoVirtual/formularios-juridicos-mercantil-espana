@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-hipoteca-sobre-marca-mer-0698
-description: "Escritura de constitución de hipoteca sobre una marca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de hipoteca sobre una marca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de hipoteca sobre una marca

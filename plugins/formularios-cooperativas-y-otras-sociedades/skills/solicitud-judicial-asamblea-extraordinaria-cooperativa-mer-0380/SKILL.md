@@ -1,6 +1,6 @@
 ---
 name: solicitud-judicial-asamblea-extraordinaria-cooperativa-mer-0380
-description: "Solicitud judicial de asamblea extraordinaria de cooperativa por interventores y socios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud judicial de asamblea extraordinaria de cooperativa por interventores y socios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud judicial de asamblea extraordinaria de cooperativa por interventores y socios

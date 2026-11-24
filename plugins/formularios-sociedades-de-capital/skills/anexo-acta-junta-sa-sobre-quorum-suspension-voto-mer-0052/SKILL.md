@@ -1,6 +1,6 @@
 ---
 name: anexo-acta-junta-sa-sobre-quorum-suspension-voto-mer-0052
-description: "Anexo al acta de junta de SA sobre quórum y suspensión del voto de las acciones propias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anexo al acta de junta de SA sobre quórum y suspensión del voto de las acciones propias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anexo al acta de junta de SA sobre quórum y suspensión del voto de las acciones propias

@@ -1,6 +1,6 @@
 ---
 name: ensenanza-no-reglada-contrato-mer-0563
-description: "Enseñanza no reglada (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Enseñanza no reglada (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Enseñanza no reglada (contrato)

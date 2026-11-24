@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-marca-tiempo-limitado-mer-0732
-description: "Contrato de cesión de una marca por tiempo limitado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de una marca por tiempo limitado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de una marca por tiempo limitado

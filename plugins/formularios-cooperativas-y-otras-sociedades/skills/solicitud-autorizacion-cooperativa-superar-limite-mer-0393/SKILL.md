@@ -1,6 +1,6 @@
 ---
 name: solicitud-autorizacion-cooperativa-superar-limite-mer-0393
-description: "Solicitud de autorización a una cooperativa para superar el límite de operaciones con terceros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de autorización a una cooperativa para superar el límite de operaciones con terceros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de autorización a una cooperativa para superar el límite de operaciones con terceros

@@ -1,6 +1,6 @@
 ---
 name: contrato-prestamo-convertible-startup-mer-0622
-description: "Contrato de préstamo convertible a una startup. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de préstamo convertible a una startup. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de préstamo convertible a una startup

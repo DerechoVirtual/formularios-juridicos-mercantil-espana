@@ -1,6 +1,6 @@
 ---
 name: contrato-internacional-permuta-bienes-mer-0582
-description: "Contrato internacional de permuta de bienes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato internacional de permuta de bienes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato internacional de permuta de bienes

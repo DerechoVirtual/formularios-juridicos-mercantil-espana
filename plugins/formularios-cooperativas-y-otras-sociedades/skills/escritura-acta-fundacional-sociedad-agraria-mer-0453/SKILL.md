@@ -1,6 +1,6 @@
 ---
 name: escritura-acta-fundacional-sociedad-agraria-mer-0453
-description: "Escritura de acta fundacional de una sociedad agraria de transformación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de acta fundacional de una sociedad agraria de transformación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de acta fundacional de una sociedad agraria de transformación

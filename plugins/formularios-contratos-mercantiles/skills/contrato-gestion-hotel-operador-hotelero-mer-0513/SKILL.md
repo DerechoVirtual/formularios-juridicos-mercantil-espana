@@ -1,6 +1,6 @@
 ---
 name: contrato-gestion-hotel-operador-hotelero-mer-0513
-description: "Contrato de gestión de un hotel por operador hotelero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de gestión de un hotel por operador hotelero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de gestión de un hotel por operador hotelero

@@ -1,6 +1,6 @@
 ---
 name: contrato-transporte-maritimo-mercancias-fletamento-mer-0523
-description: "Contrato de transporte marítimo de mercancías por fletamento o conocimiento de embarque. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de transporte marítimo de mercancías por fletamento o conocimiento de embarque. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de transporte marítimo de mercancías por fletamento o conocimiento de embarque

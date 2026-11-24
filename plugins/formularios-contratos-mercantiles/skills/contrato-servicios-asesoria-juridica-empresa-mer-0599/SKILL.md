@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-asesoria-juridica-empresa-mer-0599
-description: "Contrato de servicios de asesoría jurídica para una empresa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de asesoría jurídica para una empresa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de asesoría jurídica para una empresa

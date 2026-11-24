@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-forma-imputacion-perdidas-cooperativa-mer-0405
-description: "Solicitud del socio de forma de imputación de las pérdidas de la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del socio de forma de imputación de las pérdidas de la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del socio de forma de imputación de las pérdidas de la cooperativa

@@ -1,6 +1,6 @@
 ---
 name: solicitud-restitucion-aportaciones-aumento-capital-sl-mer-0101
-description: "Solicitud de restitución de aportaciones por aumento de capital de SL no presentado a inscripción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de restitución de aportaciones por aumento de capital de SL no presentado a inscripción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de restitución de aportaciones por aumento de capital de SL no presentado a inscripción

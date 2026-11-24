@@ -1,6 +1,6 @@
 ---
 name: contrato-encargo-tratamiento-datos-personales-entre-mer-0753
-description: "Contrato de encargo del tratamiento de datos personales entre responsable y encargado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de encargo del tratamiento de datos personales entre responsable y encargado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de encargo del tratamiento de datos personales entre responsable y encargado

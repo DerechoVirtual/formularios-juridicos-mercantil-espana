@@ -1,6 +1,6 @@
 ---
 name: proyecto-escision-parcial-constitucion-nueva-sociedad-mer-0321
-description: "Proyecto de escisión parcial con constitución de una nueva sociedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de escisión parcial con constitución de una nueva sociedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de escisión parcial con constitución de una nueva sociedad

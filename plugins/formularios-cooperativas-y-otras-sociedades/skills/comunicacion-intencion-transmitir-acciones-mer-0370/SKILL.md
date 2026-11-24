@@ -1,6 +1,6 @@
 ---
 name: comunicacion-intencion-transmitir-acciones-mer-0370
-description: "Comunicación de intención de transmitir acciones o participaciones laborales a no trabajador fijo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación de intención de transmitir acciones o participaciones laborales a no trabajador fijo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación de intención de transmitir acciones o participaciones laborales a no trabajador fijo

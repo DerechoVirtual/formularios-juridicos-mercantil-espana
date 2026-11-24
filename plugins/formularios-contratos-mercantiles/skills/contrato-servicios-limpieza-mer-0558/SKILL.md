@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-limpieza-mer-0558
-description: "Contrato de servicios de limpieza. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de limpieza. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de limpieza

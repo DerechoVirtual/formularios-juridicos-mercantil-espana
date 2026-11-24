@@ -1,6 +1,6 @@
 ---
 name: notificacion-socio-acuerdo-exclusion-sl-mer-0067
-description: "Notificación al socio del acuerdo de su exclusión de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación al socio del acuerdo de su exclusión de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación al socio del acuerdo de su exclusión de una SL

@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-sa-aportaciones-dinerarias-no-mer-0223
-description: "Escritura de constitución de una SA con aportaciones dinerarias y no dinerarias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de una SA con aportaciones dinerarias y no dinerarias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de una SA con aportaciones dinerarias y no dinerarias

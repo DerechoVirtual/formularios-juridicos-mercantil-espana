@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-constitucion-agrupacion-interes-mer-0454
-description: "Escritura pública de constitución de una agrupación de interés económico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de constitución de una agrupación de interés económico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de constitución de una agrupación de interés económico

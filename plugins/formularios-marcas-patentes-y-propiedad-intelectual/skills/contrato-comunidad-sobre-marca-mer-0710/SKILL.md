@@ -1,6 +1,6 @@
 ---
 name: contrato-comunidad-sobre-marca-mer-0710
-description: "Contrato de comunidad sobre una marca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de comunidad sobre una marca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de comunidad sobre una marca

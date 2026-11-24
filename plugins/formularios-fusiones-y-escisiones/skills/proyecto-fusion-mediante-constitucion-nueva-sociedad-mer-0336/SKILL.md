@@ -1,6 +1,6 @@
 ---
 name: proyecto-fusion-mediante-constitucion-nueva-sociedad-mer-0336
-description: "Proyecto de fusión mediante constitución de una nueva sociedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de fusión mediante constitución de una nueva sociedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de fusión mediante constitución de una nueva sociedad

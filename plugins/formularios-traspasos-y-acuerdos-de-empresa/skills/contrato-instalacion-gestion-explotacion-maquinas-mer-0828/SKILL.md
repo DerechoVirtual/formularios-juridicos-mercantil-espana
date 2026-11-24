@@ -1,6 +1,6 @@
 ---
 name: contrato-instalacion-gestion-explotacion-maquinas-mer-0828
-description: "Contrato de instalación, gestión y explotación de máquinas expendedoras. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de instalación, gestión y explotación de máquinas expendedoras. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de instalación, gestión y explotación de máquinas expendedoras

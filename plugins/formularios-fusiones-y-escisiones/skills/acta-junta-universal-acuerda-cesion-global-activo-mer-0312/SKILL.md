@@ -1,6 +1,6 @@
 ---
 name: acta-junta-universal-acuerda-cesion-global-activo-mer-0312
-description: "Acta de junta universal que acuerda la cesión global de activo y pasivo de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta universal que acuerda la cesión global de activo y pasivo de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta universal que acuerda la cesión global de activo y pasivo de una SL o SA

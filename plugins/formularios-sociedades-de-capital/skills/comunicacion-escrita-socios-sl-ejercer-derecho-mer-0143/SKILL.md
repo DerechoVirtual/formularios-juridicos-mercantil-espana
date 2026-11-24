@@ -1,6 +1,6 @@
 ---
 name: comunicacion-escrita-socios-sl-ejercer-derecho-mer-0143
-description: "Comunicación escrita a los socios de una SL para ejercer el derecho de preferencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación escrita a los socios de una SL para ejercer el derecho de preferencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación escrita a los socios de una SL para ejercer el derecho de preferencia

@@ -1,6 +1,6 @@
 ---
 name: contrato-general-compraventa-mercantil-mer-0596
-description: "Contrato general de compraventa mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato general de compraventa mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato general de compraventa mercantil

@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-general-ordinaria-sociedad-limitada-mer-0201
-description: "Convocatoria de junta general ordinaria de una sociedad limitada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta general ordinaria de una sociedad limitada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta general ordinaria de una sociedad limitada

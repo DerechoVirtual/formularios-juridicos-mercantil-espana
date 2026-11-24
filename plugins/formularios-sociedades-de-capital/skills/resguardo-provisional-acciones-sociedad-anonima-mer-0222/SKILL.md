@@ -1,6 +1,6 @@
 ---
 name: resguardo-provisional-acciones-sociedad-anonima-mer-0222
-description: "Resguardo provisional de acciones de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Resguardo provisional de acciones de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Resguardo provisional de acciones de una sociedad anónima

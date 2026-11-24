@@ -1,6 +1,6 @@
 ---
 name: contrato-suministro-gasoleo-mer-0560
-description: "Contrato de suministro de gasóleo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de suministro de gasóleo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de suministro de gasóleo

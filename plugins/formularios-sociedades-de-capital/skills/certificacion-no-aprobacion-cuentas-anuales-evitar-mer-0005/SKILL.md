@@ -1,6 +1,6 @@
 ---
 name: certificacion-no-aprobacion-cuentas-anuales-evitar-mer-0005
-description: "Certificación de no aprobación de cuentas anuales para evitar el cierre registral de SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de no aprobación de cuentas anuales para evitar el cierre registral de SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de no aprobación de cuentas anuales para evitar el cierre registral de SL o SA

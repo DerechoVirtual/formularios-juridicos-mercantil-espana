@@ -1,6 +1,6 @@
 ---
 name: contrato-entre-miembro-mercado-cliente-operar-mercado-mer-0668
-description: "Contrato entre miembro del mercado y cliente para operar en el mercado de valores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato entre miembro del mercado y cliente para operar en el mercado de valores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato entre miembro del mercado y cliente para operar en el mercado de valores

@@ -1,6 +1,6 @@
 ---
 name: compraventa-acciones-sociedad-contrato-mer-0046
-description: "Compraventa de acciones de una sociedad (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Compraventa de acciones de una sociedad (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Compraventa de acciones de una sociedad (contrato)

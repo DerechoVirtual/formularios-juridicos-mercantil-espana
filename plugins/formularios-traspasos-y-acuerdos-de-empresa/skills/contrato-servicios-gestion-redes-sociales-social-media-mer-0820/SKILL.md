@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-gestion-redes-sociales-social-media-mer-0820
-description: "Contrato de servicios de gestión de redes sociales (social media manager). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios de gestión de redes sociales (social media manager). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios de gestión de redes sociales (social media manager)

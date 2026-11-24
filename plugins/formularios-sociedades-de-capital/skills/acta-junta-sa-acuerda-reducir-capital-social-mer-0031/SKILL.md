@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sa-acuerda-reducir-capital-social-mer-0031
-description: "Acta de junta de SA que acuerda reducir el capital social. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SA que acuerda reducir el capital social. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SA que acuerda reducir el capital social

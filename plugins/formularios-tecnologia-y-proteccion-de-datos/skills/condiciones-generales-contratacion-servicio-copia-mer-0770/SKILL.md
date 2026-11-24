@@ -1,6 +1,6 @@
 ---
 name: condiciones-generales-contratacion-servicio-copia-mer-0770
-description: "Condiciones generales de contratación del servicio de copia de seguridad remota. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Condiciones generales de contratación del servicio de copia de seguridad remota. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Condiciones generales de contratación del servicio de copia de seguridad remota

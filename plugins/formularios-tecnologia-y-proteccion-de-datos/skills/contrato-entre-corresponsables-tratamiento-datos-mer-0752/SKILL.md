@@ -1,6 +1,6 @@
 ---
 name: contrato-entre-corresponsables-tratamiento-datos-mer-0752
-description: "Contrato entre corresponsables del tratamiento de datos personales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato entre corresponsables del tratamiento de datos personales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato entre corresponsables del tratamiento de datos personales

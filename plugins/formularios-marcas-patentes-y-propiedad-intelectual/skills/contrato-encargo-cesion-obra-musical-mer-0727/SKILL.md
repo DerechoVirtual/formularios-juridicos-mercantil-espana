@@ -1,6 +1,6 @@
 ---
 name: contrato-encargo-cesion-obra-musical-mer-0727
-description: "Contrato de encargo y cesión de una obra musical. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de encargo y cesión de una obra musical. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de encargo y cesión de una obra musical

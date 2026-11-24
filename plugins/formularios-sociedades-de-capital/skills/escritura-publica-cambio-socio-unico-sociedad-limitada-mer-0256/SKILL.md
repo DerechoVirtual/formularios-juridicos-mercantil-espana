@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-cambio-socio-unico-sociedad-limitada-mer-0256
-description: "Escritura pública de cambio de socio único en una sociedad limitada unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de cambio de socio único en una sociedad limitada unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de cambio de socio único en una sociedad limitada unipersonal

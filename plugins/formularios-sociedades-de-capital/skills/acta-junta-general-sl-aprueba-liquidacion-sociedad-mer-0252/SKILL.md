@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-sl-aprueba-liquidacion-sociedad-mer-0252
-description: "Acta de junta general de una SL que aprueba la liquidación de la sociedad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general de una SL que aprueba la liquidación de la sociedad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general de una SL que aprueba la liquidación de la sociedad

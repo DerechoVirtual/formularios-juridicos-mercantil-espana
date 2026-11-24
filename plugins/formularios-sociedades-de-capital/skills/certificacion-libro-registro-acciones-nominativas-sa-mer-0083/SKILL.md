@@ -1,6 +1,6 @@
 ---
 name: certificacion-libro-registro-acciones-nominativas-sa-mer-0083
-description: "Certificación del libro registro de acciones nominativas de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del libro registro de acciones nominativas de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del libro registro de acciones nominativas de una SA

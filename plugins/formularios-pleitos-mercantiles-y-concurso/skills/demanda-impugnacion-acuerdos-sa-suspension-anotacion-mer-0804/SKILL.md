@@ -1,6 +1,6 @@
 ---
 name: demanda-impugnacion-acuerdos-sa-suspension-anotacion-mer-0804
-description: "Demanda de impugnación de acuerdos de una SA con suspensión y anotación preventiva de la demanda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de impugnación de acuerdos de una SA con suspensión y anotación preventiva de la demanda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de impugnación de acuerdos de una SA con suspensión y anotación preventiva de la demanda

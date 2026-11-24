@@ -1,6 +1,6 @@
 ---
 name: acuerdo-reembolso-aportaciones-socio-causa-baja-mer-0366
-description: "Acuerdo de reembolso de aportaciones al socio que causa baja en una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de reembolso de aportaciones al socio que causa baja en una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de reembolso de aportaciones al socio que causa baja en una cooperativa

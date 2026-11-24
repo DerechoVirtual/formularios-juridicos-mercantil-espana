@@ -1,6 +1,6 @@
 ---
 name: acuerdo-consejo-administracion-sa-convoca-junta-mer-0081
-description: "Acuerdo del consejo de administración de SA que convoca junta general y fija el orden del día. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo del consejo de administración de SA que convoca junta general y fija el orden del día. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo del consejo de administración de SA que convoca junta general y fija el orden del día

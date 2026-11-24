@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-acuerda-reactivar-sociedad-disuelta-mer-0071
-description: "Acta de junta general que acuerda reactivar una sociedad disuelta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general que acuerda reactivar una sociedad disuelta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general que acuerda reactivar una sociedad disuelta

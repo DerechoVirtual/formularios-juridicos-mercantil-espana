@@ -1,6 +1,6 @@
 ---
 name: articulo-estatutario-sometimiento-arbitraje-ante-mer-0202
-description: "Artículo estatutario de sometimiento a arbitraje ante una cámara de comercio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Artículo estatutario de sometimiento a arbitraje ante una cámara de comercio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Artículo estatutario de sometimiento a arbitraje ante una cámara de comercio

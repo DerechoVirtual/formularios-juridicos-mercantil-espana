@@ -1,6 +1,6 @@
 ---
 name: contrato-suscripcion-plataforma-digital-contenidos-mer-0750
-description: "Contrato de suscripción a plataforma digital de contenidos con opción de aportar contenido propio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de suscripción a plataforma digital de contenidos con opción de aportar contenido propio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de suscripción a plataforma digital de contenidos con opción de aportar contenido propio

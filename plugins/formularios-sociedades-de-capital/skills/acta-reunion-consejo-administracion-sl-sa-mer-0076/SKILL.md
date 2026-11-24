@@ -1,6 +1,6 @@
 ---
 name: acta-reunion-consejo-administracion-sl-sa-mer-0076
-description: "Acta de reunión del consejo de administración de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de reunión del consejo de administración de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de reunión del consejo de administración de una SL o SA

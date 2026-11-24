@@ -1,6 +1,6 @@
 ---
 name: contrato-mercantil-actor-interpretar-personaje-pelicula-mer-0606
-description: "Contrato mercantil de un actor para interpretar un personaje en una película. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato mercantil de un actor para interpretar un personaje en una película. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato mercantil de un actor para interpretar un personaje en una película

@@ -1,6 +1,6 @@
 ---
 name: anuncio-oferta-retirada-acciones-asignacion-gratuita-mer-0162
-description: "Anuncio de oferta de retirada de acciones de asignación gratuita en la ampliación de capital de SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de oferta de retirada de acciones de asignación gratuita en la ampliación de capital de SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de oferta de retirada de acciones de asignación gratuita en la ampliación de capital de SA

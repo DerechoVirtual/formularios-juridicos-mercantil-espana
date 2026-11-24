@@ -1,6 +1,6 @@
 ---
 name: contrato-representacion-futbolista-profesional-agente-mer-0479
-description: "Contrato de representación de un futbolista profesional por su agente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de representación de un futbolista profesional por su agente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de representación de un futbolista profesional por su agente

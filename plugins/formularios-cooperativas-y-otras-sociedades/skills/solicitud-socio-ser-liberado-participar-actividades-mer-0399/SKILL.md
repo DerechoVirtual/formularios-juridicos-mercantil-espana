@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-ser-liberado-participar-actividades-mer-0399
-description: "Solicitud del socio de ser liberado de participar en las actividades cooperativizadas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del socio de ser liberado de participar en las actividades cooperativizadas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del socio de ser liberado de participar en las actividades cooperativizadas

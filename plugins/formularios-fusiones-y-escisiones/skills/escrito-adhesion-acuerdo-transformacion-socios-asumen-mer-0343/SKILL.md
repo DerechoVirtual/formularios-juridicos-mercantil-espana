@@ -1,6 +1,6 @@
 ---
 name: escrito-adhesion-acuerdo-transformacion-socios-asumen-mer-0343
-description: "Escrito de adhesión al acuerdo de transformación por socios que asumen responsabilidad personal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de adhesión al acuerdo de transformación por socios que asumen responsabilidad personal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de adhesión al acuerdo de transformación por socios que asumen responsabilidad personal

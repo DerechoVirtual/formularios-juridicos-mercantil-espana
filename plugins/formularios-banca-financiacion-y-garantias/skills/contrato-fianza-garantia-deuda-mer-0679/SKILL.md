@@ -1,6 +1,6 @@
 ---
 name: contrato-fianza-garantia-deuda-mer-0679
-description: "Contrato de fianza en garantía de una deuda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de fianza en garantía de una deuda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de fianza en garantía de una deuda

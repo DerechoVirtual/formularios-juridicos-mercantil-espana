@@ -1,6 +1,6 @@
 ---
 name: acta-disolucion-liquidacion-sociedad-limitada-anonima-mer-0003
-description: "Acta de disolución y liquidación de sociedad limitada o anónima unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de disolución y liquidación de sociedad limitada o anónima unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de disolución y liquidación de sociedad limitada o anónima unipersonal

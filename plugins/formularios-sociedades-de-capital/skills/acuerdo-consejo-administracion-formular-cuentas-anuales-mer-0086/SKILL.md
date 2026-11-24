@@ -1,6 +1,6 @@
 ---
 name: acuerdo-consejo-administracion-formular-cuentas-anuales-mer-0086
-description: "Acuerdo del consejo de administración de formular las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo del consejo de administración de formular las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo del consejo de administración de formular las cuentas anuales

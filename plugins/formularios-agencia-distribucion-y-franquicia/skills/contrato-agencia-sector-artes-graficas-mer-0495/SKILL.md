@@ -1,6 +1,6 @@
 ---
 name: contrato-agencia-sector-artes-graficas-mer-0495
-description: "Contrato de agencia en el sector de las artes gráficas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de agencia en el sector de las artes gráficas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de agencia en el sector de las artes gráficas

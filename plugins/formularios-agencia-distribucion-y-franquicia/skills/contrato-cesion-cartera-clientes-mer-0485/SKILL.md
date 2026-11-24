@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-cartera-clientes-mer-0485
-description: "Contrato de cesión de una cartera de clientes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de una cartera de clientes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de una cartera de clientes

@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-creacion-extincion-anticipada-mer-0215
-description: "Escritura pública de creación o extinción anticipada de prestaciones accesorias en una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de creación o extinción anticipada de prestaciones accesorias en una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de creación o extinción anticipada de prestaciones accesorias en una SA

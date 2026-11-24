@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 33 formularios de Pleitos mercantiles: acuerdos sociales, administradores, competencia desleal y concurso. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 33 formularios de Pleitos mercantiles: acuerdos sociales, administradores, competencia desleal y concurso. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Pleitos mercantiles: acuerdos sociales, administradores, competencia desleal y concurso: índice de formularios

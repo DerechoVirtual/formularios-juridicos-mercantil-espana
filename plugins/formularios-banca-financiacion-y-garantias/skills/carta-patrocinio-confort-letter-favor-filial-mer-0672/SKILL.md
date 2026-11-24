@@ -1,6 +1,6 @@
 ---
 name: carta-patrocinio-confort-letter-favor-filial-mer-0672
-description: "Carta de patrocinio o confort letter a favor de una filial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de patrocinio o confort letter a favor de una filial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de patrocinio o confort letter a favor de una filial

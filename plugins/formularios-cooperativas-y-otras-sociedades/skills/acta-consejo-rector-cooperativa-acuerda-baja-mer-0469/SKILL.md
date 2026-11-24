@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-rector-cooperativa-acuerda-baja-mer-0469
-description: "Acta del consejo rector de una cooperativa que acuerda la baja obligatoria y expulsión de un socio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo rector de una cooperativa que acuerda la baja obligatoria y expulsión de un socio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo rector de una cooperativa que acuerda la baja obligatoria y expulsión de un socio

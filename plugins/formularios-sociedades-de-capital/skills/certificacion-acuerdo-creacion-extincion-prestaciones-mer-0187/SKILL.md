@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-creacion-extincion-prestaciones-mer-0187
-description: "Certificación del acuerdo de creación o extinción de prestaciones accesorias en una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de creación o extinción de prestaciones accesorias en una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de creación o extinción de prestaciones accesorias en una SL

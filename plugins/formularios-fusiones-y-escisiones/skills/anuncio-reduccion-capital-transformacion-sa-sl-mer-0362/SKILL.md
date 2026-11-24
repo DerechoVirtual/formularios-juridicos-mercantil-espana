@@ -1,6 +1,6 @@
 ---
 name: anuncio-reduccion-capital-transformacion-sa-sl-mer-0362
-description: "Anuncio de reducción de capital y transformación de una SA en SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de reducción de capital y transformación de una SA en SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de reducción de capital y transformación de una SA en SL

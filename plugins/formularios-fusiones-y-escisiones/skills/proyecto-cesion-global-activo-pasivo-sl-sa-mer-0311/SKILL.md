@@ -1,6 +1,6 @@
 ---
 name: proyecto-cesion-global-activo-pasivo-sl-sa-mer-0311
-description: "Proyecto de cesión global de activo y pasivo de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Proyecto de cesión global de activo y pasivo de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Proyecto de cesión global de activo y pasivo de una SL o SA

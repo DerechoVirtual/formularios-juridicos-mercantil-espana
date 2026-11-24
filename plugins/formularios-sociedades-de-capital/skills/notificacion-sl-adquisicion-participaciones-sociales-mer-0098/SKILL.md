@@ -1,6 +1,6 @@
 ---
 name: notificacion-sl-adquisicion-participaciones-sociales-mer-0098
-description: "Notificación a la SL de la adquisición de participaciones sociales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación a la SL de la adquisición de participaciones sociales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación a la SL de la adquisición de participaciones sociales

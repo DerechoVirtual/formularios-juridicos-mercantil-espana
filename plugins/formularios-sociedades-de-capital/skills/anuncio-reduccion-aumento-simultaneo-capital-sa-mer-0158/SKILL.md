@@ -1,6 +1,6 @@
 ---
 name: anuncio-reduccion-aumento-simultaneo-capital-sa-mer-0158
-description: "Anuncio de reducción y aumento simultáneo de capital de SA con derecho de suscripción. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de reducción y aumento simultáneo de capital de SA con derecho de suscripción. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de reducción y aumento simultáneo de capital de SA con derecho de suscripción

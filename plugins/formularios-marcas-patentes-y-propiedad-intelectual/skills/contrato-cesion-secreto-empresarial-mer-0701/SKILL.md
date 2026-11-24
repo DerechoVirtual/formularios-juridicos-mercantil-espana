@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-secreto-empresarial-mer-0701
-description: "Contrato de cesión de un secreto empresarial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de un secreto empresarial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de un secreto empresarial

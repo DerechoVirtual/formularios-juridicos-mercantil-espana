@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-junta-reactivar-sociedad-disuelta-mer-0253
-description: "Certificación del acuerdo de junta de reactivar una sociedad disuelta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de junta de reactivar una sociedad disuelta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de junta de reactivar una sociedad disuelta

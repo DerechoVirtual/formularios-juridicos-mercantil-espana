@@ -1,6 +1,6 @@
 ---
 name: solicitud-publica-representacion-junta-general-sa-mer-0164
-description: "Solicitud pública de representación para la junta general de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud pública de representación para la junta general de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud pública de representación para la junta general de una SA

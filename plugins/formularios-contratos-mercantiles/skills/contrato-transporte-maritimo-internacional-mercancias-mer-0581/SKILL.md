@@ -1,6 +1,6 @@
 ---
 name: contrato-transporte-maritimo-internacional-mercancias-mer-0581
-description: "Contrato de transporte marítimo internacional de mercancías. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de transporte marítimo internacional de mercancías. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de transporte marítimo internacional de mercancías

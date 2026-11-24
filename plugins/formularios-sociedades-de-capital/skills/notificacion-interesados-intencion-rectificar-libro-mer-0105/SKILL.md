@@ -1,6 +1,6 @@
 ---
 name: notificacion-interesados-intencion-rectificar-libro-mer-0105
-description: "Notificación a interesados de la intención de rectificar el libro registro de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación a interesados de la intención de rectificar el libro registro de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación a interesados de la intención de rectificar el libro registro de acciones nominativas

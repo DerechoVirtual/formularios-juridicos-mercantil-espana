@@ -1,6 +1,6 @@
 ---
 name: alianza-estrategica-entre-startup-tecnologica-empresa-mer-0481
-description: "Alianza estratégica entre una “startup” tecnológica y una empresa (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Alianza estratégica entre una “startup” tecnológica y una empresa (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Alianza estratégica entre una “startup” tecnológica y una empresa (contrato)

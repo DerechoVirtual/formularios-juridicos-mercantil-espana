@@ -1,6 +1,6 @@
 ---
 name: contrato-reserva-alojamiento-turistico-mer-0516
-description: "Contrato de reserva de alojamiento turístico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de reserva de alojamiento turístico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de reserva de alojamiento turístico

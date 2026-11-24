@@ -1,6 +1,6 @@
 ---
 name: comunicacion-administrador-sl-socios-embargo-mer-0268
-description: "Comunicación del administrador de una SL a los socios del embargo de participaciones sociales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación del administrador de una SL a los socios del embargo de participaciones sociales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación del administrador de una SL a los socios del embargo de participaciones sociales

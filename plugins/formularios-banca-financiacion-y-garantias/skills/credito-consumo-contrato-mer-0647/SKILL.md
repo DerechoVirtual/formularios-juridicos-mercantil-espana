@@ -1,6 +1,6 @@
 ---
 name: credito-consumo-contrato-mer-0647
-description: "Crédito al consumo (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Crédito al consumo (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Crédito al consumo (contrato)

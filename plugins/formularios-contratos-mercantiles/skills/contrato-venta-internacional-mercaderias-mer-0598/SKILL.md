@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-internacional-mercaderias-mer-0598
-description: "Contrato de venta internacional de mercaderías. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta internacional de mercaderías. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta internacional de mercaderías

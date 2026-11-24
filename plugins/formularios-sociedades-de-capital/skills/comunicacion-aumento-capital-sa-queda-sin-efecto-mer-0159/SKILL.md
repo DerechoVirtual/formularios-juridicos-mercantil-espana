@@ -1,6 +1,6 @@
 ---
 name: comunicacion-aumento-capital-sa-queda-sin-efecto-mer-0159
-description: "Comunicación de que el aumento de capital de SA queda sin efecto por suscripción incompleta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación de que el aumento de capital de SA queda sin efecto por suscripción incompleta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación de que el aumento de capital de SA queda sin efecto por suscripción incompleta

@@ -1,6 +1,6 @@
 ---
 name: carta-separacion-socio-cambio-objeto-duracion-regimen-mer-0169
-description: "Carta de separación del socio por cambio de objeto, duración, régimen de transmisión o domicilio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de separación del socio por cambio de objeto, duración, régimen de transmisión o domicilio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de separación del socio por cambio de objeto, duración, régimen de transmisión o domicilio

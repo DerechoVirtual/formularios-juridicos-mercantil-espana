@@ -1,6 +1,6 @@
 ---
 name: solicitud-socios-consejo-rector-examinar-documentacion-mer-0431
-description: "Solicitud de socios al consejo rector para examinar la documentación económica de la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de socios al consejo rector para examinar la documentación económica de la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de socios al consejo rector para examinar la documentación económica de la cooperativa

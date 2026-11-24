@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdos-socio-unico-sociedad-anonima-mer-0172
-description: "Certificación de acuerdos del socio único de una sociedad anónima unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de acuerdos del socio único de una sociedad anónima unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de acuerdos del socio único de una sociedad anónima unipersonal

@@ -1,6 +1,6 @@
 ---
 name: certificacion-bancaria-deposito-aportaciones-mer-0127
-description: "Certificación bancaria del depósito de aportaciones dinerarias al capital social. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación bancaria del depósito de aportaciones dinerarias al capital social. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación bancaria del depósito de aportaciones dinerarias al capital social

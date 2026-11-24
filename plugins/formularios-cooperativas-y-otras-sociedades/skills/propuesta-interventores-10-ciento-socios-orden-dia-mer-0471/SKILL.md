@@ -1,6 +1,6 @@
 ---
 name: propuesta-interventores-10-ciento-socios-orden-dia-mer-0471
-description: "Propuesta de interventores y del 10 por ciento de socios para el orden del día de la asamblea. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Propuesta de interventores y del 10 por ciento de socios para el orden del día de la asamblea. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Propuesta de interventores y del 10 por ciento de socios para el orden del día de la asamblea

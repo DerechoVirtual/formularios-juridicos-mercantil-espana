@@ -1,6 +1,6 @@
 ---
 name: escritura-constitucion-sociedad-garantia-reciproca-mer-0452
-description: "Escritura de constitución de una sociedad de garantía recíproca. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de constitución de una sociedad de garantía recíproca. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de constitución de una sociedad de garantía recíproca

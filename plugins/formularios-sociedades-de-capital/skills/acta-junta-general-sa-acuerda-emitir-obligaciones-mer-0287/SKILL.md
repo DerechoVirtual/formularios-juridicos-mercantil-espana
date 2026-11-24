@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-sa-acuerda-emitir-obligaciones-mer-0287
-description: "Acta de junta general de una SA que acuerda emitir obligaciones convertibles o no convertibles. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general de una SA que acuerda emitir obligaciones convertibles o no convertibles. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general de una SA que acuerda emitir obligaciones convertibles o no convertibles

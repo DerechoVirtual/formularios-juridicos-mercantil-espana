@@ -1,6 +1,6 @@
 ---
 name: convocatoria-asamblea-constituyente-cooperativa-mer-0402
-description: "Convocatoria de la asamblea constituyente de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de la asamblea constituyente de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de la asamblea constituyente de una cooperativa

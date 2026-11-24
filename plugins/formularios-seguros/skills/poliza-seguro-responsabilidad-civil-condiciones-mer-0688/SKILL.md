@@ -1,6 +1,6 @@
 ---
 name: poliza-seguro-responsabilidad-civil-condiciones-mer-0688
-description: "Póliza de seguro de responsabilidad civil con condiciones particulares. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Póliza de seguro de responsabilidad civil con condiciones particulares. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Póliza de seguro de responsabilidad civil con condiciones particulares

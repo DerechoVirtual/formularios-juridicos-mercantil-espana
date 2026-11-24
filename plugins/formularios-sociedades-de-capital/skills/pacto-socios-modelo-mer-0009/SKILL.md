@@ -1,6 +1,6 @@
 ---
 name: pacto-socios-modelo-mer-0009
-description: "Pacto de socios (modelo). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Pacto de socios (modelo). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Pacto de socios (modelo)

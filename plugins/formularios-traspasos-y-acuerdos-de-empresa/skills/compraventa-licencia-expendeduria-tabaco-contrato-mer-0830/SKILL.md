@@ -1,6 +1,6 @@
 ---
 name: compraventa-licencia-expendeduria-tabaco-contrato-mer-0830
-description: "Compraventa de licencia de expendeduría de tabaco (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Compraventa de licencia de expendeduría de tabaco (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Compraventa de licencia de expendeduría de tabaco (contrato)

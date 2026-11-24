@@ -1,6 +1,6 @@
 ---
 name: informe-administradores-sa-sobre-propuesta-mer-0119
-description: "Informe de los administradores de una SA sobre la propuesta de modificación de estatutos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Informe de los administradores de una SA sobre la propuesta de modificación de estatutos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Informe de los administradores de una SA sobre la propuesta de modificación de estatutos

@@ -1,6 +1,6 @@
 ---
 name: demanda-socios-contra-administradores-sl-accion-mer-0806
-description: "Demanda de socios contra los administradores de una SL por la acción individual de responsabilidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de socios contra los administradores de una SL por la acción individual de responsabilidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de socios contra los administradores de una SL por la acción individual de responsabilidad

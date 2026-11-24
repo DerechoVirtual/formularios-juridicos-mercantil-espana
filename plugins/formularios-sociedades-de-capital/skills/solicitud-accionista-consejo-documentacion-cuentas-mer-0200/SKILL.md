@@ -1,6 +1,6 @@
 ---
 name: solicitud-accionista-consejo-documentacion-cuentas-mer-0200
-description: "Solicitud del accionista al consejo de la documentación de las cuentas anuales antes de la junta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del accionista al consejo de la documentación de las cuentas anuales antes de la junta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del accionista al consejo de la documentación de las cuentas anuales antes de la junta

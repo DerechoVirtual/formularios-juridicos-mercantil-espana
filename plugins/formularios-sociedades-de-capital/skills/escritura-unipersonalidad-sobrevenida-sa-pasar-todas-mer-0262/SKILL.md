@@ -1,6 +1,6 @@
 ---
 name: escritura-unipersonalidad-sobrevenida-sa-pasar-todas-mer-0262
-description: "Escritura de unipersonalidad sobrevenida de una SA por pasar todas las acciones a un solo socio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de unipersonalidad sobrevenida de una SA por pasar todas las acciones a un solo socio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de unipersonalidad sobrevenida de una SA por pasar todas las acciones a un solo socio

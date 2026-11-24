@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-acuerdo-junta-sl-crear-sucursal-mer-0279
-description: "Escritura pública del acuerdo de junta de una SL de crear una sucursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública del acuerdo de junta de una SL de crear una sucursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública del acuerdo de junta de una SL de crear una sucursal

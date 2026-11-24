@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-autoriza-venta-participaciones-conflicto-mer-0045
-description: "Acta de junta de SL que autoriza la venta de participaciones con conflicto de intereses. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que autoriza la venta de participaciones con conflicto de intereses. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que autoriza la venta de participaciones con conflicto de intereses

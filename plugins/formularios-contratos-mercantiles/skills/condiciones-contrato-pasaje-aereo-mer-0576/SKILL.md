@@ -1,6 +1,6 @@
 ---
 name: condiciones-contrato-pasaje-aereo-mer-0576
-description: "Condiciones del contrato de pasaje aéreo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Condiciones del contrato de pasaje aéreo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Condiciones del contrato de pasaje aéreo

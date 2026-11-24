@@ -1,6 +1,6 @@
 ---
 name: escritura-revocacion-poder-mercantil-mer-0308
-description: "Escritura de revocación de poder mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de revocación de poder mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de revocación de poder mercantil

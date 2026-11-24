@@ -1,6 +1,6 @@
 ---
 name: acta-aportacion-socios-fondos-propios-sin-aumento-mer-0011
-description: "Acta de aportación de los socios a fondos propios sin aumento de capital en una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de aportación de los socios a fondos propios sin aumento de capital en una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de aportación de los socios a fondos propios sin aumento de capital en una SL

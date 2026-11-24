@@ -1,6 +1,6 @@
 ---
 name: acuerdo-confidencialidad-entre-empresas-mer-0829
-description: "Acuerdo de confidencialidad entre empresas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de confidencialidad entre empresas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de confidencialidad entre empresas

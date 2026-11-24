@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-rector-cooperativa-nombra-cesa-gerente-mer-0467
-description: "Acta del consejo rector de una cooperativa que nombra y cesa al gerente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo rector de una cooperativa que nombra y cesa al gerente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo rector de una cooperativa que nombra y cesa al gerente

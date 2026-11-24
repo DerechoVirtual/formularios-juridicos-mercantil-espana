@@ -1,6 +1,6 @@
 ---
 name: acuerdo-resolucion-contrato-renting-cliente-concurso-mer-0793
-description: "Acuerdo de resolución de un contrato de renting con un cliente en concurso. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de resolución de un contrato de renting con un cliente en concurso. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de resolución de un contrato de renting con un cliente en concurso

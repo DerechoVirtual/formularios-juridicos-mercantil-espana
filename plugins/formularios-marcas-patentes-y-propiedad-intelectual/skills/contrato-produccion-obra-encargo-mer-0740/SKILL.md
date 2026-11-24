@@ -1,6 +1,6 @@
 ---
 name: contrato-produccion-obra-encargo-mer-0740
-description: "Contrato de producción de una obra por encargo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de producción de una obra por encargo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de producción de una obra por encargo

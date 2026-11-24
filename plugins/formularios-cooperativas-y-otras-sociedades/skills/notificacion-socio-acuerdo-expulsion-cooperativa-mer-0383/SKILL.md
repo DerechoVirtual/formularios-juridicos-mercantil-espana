@@ -1,6 +1,6 @@
 ---
 name: notificacion-socio-acuerdo-expulsion-cooperativa-mer-0383
-description: "Notificación al socio del acuerdo de expulsión de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación al socio del acuerdo de expulsión de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación al socio del acuerdo de expulsión de una cooperativa

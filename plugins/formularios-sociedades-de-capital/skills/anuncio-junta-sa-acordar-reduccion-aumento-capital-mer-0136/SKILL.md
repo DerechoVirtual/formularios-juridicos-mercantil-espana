@@ -1,6 +1,6 @@
 ---
 name: anuncio-junta-sa-acordar-reduccion-aumento-capital-mer-0136
-description: "Anuncio de junta de SA para acordar reducción y aumento de capital simultáneos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de junta de SA para acordar reducción y aumento de capital simultáneos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de junta de SA para acordar reducción y aumento de capital simultáneos

@@ -1,6 +1,6 @@
 ---
 name: solicitud-socio-consejo-rector-copia-certificada-mer-0430
-description: "Solicitud de un socio al consejo rector de copia certificada de sus acuerdos que le afecten. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de un socio al consejo rector de copia certificada de sus acuerdos que le afecten. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de un socio al consejo rector de copia certificada de sus acuerdos que le afecten

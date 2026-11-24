@@ -1,6 +1,6 @@
 ---
 name: acuerdo-transformacion-sa-sl-mer-0347
-description: "Acuerdo de transformación de una SA en SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de transformación de una SA en SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de transformación de una SA en SL

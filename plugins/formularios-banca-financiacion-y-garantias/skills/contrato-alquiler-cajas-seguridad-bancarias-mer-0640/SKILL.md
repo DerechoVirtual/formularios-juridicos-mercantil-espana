@@ -1,6 +1,6 @@
 ---
 name: contrato-alquiler-cajas-seguridad-bancarias-mer-0640
-description: "Contrato de alquiler de cajas de seguridad bancarias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de alquiler de cajas de seguridad bancarias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de alquiler de cajas de seguridad bancarias

@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-consejo-sa-cambiar-domicilio-mer-0151
-description: "Certificación del acuerdo del consejo de SA de cambiar el domicilio dentro del mismo municipio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo del consejo de SA de cambiar el domicilio dentro del mismo municipio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo del consejo de SA de cambiar el domicilio dentro del mismo municipio

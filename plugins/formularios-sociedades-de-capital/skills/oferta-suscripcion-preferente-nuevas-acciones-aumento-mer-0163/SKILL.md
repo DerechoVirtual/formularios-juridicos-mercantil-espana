@@ -1,6 +1,6 @@
 ---
 name: oferta-suscripcion-preferente-nuevas-acciones-aumento-mer-0163
-description: "Oferta de suscripción preferente de nuevas acciones en el aumento de capital de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Oferta de suscripción preferente de nuevas acciones en el aumento de capital de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Oferta de suscripción preferente de nuevas acciones en el aumento de capital de una SA

@@ -1,6 +1,6 @@
 ---
 name: compraventa-mercantil-contado-version-abreviada-mer-0550
-description: "Compraventa mercantil (al contado versión abreviada) (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Compraventa mercantil (al contado versión abreviada) (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Compraventa mercantil (al contado versión abreviada) (contrato)

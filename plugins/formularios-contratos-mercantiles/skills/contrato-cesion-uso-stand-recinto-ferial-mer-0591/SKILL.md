@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-uso-stand-recinto-ferial-mer-0591
-description: "Contrato de cesión de uso de un stand en un recinto ferial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de uso de un stand en un recinto ferial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de uso de un stand en un recinto ferial

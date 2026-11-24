@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-modificacion-estatutos-sl-mer-0030
-description: "Certificación del acuerdo de modificación de estatutos de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de modificación de estatutos de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de modificación de estatutos de una SL

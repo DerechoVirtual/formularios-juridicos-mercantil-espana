@@ -1,6 +1,6 @@
 ---
 name: convocatoria-reunion-consejo-rector-cooperativa-mer-0441
-description: "Convocatoria de reunión del consejo rector de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de reunión del consejo rector de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de reunión del consejo rector de una cooperativa

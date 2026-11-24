@@ -1,6 +1,6 @@
 ---
 name: contrato-estimatorio-mercancias-consignacion-mer-0834
-description: "Contrato estimatorio de mercancías en consignación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato estimatorio de mercancías en consignación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato estimatorio de mercancías en consignación

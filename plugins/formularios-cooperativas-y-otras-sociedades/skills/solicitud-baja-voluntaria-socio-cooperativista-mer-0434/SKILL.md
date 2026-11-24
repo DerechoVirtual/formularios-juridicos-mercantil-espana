@@ -1,6 +1,6 @@
 ---
 name: solicitud-baja-voluntaria-socio-cooperativista-mer-0434
-description: "Solicitud de baja voluntaria de un socio cooperativista disconforme con un acuerdo de la asamblea. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de baja voluntaria de un socio cooperativista disconforme con un acuerdo de la asamblea. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de baja voluntaria de un socio cooperativista disconforme con un acuerdo de la asamblea

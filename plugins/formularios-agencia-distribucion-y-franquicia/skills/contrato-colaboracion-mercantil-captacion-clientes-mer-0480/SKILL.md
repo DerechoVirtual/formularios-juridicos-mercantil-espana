@@ -1,6 +1,6 @@
 ---
 name: contrato-colaboracion-mercantil-captacion-clientes-mer-0480
-description: "Contrato de colaboración mercantil para la captación de clientes potenciales (leads). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de colaboración mercantil para la captación de clientes potenciales (leads). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de colaboración mercantil para la captación de clientes potenciales (leads)

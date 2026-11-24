@@ -1,6 +1,6 @@
 ---
 name: clausulas-habituales-contratos-transporte-maritimo-mer-0574
-description: "Cláusulas habituales de los contratos de transporte marítimo de mercancías. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusulas habituales de los contratos de transporte marítimo de mercancías. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusulas habituales de los contratos de transporte marítimo de mercancías

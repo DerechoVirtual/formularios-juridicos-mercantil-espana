@@ -1,6 +1,6 @@
 ---
 name: contrato-prenda-sin-desplazamiento-posesion-mer-0684
-description: "Contrato de prenda sin desplazamiento de la posesión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de prenda sin desplazamiento de la posesión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de prenda sin desplazamiento de la posesión

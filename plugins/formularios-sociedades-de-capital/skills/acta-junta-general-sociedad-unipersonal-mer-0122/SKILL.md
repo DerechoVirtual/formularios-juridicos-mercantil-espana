@@ -1,6 +1,6 @@
 ---
 name: acta-junta-general-sociedad-unipersonal-mer-0122
-description: "Acta de junta general de una sociedad unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta general de una sociedad unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta general de una sociedad unipersonal

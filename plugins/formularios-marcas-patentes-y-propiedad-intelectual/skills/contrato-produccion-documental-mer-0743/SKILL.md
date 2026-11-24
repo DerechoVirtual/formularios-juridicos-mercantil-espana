@@ -1,6 +1,6 @@
 ---
 name: contrato-produccion-documental-mer-0743
-description: "Contrato de producción de un documental. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de producción de un documental. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de producción de un documental

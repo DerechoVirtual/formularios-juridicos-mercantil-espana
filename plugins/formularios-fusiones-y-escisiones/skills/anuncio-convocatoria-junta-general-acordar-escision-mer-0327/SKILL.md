@@ -1,6 +1,6 @@
 ---
 name: anuncio-convocatoria-junta-general-acordar-escision-mer-0327
-description: "Anuncio de convocatoria de junta general para acordar la escisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de convocatoria de junta general para acordar la escisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de convocatoria de junta general para acordar la escisión

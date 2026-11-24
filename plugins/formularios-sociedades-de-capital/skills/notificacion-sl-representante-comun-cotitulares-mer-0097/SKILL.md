@@ -1,6 +1,6 @@
 ---
 name: notificacion-sl-representante-comun-cotitulares-mer-0097
-description: "Notificación a la SL del representante común de los cotitulares de participaciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación a la SL del representante común de los cotitulares de participaciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación a la SL del representante común de los cotitulares de participaciones

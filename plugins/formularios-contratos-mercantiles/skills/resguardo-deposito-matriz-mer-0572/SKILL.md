@@ -1,6 +1,6 @@
 ---
 name: resguardo-deposito-matriz-mer-0572
-description: "Resguardo de depósito con su matriz. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Resguardo de depósito con su matriz. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Resguardo de depósito con su matriz

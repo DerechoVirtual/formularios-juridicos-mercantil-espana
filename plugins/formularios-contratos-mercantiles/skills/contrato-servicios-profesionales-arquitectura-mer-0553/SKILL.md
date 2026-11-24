@@ -1,6 +1,6 @@
 ---
 name: contrato-servicios-profesionales-arquitectura-mer-0553
-description: "Contrato de servicios profesionales de arquitectura. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicios profesionales de arquitectura. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicios profesionales de arquitectura

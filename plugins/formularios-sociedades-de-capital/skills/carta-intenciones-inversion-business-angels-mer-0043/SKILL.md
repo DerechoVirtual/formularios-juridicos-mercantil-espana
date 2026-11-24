@@ -1,6 +1,6 @@
 ---
 name: carta-intenciones-inversion-business-angels-mer-0043
-description: "Carta de intenciones de inversión con business angels. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de intenciones de inversión con business angels. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de intenciones de inversión con business angels

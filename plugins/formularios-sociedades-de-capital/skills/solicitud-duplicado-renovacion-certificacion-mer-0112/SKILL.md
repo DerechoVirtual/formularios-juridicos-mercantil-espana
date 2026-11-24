@@ -1,6 +1,6 @@
 ---
 name: solicitud-duplicado-renovacion-certificacion-mer-0112
-description: "Solicitud de duplicado o renovación de la certificación de denominación social. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de duplicado o renovación de la certificación de denominación social. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de duplicado o renovación de la certificación de denominación social

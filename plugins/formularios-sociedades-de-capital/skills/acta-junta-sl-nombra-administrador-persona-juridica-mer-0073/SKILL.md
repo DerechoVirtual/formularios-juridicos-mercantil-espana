@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-nombra-administrador-persona-juridica-mer-0073
-description: "Acta de junta de SL que nombra administrador persona jurídica y suplentes y autoriza competencia. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que nombra administrador persona jurídica y suplentes y autoriza competencia. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que nombra administrador persona jurídica y suplentes y autoriza competencia

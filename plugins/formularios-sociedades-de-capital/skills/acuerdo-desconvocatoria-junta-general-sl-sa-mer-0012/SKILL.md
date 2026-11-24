@@ -1,6 +1,6 @@
 ---
 name: acuerdo-desconvocatoria-junta-general-sl-sa-mer-0012
-description: "Acuerdo de desconvocatoria de una junta general de SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo de desconvocatoria de una junta general de SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo de desconvocatoria de una junta general de SL o SA

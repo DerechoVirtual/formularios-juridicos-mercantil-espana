@@ -1,6 +1,6 @@
 ---
 name: contrato-licencia-marca-union-europea-espana-mer-0708
-description: "Contrato de licencia de marca de la Unión Europea para España. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de licencia de marca de la Unión Europea para España. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de licencia de marca de la Unión Europea para España

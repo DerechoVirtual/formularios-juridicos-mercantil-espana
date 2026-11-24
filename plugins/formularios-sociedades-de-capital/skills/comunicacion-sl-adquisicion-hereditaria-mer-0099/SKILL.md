@@ -1,6 +1,6 @@
 ---
 name: comunicacion-sl-adquisicion-hereditaria-mer-0099
-description: "Comunicación a la SL de la adquisición hereditaria de participaciones sociales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comunicación a la SL de la adquisición hereditaria de participaciones sociales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comunicación a la SL de la adquisición hereditaria de participaciones sociales

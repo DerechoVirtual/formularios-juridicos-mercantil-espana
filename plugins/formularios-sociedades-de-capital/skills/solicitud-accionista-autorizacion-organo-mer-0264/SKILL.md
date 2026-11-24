@@ -1,6 +1,6 @@
 ---
 name: solicitud-accionista-autorizacion-organo-mer-0264
-description: "Solicitud del accionista de autorización del órgano de administración para vender acciones. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud del accionista de autorización del órgano de administración para vender acciones. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud del accionista de autorización del órgano de administración para vender acciones

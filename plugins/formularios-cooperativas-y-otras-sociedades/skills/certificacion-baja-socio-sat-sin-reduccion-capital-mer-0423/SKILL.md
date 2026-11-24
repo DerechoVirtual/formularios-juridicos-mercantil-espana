@@ -1,6 +1,6 @@
 ---
 name: certificacion-baja-socio-sat-sin-reduccion-capital-mer-0423
-description: "Certificación de baja de un socio de una SAT, con o sin reducción de capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de baja de un socio de una SAT, con o sin reducción de capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de baja de un socio de una SAT, con o sin reducción de capital

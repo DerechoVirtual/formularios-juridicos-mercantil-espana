@@ -1,6 +1,6 @@
 ---
 name: convocatoria-consejo-rector-consejeros-ante-inaccion-mer-0384
-description: "Convocatoria del consejo rector por consejeros ante la inacción del presidente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria del consejo rector por consejeros ante la inacción del presidente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria del consejo rector por consejeros ante la inacción del presidente

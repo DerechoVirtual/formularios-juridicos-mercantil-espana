@@ -1,6 +1,6 @@
 ---
 name: contrato-servicio-asesoramiento-financiero-mer-0632
-description: "Contrato de servicio de asesoramiento financiero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de servicio de asesoramiento financiero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de servicio de asesoramiento financiero

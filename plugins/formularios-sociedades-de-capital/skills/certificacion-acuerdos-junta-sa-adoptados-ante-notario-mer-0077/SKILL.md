@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdos-junta-sa-adoptados-ante-notario-mer-0077
-description: "Certificación de los acuerdos de junta de SA adoptados ante notario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de los acuerdos de junta de SA adoptados ante notario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de los acuerdos de junta de SA adoptados ante notario

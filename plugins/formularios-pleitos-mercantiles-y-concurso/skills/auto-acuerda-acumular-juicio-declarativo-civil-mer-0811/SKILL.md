@@ -1,6 +1,6 @@
 ---
 name: auto-acuerda-acumular-juicio-declarativo-civil-mer-0811
-description: "Auto que acuerda acumular el juicio declarativo civil al procedimiento concursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Auto que acuerda acumular el juicio declarativo civil al procedimiento concursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Auto que acuerda acumular el juicio declarativo civil al procedimiento concursal

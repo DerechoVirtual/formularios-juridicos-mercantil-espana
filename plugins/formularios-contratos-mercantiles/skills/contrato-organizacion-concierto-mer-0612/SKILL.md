@@ -1,6 +1,6 @@
 ---
 name: contrato-organizacion-concierto-mer-0612
-description: "Contrato de organización de un concierto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de organización de un concierto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de organización de un concierto

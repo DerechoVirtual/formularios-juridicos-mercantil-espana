@@ -1,6 +1,6 @@
 ---
 name: comparecencia-socio-ante-secretario-consejo-rector-mer-0463
-description: "Comparecencia del socio ante el secretario del consejo rector para delegar su voto. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Comparecencia del socio ante el secretario del consejo rector para delegar su voto. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Comparecencia del socio ante el secretario del consejo rector para delegar su voto

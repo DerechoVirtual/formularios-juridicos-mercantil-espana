@@ -1,6 +1,6 @@
 ---
 name: escrito-aceptacion-cargo-administrador-sa-firma-mer-0228
-description: "Escrito de aceptación del cargo de administrador de una SA con firma legitimada ante notario. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de aceptación del cargo de administrador de una SA con firma legitimada ante notario. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de aceptación del cargo de administrador de una SA con firma legitimada ante notario

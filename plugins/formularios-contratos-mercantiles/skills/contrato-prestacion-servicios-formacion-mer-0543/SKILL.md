@@ -1,6 +1,6 @@
 ---
 name: contrato-prestacion-servicios-formacion-mer-0543
-description: "Contrato de prestación de servicios de formación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de prestación de servicios de formación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de prestación de servicios de formación

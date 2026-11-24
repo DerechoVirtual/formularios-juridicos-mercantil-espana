@@ -1,6 +1,6 @@
 ---
 name: solicitud-socios-consejo-rector-convocar-asamblea-mer-0477
-description: "Solicitud de socios al consejo rector para convocar asamblea general extraordinaria de cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de socios al consejo rector para convocar asamblea general extraordinaria de cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de socios al consejo rector para convocar asamblea general extraordinaria de cooperativa

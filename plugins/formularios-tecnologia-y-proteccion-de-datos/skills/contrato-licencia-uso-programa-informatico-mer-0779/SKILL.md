@@ -1,6 +1,6 @@
 ---
 name: contrato-licencia-uso-programa-informatico-mer-0779
-description: "Contrato de licencia de uso de un programa informático. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de licencia de uso de un programa informático. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de licencia de uso de un programa informático

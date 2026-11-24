@@ -1,6 +1,6 @@
 ---
 name: escritura-hipoteca-mobiliaria-sobre-establecimiento-mer-0659
-description: "Escritura de hipoteca mobiliaria sobre un establecimiento mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura de hipoteca mobiliaria sobre un establecimiento mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura de hipoteca mobiliaria sobre un establecimiento mercantil

@@ -1,6 +1,6 @@
 ---
 name: certificacion-cambio-socio-unico-sl-unipersonal-mer-0125
-description: "Certificación de cambio de socio único en una SL unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de cambio de socio único en una SL unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de cambio de socio único en una SL unipersonal

@@ -1,6 +1,6 @@
 ---
 name: informe-justificativo-modificacion-estatutos-propuesta-mer-0149
-description: "Informe justificativo de la modificación de estatutos propuesta a la junta de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Informe justificativo de la modificación de estatutos propuesta a la junta de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Informe justificativo de la modificación de estatutos propuesta a la junta de una SA

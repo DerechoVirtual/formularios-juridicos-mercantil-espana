@@ -1,6 +1,6 @@
 ---
 name: condiciones-generales-uso-sitio-web-mer-0761
-description: "Condiciones generales de uso de un sitio web. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Condiciones generales de uso de un sitio web. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Condiciones generales de uso de un sitio web

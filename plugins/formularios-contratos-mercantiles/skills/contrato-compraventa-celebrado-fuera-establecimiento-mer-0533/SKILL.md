@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-celebrado-fuera-establecimiento-mer-0533
-description: "Contrato de compraventa celebrado fuera del establecimiento mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa celebrado fuera del establecimiento mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa celebrado fuera del establecimiento mercantil

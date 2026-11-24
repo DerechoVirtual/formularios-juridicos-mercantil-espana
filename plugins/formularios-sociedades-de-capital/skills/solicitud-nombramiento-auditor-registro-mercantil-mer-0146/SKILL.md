@@ -1,6 +1,6 @@
 ---
 name: solicitud-nombramiento-auditor-registro-mercantil-mer-0146
-description: "Solicitud de nombramiento de auditor al Registro Mercantil para verificar las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de nombramiento de auditor al Registro Mercantil para verificar las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de nombramiento de auditor al Registro Mercantil para verificar las cuentas anuales

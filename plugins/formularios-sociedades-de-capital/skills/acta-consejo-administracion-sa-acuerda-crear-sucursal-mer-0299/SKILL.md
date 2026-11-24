@@ -1,6 +1,6 @@
 ---
 name: acta-consejo-administracion-sa-acuerda-crear-sucursal-mer-0299
-description: "Acta del consejo de administración de una SA que acuerda crear una sucursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta del consejo de administración de una SA que acuerda crear una sucursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta del consejo de administración de una SA que acuerda crear una sucursal

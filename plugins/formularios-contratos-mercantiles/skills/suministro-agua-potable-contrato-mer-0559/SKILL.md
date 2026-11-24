@@ -1,6 +1,6 @@
 ---
 name: suministro-agua-potable-contrato-mer-0559
-description: "Suministro de agua potable (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Suministro de agua potable (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Suministro de agua potable (contrato)

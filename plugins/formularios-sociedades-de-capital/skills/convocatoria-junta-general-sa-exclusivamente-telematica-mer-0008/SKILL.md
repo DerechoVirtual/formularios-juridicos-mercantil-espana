@@ -1,6 +1,6 @@
 ---
 name: convocatoria-junta-general-sa-exclusivamente-telematica-mer-0008
-description: "Convocatoria de junta general de una SA exclusivamente telemática. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria de junta general de una SA exclusivamente telemática. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria de junta general de una SA exclusivamente telemática

@@ -1,6 +1,6 @@
 ---
 name: lista-asistentes-junta-general-sl-mer-0066
-description: "Lista de asistentes a la junta general de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Lista de asistentes a la junta general de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Lista de asistentes a la junta general de una SL

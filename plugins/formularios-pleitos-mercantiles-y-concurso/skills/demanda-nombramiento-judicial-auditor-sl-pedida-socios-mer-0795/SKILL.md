@@ -1,6 +1,6 @@
 ---
 name: demanda-nombramiento-judicial-auditor-sl-pedida-socios-mer-0795
-description: "Demanda de nombramiento judicial de auditor de una SL pedida por socios con el 5 por ciento. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nombramiento judicial de auditor de una SL pedida por socios con el 5 por ciento. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nombramiento judicial de auditor de una SL pedida por socios con el 5 por ciento

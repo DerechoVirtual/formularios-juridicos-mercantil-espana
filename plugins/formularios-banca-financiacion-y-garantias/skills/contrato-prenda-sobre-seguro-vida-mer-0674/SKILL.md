@@ -1,6 +1,6 @@
 ---
 name: contrato-prenda-sobre-seguro-vida-mer-0674
-description: "Contrato de prenda sobre un seguro de vida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de prenda sobre un seguro de vida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de prenda sobre un seguro de vida

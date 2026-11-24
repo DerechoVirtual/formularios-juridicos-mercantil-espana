@@ -1,6 +1,6 @@
 ---
 name: demanda-disolucion-judicial-sociedad-anonima-mer-0803
-description: "Demanda de disolución judicial de una sociedad anónima presentada por el administrador o por socios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de disolución judicial de una sociedad anónima presentada por el administrador o por socios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de disolución judicial de una sociedad anónima presentada por el administrador o por socios

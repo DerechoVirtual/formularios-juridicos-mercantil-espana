@@ -1,6 +1,6 @@
 ---
 name: convenio-colaboracion-entre-despachos-abogados-mer-0509
-description: "Convenio de colaboración entre despachos de abogados. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convenio de colaboración entre despachos de abogados. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convenio de colaboración entre despachos de abogados

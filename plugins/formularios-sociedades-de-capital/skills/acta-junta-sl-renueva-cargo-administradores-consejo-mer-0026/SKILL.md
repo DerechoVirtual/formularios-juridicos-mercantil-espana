@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-renueva-cargo-administradores-consejo-mer-0026
-description: "Acta de junta de SL que renueva el cargo de administradores o del consejo de administración. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que renueva el cargo de administradores o del consejo de administración. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que renueva el cargo de administradores o del consejo de administración

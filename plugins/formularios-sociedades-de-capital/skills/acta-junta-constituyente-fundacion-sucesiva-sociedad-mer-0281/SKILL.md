@@ -1,6 +1,6 @@
 ---
 name: acta-junta-constituyente-fundacion-sucesiva-sociedad-mer-0281
-description: "Acta de la junta constituyente en la fundación sucesiva de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de la junta constituyente en la fundación sucesiva de una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de la junta constituyente en la fundación sucesiva de una sociedad anónima

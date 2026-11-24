@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 55 formularios de Fusiones, escisiones y transformaciones de sociedades. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 55 formularios de Fusiones, escisiones y transformaciones de sociedades. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Fusiones, escisiones y transformaciones de sociedades: índice de formularios

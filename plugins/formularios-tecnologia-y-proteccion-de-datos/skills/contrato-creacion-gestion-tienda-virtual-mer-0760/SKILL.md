@@ -1,6 +1,6 @@
 ---
 name: contrato-creacion-gestion-tienda-virtual-mer-0760
-description: "Contrato de creación y gestión de tienda virtual. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de creación y gestión de tienda virtual. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de creación y gestión de tienda virtual

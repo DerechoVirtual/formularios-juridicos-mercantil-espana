@@ -1,6 +1,6 @@
 ---
 name: hoja-libro-registro-acciones-nominativas-mer-0118
-description: "Hoja del libro registro de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Hoja del libro registro de acciones nominativas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Hoja del libro registro de acciones nominativas

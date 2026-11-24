@@ -1,6 +1,6 @@
 ---
 name: contrato-internacional-transportar-mercancias-mer-0610
-description: "Contrato internacional para transportar mercancías por ferrocarril. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato internacional para transportar mercancías por ferrocarril. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato internacional para transportar mercancías por ferrocarril

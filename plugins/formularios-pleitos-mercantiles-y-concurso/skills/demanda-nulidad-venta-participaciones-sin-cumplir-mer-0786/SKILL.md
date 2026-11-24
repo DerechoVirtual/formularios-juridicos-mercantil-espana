@@ -1,6 +1,6 @@
 ---
 name: demanda-nulidad-venta-participaciones-sin-cumplir-mer-0786
-description: "Demanda de nulidad de venta de participaciones sin cumplir requisitos estatutarios y legales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de nulidad de venta de participaciones sin cumplir requisitos estatutarios y legales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de nulidad de venta de participaciones sin cumplir requisitos estatutarios y legales

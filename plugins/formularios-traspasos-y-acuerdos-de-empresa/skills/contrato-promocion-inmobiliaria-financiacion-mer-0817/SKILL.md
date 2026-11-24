@@ -1,6 +1,6 @@
 ---
 name: contrato-promocion-inmobiliaria-financiacion-mer-0817
-description: "Contrato de promoción inmobiliaria con financiación anticipada (forward funding). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de promoción inmobiliaria con financiación anticipada (forward funding). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de promoción inmobiliaria con financiación anticipada (forward funding)

@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-creacion-extincion-prestaciones-mer-0186
-description: "Escritura pública de creación o extinción de prestaciones accesorias en una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de creación o extinción de prestaciones accesorias en una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de creación o extinción de prestaciones accesorias en una SL

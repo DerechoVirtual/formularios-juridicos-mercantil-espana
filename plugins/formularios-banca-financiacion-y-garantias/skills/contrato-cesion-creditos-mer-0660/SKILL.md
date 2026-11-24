@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-creditos-mer-0660
-description: "Contrato de cesión de créditos. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión de créditos. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión de créditos

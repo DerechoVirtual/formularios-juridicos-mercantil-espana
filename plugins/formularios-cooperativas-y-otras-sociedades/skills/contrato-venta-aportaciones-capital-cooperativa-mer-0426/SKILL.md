@@ -1,6 +1,6 @@
 ---
 name: contrato-venta-aportaciones-capital-cooperativa-mer-0426
-description: "Contrato de venta de aportaciones al capital de una cooperativa a un tercero no socio. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de venta de aportaciones al capital de una cooperativa a un tercero no socio. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de venta de aportaciones al capital de una cooperativa a un tercero no socio

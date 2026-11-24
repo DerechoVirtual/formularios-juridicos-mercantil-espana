@@ -1,6 +1,6 @@
 ---
 name: contrato-deposito-bancario-plazo-fijo-mer-0645
-description: "Contrato de depósito bancario a plazo fijo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de depósito bancario a plazo fijo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de depósito bancario a plazo fijo

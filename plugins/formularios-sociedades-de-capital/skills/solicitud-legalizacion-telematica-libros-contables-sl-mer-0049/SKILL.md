@@ -1,6 +1,6 @@
 ---
 name: solicitud-legalizacion-telematica-libros-contables-sl-mer-0049
-description: "Solicitud de legalización telemática de libros contables de SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de legalización telemática de libros contables de SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de legalización telemática de libros contables de SL o SA

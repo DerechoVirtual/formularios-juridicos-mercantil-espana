@@ -1,6 +1,6 @@
 ---
 name: anuncio-reduccion-capital-sl-acreedores-ejerzan-mer-0068
-description: "Anuncio de la reducción de capital de una SL para que los acreedores ejerzan su derecho de oposición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de la reducción de capital de una SL para que los acreedores ejerzan su derecho de oposición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de la reducción de capital de una SL para que los acreedores ejerzan su derecho de oposición

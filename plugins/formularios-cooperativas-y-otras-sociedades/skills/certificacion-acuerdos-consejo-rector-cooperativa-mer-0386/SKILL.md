@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdos-consejo-rector-cooperativa-mer-0386
-description: "Certificación de los acuerdos del consejo rector de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación de los acuerdos del consejo rector de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación de los acuerdos del consejo rector de una cooperativa

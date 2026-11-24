@@ -1,6 +1,6 @@
 ---
 name: informe-especial-sobre-exclusion-derecho-suscripcion-mer-0161
-description: "Informe especial sobre la exclusión del derecho de suscripción preferente en aumento de capital. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Informe especial sobre la exclusión del derecho de suscripción preferente en aumento de capital. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Informe especial sobre la exclusión del derecho de suscripción preferente en aumento de capital

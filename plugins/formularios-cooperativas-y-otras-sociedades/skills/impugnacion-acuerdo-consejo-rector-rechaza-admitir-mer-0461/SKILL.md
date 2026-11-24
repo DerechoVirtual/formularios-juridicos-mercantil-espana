@@ -1,6 +1,6 @@
 ---
 name: impugnacion-acuerdo-consejo-rector-rechaza-admitir-mer-0461
-description: "Impugnación del acuerdo del consejo rector que rechaza admitir un nuevo socio de la cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Impugnación del acuerdo del consejo rector que rechaza admitir un nuevo socio de la cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Impugnación del acuerdo del consejo rector que rechaza admitir un nuevo socio de la cooperativa

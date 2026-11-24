@@ -1,6 +1,6 @@
 ---
 name: contrato-participaciones-ficticias-directivos-phantom-mer-0818
-description: "Contrato de participaciones ficticias para directivos (phantom shares). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de participaciones ficticias para directivos (phantom shares). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de participaciones ficticias para directivos (phantom shares)

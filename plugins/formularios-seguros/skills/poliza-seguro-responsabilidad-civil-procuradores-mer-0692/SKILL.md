@@ -1,6 +1,6 @@
 ---
 name: poliza-seguro-responsabilidad-civil-procuradores-mer-0692
-description: "Póliza de seguro de responsabilidad civil de procuradores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Póliza de seguro de responsabilidad civil de procuradores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Póliza de seguro de responsabilidad civil de procuradores

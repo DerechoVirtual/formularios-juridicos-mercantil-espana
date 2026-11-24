@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 113 formularios de Cooperativas, sociedades laborales y otras formas de empresa. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 113 formularios de Cooperativas, sociedades laborales y otras formas de empresa. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Cooperativas, sociedades laborales y otras formas de empresa: índice de formularios

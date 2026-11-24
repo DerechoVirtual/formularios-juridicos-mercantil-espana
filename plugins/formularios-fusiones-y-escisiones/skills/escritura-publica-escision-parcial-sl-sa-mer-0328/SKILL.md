@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-escision-parcial-sl-sa-mer-0328
-description: "Escritura pública de escisión parcial de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de escisión parcial de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de escisión parcial de una SL o SA

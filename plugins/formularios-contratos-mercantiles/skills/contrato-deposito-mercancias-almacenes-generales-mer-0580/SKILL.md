@@ -1,6 +1,6 @@
 ---
 name: contrato-deposito-mercancias-almacenes-generales-mer-0580
-description: "Contrato de depósito de mercancías en almacenes generales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de depósito de mercancías en almacenes generales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de depósito de mercancías en almacenes generales

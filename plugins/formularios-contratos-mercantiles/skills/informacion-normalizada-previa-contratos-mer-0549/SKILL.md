@@ -1,6 +1,6 @@
 ---
 name: informacion-normalizada-previa-contratos-mer-0549
-description: "Información normalizada previa para contratos de aprovechamiento por turno de uso turístico. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Información normalizada previa para contratos de aprovechamiento por turno de uso turístico. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Información normalizada previa para contratos de aprovechamiento por turno de uso turístico

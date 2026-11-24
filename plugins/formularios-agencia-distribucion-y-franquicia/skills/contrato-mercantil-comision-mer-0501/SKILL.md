@@ -1,6 +1,6 @@
 ---
 name: contrato-mercantil-comision-mer-0501
-description: "Contrato mercantil de comisión. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato mercantil de comisión. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato mercantil de comisión

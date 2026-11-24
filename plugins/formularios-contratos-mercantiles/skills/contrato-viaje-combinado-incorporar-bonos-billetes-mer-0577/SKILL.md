@@ -1,6 +1,6 @@
 ---
 name: contrato-viaje-combinado-incorporar-bonos-billetes-mer-0577
-description: "Contrato de viaje combinado para incorporar a los bonos o billetes. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de viaje combinado para incorporar a los bonos o billetes. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de viaje combinado para incorporar a los bonos o billetes

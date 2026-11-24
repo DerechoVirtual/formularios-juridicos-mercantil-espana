@@ -1,6 +1,6 @@
 ---
 name: arrendamiento-empresa-negocio-industria-contrato-mer-0823
-description: "Arrendamiento de empresa, negocio o industria (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Arrendamiento de empresa, negocio o industria (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Arrendamiento de empresa, negocio o industria (contrato)

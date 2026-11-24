@@ -1,6 +1,6 @@
 ---
 name: escrito-oposicion-nombramiento-auditor-registro-mer-0171
-description: "Escrito de oposición al nombramiento de auditor por el Registro Mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de oposición al nombramiento de auditor por el Registro Mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de oposición al nombramiento de auditor por el Registro Mercantil

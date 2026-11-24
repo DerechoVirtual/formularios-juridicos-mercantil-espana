@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-transformacion-sa-sl-mer-0360
-description: "Certificación del acuerdo de transformación de una SA en SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de transformación de una SA en SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de transformación de una SA en SL

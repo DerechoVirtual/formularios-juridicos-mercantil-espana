@@ -1,6 +1,6 @@
 ---
 name: acuerdo-unanime-escision-parcial-sl-creacion-nueva-sl-mer-0315
-description: "Acuerdo unánime de escisión parcial de una SL con creación de nueva SL con la parte escindida. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo unánime de escisión parcial de una SL con creación de nueva SL con la parte escindida. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo unánime de escisión parcial de una SL con creación de nueva SL con la parte escindida

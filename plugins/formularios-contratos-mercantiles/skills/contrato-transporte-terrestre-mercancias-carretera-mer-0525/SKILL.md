@@ -1,6 +1,6 @@
 ---
 name: contrato-transporte-terrestre-mercancias-carretera-mer-0525
-description: "Contrato de transporte terrestre de mercancías por carretera. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de transporte terrestre de mercancías por carretera. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de transporte terrestre de mercancías por carretera

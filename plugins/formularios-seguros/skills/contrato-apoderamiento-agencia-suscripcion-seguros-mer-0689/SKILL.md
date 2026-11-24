@@ -1,6 +1,6 @@
 ---
 name: contrato-apoderamiento-agencia-suscripcion-seguros-mer-0689
-description: "Contrato de apoderamiento a una agencia de suscripción de seguros. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de apoderamiento a una agencia de suscripción de seguros. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de apoderamiento a una agencia de suscripción de seguros

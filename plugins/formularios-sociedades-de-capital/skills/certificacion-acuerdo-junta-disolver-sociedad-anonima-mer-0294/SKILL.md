@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-junta-disolver-sociedad-anonima-mer-0294
-description: "Certificación del acuerdo de junta de disolver una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de junta de disolver una sociedad anónima. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de junta de disolver una sociedad anónima

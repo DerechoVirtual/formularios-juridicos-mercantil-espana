@@ -1,6 +1,6 @@
 ---
 name: contrato-licencia-secreto-empresarial-mer-0702
-description: "Contrato de licencia de un secreto empresarial. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de licencia de un secreto empresarial. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de licencia de un secreto empresarial

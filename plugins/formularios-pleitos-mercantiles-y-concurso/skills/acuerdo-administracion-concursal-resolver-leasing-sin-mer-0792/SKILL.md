@@ -1,6 +1,6 @@
 ---
 name: acuerdo-administracion-concursal-resolver-leasing-sin-mer-0792
-description: "Acuerdo con la administración concursal para resolver un leasing sin indemnización ni deuda nueva. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acuerdo con la administración concursal para resolver un leasing sin indemnización ni deuda nueva. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acuerdo con la administración concursal para resolver un leasing sin indemnización ni deuda nueva

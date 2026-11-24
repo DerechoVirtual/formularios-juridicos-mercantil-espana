@@ -1,6 +1,6 @@
 ---
 name: contrato-colaboracion-entre-agencia-viajes-mer-0499
-description: "Contrato de colaboración entre agencia de viajes y establecimiento hotelero. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de colaboración entre agencia de viajes y establecimiento hotelero. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de colaboración entre agencia de viajes y establecimiento hotelero

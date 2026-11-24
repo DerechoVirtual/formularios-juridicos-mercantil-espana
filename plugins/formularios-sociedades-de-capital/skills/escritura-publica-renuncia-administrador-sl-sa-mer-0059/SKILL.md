@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-renuncia-administrador-sl-sa-mer-0059
-description: "Escritura pública de renuncia del administrador de una SL o SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de renuncia del administrador de una SL o SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de renuncia del administrador de una SL o SA

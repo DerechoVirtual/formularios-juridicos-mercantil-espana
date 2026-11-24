@@ -1,6 +1,6 @@
 ---
 name: certificacion-acuerdo-junta-sl-crear-sucursal-mer-0275
-description: "Certificación del acuerdo de junta de una SL de crear una sucursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del acuerdo de junta de una SL de crear una sucursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del acuerdo de junta de una SL de crear una sucursal

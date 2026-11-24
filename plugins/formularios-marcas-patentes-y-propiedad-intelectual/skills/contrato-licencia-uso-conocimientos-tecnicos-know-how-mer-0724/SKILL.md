@@ -1,6 +1,6 @@
 ---
 name: contrato-licencia-uso-conocimientos-tecnicos-know-how-mer-0724
-description: "Contrato de licencia de uso de conocimientos técnicos (know how). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de licencia de uso de conocimientos técnicos (know how). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de licencia de uso de conocimientos técnicos (know how)

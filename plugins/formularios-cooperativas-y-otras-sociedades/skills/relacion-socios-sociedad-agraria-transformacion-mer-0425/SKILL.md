@@ -1,6 +1,6 @@
 ---
 name: relacion-socios-sociedad-agraria-transformacion-mer-0425
-description: "Relación de socios de una sociedad agraria de transformación. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Relación de socios de una sociedad agraria de transformación. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Relación de socios de una sociedad agraria de transformación

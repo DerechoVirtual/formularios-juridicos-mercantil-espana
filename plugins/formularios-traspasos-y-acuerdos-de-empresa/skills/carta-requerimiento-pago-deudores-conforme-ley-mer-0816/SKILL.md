@@ -1,6 +1,6 @@
 ---
 name: carta-requerimiento-pago-deudores-conforme-ley-mer-0816
-description: "Carta de requerimiento de pago a deudores conforme a la Ley de morosidad. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Carta de requerimiento de pago a deudores conforme a la Ley de morosidad. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Carta de requerimiento de pago a deudores conforme a la Ley de morosidad

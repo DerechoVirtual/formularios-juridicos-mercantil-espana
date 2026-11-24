@@ -1,6 +1,6 @@
 ---
 name: escrito-socio-sl-oponiendose-rectificacion-libro-mer-0255
-description: "Escrito de un socio de SL oponiéndose a la rectificación del libro registro de socios. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escrito de un socio de SL oponiéndose a la rectificación del libro registro de socios. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escrito de un socio de SL oponiéndose a la rectificación del libro registro de socios

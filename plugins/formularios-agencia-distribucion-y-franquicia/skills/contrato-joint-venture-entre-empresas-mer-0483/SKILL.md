@@ -1,6 +1,6 @@
 ---
 name: contrato-joint-venture-entre-empresas-mer-0483
-description: "Contrato de joint venture entre empresas. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de joint venture entre empresas. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de joint venture entre empresas

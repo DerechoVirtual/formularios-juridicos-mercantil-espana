@@ -1,6 +1,6 @@
 ---
 name: notificacion-acreedores-acuerdo-reduccion-capital-sl-mer-0144
-description: "Notificación a los acreedores del acuerdo de reducción de capital de una SL para su oposición. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación a los acreedores del acuerdo de reducción de capital de una SL para su oposición. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación a los acreedores del acuerdo de reducción de capital de una SL para su oposición

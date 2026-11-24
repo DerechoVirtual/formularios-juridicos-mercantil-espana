@@ -1,6 +1,6 @@
 ---
 name: contrato-tipo-deposito-administracion-valores-titulos-mer-0667
-description: "Contrato tipo de depósito y administración de valores en títulos o anotaciones en cuenta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato tipo de depósito y administración de valores en títulos o anotaciones en cuenta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato tipo de depósito y administración de valores en títulos o anotaciones en cuenta

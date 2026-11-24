@@ -1,6 +1,6 @@
 ---
 name: contrato-comunidad-sobre-patente-mer-0711
-description: "Contrato de comunidad sobre una patente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de comunidad sobre una patente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de comunidad sobre una patente

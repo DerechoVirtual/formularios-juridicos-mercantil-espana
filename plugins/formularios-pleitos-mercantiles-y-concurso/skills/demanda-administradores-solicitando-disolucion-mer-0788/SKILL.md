@@ -1,6 +1,6 @@
 ---
 name: demanda-administradores-solicitando-disolucion-mer-0788
-description: "Demanda de los administradores solicitando la disolución judicial de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de los administradores solicitando la disolución judicial de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de los administradores solicitando la disolución judicial de una SL

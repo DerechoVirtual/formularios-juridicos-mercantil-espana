@@ -1,6 +1,6 @@
 ---
 name: suministro-hidrogeno-contrato-mer-0515
-description: "Suministro de hidrógeno (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Suministro de hidrógeno (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Suministro de hidrógeno (contrato)

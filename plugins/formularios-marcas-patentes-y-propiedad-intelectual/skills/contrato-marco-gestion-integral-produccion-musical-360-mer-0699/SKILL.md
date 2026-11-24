@@ -1,6 +1,6 @@
 ---
 name: contrato-marco-gestion-integral-produccion-musical-360-mer-0699
-description: "Contrato marco de gestión integral de la producción musical (360 grados). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato marco de gestión integral de la producción musical (360 grados). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato marco de gestión integral de la producción musical (360 grados)

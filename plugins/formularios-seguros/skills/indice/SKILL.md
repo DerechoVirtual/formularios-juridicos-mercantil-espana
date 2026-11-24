@@ -1,6 +1,6 @@
 ---
 name: indice
-description: "Índice de los 11 formularios de Seguros: pólizas, coberturas y reclamaciones. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre."
+description: "Índice de los 11 formularios de Seguros: pólizas, coberturas y reclamaciones. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Seguros: pólizas, coberturas y reclamaciones: índice de formularios

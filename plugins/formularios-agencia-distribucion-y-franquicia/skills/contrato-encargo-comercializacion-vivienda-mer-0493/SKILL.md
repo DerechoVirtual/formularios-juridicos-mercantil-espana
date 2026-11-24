@@ -1,6 +1,6 @@
 ---
 name: contrato-encargo-comercializacion-vivienda-mer-0493
-description: "Contrato de encargo de comercialización de una vivienda. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de encargo de comercialización de una vivienda. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de encargo de comercialización de una vivienda

@@ -1,6 +1,6 @@
 ---
 name: contrato-deposito-garantia-cuenta-escrow-mer-0650
-description: "Contrato de depósito en garantía o cuenta escrow. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de depósito en garantía o cuenta escrow. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de depósito en garantía o cuenta escrow

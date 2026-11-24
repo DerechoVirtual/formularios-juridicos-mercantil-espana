@@ -1,6 +1,6 @@
 ---
 name: respuesta-administradores-envia-deniega-informacion-mer-0104
-description: "Respuesta de los administradores que envía o deniega información sobre el orden del día de la junta. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Respuesta de los administradores que envía o deniega información sobre el orden del día de la junta. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Respuesta de los administradores que envía o deniega información sobre el orden del día de la junta

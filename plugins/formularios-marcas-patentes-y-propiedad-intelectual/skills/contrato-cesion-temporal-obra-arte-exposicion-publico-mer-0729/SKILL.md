@@ -1,6 +1,6 @@
 ---
 name: contrato-cesion-temporal-obra-arte-exposicion-publico-mer-0729
-description: "Contrato de cesión temporal de una obra de arte para su exposición al público. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de cesión temporal de una obra de arte para su exposición al público. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de cesión temporal de una obra de arte para su exposición al público

@@ -1,6 +1,6 @@
 ---
 name: contrato-publicidad-internet-mediante-banners-mer-0759
-description: "Contrato de publicidad en internet mediante banners. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de publicidad en internet mediante banners. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de publicidad en internet mediante banners

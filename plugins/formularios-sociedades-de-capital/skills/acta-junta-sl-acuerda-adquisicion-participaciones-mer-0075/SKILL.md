@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sl-acuerda-adquisicion-participaciones-mer-0075
-description: "Acta de junta de SL que acuerda la adquisición de participaciones propias. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SL que acuerda la adquisición de participaciones propias. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SL que acuerda la adquisición de participaciones propias

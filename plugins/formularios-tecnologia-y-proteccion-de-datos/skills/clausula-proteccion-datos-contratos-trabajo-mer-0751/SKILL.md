@@ -1,6 +1,6 @@
 ---
 name: clausula-proteccion-datos-contratos-trabajo-mer-0751
-description: "Cláusula de protección de datos para los contratos de trabajo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Cláusula de protección de datos para los contratos de trabajo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Cláusula de protección de datos para los contratos de trabajo

@@ -1,6 +1,6 @@
 ---
 name: certificacion-consejo-sobre-subsanacion-errores-mer-0174
-description: "Certificación del consejo sobre subsanación de errores en las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del consejo sobre subsanación de errores en las cuentas anuales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del consejo sobre subsanación de errores en las cuentas anuales

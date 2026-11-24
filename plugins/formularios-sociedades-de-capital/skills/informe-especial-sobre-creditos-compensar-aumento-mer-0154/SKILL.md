@@ -1,6 +1,6 @@
 ---
 name: informe-especial-sobre-creditos-compensar-aumento-mer-0154
-description: "Informe especial sobre créditos a compensar en un aumento de capital de SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Informe especial sobre créditos a compensar en un aumento de capital de SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Informe especial sobre créditos a compensar en un aumento de capital de SA

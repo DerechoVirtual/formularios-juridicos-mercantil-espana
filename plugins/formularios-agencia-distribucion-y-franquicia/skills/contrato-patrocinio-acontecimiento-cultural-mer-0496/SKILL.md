@@ -1,6 +1,6 @@
 ---
 name: contrato-patrocinio-acontecimiento-cultural-mer-0496
-description: "Contrato de patrocinio de un acontecimiento cultural. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de patrocinio de un acontecimiento cultural. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de patrocinio de un acontecimiento cultural

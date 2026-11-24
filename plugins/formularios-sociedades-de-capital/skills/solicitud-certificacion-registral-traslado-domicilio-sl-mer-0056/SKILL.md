@@ -1,6 +1,6 @@
 ---
 name: solicitud-certificacion-registral-traslado-domicilio-sl-mer-0056
-description: "Solicitud de certificación registral para el traslado de domicilio de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de certificación registral para el traslado de domicilio de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de certificación registral para el traslado de domicilio de una SL

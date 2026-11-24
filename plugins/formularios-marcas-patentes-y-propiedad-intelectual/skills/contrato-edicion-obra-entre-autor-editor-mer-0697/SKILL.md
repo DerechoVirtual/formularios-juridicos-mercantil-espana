@@ -1,6 +1,6 @@
 ---
 name: contrato-edicion-obra-entre-autor-editor-mer-0697
-description: "Contrato de edición de una obra entre autor y editor. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de edición de una obra entre autor y editor. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de edición de una obra entre autor y editor

@@ -1,6 +1,6 @@
 ---
 name: transporte-viajeros-carretera-contrato-mer-0573
-description: "Transporte de viajeros por carretera (contrato). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Transporte de viajeros por carretera (contrato). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Transporte de viajeros por carretera (contrato)

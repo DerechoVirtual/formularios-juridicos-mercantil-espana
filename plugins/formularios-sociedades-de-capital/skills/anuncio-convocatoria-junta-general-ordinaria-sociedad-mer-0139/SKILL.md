@@ -1,6 +1,6 @@
 ---
 name: anuncio-convocatoria-junta-general-ordinaria-sociedad-mer-0139
-description: "Anuncio de convocatoria de junta general ordinaria de una sociedad cotizada. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Anuncio de convocatoria de junta general ordinaria de una sociedad cotizada. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Anuncio de convocatoria de junta general ordinaria de una sociedad cotizada

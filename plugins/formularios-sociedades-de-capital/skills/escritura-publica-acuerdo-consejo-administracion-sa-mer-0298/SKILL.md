@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-acuerdo-consejo-administracion-sa-mer-0298
-description: "Escritura pública del acuerdo del consejo de administración de una SA de crear una sucursal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública del acuerdo del consejo de administración de una SA de crear una sucursal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública del acuerdo del consejo de administración de una SA de crear una sucursal

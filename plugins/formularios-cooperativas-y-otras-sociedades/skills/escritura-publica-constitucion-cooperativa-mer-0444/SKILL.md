@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-constitucion-cooperativa-mer-0444
-description: "Escritura pública de constitución de una cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de constitución de una cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de constitución de una cooperativa

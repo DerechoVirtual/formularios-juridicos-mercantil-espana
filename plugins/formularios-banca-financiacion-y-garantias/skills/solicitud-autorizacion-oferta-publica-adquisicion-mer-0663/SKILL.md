@@ -1,6 +1,6 @@
 ---
 name: solicitud-autorizacion-oferta-publica-adquisicion-mer-0663
-description: "Solicitud de autorización de una oferta pública de adquisición de valores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud de autorización de una oferta pública de adquisición de valores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud de autorización de una oferta pública de adquisición de valores

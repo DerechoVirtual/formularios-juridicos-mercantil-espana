@@ -1,6 +1,6 @@
 ---
 name: contrato-compraventa-acciones-participaciones-sociales-mer-0013
-description: "Contrato de compraventa de acciones o participaciones sociales (SPA). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de compraventa de acciones o participaciones sociales (SPA). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de compraventa de acciones o participaciones sociales (SPA)

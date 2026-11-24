@@ -1,6 +1,6 @@
 ---
 name: contrato-confirming-pago-proveedores-mer-0626
-description: "Contrato de confirming de pago a proveedores. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de confirming de pago a proveedores. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de confirming de pago a proveedores

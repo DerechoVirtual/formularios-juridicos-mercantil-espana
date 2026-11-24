@@ -1,6 +1,6 @@
 ---
 name: demanda-impugnacion-acuerdos-consejo-administracion-sa-mer-0797
-description: "Demanda de impugnación de acuerdos del consejo de administración de una SA conforme a la antigua LEC. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Demanda de impugnación de acuerdos del consejo de administración de una SA conforme a la antigua LEC. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Demanda de impugnación de acuerdos del consejo de administración de una SA conforme a la antigua LEC

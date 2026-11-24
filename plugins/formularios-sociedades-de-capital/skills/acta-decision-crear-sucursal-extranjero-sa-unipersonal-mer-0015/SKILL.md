@@ -1,6 +1,6 @@
 ---
 name: acta-decision-crear-sucursal-extranjero-sa-unipersonal-mer-0015
-description: "Acta de la decisión de crear una sucursal en el extranjero de una SA unipersonal. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de la decisión de crear una sucursal en el extranjero de una SA unipersonal. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de la decisión de crear una sucursal en el extranjero de una SA unipersonal

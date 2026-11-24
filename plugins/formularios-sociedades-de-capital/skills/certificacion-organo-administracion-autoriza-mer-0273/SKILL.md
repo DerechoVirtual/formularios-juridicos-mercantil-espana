@@ -1,6 +1,6 @@
 ---
 name: certificacion-organo-administracion-autoriza-mer-0273
-description: "Certificación del órgano de administración que autoriza la transmisión de participaciones de una SL. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Certificación del órgano de administración que autoriza la transmisión de participaciones de una SL. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Certificación del órgano de administración que autoriza la transmisión de participaciones de una SL

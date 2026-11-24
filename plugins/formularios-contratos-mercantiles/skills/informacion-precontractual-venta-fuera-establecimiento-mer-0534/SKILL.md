@@ -1,6 +1,6 @@
 ---
 name: informacion-precontractual-venta-fuera-establecimiento-mer-0534
-description: "Información precontractual en la venta fuera del establecimiento mercantil. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Información precontractual en la venta fuera del establecimiento mercantil. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Información precontractual en la venta fuera del establecimiento mercantil

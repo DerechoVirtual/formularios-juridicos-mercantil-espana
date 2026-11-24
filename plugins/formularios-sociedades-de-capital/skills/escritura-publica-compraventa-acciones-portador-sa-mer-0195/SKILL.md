@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-compraventa-acciones-portador-sa-mer-0195
-description: "Escritura pública de compraventa de acciones al portador de una SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de compraventa de acciones al portador de una SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de compraventa de acciones al portador de una SA

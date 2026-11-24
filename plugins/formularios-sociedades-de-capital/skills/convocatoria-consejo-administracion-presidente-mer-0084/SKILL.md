@@ -1,6 +1,6 @@
 ---
 name: convocatoria-consejo-administracion-presidente-mer-0084
-description: "Convocatoria del consejo de administración por el presidente o los consejeros con acuse de recibo. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Convocatoria del consejo de administración por el presidente o los consejeros con acuse de recibo. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Convocatoria del consejo de administración por el presidente o los consejeros con acuse de recibo

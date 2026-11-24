@@ -1,6 +1,6 @@
 ---
 name: acta-creacion-comunidad-titulares-patente-mer-0721
-description: "Acta de creación de una comunidad de titulares de una patente. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de creación de una comunidad de titulares de una patente. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de creación de una comunidad de titulares de una patente

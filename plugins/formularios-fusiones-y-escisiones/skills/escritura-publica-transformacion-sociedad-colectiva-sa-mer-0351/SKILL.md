@@ -1,6 +1,6 @@
 ---
 name: escritura-publica-transformacion-sociedad-colectiva-sa-mer-0351
-description: "Escritura pública de transformación de una sociedad colectiva en SA. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Escritura pública de transformación de una sociedad colectiva en SA. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Escritura pública de transformación de una sociedad colectiva en SA

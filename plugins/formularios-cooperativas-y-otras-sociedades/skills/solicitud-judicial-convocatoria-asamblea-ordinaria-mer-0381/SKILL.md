@@ -1,6 +1,6 @@
 ---
 name: solicitud-judicial-convocatoria-asamblea-ordinaria-mer-0381
-description: "Solicitud judicial de convocatoria de asamblea ordinaria por interventores y socios de cooperativa. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Solicitud judicial de convocatoria de asamblea ordinaria por interventores y socios de cooperativa. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Solicitud judicial de convocatoria de asamblea ordinaria por interventores y socios de cooperativa

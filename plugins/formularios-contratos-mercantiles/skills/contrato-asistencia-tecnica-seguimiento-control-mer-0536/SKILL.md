@@ -1,6 +1,6 @@
 ---
 name: contrato-asistencia-tecnica-seguimiento-control-mer-0536
-description: "Contrato de asistencia técnica para el seguimiento y control del proyecto (project monitoring). Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Contrato de asistencia técnica para el seguimiento y control del proyecto (project monitoring). Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Contrato de asistencia técnica para el seguimiento y control del proyecto (project monitoring)

@@ -1,6 +1,6 @@
 ---
 name: acta-junta-sa-aprueba-cuentas-anuales-gestion-mer-0123
-description: "Acta de junta de SA que aprueba las cuentas anuales, la gestión y la aplicación del resultado. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Acta de junta de SA que aprueba las cuentas anuales, la gestión y la aplicación del resultado. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Acta de junta de SA que aprueba las cuentas anuales, la gestión y la aplicación del resultado

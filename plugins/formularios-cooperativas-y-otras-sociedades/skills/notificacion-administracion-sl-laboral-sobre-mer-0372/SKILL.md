@@ -1,6 +1,6 @@
 ---
 name: notificacion-administracion-sl-laboral-sobre-mer-0372
-description: "Notificación de la administración de una SL laboral sobre transmisión de participaciones laborales. Lo redacta con los datos del caso y comprueba las normas con Jurisprudenciator."
+description: "Notificación de la administración de una SL laboral sobre transmisión de participaciones laborales. Lo redacta con los datos del caso y comprueba las normas en el BOE. Requiere Jurisprudenciator."
 ---
 
 # Notificación de la administración de una SL laboral sobre transmisión de participaciones laborales
