@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,81 @@ Modelo de certificado del acta del Consejo de Administración de una Sociedad de
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+CERTIFICADO DE ACTA DEL CONSEJO DE ADMINISTRACIÓN DE ‘[DENOMINACIÓN SOCIAL], S.L.’
+
+En [LUGAR], a [FECHA].
+
+D./Dña. [NOMBRE Y APELLIDOS], en mi calidad de Secretario del Consejo de Administración de ‘[DENOMINACIÓN SOCIAL], S.L.’ y
+
+CERTIFICO
+
+Que en [LOCALIDAD], siendo las [Nº] horas del día [FECHA], se reunió en el domicilio social de ‘[DENOMINACIÓN SOCIAL], S.L.’ el Consejo de Administración de dicha compañía, previa convocatoria efectuada por el Presidente del Consejo D./Dña. [NOMBRE Y APELLIDOS] mediante
+correo electrónico
+correo certificado,
+fax.
+[NOMBRE Y APELLIDOS], de fecha de [FECHA], para tratar los asuntos comprendidos en el siguiente
+
+ORDEN DEL DÍA:
+
+1º.- Creación de una sucursal de ‘[DENOMINACIÓN SOCIAL], S.L.’ en la calle [CALLE], de la localidad de [LOCALIDAD], y adoptar cuantos acuerdos complementarios sean precisos.
+2º.- [PUNTO DEL ORDEN DEL DÍA].
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+- [NOMBRE Y APELLIDOS]
+
+Que asistieron a la reunión los siguientes consejeros:
+
+Personalmente
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS].
+
+Mediante representante
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS] representado por D./Dña. [NOMBRE Y APELLIDOS].
+
+Que, por lo tanto, existiendo quórum suficiente para la válida constitución del Consejo, se declaró ésta por el Señor Presidente, sin que se realizase protesta ni reserva alguna por ninguno de los asistentes, tratándose los siguientes aspectos, sobre los que se adoptaron por unanimidad los siguientes:
+
+ACUERDOS
+
+1º.- A la vista de la potestad reconocida en el artículo 11 de la Ley de Sociedades de Capital y en el art. de los estatutos sociales, se acuerda la creación de una sucursal de ‘[DENOMINACIÓN SOCIAL], S.L.’ de conformidad con lo siguiente:
+
+a) Identificación: [DENOMINACIÓN DE LA SUCURSAL].
+b) Domicilio: localidad [LOCALIDAD].
+c) Actividades que se le encomiendan: [ACTIVIDAD].
+d) Identidad de los representantes nombrados con carácter permanente para la sucursal, con expresión de sus facultades:
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+[REPRESENTANTES Y FACULTADES]
+
+2º.- Facultar a todos y cada uno de los miembros del Consejo de Administración para que, indistintamente puedan comparecer ante Notario y elevar a público los presentes acuerdos, otorgando a tales efectos las escrituras públicas correspondientes, incluidas las facultades de subsanación, rectificación o aclaración, así como para realizar cuantas actuaciones sean precisas o convenientes para la eficacia de los susodichos acuerdos.’
+
+Que, tras todo ello, redactada y leída que fue el acta por mí, el Secretario, esta fue aprobada por el Consejo, por unanimidad de los asistentes, con el Visto Bueno del Presidente.
+
+Que no existiendo más asuntos que tratar, se levantó la sesión.
+
+Secretario
+
+Vº Bº Presidente
+
+Firmado: D./Dña. [NOMBRE Y APELLIDOS] Firmado: D./Dña. [NOMBRE Y APELLIDOS]

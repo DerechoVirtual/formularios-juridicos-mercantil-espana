@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Cooperativas, sociedades laborales y otras formas de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Cooperativas, sociedades laborales y otras formas de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -43,8 +43,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 6 Ley 44/2015
-
----
 
 ## Instrucciones para Claude
 
@@ -80,15 +78,43 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Notificación de la voluntad de transmitir acciones o participaciones de la clase laboral dirigida a los trabajadores socios, no socios con contrato laboral indefinido y socios de clase general
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+En [LUGAR], a [FECHA].
+
+Muy señor mío,
+
+Por la presente, y a los efectos del ejercicio del derecho de adquisición establecido en el artículo 6 de la Ley 44/2015, de 14 de octubre, de Sociedades Laborales y Participadas, pongo en su conocimiento la oferta efectuada por el socio D./Dña. [NOMBRE Y APELLIDOS] para la transmisión de [ELEGIR: acciones / participaciones] de la clase laboral de la sociedad «[DENOMINACIÓN SOCIAL]», de la cual es usted [ELEGIR: socio trabajador / trabajador no socio con contrato indefinido / socio de clase general].
+
+Las características de la transmisión proyectada son las siguientes:
+
+• a) a transmitir: números [Nº] a [Nº], ambas inclusive, todas de clase laboral.
+• b) Valor nominal: [IMPORTE] euros cada una.
+• c) Precio: [IMPORTE] euros cada una, lo que hacen un precio total conjunto de [IMPORTE] euros.
+• d) Cargas o gravámenes: [CARGAS O GRAVÁMENES].
+• e) Otras condiciones de la transmisión: [OTRAS CONDICIONES DE LA TRANSMISIÓN].
+
+En caso de interesarle el ejercicio del derecho de adquisición, deberá proceder a la misma en el plazo de 20 días a partir de la fecha de recepción de esta notificación.
+
+Atentamente,
+
+D./Dña. [NOMBRE Y APELLIDOS]

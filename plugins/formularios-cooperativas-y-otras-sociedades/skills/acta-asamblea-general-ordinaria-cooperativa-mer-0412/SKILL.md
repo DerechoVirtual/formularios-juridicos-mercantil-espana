@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Cooperativas, sociedades laborales y otras formas de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Cooperativas, sociedades laborales y otras formas de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -54,8 +54,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -92,15 +90,89 @@ Modelo de acta de Asamblea General Ordinaria de una sociedad cooperativa, median
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO]., siendo las [Nº] horas, se reúne ene el domicilio social de «[DENOMINACIÓN SOCIAL], S. Coop.», [ELEGIR: en primera / en segunda] convocatoria, la Asamblea General Ordinaria, previa convocatoria al efecto del Consejo Rector de la cooperativa, debidamente formalizada mediante anuncio expuesto en el domicilio social y [MEDIO DE PUBLICACIÓN], y que a continuación se trascribe:
+
+«Convocatoria de Asamblea General Ordinaria de «[DENOMINACIÓN SOCIAL], S. Coop.»
+
+Por acuerdo del Consejo Rector de fecha [DÍA] de [MES] de [AÑO], se convoca a todos los socios de esta Cooperativa a la Asamblea General que, con carácter de ordinaria, tendrá lugar en el domicilio social (calle [CALLE], número [NÚMERO], [LOCALIDAD]), el día [DÍA] de [MES] de [AÑO], a las [Nº] horas, en primera convocatoria, y el siguiente día [DÍA] de [MES] de [AÑO], en segunda convocatoria, en caso de no reunirse en la primera el quórum legal, en el mismo lugar y hora con arreglo al siguiente
+
+Orden del día
+
+Primero.– Examen y aprobación, si procede, de las Cuentas Anuales e Informe de Gestión correspondientes al ejercicio cerrado el 31 de diciembre de [AÑO].
+
+Segundo.– Examen y aprobación, si procede, de la Propuesta de distribución de resultados.
+
+Tercero.– Examen y aprobación, en su caso, de la gestión del Consejo de Administración correspondiente al Ejercicio de [EJERCICIO].
+
+Cuarto.– Ruegos y preguntas.
+
+Quinto.– Lectura y aprobación, en su caso, del acta de la Asamblea General.
+
+A partir de la presente convocatoria se encuentran a disposición de los socios en el domicilio social los documentos que han de ser sometidos a aprobación de la Asamblea General. Los Socios pueden solicitar por escrito, y en los términos fijados en el artículo [Nº DE ARTÍCULO] de los Estatutos, la ampliación de cuanta información consideren necesaria en relación a los puntos contenidos en el Orden del día.
+
+[NOMBRE Y APELLIDOS], a [FECHA]
+
+El presidente del Consejo Rector»
+
+Actúa como presidente/a de la Asamblea D/Dña. [NOMBRE Y APELLIDOS] y como secretario/a D/Dña. [NOMBRE Y APELLIDOS], por serlo ambos del Consejo Rector [DENOMINACIÓN SOCIAL]
+
+El presidente/a, asistido por el Secretario/a, procede a elaborar la lista de asistentes que a continuación se detalla:
+
+Asisten, entre presentes y representados, un total de [Nº] titulares de [Nº] votos, que representan el [PORCENTAJE] % de los votos sociales Ha de tenerse en cuenta lo que, en su caso, tengan previsto los Estatutos [OTROS DATOS].
+
+El presidente/a declara válidamente constituida la Asamblea General [ELEGIR: en primera convocatoria / en segunda convocatoria] y tras exponer brevemente los asuntos incluidos en el orden del día, la asamblea general debate sobre los mismos, sin que ninguno de los asistentes solicite constancia en acta de ninguna intervención u oposición.
+
+La Asamblea General adopta, por la mayoría que en cada caso se indica, los siguientes:
+
+Acuerdos
+
+Primero.– Examen y aprobación, si procede, de las Cuentas Anuales e Informe de Gestión correspondientes al ejercicio cerrado el 31 de diciembre de [AÑO]
+
+Una vez escuchado el informe de los interventores y no habiendo ninguna intervención, se aprueban [por unanimidad] las cuentas anuales e informe de gestión del ejercicio cerrado al 31 de diciembre de [AÑO] presentado por el consejo rector a las consideraciones de esta asamblea general.
+
+El resultado de explotación obtenido asciende a un beneficio de [IMPORTE] euros.
+
+Segundo.– Examen y aprobación, si procede, de la Propuesta de distribución de resultados
+
+Se aprueba por [Nº] votos a favor; votos en contra; abstenciones ] la siguiente de aplicación de los excedentes disponibles del ejercicio [EJERCICIO]:
+
+a) Al Fondo de Reserva Obligatorio:
+b) Al Fondo de Educación y Promoción:
+c) A Fondo de Reserva Voluntario:
+d) A Retorno cooperativo
+e) A [OTROS DATOS]:
+
+Tercero.– Examen y aprobación, en su caso, de la gestión del Consejo Rector correspondiente al Ejercicio de [EJERCICIO]
+
+Se vota sobre la aprobación o no de la gestión llevada a cabo por el Consejo Rector durante el ejercicio. Resultando [Nº] votos en contra y [Nº] a favor, y [Nº] abstenciones, por ello se acuerda aprobar la gestión realizada por el Consejo Rector en el ejercicio
+
+Cuarto.– Ruegos y preguntas
+
+No se produce ninguna intervención en este punto.
+
+Quinto.– Lectura y aprobación, en su caso, del acta de la Asamblea General
+
+Redactada y leída el Acta por el/la Secretario/a, es aprobada por unanimidad de los asistentes.
+
+Sin más asuntos que tratar, el presidente da por concluida esta Asamblea General agradeciendo la asistencia a la misma.
+
+VB presidente/a	VB El/La secretario/a
+
+Fdo. D./Dña. [NOMBRE Y APELLIDOS]: Fdo. D./Dña. [NOMBRE Y APELLIDOS]:

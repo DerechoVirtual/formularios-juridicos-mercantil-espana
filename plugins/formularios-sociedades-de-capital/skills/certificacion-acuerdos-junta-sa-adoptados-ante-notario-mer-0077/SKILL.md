@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,93 @@ Certificación emitida por el administrador sobre acuerdos adoptados en acta not
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
+
+D./Dña. [NOMBRE Y APELLIDOS], administrador único de la sociedad « [DENOMINACIÓN SOCIAL] SA»,
+
+D./Dña. [NOMBRE Y APELLIDOS], y D./Dña. [NOMBRE Y APELLIDOS], administradores mancomunados de la sociedad « [DENOMINACIÓN SOCIAL] SA»,
+
+D./Dña. [NOMBRE Y APELLIDOS], secretario del consejo de administración de la sociedad « [DENOMINACIÓN SOCIAL] SA»,
+
+CERTIFICA 1. Que el día [FECHA] se celebró en [DIRECCIÓN], calle [CALLE] número [NÚMERO], de [LOCALIDAD], en [ELEGIR: primera convocatoria / segunda convocatoria] la junta general de accionistas de la sociedad « SA».
+
+[ELEGIR UNA OPCIÓN: Con página web / Cuando los estatutos impongan la comunicación individual]
+
+3. Que, el texto de la convocatoria publicada fue el siguiente:
+
+Convocatoria de junta general de accionistas de la sociedad « [DENOMINACIÓN SOCIAL], SA» [TEXTO DE LA CONVOCATORIA]
+
+4. Que, previo requerimiento del órgano de administración de la sociedad, asistió a la junta general y levantó acta notarial de la misma el Notario de [LOCALIDAD], D./Dña. [NOMBRE Y APELLIDOS] (número de protocolo: [Nº DE PROTOCOLO]).
+
+[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
+
+5. Que conforme a lo dispuesto en el artículo 191 de la Ley de Sociedades de Capital y a falta de disposición estatutaria en contrario, actuó como presidente de la junta general el D./Dña. [NOMBRE Y APELLIDOS], por serlo también del consejo de administración, y como secretario de la junta general quien lo es de este órgano social, el D./Dña. [NOMBRE Y APELLIDOS]
+
+5. Que conforme con lo previsto en el artículo [Nº DE ARTÍCULO] de los estatutos de la sociedad, actuó como presidente de la junta el D./Dña. [NOMBRE Y APELLIDOS], por ser el [CARGO], y como secretario de la junta el D./Dña. [NOMBRE Y APELLIDOS], por ser [CARGO].
+
+5. Que los socios concurrentes acordaron [ELEGIR: por unanimidad / por mayoría] elegir al D./Dña. [NOMBRE Y APELLIDOS] como presidente de la junta general y a D./Dña. [NOMBRE Y APELLIDOS] como secretario de la junta general, aceptando los nombrados ocupar tales cargos.
+
+6. Que se redactó la preceptiva lista de asistentes, que se incorpora mediante anexo 1 al acta de la junta general», con el siguiente resultado:
+
+Socios presentes: socios, titulares de acciones por un valor total de [IMPORTE] euros, que representan el [PORCENTAJE] por 100 del capital social.
+
+Socios representados: socios, titulares de acciones por un valor total de [IMPORTE] euros, que representan el [PORCENTAJE] por 100 del capital social.
+
+Total: socios, titulares de acciones por un valor total de [IMPORTE] euros, que representan el [PORCENTAJE] por 100 de la totalidad del capital social.
+
+7. Que con respecto al número [NÚMERO] del orden del día, fue adoptado el siguiente acuerdo:
+
+Que el acuerdo fue adoptado por:
+
+Que se solicitó la constancia en el acta de las intervenciones siguientes:
+
+Que solicitaron que constara en acta su oposición al acuerdo adoptado:
+
+8. Que los acuerdos de la junta general figuran en acta notarial.
+
+Esta certificación se expide en la ciudad deel día [FECHA]
+
+[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
+
+y es firmada por mí, administrador único de la sociedad
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+y es firmada por mí, administrador solidario de la sociedad.
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+y es firmada por nosotros, administradores mancomunados de la sociedad.
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+y es firmada por mí, secretario del consejo de administración, con el visto bueno del presidente del consejo de administración.
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+V. Bº del Presidente del Consejo
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+Secretario del Consejo
+
+« [DENOMINACIÓN SOCIAL] SA»

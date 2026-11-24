@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Banca, financiación, valores y garantías) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Banca, financiación, valores y garantías) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -53,8 +53,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -90,15 +88,193 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+REUNIDOS
+
+De una parte:
+
+D [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ESTADO CIVIL], vecino de [LOCALIDAD], domiciliado en [DOMICILIO], con documento nacional de identidad número [NÚMERO]
+
+De otra:
+
+D D [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ESTADO CIVIL], vecino de [LOCALIDAD], domiciliado en [DOMICILIO], con documento nacional de identidad número [NÚMERO]
+
+INTERVIENEN
+
+D [NOMBRE Y APELLIDOS], en nombre y representación de [NOMBRE DEL REPRESENTADO/A], en lo sucesivo "EL ARRENDADOR", en virtud de poder otorgado a su favor ante el Notario de [LOCALIDAD] D [NOMBRE Y APELLIDOS], en fecha [FECHA], con el número de protocolo [Nº DE PROTOCOLO], poder que se halla debidamente inscrito en el Registro Mercantil de [LOCALIDAD] y vigente, según manifiesta.
+
+D [NOMBRE Y APELLIDOS], en nombre y representación de [NOMBRE DEL REPRESENTADO/A], en lo sucesivo "EL ARRENDATARIO", en virtud de poder otorgado a su favor ante el Notario de [LOCALIDAD] D [NOMBRE Y APELLIDOS], en fecha [FECHA], con el número de protocolo [Nº DE PROTOCOLO], poder que se halla debidamente inscrito en el Registro Mercantil de [LOCALIDAD] y vigente, según manifiesta.
+
+Todas las partes, en el respectivo carácter con el que intervienen, se reconocen mutuamente la capacidad legal en Derecho necesaria para concertar el presente CONTRATO DE LEASING DE EQUIPOS INFORMÁTICOS, y a tal efecto, libremente y de común acuerdo,
+
+EXPONEN
+
+PRIMERO.- El arrendador es el propietario de los equipos informáticos designados en el presente contrato y se dedica profesionalmente al arrendamiento de los mismos (en adelante, leasing informático). Para la prestación de sus servicios cuenta con los medios organizativos y técnicos necesarios para su desempeño.
+
+SEGUNDO.- Que el arrendatario está interesado en recibir por parte del arrendador la prestación de dichos servicios en los términos y condiciones designados en el presente contrato, arrendando los equipos informáticos descritos en el Anexo I (en adelante, los equipos), con la opción de compra de los mismos una vez finalizada la vigencia del presente contrato, y abonado su valor residual.
+
+TERCERO.- Que el arrendador tiene interés en ceder el uso y disfrute de los equipos informáticos de su propiedad al arrendatario basando dicha relación jurídica en el modelo de arrendamiento financiero (en adelante, leasing). ambas partes de común acuerdo llevan a efecto el presente contrato con arreglo a las siguientes:
+
+CLÁUSULAS
+
+Objeto
+
+El presente contrato tiene por objeto regular la relación jurídica entre las partes a la hora de establecer los términos del arrendamiento de equipos informáticos con opción de compra y en los que tiene interés el arrendatario para utilizarlos en [LUGAR], a cambio de una contraprestación económica, tal y como se fija en los términos de este contrato, quedando abierta para el arrendatario la opción de compra de dichos bienes informáticos una vez finalizado el presente contrato, ejercida la opción de compra tras el abono de su valor residual.
+
+Cuotas periódicas
+
+2.1Importe de las cuotas
+
+El importe total de las cuotas de arrendamiento asciende a [IMPORTE] euros ( €)().
+
+Este importe se pagará mediante [ÓRGANO] cuotas, cuya composición y vencimiento se detallan en el cuadro de amortización que se adjunta como Anexo I.
+
+2.2Pago de las cuotas
+
+El pago se efectuará entre los días [FECHAS] y [DÍA] de cada mes en la cuenta corriente nº [NÚMERO] que EL ARRENDADOR tiene suscrita con la entidad [DENOMINACIÓN SOCIAL] en su sucursal
+
+2.3Retraso en el pago
+
+El retraso en más de [Nº] días en cualquiera de los pagos dará derecho al ARRENDADOR a exigir a EL ARRENDATARIO un interés moratorio del % respecto de cada uno de los pagos no satisfechos puntualmente. Si EL ARRENDATARIO se retrasara en el pago de dos mensualidades, EL ARRENDADOR podrá optar entre exigir el pago de los plazos pendientes o resolver el contrato, con abono en ambos caso de las indemnizaciones que puedan corresponder.
+
+Duración
+
+El presente contrato tendrá una duración de [Nº] meses dando comienzo en la fecha de la firma del mismo y finalizando [FECHA].
+
+Obligaciones del arrendador
+
+El arrendador garantiza que es el único y exclusivo titular de los equipos, siendo originales los programas, aplicaciones informáticas, y demás que pudieran ser objeto de arrendamiento, estando exentas de cargas o gravámenes de cualquier naturaleza o clase.
+
+El arrendador se compromete a hacer entrega en perfecto estado, y en las instalaciones del arrendatario, de los equipos y todos los programas, documentación así como todos aquellos definidos en el Anexo I del presente contrato.
+
+El arrendador otorga al arrendatario el derecho de opción de compra de los equipos una vez finalice el presente contrato. A este tiempo el arrendatario podrá optar entre la devolución de los equipos o su adquisición, tras el abono de su valor residual.
+
+El arrendador transmitirá la propiedad de los equipos al arrendatario en las condiciones establecidas en el presente contrato en el caso de que éste decida ejercitar la opción de compra una vez transcurrido el periodo establecido en el presente contrato y siempre y cuando no se haya incurrido en el impago de ninguna de las cuotas pactadas.
+
+Obligaciones del arrendatario
+
+El arrendatario se compromete a cumplir con las condiciones económicas fijadas en el presente contrato como contraprestación por el servicio prestado por parte del arrendador.
+
+El arrendatario permitirá en todo momento al acceso del arrendador para la prestación del servicio tantas veces como sea necesario para la comprobación y verificación del cumplimiento del presente contrato, así como para el traslado en su caso de los equipos al fin del presente contrato.
+
+El arrendatario tiene derecho a ejercer su derecho de opción de compra siempre que no se hubiera producido ningún impago de las cuotas a su cargo. Para el posible ejercicio de dicha opción de compra las partes establecen la cantidad de [IMPORTE] € ( euros) como valor residual que se hará efectiva en el momento de ejercer la opción.
+
+El arrendatario facilitará al arrendador toda la información que fuera necesaria para que este pueda prestar sus servicios, eximiendole de toda responsabilidad en el caso de que se produjeran retrasos causados por el arrendatario.
+
+El arrendatario se compromete a respetar y proteger los equipos, que pertenecen y son propiedad del arrendador durante toda la duración del presente contrato, estableciendo para ello las medidas organizativas y técnicas que resultaran necesarias, y a no ceder, subarrendar, facilitar o permitir el acceso por ningún medio a cualquier tercero sin el previo consentimiento expreso y por escrito por parte del arrendador.
+
+En ningún caso el arrendatario dará un uso abusivo, que objetivamente facilitara su deterioro o que por cualquier circunstancia fuera distinto a las finalidades típicas descritas en el presente arrendamiento. El arrendatario se hace exclusivo responsable de todos los daños, perjuicios o responsabilidades que pudieran producirse o derivarse de dichas actividades.
+
+El arrendador es el único responsable de la modificación o actualización de los equipos, por lo que el arrendatario se abstendrá de llevar a cabo cualquier acto de modificación o actualización de los mismos sin el consentimiento expreso y por escrito del arrendador.
+
+El arrendatario se compromete a embalar y dejar los equipos listos para su traslado al momento de extinción del presente contrato en el caso de no querer abonar la cuota residual de los equipos necesaria para su adquisición, permitiendo al arrendador acceder a las instalaciones a fin de permitir el traslado de los equipos.
+
+Confidencialidad
+
+Todos los documentos, informaciones, acuerdos, contratos y precontratos, quedando incluidos los correos electrónicos y todo tipo de comunicaciones para la realización de este contrato, así como cualquier conocimiento o información que pudiera tenerse sobre cualquiera de las dos partes o sus actividades son información completamente confidencial, por lo que deberá ser tratada con el más absoluto de los secretos, aun extinguida la relación contractual.
+
+Protección de datos
+
+En cumplimiento de lo dispuesto en la Ley Orgánica 3 / 2018, de 5 de diciembre, de Protección de Datos Personales y Garantía de Derechos Digitales, le informamos que sus datos personales quedarán incorporados y serán tratados en los ficheros de ambas partes, con el fin de poder mantener la presente relación contractual. Le informamos de la posibilidad de ejercer sus derechos de acceso, rectificación, cancelación y oposición sobre sus datos de carácter personal solicitándolo por escrito junto a una fotocopia de su DNI en la siguiente dirección indicada en la cabecera del presente contrato.
+
+Propiedad de los bienes
+
+En reconocimiento de la propiedad que a la parte arrendadora corresponde sobre los bienes que son objeto del presente contrato, el arrendatario se obliga a proclamar que estos bienes son propiedad de la Sociedad de Leasing ante quien proceda, en todo tipo de supuestos, muy principalmente en el de embargo por un tercero o inclusión de los mismos en la masa con ocasión de un juicio universal o cualquiera otro de idéntica naturaleza.
+
+De igual forma el arrendatario se compromete a comunicar a la Sociedad de Leasing cualquier evento que pueda poner en riesgo la propiedad que le corresponde sobre los bienes objeto del presente documento.
+
+Responsabilidad
+
+El arrendatario ha escogido los bienes objeto de arrendamiento, habiendo determinado la clase, marca, modelo y demás características técnicas de los mismos, así como el proveedor. Tales bienes han sido adquiridos por la Sociedad de Leasing con la única finalidad de ceder su uso al arrendatario, dando este su conformidad con todas las gestiones realizadas por aquella.
+
+El arrendatario no se hace responsable del retraso en la entrega, instalación o integración de los equipos por causas no imputables al mismo, y muy especialmente que se deban a retrasos imputables al arrendador.
+
+El arrendador es el legítimo titular de los equipos objeto del presente contrato, pudiéndose garantizar que sobre los mismos no existe carga o gravamen de ningún tipo, y que estos funcionan correctamente al momento de entrega de los mismos.
+
+El arrendador no puede responder de los daños directos o indirectos, por daño emergente o lucro cesante, interrupción del trabajo, avería, fallo o perdidas, o que se deban a causa mayor, entendiéndose esta como aquella que sea consecuencia de hechos o circunstancias que estén fuera de su control, incluido, a título enunciativo y no limitativo, acción gubernativa, incendio, inundación, insurrección, terremoto, fallo técnico, motín, explosión, embargo, huelga legal o ilegal, escasez de personal o de material, interrupción del transporte de cualquier tipo, retraso en el trabajo, o cualquier otra circunstancia fuera del control de la fundación que afecte de cualquier modo a los servicios.
+
+El arrendatario se obliga a asegurar los bienes objeto del presente contrato durante toda la vigencia del mismo, siendo a su cuenta el pago de la prima correspondiente. En la póliza que suscriba se hará mención a la condición de usuario por parte del arrendatario y la condición de beneficiario del arrendador.
+
+Cesión de derechos
+
+Las partes no pueden ceder, enajenar o subrogar en cualquier forma su posición contractual a favor de ningún tercero sin la autorización expresa y por escrito de la otra parte. Dicha autorización no será precisa si la cesión contractual se produce como consecuencia de una fusión, reorganización u otra operación de la transmisión a otra persona jurídica de la totalidad de los activos de la parte contraria.
+
+Resolución del contrato
+
+El incumplimiento por cualquier de las partes de cualquiera de las obligaciones que este contrato impone, facultará a la parte contraria a resolver de forma inmediata el presente contrato o exigir su cumplimiento, sin perjuicio de la indemnización de daños y perjuicios que proceda en ambos casos.
+
+No obstante el presente contrato se extinguirá, además de por las causas generales del Derecho, por las siguientes:
+
+1. Por el incumplimiento de alguna de las cláusulas del presente contrato. En tal caso no será necesario preavisar, y en ningún caso abonar cantidad indemnizatoria alguna por parte de la parte que rescindió el contrato.
+
+2. Por el transcurso de la duración del mismo.
+
+3. Por ser declarados en situación de suspensión de pagos, quiebra o concurso de acreedores cualquiera de las partes.
+
+4. Por el impago de cualquiera de las cuotas mensuales.
+
+Finalizado el contrato por la causa 2 de la presente cláusula y si el arrendatario estuviere al corriente de sus obligaciones podrá optar por:
+
+(Otorgar nuevo contrato de arrendamiento financiero, en el que servirá como base para el cálculo de las cuotas el importe del valor residual.
+
+( Adquirir la propiedad de los bienes por el importe del valor residual pactado.
+
+La opción deberá efectuarse fehacientemente dentro de los 30 días anteriores al vencimiento del contrato. Transcurrido dicho plazo sin haber ejercitado este derecho, se entenderá que el arrendatario opta por restituir, finalizada la duración del contrato, los bienes objeto del mismo al arrendador en el lugar que este señale para el efecto, corriendo de cuenta del arrendatario los gastos de la restitución y sin más desgaste que el normal como consecuencia del uso.
+
+Evicción y SANEAMIENTO
+
+EL ARRENDATARIO exonera al ARRENDADOR de la responsabilidad por la idoneidad, el funcionamiento, el estado o cualquier otra circunstancia o condición referida al bien objeto del contrato.
+
+No obstante, en orden a evitar la indefensión del usuario, EL ARRENDADOR, en su condición de adquirente del bien, cede a EL ARRENDATARIO todos los derechos y acciones que puedan corresponderle frente al fabricante y el proveedor de los bienes. Por tal motivo, cualquier defecto que exista en los bienes objeto del presente contrato deberá ser reclamado directamente por EL ARRENDATARIO al fabricante o proveedor, o a quien haya sido comprados o resulten responsables de la venta del mismo, sin que exista por parte de LA ARRENDADOR obligación alguna mas que otorgar a EL ARRENDATARIO la representación necesaria para que este en condiciones de exigir la garantía o los daños y perjuicios que se ocasionen por los defectos y/o vicios que tenga los bienes en contra del proveedor vendedor o responsable de éste.
+
+Seguro
+
+EL ARRENDATARIO contratará un seguro que resulte satisfactorio para EL ARRENDADOR y que cubra tanto la responsabilidad civil en que se pudiera incurrir en el desempeño de la actividad, como el riesgo de daños o pérdida que pueda sufrir el bien arrendado durante todo el periodo de vigencia del presente contrato.
+
+EL ARRENDATARIO proporcionará a EL ARRENDADOR, a su solicitud, pruebas de la existencia de dicho seguro. La cobertura incluirá, entre otros aspectos, los daños provocados por incendios, agua, fenómenos naturales y robo.
+
+En caso de impago el arrendador financiero podrá satisfacer directamente el pago a la compañía asegurador y reclamar el importe abonado al usuario incrementado en un [PORCENTAJE] % en concepto de penalización.
+
+[ELEGIR UNA OPCIÓN: Jurisdicción competente y ley aplicable / Jurisdicción competente y ley aplicable / Sumición a tribunales / Opción 14.1: Sumisión a tribunales / Sumisión a arbitraje / Opción 14.2: Sumisión a arbitraje]
+
+Notificaciones
+
+Toda notificación que se efectúe entre las partes se hará por escrito y será entregada personalmente o de cualquier otra forma que certifique la recepción por la parte notificada en los respectivos domicilios indicados en el encabezamiento de este Contrato.
+
+Cualquier cambio de domicilio de una de las partes deberá ser notificado a la otra de forma inmediata y por un medio que garantice la recepción del mensaje.
+
+Generalidades
+
+El presente contrato anula y reemplaza cualquier contrato o acuerdo anterior entre las partes con el mismo objeto y sólo podrá ser modificado por un nuevo acuerdo firmado por ambas partes.
+
+Si alguna de las cláusulas del presente contrato fuere declarada nula o inaplicable, dicha cláusula se considerará excluida del contrato, sin que implique la nulidad del mismo. En este caso las partes harán cuanto esté a su alcance para encontrar una solución equivalente que sea válida y que refleje debidamente sus intenciones.
+
+Los encabezamientos de las distintas cláusulas lo son sólo a efectos informativos, y no afectarán, calificarán o ampliarán la interpretación de este Contrato.
+
+Y en prueba de conformidad y aceptación de cuanto antecede, ambas partes firman los [Nº] folios del presente CONTRATO DE LEASING DE EQUIPOS INFORMÁTICOS extendido por duplicado y a un solo efecto, en la ciudad y fecha mencionados en el encabezamiento.
+
+Fdo. Don [NOMBRE Y APELLIDOS]
+
+(La ARRENDADOR)
+
+Fdo. Don [NOMBRE Y APELLIDOS]
+
+(La ARRENDATARIO)

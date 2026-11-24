@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -51,8 +51,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,57 @@ Modelo de programa de fundación por suscripción pública de acciones con el co
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+ARTÍCULO 1: ANTECEDENTES
+
+Quienes suscriben este escrito tienen la intención de poner en marcha un negocio consistente en [DESCRIBIR], para lo cual, y teniendo en cuenta los estudios financieros y de mercado efectuados, han considerado idónea la creación de una Sociedad Anónima para la realización de su proyecto.
+
+ARTÍCULO 2: PROMOTORES
+
+Promueven la fundación de la Sociedad Anónima proyectada:
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS], de estado civil [ELEGIR: soltero / soltera / divorciado / divorciada / separado judicialmente / separada judicialmente viudo / viudo / viuda / casado / casada], con profesión [PROFESIÓN] de nacionalidad [NACIONALIDAD], con domiciliado en [DOMICILIO], y [ELEGIR: DNI / pasaporte / permiso de residencia] número
+
+ARTÍCULO 3: TEXTO DE LOS ESTATUTOS DE LA FUTURA SOCIEDAD
+
+Los anteriores promotores presentan como Texto Literal de los Estatutos por los que habrá de regirse la Sociedad Anónima proyectada los que se unen al presente Programa de Fundación como Anexo I.
+
+ARTÍCULO 4: PLAZO Y CONDICIONES PARA LA SUSCRIPCIÓN DE LAS ACCIONES
+
+El plazo para la suscripción de las acciones será de [Nº] meses, estando facultados expresamente los promotores para ampliarlo en caso de que sea necesario, por un período máximo de [Nº] días.
+
+Los suscriptores desembolsarán como mínimo un 25% del importe nominal de cada una de las acciones que suscriban, cuyo importe se depositará en la cuenta corriente que la Sociedad en constitución tiene abiertas en la entidad de crédito [ENTIDAD BANCARIA] con el número
+
+ARTÍCULO 5: APORTACIONES NO DINERARIAS
+
+Se proyecta la aportación por D./Dña. [NOMBRE Y APELLIDOS] del inmueble sito en la calle [CALLE] de [LOCALIDAD], en el que se ubicará la sede social de la Sociedad Anónima en proyecto, cuya descripción registral es [DATOS REGISTRALES], valorada en [IMPORTE] euros, y cuya aportación efectiva se prevé que se realizará en la Escritura de Constitución. La memoria explicativa e informe técnico sobre la valoración del citado inmueble se hallan a disposición de los suscriptores en [DIRECCIÓN].
+
+ARTÍCULO 6: DEPÓSITO DEL PROGRAMA
+
+El presente Programa de Fundación y el Folleto Informativo de la emisión de las acciones se depositan en el Registro Mercantil de [LOCALIDAD].
+
+[ELEGIR UNA OPCIÓN: Acciones suscritas / ARTÍCULO 7: ACCIONES SUSCRITAS / Criterio de la proporcionalidad / Criterio de la prioridad cronológica / — y además elegir: Cumplimiento de Formalidades / ARTÍCULO 8: CUMPLIMIENTO DE FORMALIDADES / Sin aportaciones dinerarias / Con aportaciones dinerarias]
+
+Dado en [LUGAR], a [FECHA].
+
+Firmado: D./Dña. [NOMBRE Y APELLIDOS] Firmado: D./Dña. [NOMBRE Y APELLIDOS]
+
+Firmado: D./Dña. [NOMBRE Y APELLIDOS]

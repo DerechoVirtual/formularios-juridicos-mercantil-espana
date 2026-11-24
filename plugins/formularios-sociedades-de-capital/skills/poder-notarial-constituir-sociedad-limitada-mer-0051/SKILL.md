@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -41,8 +41,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -79,15 +77,62 @@ Documento formalizado ante notario mediante el cual, una persona (poderdante) co
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+D./Dña. [NOMBRE Y APELLIDOS] mayor de edad, de nacionalidad [NACIONALIDAD] con domicilio en calle con DNI número [DNI/NIE] vigente Interviene en su propio nombre y derecho y
+
+OTORGA
+
+Poder especial tan amplio como en Derecho fuera menester a favor de:
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS] mayor de edad, de nacionalidad con domicilio en calle con DNI número vigente
+
+para que actuando cualquiera de ellos solidaria e indistintamente, en su nombre y representación, ejerciten las siguientes,
+
+FACULTADES
+
+• Constituir una sociedad de responsabilidad limitada, bajo la denominación « S.L», con un capital social de [IMPORTE],
+
+• Aportar a la misma la suma de [IMPORTE] euros, y recibir en pago las correspondientes participaciones sociales;
+
+• Valorar aportaciones no dinerarias;
+
+• Aprobar Estatutos sociales;
+
+• Conferir apoderamientos dentro del contrato de sociedad;
+
+• Asistir en nombre y representación del poderdante a la primera Junta General de Socios que se celebre tras la constitución de la referida sociedad y votar cuantos acuerdos consideren oportunos, incluyendo el nombramiento de miembros del órgano de administración y la aprobación de su aceptación al cargo,
+
+• Comparecer ante todas y cualesquiera personas físicas y jurídicas, bancos, instituciones, notarios, registradores, delegaciones de gobierno, ya sean nacionales, autonómicas, provinciales o municipales, con poderes totales de representación, estando autorizados para presentar instancias y requerimientos para formalizar documentos y llevar a cabo cualquier otro acto que pueda ser conveniente o necesario para ejercitar todos y cada uno de los poderes otorgados en este documento y, en especial, los necesarios para la obtención del NIF, para trámites derivados de bancos o cualesquiera otros que fueran necesarios.
+
+• Solicitar y obtener todo tipo de certificados electrónicos de entidad y/o firmas digitales, a fin de ser utilizados en las relaciones telefónicas y/o telemáticas que la sociedad, mantenga con cualesquiera Administraciones Públicas que admitan su uso en este tipo de relaciones y, en suma, para solicitar certificados electrónicos conforme a la Ley 6/2020, de 11 de noviembre, pudiendo ejecutar transacciones electrónicas, contrataciones y cualquier otra actividad que requiera el uso de la firma electrónica o del certificado, cumpliendo los requisitos legales al efecto
+
+En suma, ejercitar y cumplir en la forma y condiciones que tenga por conveniente, cuantos derechos y obligaciones deriven de la cualidad de socio fundador de las citadas entidades.
+
+A tales fines, suscribir y firmar los documentos públicos o privados que fueren preparatorios, necesarios, convenientes o complementarios.
+
+Las facultades se confieren aun cuando exista conflicto de intereses o aparezca la figura jurídica de la autocontratación.
+
+Se faculta, asimismo, al apoderado a fin de solicitar copias de este poder.
+
+De todo lo consignado en este instrumento público, Yo, el Notario doy fe.
+
+D./Dña. [NOMBRE Y APELLIDOS] (el otorgante)
+D./Dña. [NOMBRE Y APELLIDOS]	(el notario)

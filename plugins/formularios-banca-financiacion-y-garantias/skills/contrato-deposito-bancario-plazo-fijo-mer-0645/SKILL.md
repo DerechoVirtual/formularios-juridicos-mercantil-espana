@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Banca, financiación, valores y garantías) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Banca, financiación, valores y garantías) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -36,8 +36,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -73,15 +71,47 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+CONTRATO DE DEPÓSITO BANCARIO A PLAZO
+
+Condiciones generales del depósito a plazo
+
+Son aplicables a este contrato las condiciones generales del contrato de apertura de cuenta
+
+1. Eficacia de las condiciones generales.
+
+Las presentes condiciones generales a modo de contrato marco, regirán todas las imposiciones que los titulares realicen en la cuenta, que se regirán, además, por las que consten en cada uno de los documentos que los titulares y la entidad deberán suscribir en la contratación de las sucesivas imposiciones que se formalicen al amparo de estas condiciones generales, así como por las condiciones del contrato de cuenta corriente, siempre que no se opongan o contradigan lo que aquí se dispone o lo dispuesto en los contratos adicionales.
+
+En todas las ocasiones en que los titulares quieran realizar una nueva imposición, deberán suscribir un contrato adicional en el que se exprese el importe, el plazo y el periodo de liquidación, el tipo de interés y las demás condiciones que vayan a regir esa imposición de forma concreta.
+
+Los titulares del contrato marco necesariamente deberán corresponderse con los titulares de cada uno de los contratos adicionales que queden suscritos al amparo de aquel contrato marco.
+
+2. Duración del contrato.
+
+Los titulares no podrán retirar las imposiciones que se realicen en este tipo de cuentas hasta que no transcurra el plazo formal establecido, que será aquél que figure en el contrato adicional para cada una de las imposiciones en concreto.
+
+La entidad procederá a la prórroga por igual periodo y en las mismas condiciones si antes del vencimiento de cada imposición o de cualquiera de la prórrogas establecidas, no se hubiera recibido notificación alguna por parte de los titulares para retirar su importe. Esta regla también será aplicable a cada vencimiento habido con posterioridad y a las prórrogas sucesivas. En caso de prórroga, los intereses vencidos de la imposición quedarán abonados en la cuenta asociada.
+
+Si por parte de la entidad se procede a la modificación del tipo de interés y de las prórrogas, así como de la periodicidad con que han de producirse las liquidaciones, procederá a su comunicación a los titulares en modo personalizado, indicando el tipo de interés nominal, el TAE a que está dispuesto a prorrogarla por igual plazo y la periodicidad con que se efectuarán las liquidaciones, con la suficiente antelación a su aplicación. La falta de comunicación en contra a la entidad por parte de los titulares antes del vencimiento de la imposición, se entiende como la aceptación de la prórroga con las nuevas condiciones. Si hay rechazo de las nuevas condiciones por parte de los titulares antes del vencimiento, cuando el mismo se produzca, podrán libremente proceder a la retirada del importe de la imposición.
+
+3. Intereses.
+
+Para liquidar los intereses correspondientes a esta operación, se procederá a utilizar la fórmula interés simple (i: c.r.t: 36.000, siendo i= intereses devengados; c = los saldos mantenidos, r = tipo de interés nominal y t = los días de permanencia), si se considera que cada mes del año tiene 30 días, con excepción de aquellos depósitos contratados por un plazo inferior a un mes en cuyo caso se tendrán en cuenta los días naturales realmente transcurridos y se utilizará como divisor 36.500.
+
+El/LOS TITULAR/ES La ENTIDAD P.P.

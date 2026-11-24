@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Cooperativas, sociedades laborales y otras formas de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Cooperativas, sociedades laborales y otras formas de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,132 @@ Modelo de acta de Asamblea General Ordinaria de una sociedad cooperativa mediant
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+ACTA DE ASAMBLEA GENERAL DE «[DENOMINACIÓN SOCIAL], S.Coop.»
+
+En [LOCALIDAD], siendo las [Nº] horas del día [FECHA], se reúne en el domicilio social de «[DENOMINACIÓN SOCIAL], S.Coop.» en [ELEGIR: primera / segunda] convocatoria, su Asamblea General Ordinaria, previa convocatoria al efecto del Consejo Rector de la citada cooperativa realizada mediante anuncio expuesto públicamente de forma destacada en dicho domicilio social y en cada uno de los demás centros en que la cooperativa desarrolle su actividad
+
+A continuación se transcribe el texto íntegro de la convocatoria:
+
+«CONVOCATORIA DE ASAMBLEA GENERAL ORDINARIA DE "[DENOMINACIÓN SOCIAL], S.COOP"
+
+El Consejo Rector de "[DENOMINACIÓN SOCIAL], S.Coop." convoca a sus socios a la Asamblea General Ordinaria que tendrá lugar en el domicilio social, sito en [LOCALIDAD], en la calle [CALLE], el día [FECHA] a sus [Nº] horas, en primera convocatoria, y si fuere preciso, en el mismo lugar el día [FECHA], a las [Nº] horas.
+
+El ORDEN DEL DÍA de los asuntos a tratar en la misma consistirá en lo siguiente:
+
+[OPCIONAL — incluir si procede]
+
+(Disolución)
+
+Primero.- Acordar la disolución de la sociedad por concurrir la causa [CAUSA]
+
+[OPCIONAL — incluir si procede]
+
+(Liquidación)
+
+Primero.- Aprobar el balance final de liquidación, el informe de gestión y el proyecto de distribución del activo sobrante.
+
+[OPCIONAL — incluir si procede]
+
+(Reactivación)
+
+Primero.- Acordar la reactivación de la sociedad por haber desaparecido la causa que motivó su disolución
+
+Segundo.-
+
+.- Ruegos y preguntas.
+
+.- Redacción, lectura y, en su caso, aprobación del acta de la reunión.
+
+En [LUGAR], a [FECHA].
+
+El Presidente del Consejo Rector».
+
+Actúa como Presidente de la Asamblea D./Dña. [NOMBRE Y APELLIDOS] y como Secretario D./Dña. [NOMBRE Y APELLIDOS], quienes lo son, a su vez, del Consejo Rector.
+
+El Presidente, asistido por el Secretario, procede a elaborar la lista de asistentes que a continuación se relata:
+
+Socios presentes:
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS] Firmado:
+
+Socios representados:
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS], vecino/a de [LOCALIDAD], mayor de edad y con D.N.I. asiste en nombre y representación, según acredita mediante [ÓRGANO], de D./Dña. [NOMBRE Y APELLIDOS]
+
+Firmado:
+
+Todas las citadas representaciones se acreditan de forma legal, a satisfacción de la Asamblea General.
+
+En consecuencia, asisten, entre presentes y representados, un total de [Nº] socios, titulares de [Nº] votos, que representan el [PORCENTAJE] de los votos sociales. [OTROS DATOS].
+
+Por lo tanto, por el Presidente se procede a declarar válidamente constituida la Asamblea General.
+
+Sobre las citadas manifestaciones del Presidente ningún asistente protesta ni presenta reserva alguna.
+
+Por indicación del Presidente, el Secretario da lectura al ORDEN DEL DÍA establecido en la convocatoria, pasándose a continuación al estudio y deliberación de los asuntos contenidos en el mismo, tras lo cual, no deseando los asistentes iniciar debate alguno sobre los mencionados puntos ni solicitar constancia en acta de ninguna intervención u oposición, por
+
+ACUERDAN:
+
+[OPCIONAL — incluir si procede]
+
+(Disolución)
+
+Primero.- Disolver de pleno derecho y a todos los efectos esta Sociedad Cooperativa y proceder a su liquidación en forma legal.
+
+Segundo.- Nombrar para el cargo de liquidadores a los socios D./Dña. [NOMBRE Y APELLIDOS] D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS]
+
+Tercero.- Facultar al Sr. Presidente del Consejo Rector para que proceda a la formalización de la escritura pública correspondiente al presente acuerdo de disolución, vele por su inscripción en el Registro de Cooperativas y publique el acuerdo en el periódico [NOMBRE DEL PERIÓDICO], por ser este uno de los de mayor circulación en la provincia de [PROVINCIA], a la que corresponde el domicilio social de la Cooperativa.
+
+[OPCIONAL — incluir si procede]
+
+(Liquidación)
+
+Primero.- Aprobar el balance final de liquidación, así como el informe de gestión y el proyecto de distribución del activo.
+
+Segundo.- Facultar al Sr. Presidente del Consejo Rector para que proceda a la publicación del balance y del proyecto de distribución en el periódico [NOMBRE DEL PERIÓDICO] uno de los de mayor circulación en la provincia.
+
+[OPCIONAL — incluir si procede]
+
+(Reactivación)
+
+Primero.- Reactivar la sociedad, dado que no había comenzado aún el reembolso de las participaciones a los socios.
+
+Segundo.- Facultar al Sr. Presidente del Consejo Rector para que proceda a la formalización de la escritura pública correspondiente al presente acuerdo de reactivación y proceda a su inscripción en el Registro de Cooperativas, momento en el que reanudarán sus funciones todos los órganos de la Cooperativa.
+
+Cuarto.-
+
+Tras todo lo cual, redactada y leída que fue el acta por el Secretario, ésta es aprobada por la Asamblea General, por unanimidad de los asistentes.
+
+No existiendo más asuntos que tratar, se levanta la sesión.
+
+El Secretario
+
+VºBº Presidente
+
+Firmado: D./Dña. [NOMBRE Y APELLIDOS] Firmado: D./Dña. [NOMBRE Y APELLIDOS]
+
+Asistentes
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+Firmado: D./Dña. [NOMBRE Y APELLIDOS]

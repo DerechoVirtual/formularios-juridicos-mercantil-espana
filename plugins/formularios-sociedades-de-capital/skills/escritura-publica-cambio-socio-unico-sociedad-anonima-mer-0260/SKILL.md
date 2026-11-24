@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -66,8 +66,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
 
----
-
 ## Instrucciones para Claude
 
 ### Paso 0: Jurisprudenciator en esta skill (obligatorio)
@@ -102,15 +100,81 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+NÚMERO DE PROTOCOLO: [Nº DE PROTOCOLO]
+
+En [LOCALIDAD], a [FECHA].
+
+Ante mí, D./Dña. [NOMBRE DEL NOTARIO], Notario del Ilustre Colegio de [COLEGIO NOTARIAL],
+
+COMPARECE
+
+D./Dña. [NOMBRE Y APELLIDOS], de estado civil [ELEGIR: soltero/a / divorciado/a / separado/a judicialmente / viudo/a / casado/a], con profesión [PROFESIÓN], de nacionalidad [NACIONALIDAD], con domicilio en [DOMICILIO], y [ELEGIR: DNI / pasaporte / permiso de residencia] número [Nº DE DOCUMENTO].
+
+INTERVIENE
+
+En representación de [DENOMINACIÓN SOCIAL], S.A.U., constituida en fecha [FECHA] mediante escritura pública otorgada ante D./Dña. [NOMBRE DEL NOTARIO], Notario del Ilustre Colegio de [COLEGIO NOTARIAL], el [FECHA], e inscrita en el Registro Mercantil de [PROVINCIA], [DATOS REGISTRALES: TOMO, FOLIO E INSCRIPCIÓN], en su calidad de [CARGO], en virtud de nombramiento llevado a cabo en [LOCALIDAD] el pasado [FECHA] e inscrito en el Registro Mercantil de [PROVINCIA], [DATOS REGISTRALES: TOMO Y FOLIO], cargo que continúa vigente tal y como figura en [DOCUMENTO ACREDITATIVO] que me muestra y queda unido a la presente.
+
+Tiene, a mi juicio, según interviene, la capacidad legal necesaria para celebrar la presente escritura pública de PUBLICIDAD DE CAMBIO DE SOCIO ÚNICO, a cuyo fin
+
+MANIFIESTA
+
+Primero.- Cambio de socio único
+
+El compareciente, como titular de la facultad de certificación y elevación a público de los acuerdos sociales, declara que en la sociedad que representa ha adquirido la condición de socio único D./Dña. [NOMBRE Y APELLIDOS DEL NUEVO SOCIO ÚNICO], por la adquisición por el mismo de la totalidad de las acciones que pertenecían al anterior socio único, D./Dña. [NOMBRE Y APELLIDOS DEL ANTERIOR SOCIO ÚNICO], según consta en escritura pública de [COMPRAVENTA] otorgada en [LOCALIDAD] el día [FECHA] ante el Notario de [LOCALIDAD], D./Dña. [NOMBRE DEL NOTARIO], por lo que el mentado D./Dña. [NOMBRE Y APELLIDOS DEL NUEVO SOCIO ÚNICO] ha quedado como socio único de dicha sociedad.
+
+Datos del nuevo socio único:
+
+[ELEGIR UNA DE ESTAS ALTERNATIVAS Y SUPRIMIR LAS DEMÁS:]
+
+— (Persona física) D./Dña. [NOMBRE Y APELLIDOS], de estado civil [ELEGIR: soltero/a / divorciado/a / separado/a judicialmente / viudo/a / casado/a], con profesión [PROFESIÓN], de nacionalidad [NACIONALIDAD], con domicilio en [DOMICILIO], y [ELEGIR: DNI / pasaporte / permiso de residencia] número [Nº DE DOCUMENTO].
+
+— (Persona jurídica) La compañía mercantil de nacionalidad española denominada [DENOMINACIÓN SOCIAL], [ELEGIR: S.L. / S.A.], domiciliada en [LOCALIDAD], [CALLE Y NÚMERO], con NIF n.º [NIF], inscrita en el Registro Mercantil de [PROVINCIA], [DATOS REGISTRALES: FOLIO, TOMO GENERAL DEL LIBRO DE SOCIEDADES, HOJA]. Es titular de la totalidad de las acciones por compraventa de las mismas al anterior socio único, formalizada mediante escritura pública de fecha [FECHA] autorizada por el Notario de [LOCALIDAD] D./Dña. [NOMBRE DEL NOTARIO].
+
+Datos del anterior socio único:
+
+[ELEGIR UNA DE ESTAS ALTERNATIVAS Y SUPRIMIR LAS DEMÁS:]
+
+— (Persona física) D./Dña. [NOMBRE Y APELLIDOS], de estado civil [ELEGIR: soltero/a / divorciado/a / separado/a judicialmente / viudo/a / casado/a], con profesión [PROFESIÓN], de nacionalidad [NACIONALIDAD], con domicilio en [DOMICILIO], y [ELEGIR: DNI / pasaporte / permiso de residencia] número [Nº DE DOCUMENTO].
+
+— (Persona jurídica) La compañía mercantil de nacionalidad española denominada [DENOMINACIÓN SOCIAL], [ELEGIR: S.L. / S.A.], domiciliada en [LOCALIDAD], [CALLE Y NÚMERO], con NIF n.º [NIF], inscrita en el Registro Mercantil de [PROVINCIA], [DATOS REGISTRALES: FOLIO, TOMO GENERAL DEL LIBRO DE SOCIEDADES, HOJA].
+
+Segundo.- Manifestaciones
+
+Que el cambio de socio único queda acreditado:
+
+[ELEGIR UNA DE ESTAS ALTERNATIVAS Y SUPRIMIR LAS DEMÁS:]
+
+— (Si se trata de acciones nominativas) En el correspondiente libro registro, que el compareciente exhibe ante mí.
+
+— (Si se trata de acciones al portador) En los títulos representativos de las mismas o sus resguardos provisionales, que el compareciente exhibe ante mí.
+
+— (Si se trata de acciones representadas mediante anotaciones en cuenta) En la certificación expedida por la entidad [ENTIDAD], que el compareciente me entrega para que incorpore a la presente escritura.
+
+Tercero.- Inscripción
+
+Se solicita por el compareciente la inscripción de la presente escritura en el Registro Mercantil, incluso parcial si es que existiere algún defecto que, a juicio del Registrador Mercantil, impida la total.
+
+OTORGAMIENTO Y AUTORIZACIÓN
+
+Hechas las reservas y advertencias legales, en particular y a efectos fiscales, advierto de las obligaciones y responsabilidades tributarias que incumben a las partes en su aspecto material, formal y sancionador, y de las consecuencias de toda índole que se pueden derivar de la eventual inexactitud de sus declaraciones.
+
+Leo al señor compareciente la presente escritura, previa su renuncia a su derecho de hacerlo por sí, del que le advierto. La consiente y firma conmigo, el Notario, que doy fe de todo lo precedente consignado en este instrumento público, extendido en [Nº] folios de papel timbrado para documentos notariales, de clase [CLASE], serie [SERIE], números [NÚMEROS].
+
+[FIRMA DEL COMPARECIENTE Y DEL NOTARIO]

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -46,8 +46,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 - art. 346.1.a TRLSC
 - art. 353 TRLSC
-
----
 
 ## Instrucciones para Claude
 
@@ -83,15 +81,57 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Los socios que no hubieran votado a favor del acuerdo, incluidos los socios sin voto, tendrán derecho a separarse de la sociedad de capital en los casos siguientes:
+
+a) Sustitución o modificación sustancial del objeto social.
+
+b) Prórroga de la sociedad.
+
+c) Reactivación de la sociedad.
+
+d) Creación modificación o extinción anticipada de la obligación de realizar prestaciones accesorias, salvo disposición contraria de los estatutos.
+
+Además, en las sociedades de responsabilidad limitada tendrán tambien derecho legal a separarse de la sociedad los socios que no hubieran votado a favor del acuerdo de modificación del régimen de transmisión de las participaciones sociales.
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+[ELEGIR UNA DE LAS ALTERNATIVAS QUE SIGUEN Y SUPRIMIR LAS DEMÁS]
+
+Estimados Sres:
+
+Con fecha [DÍA] de [MES] de [AÑO], la Junta General Extraordinaria de la sociedad [ELEGIR: SL / SA] adoptó, con el voto en contra de quien suscribe, el acuerdo de sustituir/modificar sustancialmente el objeto social de dicha compañía, que ha pasado a ser [NUEVO OBJETO SOCIAL]. Tal acuerdo me fue comunicado con fecha [FECHA] de [MES] de
+
+Estimados Sres.:
+
+Con fecha [DÍA] de [MES] de [AÑO], la Junta General Extraordinaria de la sociedad [ELEGIR: SL / SA] adoptó, con el voto en contra de quien suscribe, el acuerdo de prorrogar la duración de la compañía que pasa a tener una duración indefinida. Tal acuerdo me fue comunicado por el órgano de administración, en fecha [FECHA] de [MES] de
+
+Modificación del régimen de transmisión de participaciones sociales acciones
+
+Estimados Sres.:
+
+Con fecha [DÍA] de [MES] de [AÑO], la Junta General Extraordinaria de la sociedad [ELEGIR: SL / SA] adoptó, con el voto en contra de quien suscribe, el acuerdo de trasladar el domicilio social de la compañía, al extranjero. Concretamente a [DOMICILIO EN EL EXTRANJERO]. Tal acuerdo me fue comunicado por el órgano de administración, con fecha [DÍA] de [MES] de [AÑO].
+
+A la vista de lo anterior y por medio del presente escrito, ejercito el derecho de separación de la misma que legalmente me asiste al amparo de lo dispuesto en el artículo 346.1.a TRLSC, dentro del plazo de un mes a contar desde la recepción de la expresada comunicación.
+
+A tal fin, solicito que me sea reembolsado el valor razonable de las [ELEGIR: participaciones sociales / acciones] de mi titularidad, que estimo y fijo en la suma de [IMPORTE] euros por [ELEGIR: participación / acción], valor que en caso de discrepancia, les propongo sea determinado por el experto independiente Don [NOMBRE Y APELLIDOS].
+
+En el supuesto que no estén conformes con tal valoración, ni con la persona ni procedimiento expuestos para llevarla a cabo, conforme a lo establecido en el artículo 353 TRLSC, solicito que por esta sociedad se proceda a instar del Registrador Mercantil de [LOCALIDAD], la designación de un experto independiente, que fije el valor razonable de tales [ELEGIR: participaciones / acciones]
+
+Atentamente,

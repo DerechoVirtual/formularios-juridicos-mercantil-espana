@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -51,8 +51,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -89,15 +87,59 @@ Modelo de escritura pública por medio de la cual se da publicidad sobre el camb
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+NÚMERO DE PROTOCOLO:
+
+En [LUGAR], a [FECHA].
+
+Ante mí, D./Dña. [NOMBRE Y APELLIDOS], Notario del Ilustre Colegio de [COLEGIO]
+
+COMPARECE
+
+D./Dña. [NOMBRE Y APELLIDOS], de estado civil [ESTADO CIVIL] vecino/a de [LOCALIDAD], domiciliado en [DOMICILIO], con [ELEGIR: DNI / pasaporte / permiso de residencia] número [NÚMERO],
+
+INTERVIENE
+
+En representación de ‘ S.LU.’ constituida en fecha [FECHA] mediante escritura pública otorgada ante notario D./Dña. [NOMBRE Y APELLIDOS] el [FECHA] con el número de orden de su protocolo [Nº DE PROTOCOLO] que causó inscripción en el Registro mercantil de [LOCALIDAD] en el
+
+Hace uso de las facultades conferidas a su favor en calidad de:
+
+[OPCIONAL — incluir si procede]
+
+(Cargo social)
+
+Administrador único [ELEGIR: administrador solidario / mancomunado / consejero delegado] de la sociedad indicada, cargo para el que fue nombrado en escritura otorgada ante notario de [LOCALIDAD] D./Dña. [NOMBRE Y APELLIDOS] el [FECHA] con el número de orden de su protocolo [Nº DE PROTOCOLO] que causó inscripción en el Registro mercantil de [LOCALIDAD] en el
+
+[OPCIONAL — incluir si procede]
+
+(Apoderado)
+
+Apoderado de la sociedad antes mencionada, según consta en escritura de poder otorgada a su favor, ante notario de [LOCALIDAD] D./Dña. [NOMBRE Y APELLIDOS], mediante escritura de [FECHA], con el número [NÚMERO] de orden de su protocolo que causó inscripción [INSCRIPCIÓN] en el Registro Mercantil de [LOCALIDAD] en el [DATOS REGISTRALES].
+
+Tiene, a mi juicio, según intervienen, la capacidad legal necesaria para celebrar la presente escritura pública de PUBLICIDAD CAMBIO DE SOCIO ÚNICO, a cuyo fin
+
+MANIFIESTA
+
+Que en la sociedad que representa ha adquirido la condición de socio único D./Dña. [NOMBRE Y APELLIDOS] por la adquisición por el mismo de la totalidad de las participaciones que pertenecían al anterior socio único, D./Dña. [NOMBRE Y APELLIDOS], según se indica en escritura pública de [CLASE DE ESCRITURA] otorgada en [LOCALIDAD] el día [FECHA] ante el Notario de [LOCALIDAD], por lo que el mentado D./Dña. [NOMBRE Y APELLIDOS] ha quedado como socio único de dicha Sociedad tal y como consta en el correspondiente Libro Registro que el compareciente exhibe ante mí.
+
+AUTORIZACIÓN Y OTORGAMIENTO
+
+Hechas las reservas y advertencias legales, en particular y a efectos fiscales, advierto de las obligaciones y responsabilidades tributarias que incumben a las partes en su aspecto material, formal y sancionador, y de las consecuencias de toda índole que se pueden derivar de la eventual inexactitud de sus declaraciones.
+
+Leo a los señores comparecientes la presente escritura, previa su renuncia a su derecho de hacerlo por sí, del que les advierto. La consienten y firman conmigo, el Notario, que doy fe de todo lo precedente consignado en este instrumento público, extendido en folios de papel timbrado para documentos notariales, de clase [CLASE], serie [SERIE], números

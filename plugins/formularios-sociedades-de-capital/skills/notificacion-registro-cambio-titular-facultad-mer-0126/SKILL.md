@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -47,8 +47,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -84,15 +82,53 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Tal y como se establece en el artículo 111 del Reglamento del Registro Mercantil la certificación del acuerdo por el que se nombre al titular de un cargo con facultad certificante, cuando haya sido extendido por el nombrado, sólo tendrá efecto si se acompaña notificación fehaciente del nombramiento al anterior titular, con cargo inscrito, en el domicilio de éste. La notificación quedará cumplimentada y se tendrá por hecha en cualquiera de las formas expresadas en el artículo 202 del Reglamento Notarial.
+
+Número [NÚMERO]
+
+En [LUGAR], a [FECHA].
+
+Ante mí, D./Dña. [NOMBRE Y APELLIDOS], Notario de [LOCALIDAD], del Ilustre Colegio Notarial de [LOCALIDAD]
+
+COMPARECE
+
+D./Dña. [NOMBRE Y APELLIDOS], con N.I.F. [NIF], de nacionalidad española, mayor de edad, vecino/a de [LOCALIDAD], con domicilio en la [DIRECCIÓN]
+
+Interviene en nombre y representación de la sociedad «[DENOMINACIÓN SOCIAL]», con N.I.F. [NIF], domiciliada en la [DIRECCIÓN], de la localidad de [LOCALIDAD], que fue constituida mediante escritura autorizada el día [FECHA] por el Notario de [LOCALIDAD] D./Dña. [NOMBRE Y APELLIDOS], con el número de protocolo [Nº DE PROTOCOLO], y figura inscrita en el Registro Mercantil de [LOCALIDAD],
+
+El que comparece lo hace en su condición de presidente del consejo de administración de la sociedad, según consta en el acuerdo adoptado por la junta general en fecha [FECHA] tal y como se muestra el acta
+
+Le identifico por su documento de identidad, que me exhibe, y juzgo que tiene la capacidad necesaria y el interés legítimo para instar la presente acta de notificación, y al efecto,
+
+MANIFIESTA
+
+Que en la junta general celebrada en el día [FECHA] se acordó cesar en el cargo de secretario del consejo de administración al D./Dña. [NOMBRE Y APELLIDOS] y nombrar como nuevo secretario al D./Dña. [NOMBRE Y APELLIDOS]
+
+Por lo expuesto, el compareciente me
+
+REQUIERE
+
+Para que, de conformidad con lo dispuesto en el artículo 111 del Reglamento del Registro Mercantil, notifique el contenido del presente documento al secretario del consejo de administración cesado, D./Dña. [NOMBRE Y APELLIDOS], en su domicilio de la [DIRECCIÓN], de la localidad de [LOCALIDAD].
+
+Yo, el Notario, acepto el requerimiento, que ejecutaré por diligencia.
+
+Leo cuanto antecede al compareciente, por renuncia a la lectura personal, que aprueba y firma.
+
+De todo lo contenido en este requerimiento, y de quedar extendido en [Nº] hojas de papel timbrado, clase [CLASE], serie [SERIE], números [Nº], DOY FE.

@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -44,8 +44,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -81,15 +79,55 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+D./Dña. [NOMBRE Y APELLIDOS], Secretario del Consejo de Administración de " S.A.", con domicilio social en [LOCALIDAD] calle [CALLE] número [NÚMERO] y N.I.F.
+
+CERTIFICA
+
+Orden del día
+
+Que en el libro de Actas del Consejo de Administración de la sociedad figura la correspondiente a la reunión del Consejo celebrada el día [DÍA] de [MES] de [AÑO] en el domicilio social de la misma en el que figuraba como orden del día el nombramiento de Consejero Delegado de la Compañía.
+
+Asistentes
+
+La reunión fue celebrada con asistencia de todos los componentes del Consejo de Administración, quienes aceptaron por unanimidad su celebración.
+
+Presidente y secretario
+
+Que actuaron como Presidente y Secretario D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS], quienes ocupan dichos cargos en el Consejo de Administración, cargos que declararon vigentes e inscritos en el Registro Mercantil de
+
+Adopción de acuerdos
+
+Que a continuación se procedió al debate de los asuntos contenidos en el Orden del Día, se aludieron los siguientes aspectos y se produjeron las siguientes intervenciones
+
+Que el Presidente dio por concluido el debate y suspendió momentáneamente la sesión para la redacción por el Secretario de la correspondiente Acta, en la cual quedó reflejada la adopción de los siguientes:
+
+ACUERDOS
+
+[ELEGIR UNA OPCIÓN: Delegación de Facultades / Nombramiento de Consejero Delegado Único / Nombramiento de varios consejeros delegados]
+
+Elevación a escritura pública
+
+Se faculta el Secretario del Consejo de Administración, D./Dña [NOMBRE Y APELLIDOS] para que:
+
+- Expida certificaciones de este Acta, con el Visto Bueno del Presidente.
+
+- Comparezca ante Notario para otorgar la correspondiente escritura que eleve a públicos los anteriores acuerdos y firmar todos los documentos que sean necesarios, tanto públicos como privados, hasta su inscripción en el Registro, incluyendo los de rectificación o aclaración.
+
+Y para que así conste, a los efectos oportunos, expido la presente Certificación en [CARGO], con el Vº.Bº del Presidente, en [LUGAR], a [DÍA] de [MES] de [AÑO].

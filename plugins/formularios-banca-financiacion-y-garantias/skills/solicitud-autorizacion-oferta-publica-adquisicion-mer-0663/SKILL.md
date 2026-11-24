@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Banca, financiación, valores y garantías) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Banca, financiación, valores y garantías) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 17 Real Decreto 1066/2007
-
----
 
 ## Instrucciones para Claude
 
@@ -87,15 +85,55 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+A LA COMISIÓN NACIONAL DEL MERCADO DE VALORES
+
+SOLICITUD DE AUTORIZACIÓN DE OFERTA PÚBLICA DE ADQUISICIÓN DE VALORES
+
+1. La presente solicitud de autorización se hace pública en virtud de lo previsto en el artículo 17 del Real Decreto 1066/2007, de 27 de julio, y se refiere a una oferta que está sujeta a la preceptiva autorización de la Comisión Nacional del Mercado de Valores.
+
+Los términos y características detallados de la oferta estarán contenidos en el folleto explicativo que se publicará tras la obtención de la referida autorización.
+
+2. IDENTIFICACIÓN DEL SOLICITANTE
+
+[NOMBRE Y APELLIDOS Y DNI/NIE O EQUIVALENTE; EN CASO DE PERSONA JURÍDICA, DENOMINACIÓN SOCIAL, DOMICILIO SOCIAL Y NIF O EQUIVALENTE], así como identificación del medio preferente o del lugar que se señale a efectos de notificaciones: [MEDIO PREFERENTE O LUGAR DE NOTIFICACIONES].
+
+EXPONE
+
+[OPCIONAL — incluir solo en caso de oferta obligatoria] OFERTAS OBLIGATORIAS: Se declara que se ha producido el supuesto que, en virtud de lo previsto en la normativa vigente, obliga a la formulación de una oferta pública de adquisición de valores, a saber: [DESCRIPCIÓN DEL HECHO O CIRCUNSTANCIA QUE SUPONE LA OBLIGACIÓN DE FORMULAR LA OFERTA].
+
+DECISIÓN DE FORMULAR UNA OFERTA PÚBLICA DE ADQUISICIÓN DE VALORES: Se declara la decisión de formular una oferta pública de adquisición de valores de [DENOMINACIÓN SOCIAL DE LA SOCIEDAD AFECTADA], en los términos y condiciones que se describen en el presente escrito de solicitud y en el folleto explicativo adjunto, decisión adoptada por [PERSONA U ÓRGANO COMPETENTE] con fecha [FECHA].
+
+DECLARACIÓN SOBRE LA GARANTÍA DE LA OFERTA: La garantía de la oferta [ELEGIR: se presenta junto con la solicitud de autorización / será presentada en el plazo máximo previsto en el artículo 17 del Real Decreto 1066/2007, de 27 de julio].
+
+CARACTERÍSTICAS DE LA OFERTA: [DESCRIPCIÓN DE LAS PRINCIPALES CARACTERÍSTICAS DE LA OFERTA, INCORPORANDO LAS INFORMACIONES SEÑALADAS EN EL FORMULARIO I DE LA CIRCULAR DE LA CNMV, EXCEPTO LAS PREVISTAS EN SUS APARTADOS 1 Y 2].
+
+DATOS DEL ANUNCIO DE LA OFERTA: [OPCIONAL — si ha lugar] El anuncio de la oferta fue publicado con fecha [FECHA], y se confirman las informaciones y características de la oferta en él contenidas, con las siguientes variaciones: [VARIACIONES PRODUCIDAS, O INDICACIÓN DE QUE NO HAN EXISTIDO].
+
+[OPCIONAL — incluir si el anuncio de la oferta y la solicitud de autorización se producen simultáneamente] Este escrito de solicitud tiene la consideración de anuncio de la oferta a todos los efectos.
+
+SOLICITA
+
+A la Comisión Nacional del Mercado de Valores que tenga por presentado el escrito, junto con el folleto explicativo de la oferta y demás documentación que se acompañe, por realizadas las manifestaciones contenidas en su cuerpo y se sirva admitirlos a trámite y autorizar la formulación de la oferta.
+
+En [LOCALIDAD], a [DÍA] de [MES] de [AÑO]
+
+Firma del solicitante o persona apoderada: [FIRMA]
+
+[OPCIONAL — si firma un apoderado] Identificación del apoderado: [NOMBRE Y APELLIDOS], [NIF O EQUIVALENTE], en su condición de [DESCRIPCIÓN DE LA REPRESENTACIÓN QUE OSTENTA], acompañando la documentación acreditativa de dicha representación.

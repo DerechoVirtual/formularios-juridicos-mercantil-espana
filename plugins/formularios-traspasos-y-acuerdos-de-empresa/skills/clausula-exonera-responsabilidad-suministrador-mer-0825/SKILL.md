@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Traspasos de negocio, confidencialidad y acuerdos de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Traspasos de negocio, confidencialidad y acuerdos de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -36,8 +36,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -73,15 +71,27 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+La parte suministradora no responderá frente a la suministrada ni ninguna otra persona que pudiera resultar afectada, por la pérdida o deterioro total o parcial de las mercaderías suministradas, ni por el retraso en la entrega de la mismas, siempre que esta pérdida o retraso en la entrega sea motivada por circunstancias que no pudieron preverse o que resulten inevitables, es decir, caso fortuito o fuerza mayor. En estos supuestos la suministradora quedará exenta de las consecuencias de su incumplimiento, así como del pago de daños y perjuicios.
+
+En concreto, a los efectos de la exoneración de responsabilidad del suministrador se considerarán supuestos de no responsabilidad del mismo pese al incumplimiento en el suministro o retraso en el mismo, los siguientes: incumplimiento de sus obligaciones por parte la empresa contratada para el transporte, sin perjuicio de las responsabilidades de esta frente al suministrador y suministrado; incendio de las mercaderías o del lugar de almacenamiento o medio de transporte de las mismas; accidente; conflictos bélicos, atentados terroristas; huelgas o paros o trabas puestas al trabajo provenientes de cualquier causa; motines o tumultos civiles; averías en los medios transportes; robos de mercaderías o de sus medios de transporte; hurtos de mercaderías o sus medios de transporte; catástrofes naturales.
+
+En definitiva, el suministrador no será responsable del incumplimiento de su obligación de entrega o retrasos o daños que provengan o resulten de cualquier causa en que no haya acto, culpa o negligencia directa del suministrador. Si la falta de cumplimiento del suministrador se debe a la falta de cumplimiento de un tercero al que se haya encargado la ejecución total o parcial del contrato, también la suministradora resultará exenta de responsabilidad, y ello, sin perjuicio de la responsabilidad exigible a los agentes motivadores del daño.
+
+La carga de la prueba de las circunstancias que exoneran de responsabilidad al suministrador le incumbe al mismo y se llevará a cabo mediante los medios de prueba pertinentes en atención a las circunstancias que motiven dicha exoneración.

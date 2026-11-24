@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Contratos mercantiles: compraventa, suministro, transporte y servicios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Contratos mercantiles: compraventa, suministro, transporte y servicios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -44,8 +44,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -81,15 +79,117 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+En [LUGAR], a [FECHA]
+REUNIDOS
+
+DE UNA PARTE,
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+(Datos de VENDEDOR)
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ELEGIR: soltero / soltera / casado / casada / divorciado / divorciada / separado / separada / viudo / viuda], de nacionalidad [NACIONALIDAD], con domicilio en [LOCALIDAD], y DNI/Pasaporte número [DNI/NIE].
+
+[OPCIONAL — en caso de estado civil casado/a]
+
+[ELEGIR: Casado / Casada]con D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, con DNI/Pasaporte número [DNI/NIE] en régimen económico matrimonial de [ELEGIR: gananciales / separación de bienes].
+
+En lo sucesivo, VENDEDOR.
+
+Y DE OTRA,
+
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+(Datos del COMPRADOR)
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ELEGIR: soltero / soltera / casado / casada / divorciado / divorciada / separado / separada / viudo / viuda], de nacionalidad [NACIONALIDAD], con domicilio en [LOCALIDAD], y DNI/Pasaporte número [DNI/NIE].
+
+[OPCIONAL — en caso de estado civil casado/a]
+
+[ELEGIR: Casado / Casada]con D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, con DNI/Pasaporte número [DNI/NIE] en régimen económico matrimonial de [ELEGIR: gananciales / separación de bienes].
+
+En lo sucesivo, COMPRADOR.
+
+INTERVIENEN
+
+[ELEGIR UNA OPCIÓN: en caso de que todas las partes actúen en nombre y representación propia / si alguna de las partes actúa en su propio nombre y representación]
+
+[OPCIONAL — si alguna de las partes actúa en nombre y representación de persona física o jurídica]
+[OPCIONAL — repetir el párrafo siguiente por cada persona adicional]
+
+D./Dña. [NOMBRE Y APELLIDOS], en nombre y representación de:
+
+[ELEGIR UNA OPCIÓN: Si se trata de persona física / Si se trata de una persona jurídica]
+
+Ambas partes se reconocen mutuamente con capacidad suficiente para otorgar el presente contrato de compraventa mercantil y, a tal fin,
+
+EXPONEN
+
+I. Que D./Dña. [NOMBRE Y APELLIDOS] lleva desde hace un año investigando una fórmula para [FINALIDAD DE LA FÓRMULA]
+
+II. Que D./Dña. [NOMBRE Y APELLIDOS] está interesado en adquirir dicha fórmula, así como los derechos derivados de la misma y, a tal fin exponen las siguientes
+
+CLÁUSULAS
+
+Primera
+
+D./Dña. [NOMBRE Y APELLIDOS] vende a D./Dña. [NOMBRE Y APELLIDOS] que acepta y compra todos los derechos sobre la fórmula definitiva que como consecuencia de su investigación permitirá [FINALIDAD DE LA FÓRMULA].
+
+Segunda
+
+El precio de esta compraventa es de [IMPORTE] euros ( €), que se pagarán de la siguiente forma:
+
+2.1. La cantidad de [IMPORTE] euros ( €) se entregan en este acto al vendedor que los recibe, sirviendo este documento como carta de pago.
+2.2. La cantidad de [IMPORTE] euros ( €) se pagará en plazos mensuales, a pagar en los cinco primeros días de cada mes, a razón de [IMPORTE] euros ( €) al mes.
+2.3. El resto de la cantidad debida, es decir, [IMPORTE] euros ( €) se pagarán en el momento de la entrega de la fórmula.
+
+Tercera
+
+D./Dña. [NOMBRE Y APELLIDOS], se obliga a trabajar exclusivamente en la consecución de la fórmula antes referida, destinando las cantidades percibidas por causa de este contrato a su obtención.
+
+Cuarta
+
+D./Dña. [NOMBRE Y APELLIDOS] se compromete a entregar dicha fórmula en el plazo máximo de [Nº] meses a contar desde la fecha de este contrato.
+
+Quinta
+
+Transcurrido el plazo indicado en la cláusula anterior sin la entrega de la fórmula, el vendedor no tendrá derecho a cobrar la cantidad señalada en el punto 2.3 anterior. Respecto a las cantidades percibidas por el vendedor, deberán ser devueltas al comprador si no han sido invertidas en la labor de investigación a que se refiere este contrato, incrementándose las mismas con % de interés anual desde el día en que se cumplió el plazo.
+
+Sexta
+
+En caso de entrega de la fórmula dentro del plazo previsto, el comprador se reserva el derecho de comprobar su validez o eficacia. Para ello, el comprador aprobará y recibirá la fórmula a su gusto o la entregará a los peritos D./Dña. [NOMBRE Y APELLIDOS], D./Dña. [NOMBRE Y APELLIDOS] y D./Dña. [NOMBRE Y APELLIDOS] aceptados por ambas partes, a fin de que éstos emitan su juicio sobre la idoneidad o no de la fórmula obtenida para desarrollar lo expuesto en el antecedente I de este contrato.
+
+Séptima
+
+La fórmula definitiva, aceptada y aprobada, será propiedad de don [NOMBRE Y APELLIDOS], que podrá darle el uso que crea conveniente, incluso vender sus derechos.
+
+Octava
+
+En caso de comercialización de los productos elaborados con dicha fórmula, el comprador deberá pagar al vendedor la cantidad de [IMPORTE] euros ( €) por cada objeto fabricado.
+
+Novena
+
+El comprador deberá hacer constar, en cualquier cesión a terceros que haga de sus derechos sobre la fórmula objeto de este contrato el derecho a favor del vendedor regulado en la cláusula anterior.
+
+Y, en prueba de conformidad, ambas partes firman el presente documento en [Nº] ejemplares originales, a un solo efecto, en el lugar y fecha antes señalados.
+
+VENDEDOR
+
+COMPRADOR
+
+Firmado: D./Dña. [NOMBRE Y APELLIDOS] Firmado: D./Dña. [NOMBRE Y APELLIDOS]

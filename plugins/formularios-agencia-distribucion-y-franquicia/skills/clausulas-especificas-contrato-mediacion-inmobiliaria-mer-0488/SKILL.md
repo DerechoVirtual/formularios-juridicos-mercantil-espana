@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Agencia, distribución, franquicia y colaboración entre empresas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Agencia, distribución, franquicia y colaboración entre empresas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -36,8 +36,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -73,15 +71,59 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+PRIMERA La descripción del inmueble objeto del contrato es la siguiente:
+
+a) El Registro de la Propiedad donde está escriturado y a nombre de quién.
+
+b) En caso de que esté gravado con cargas, las condiciones de la hipoteca.
+
+c) Si el precio de venta está o no sujeto, según proceda, a ninguna limitación, legal o administrativa.
+
+d) Si el inmueble se encuentra o no, según el caso, libre de arrendatarios.
+
+SEGUNDA Condiciones:
+
+A. La escritura pública de compraventa se formalizará dentro de los días siguientes de la recepción de las arras.
+
+B. La entrega de llaves al comprador se hará el día de la firma de la escritura pública.
+
+C. El vendedor cancelará las cargas del inmueble y anejos y serán de su cargo todos los gastos que dicha cancelación conlleve.
+
+D. La venta se efectuará libre de arrendatarios y ocupantes y al corriente del pago de impuestos, de cuotas de la comunidad de propietarios y de los servicios de agua, luz, gas, etcétera.
+
+E. Los gastos e impuestos serán por cuenta del comprador, excepto plusvalía.
+
+TERCERA El MEDIADOR recibe del CLIENTE un juego de llaves del inmueble en cuestión para que los posibles compradores lo puedan visitar. Las llaves se encuentran en depósito y custodia del MEDIADOR y deberán ser restituidas a la terminación del contrato.
+
+CUARTA El MEDIADOR recibe del CLIENTE los planos del inmueble objeto de la gestión encomendada para su promoción y venta.
+
+QUINTA El CLIENTE podrá realizar publicidad de la venta de la vivienda en cualquier medio pero su precio deberá ser el que figura en este contrato. Si el CLIENTE desea modificar dicho precio deberá comunicarlo al MEDIADOR antes de efectuar la publicidad.
+
+SEXTA El MEDIADOR no podrá comprar para sí o para otro el objeto del encargo.
+
+SÉPTIMA El CLIENTE autoriza al MEDIADOR a recibir en su nombre una cantidad en concepto de arras o señal hasta un importe del% a cuenta del precio de venta.
+
+OCTAVA El CLIENTE autoriza al MEDIADOR a retener la cantidad recibida en concepto de arras o señal y liquidar con cargo a la misma su corretaje.
+
+NOVENA.– El MEDIADOR recibirá en concepto de corretaje el % del precio final de la operación, con un mínimo de [IMPORTE] euros (IVA no incluido), siempre que la conclusión de ésta sea consecuencia de su actividad realizada durante la vigencia del contrato y será pagado en el momento en que se firme el contrato. Para percibir dicha cantidad bastará que el MEDIADOR presente ficha de visita debidamente firmada por el comprador.
+
+DÉCIMA El CLIENTE y el MEDIADOR deberán comunicarse por escrito la conclusión de la venta o la recepción de cantidades en concepto de arras o señal, los datos personales de las partes intervinientes y las condiciones del contrato o el fracaso en las negociaciones.
+
+UNDÉCIMA.– El CLIENTE está obligado a la firma de la escritura pública en el plazo establecido en este documento.

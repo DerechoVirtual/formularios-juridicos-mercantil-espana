@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Contratos mercantiles: compraventa, suministro, transporte y servicios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Contratos mercantiles: compraventa, suministro, transporte y servicios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 103 TRLGDCU
-
----
 
 ## Instrucciones para Claude
 
@@ -87,15 +85,75 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+INFORMACIÓN PRECONTRACTUAL PARA LA VENTA DE [PRODUCTO]
+
+En cumplimiento de lo dispuesto en el art. 97 del Texto Refundido de la Ley General de Defensa de Consumidores y Usuarios, en su redacción por Ley 3/2014, de 27 de marzo, se informa al consumidor y usuario (en adelante, el CLIENTE) antes de la celebración del contrato fuera del establecimiento de los siguientes extremos en relación a su objeto:
+
+IDENTIDAD DEL EMPRESARIO Y DATOS PERSONALES
+
+El empresario ofertante es [NOMBRE Y APELLIDOS], que gira con el nombre comercial [NOMBRE COMERCIAL] ( en adelante, el VENDEDOR).
+
+La dirección de su establecimiento comercial es [DIRECCIÓN], número de teléfono [TELÉFONO], número de fax [Nº DE FAX], correo electrónico [CORREO ELECTRÓNICO], pudiendo ponerse en contacto el cliente en cualquiera de las citadas direcciones.
+
+DESCRIPCIÓN DE LAS CARACTERÍSTICAS PRINCIPALES DEL PRODUCTO Y PRECIO TOTAL DE LOS BIENES OFERTADOS
+
+Las características principales del producto ofertado son las siguientes:
+
+(Se describiría el producto; marca, modelo, etc.)
+
+El precio total es de [IMPORTE] euros, que incluye impuestos, tasas y gastos de transporte, o entrega postal.
+
+El precio final no incluye los gastos de financiación.
+
+PROCEDIMIENTO DE PAGO
+
+El pago se realizará a la entrega del producto, admitiéndose el pago en efectivo, por talón conformado o por tarjeta de crédito o débito.
+
+El precio del producto puede ser financiado por la entidad financiera [ENTIDAD BANCARIA], colaboradora de la empresa vendedora. En este caso, el contrato de financiación se formalizará directamente entre el consumidor y usuario y la entidad financiera, entregando ésta previamente al consumidor y usuario la información normalizada europea del contrato de crédito al consumo, y una vez celebrado el contrato, copia del mismo.
+
+PROCEDIMIENTO ENTREGA Y EJECUCIÓN
+
+El empresario vendedor realizará la entrega del producto en un plazo máximo de 30 días desde la formalización del contrato de compraventa. El empresario vendedor recabará del cliente un justificante de entrega del producto en el que constará la fecha de la misma.
+
+La entrega se realizará directamente al cliente o en el domicilio que éste designe, siendo de cuenta del vendedor los gastos de transporte.
+
+DERECHO DE DESISTIMIENTO
+
+El cliente tiene derecho a desistir del contrato durante un periodo de 14 días naturales desde el día de la entrega, sin necesidad de indicar el motivo.
+
+Para ejercer el derecho de desistimiento, el cliente deberá comunicar al vendedor su decisión de desistir del contrato a través de una declaración inequívoca (por ejemplo, una carta enviada por correo postal, fax o correo electrónico).
+
+Para cumplir el plazo de desistimiento, basta con que la comunicación relativa al ejercicio por parte del cliente de este derecho sea enviada antes de que venza el plazo correspondiente.
+
+En caso de desistimiento, el vendedor devolverá todos los pagos recibidos del cliente, sin ninguna demora indebida y, en todo caso, a más tardar 14 días naturales a partir de la fecha en la que sea informado por el cliente de su decisión de desistir del contrato. El cliente se hará cargo de los gastos de devolución, salvo que la realice por correo.
+
+(Cuando con arreglo al artículo 103 TRLGDCU no proceda el derecho de desistimiento, debe indicarse al consumidor y usuario que no le asiste, o las circunstancias en las que lo perderá cuando le corresponda).
+
+GARANTÍA Y SERVICIO DE POSVENTA
+
+El producto ofertado tiene la garantía comercial del fabricante en los términos legalmente establecidos, durante un periodo de dos años a partir de la fecha de entrega.
+
+Las garantías no incluyen las deficiencias ocasionadas por negligencias, golpes, uso o manipulaciones indebidas, conexión a la red eléctrica diferente a la indicada en los manuales de uso, instalación incorrecta no efectuada por el servicio técnico autorizado cuando proceda, ni materiales sometidos a desgaste por su uso normal.
+
+El fabricante [ÓRGANO] ofrece un servicio de posventa a través de sus servicios técnicos, cuyas condiciones pueden consultarse en la página web [PÁGINA WEB]
+
+En [LUGAR], a [DÍA] de [MES] de [AÑO].
+
+EL VENDEDOR

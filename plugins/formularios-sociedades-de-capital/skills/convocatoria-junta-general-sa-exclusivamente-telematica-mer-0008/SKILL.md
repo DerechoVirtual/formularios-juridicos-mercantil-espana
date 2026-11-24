@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -48,8 +48,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - art. 179 TRLSC
-
----
 
 ## Instrucciones para Claude
 
@@ -86,15 +84,71 @@ La convocatoria de una junta exclusivamente telemática debe informar de los tr�
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+"" SA
+
+Por acuerdo del Consejo de Administración, adoptado en su reunión celebrada el día [FECHA], se convoca Junta general de accionistas [ELEGIR: ordinaria / extraordinaria], a celebrar en el domicilio social, sito en [LOCALIDAD], calle [CALLE] número [NÚMERO], el día [FECHA] a las [Nº] horas.
+
+La junta de socios se celebrará por medios exclusivamente telemáticos, esto es, sin la asistencia física o presencial de socios, representantes o invitados, siendo únicamente posible la participación a distancia, otorgando la representación con anterioridad a la celebración de la junta o bien asistiendo a esta por los medios relacionados en el presente documento.
+
+La junta de socios se reunirá al objeto de tratar los asuntos del siguiente
+
+Orden del día
+
+Primero. –
+
+Segundo. -
+
+Tercero. -
+
+Redacción y aprobación del acta, si procediera, o, en su caso, designación de interventores para ello.
+
+Derechos de los socios
+
+Derecho de información
+
+Se pone en conocimiento de los socios que, en virtud de lo dispuesto en el artículo 196 de la Ley de Sociedades de Capital, desde la recepción de esta convocatoria podrán solicitar por escrito, con anterioridad a la reunión de la junta general o verbalmente durante la misma, los informes o aclaraciones que estimen precisos acerca de los asuntos comprendidos en el orden del día.
+
+Del mismo modo, los socios tendrán derecho a examinar en el domicilio social y a obtener, por entrega o envío, y de forma inmediata y gratuita, los documentos que han de ser sometidos a aprobación de la junta de socios.
+
+Derecho de asistencia y voto
+
+De acuerdo con lo preceptuado en el artículo 179 de TRLSC, en relación con el artículo 104 del mismo texto normativo, podrán asistir a la junta de socios todos los titulares de acciones inscritas en el Libro Registro de Socios de la compañía.
+
+Los socios que deseen asistir a la junta telemática deberán solicitarlo de manera expresa por correo electrónico a la siguiente dirección de email: con el asunto “ASISTENCIA A LA JUNTA DE SOCIOS DE [NOMBRE SOCIEDAD]” [Nº] horas del día [DÍA] de [MES] de [AÑO].
+
+En el correo electrónico de solicitud de asistencia telemática se hará constar los siguientes datos: (i) nombre y apellidos o denominación social en el caso de socios personas jurídicas, y, en este último caso, con acreditación de poderes suficientes para vincular a la persona jurídica; (ii) DNI/CIF del socio y, en su caso, también de su representante legal o voluntario, así como copia de los citados documentos; y (iii) número de teléfono y correo electrónico de contacto.
+
+Recibida la comunicación y acreditado el derecho de asistencia del socio, se remitirá a la dirección de correo electrónico de contacto un enlace con la invitación a la junta de socios telemática que se realizará a través de la aplicación [NOMBRE DE LA APLICACIÓN], desde el que podrán conectarse en el día y hora señalados para la celebración de la misma, de forma totalmente gratuita. Los socios que no se hubieren acreditado según las disposiciones anteriores y en el plazo mencionado, no podrán asistir a la junta de socios telemática.
+
+Asimismo, los socios debidamente acreditados y que asistan telemáticamente deberán conectarse a través del enlace enviado a su correo electrónico entre las [HORA] y [Nº] horas del día de celebración de la junta de socios; con posterioridad a dicha franja horaria, no se admitirá ninguna conexión adicional.
+
+Los socios que asistan telemáticamente podrán emitir su voto en tiempo real en la propia Junta, desde el momento de su conexión hasta el momento en que se dé por finalizada la votación de las propuestas de acuerdo (tanto de los puntos incluidos en el orden del día, como aquellos que no estén recogidos expresamente), lo que se señalará durante el propio transcurso de la junta de socios.
+
+Derecho de representación
+
+Se recuerda a los socios con derecho de asistencia que podrán hacerse representar por medio de otra persona, en los términos previstos en el artículo [Nº DE ARTÍCULO] de los Estatutos sociales, esto es [TEXTO DEL ARTÍCULO ESTATUTARIO].
+
+La asistencia a la Junta del socio que hubiera designado a un representante determinará la revocación automática de la representación.
+
+Rogándole su asistencia por la importancia de los asuntos a tratar, aprovecho la ocasión para saludarle muy atte.
+
+Fdo.
+
+[Presidente del Consejo/Administrador único/ etc.]

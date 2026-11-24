@@ -28,8 +28,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -50,8 +50,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,52 @@ Este formulario tiene razón de ser cuando la firma de los administradores haya 
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+NÚMERO
+
+ACTA NOTARIAL DE FIRMA DE ACCIONES
+
+En [LUGAR], a [FECHA].
+
+Ante mí, D./Dña. [NOMBRE Y APELLIDOS], Notario de [LOCALIDAD], del Ilustre Colegio Notarial de [LOCALIDAD],
+
+COMPARECEN
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, con D.N.I. número [NÚMERO], y vecino/a de la [DIRECCIÓN], de [LOCALIDAD]. Interviene en representación de la sociedad « SA», constituida mediante escritura pública autorizada por el Notario de [LOCALIDAD], D./Dña. [NOMBRE Y APELLIDOS], el día [FECHA] (número de protocolo [Nº DE PROTOCOLO]), e inscrita en el Registro Mercantil de [LOCALIDAD], [DATOS REGISTRALES]. Ejerce esa representación como [CARGO] del consejo de administración [DENOMINACIÓN SOCIAL], nombrado por acuerdo de la junta general de fecha [FECHA] y del propio consejo de fecha [FECHA], e inscrito en el Registro Mercantil, hoja [HOJA], inscripción número [NÚMERO]. El compareciente me exhibe los documentos acreditativos de su representación, que incorporo a esta matriz.
+
+D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, con D.N.I. número [NÚMERO], y vecino/a de la [DIRECCIÓN], de la localidad de [LOCALIDAD]. Interviene en su propio nombre.
+
+Me aseguro de la identidad de los comparecientes por sus reseñados documentos de identidad y los juzgo con capacidad legal, legitimación e interés legítimo para esta acta, y
+
+D./Dña. [NOMBRE Y APELLIDOS]
+
+MANIFIESTA
+
+-Que el consejo de administración de la sociedad, en reunión celebrada el día [FECHA], acordó que las acciones sean firmadas por medios mecánicos por el consejero D./Dña. [NOMBRE Y APELLIDOS]. Me entrega certificación de dicho acuerdo, que incorporo a esta matriz.
+-Que todas las acciones que han de ser objeto de la firma, que son un total de [Nº], serie única, números [Nº] a [Nº], son idénticas al prototipo de los títulos que me entregan y que igualmente protocolizo en este acta, y
+
+REQUERIMIENTO
+
+Me requiere el D./Dña. [NOMBRE Y APELLIDOS] para que haga constar la identidad de la firma mecánica del prototipo con la que el consejero D./Dña. [NOMBRE Y APELLIDOS] estampa en este acta. Acepto el requerimiento y compruebo la indicada identidad.
+
+Hago a los señores comparecientes las reservas y advertencia legales oportunas, entre ellas las relativas al valor jurídico de sus manifestaciones. Asimismo, les advierto sobre la incorporación de datos a los ficheros automatizados.
+
+Enterados, según dicen, por la lectura que han practicado y por mis explicaciones, los señores comparecientes hacen constar libremente su consentimiento al contenido de esta acta, y la firman.
+
+Yo, el Notario, compruebo que este otorgamiento se adecua a la legalidad y a la voluntad debidamente informada y expresada ante mí, y del contenido de este acta, extendido en [Nº] folios de papel timbrado notarial de serie [SERIE], número [NÚMERO], DOY FE.

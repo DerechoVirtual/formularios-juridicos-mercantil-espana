@@ -26,8 +26,8 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 
 ## Qué contiene esta skill
 
-- `formulario.md`: el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `marco.md`: la guía del tema (Marcas, patentes y propiedad intelectual) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Marcas, patentes y propiedad intelectual) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -51,8 +51,6 @@ Si no estás seguro de que este sea el formulario que necesitas, usa el índice 
 ## Normas que cita el formulario
 
 - No cita artículos concretos; Claude localizará las normas aplicables con Jurisprudenciator si el documento las necesita.
-
----
 
 ## Instrucciones para Claude
 
@@ -88,15 +86,66 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee `formulario.md` entero y la parte de `marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea de `formulario.md` y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
    - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
+
+## Texto del formulario
+
+Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
+
+Contrato de licencia de marca y de know how en el que se paga un canon mensual y royalties anuales
+
+Ena.
+
+REUNIDOS
+
+De una parte, D./Dña. [NOMBRE Y APELLIDOS] mayor de edad, con domicilio en [LOCALIDAD] y DNI/NIF núm. actúa en nombre y representación de [NOMBRE DEL REPRESENTADO/A] domiciliada en [DOMICILIO], con NIF [NIF] Inscrita en el Registro Mercantil de [LOCALIDAD], cuyas facultades representativas derivan de la escritura pública de nombramiento de cargos otorgada ante el Notario de [LOCALIDAD] D./Dña. [NOMBRE Y APELLIDOS] en [FECHA]. Escritura que no ha sido revocada
+
+De otra parte, D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, vecino de [LOCALIDAD] quien interviene en nombre propio, con DNI/NIF núm. [NIF].
+
+Se reconocen mutuamente la capacidad legal necesaria para la firma del presente contrato y:
+
+MANIFIESTAN
+
+I. Que la sociedad [DENOMINACIÓN SOCIAL] es propietaria de la marca [MARCA/MODELO] según consta en la certificación del registro que se une a este contrato. Es también propietaria del know how que se describe a continuación [DESCRIPCIÓN DEL KNOW HOW].
+
+II. Que D./Dña. [NOMBRE Y APELLIDOS] tiene interés en utilizar dicha marca en la zona de [LOCALIDAD] de [PROVINCIA].
+
+III. Que siendo para mutuo beneficio de las partes la formalización de un contrato de licencia de marca lo concluyen en base a las siguientes:
+
+ESTIPULACIONES
+
+Primera. La sociedad [DENOMINACIÓN SOCIAL] como propietaria de la marca [MARCA/MODELO] Autoriza D./Dña. [NOMBRE Y APELLIDOS] la utilización exclusiva mediante licencia de la marca reseñada, así como el know how descrito en el antecedente I para su explotación en [ÁMBITO TERRITORIAL], por un período de tiempo de [Nº] años.
+
+Segunda. El precio convenido asciende a [IMPORTE] euros mensuales más IVA, y un royalty igual a un 5 por 100 de los beneficios netos anuales.
+
+Tercera. D./Dña. [NOMBRE Y APELLIDOS] pagará la cantidad indicada en los 5 primeros días de cada mes ingresándola en la cuenta corriente [Nº DE CUENTA (IBAN)] de la entidad bancaria [ENTIDAD BANCARIA] Los royalties se pagarán una vez al año en los seis primeros meses del año siguiente sobre los beneficios del año anterior.
+
+Cuarta. El impago de cualquiera de las mensualidades o de los royalties anuales acarreará automáticamente la pérdida de todos los derechos adquiridos hasta la fecha, estableciéndose, en concepto de penalización, la cantidad de [IMPORTE] euros a favor de [BENEFICIARIO].
+
+Quinta. D./Dña. [NOMBRE Y APELLIDOS] manifiesta expresamente conocer y aceptar la totalidad de obligaciones y responsabilidades existentes frente a la propietaria de la Marca, y se obliga al cumplimiento de las mismas, así como también al de las futuras que pudiera establecerse para el conjunto de sus agentes. Se obliga igualmente a comunicar por escrito al Registro la concesión de esta licencia de marca y de know how para su inscripción.
+
+Sexta. En caso de que el licenciatario incumpliera cualquiera de las obligaciones mencionadas en este contrato o cualquiera de las obligaciones recogidas en la Ley 17/2001, de 7 de diciembre, de Marcas (en adelante, LM), el propietario de la marca podrá ejercer todas las acciones legales que le permite el ordenamiento jurídico para salvaguardar sus derechos como propietario.
+
+Séptima. Todos los impuestos, y demás gastos que se originen por el cumplimiento de este contrato, tanto judiciales como extrajudiciales serán a cargo del licenciatario.
+
+Octava. Las partes con renuncia expresa a su propio fuero se someten al de los Juzgados y Tribunales de [LOCALIDAD].
+
+Novena. Este contrato tiene carácter mercantil y se rige por lo en él dispuesto, y en su defecto, por las disposiciones del Código de Comercio de 1885, Ley 17/2001, de 7 de diciembre, de Marcas, Leyes Especiales, usos mercantiles y con carácter supletorio, por el Código Civil de 1889.
+
+En prueba de conformidad firman este contrato por duplicado y a un solo efecto en el lugar y fecha indicados en el encabezamiento.
+
+Firmado	Firmado
+D./Dña. [NOMBRE Y APELLIDOS] D./Dña. [NOMBRE Y APELLIDOS]
+
+========================================================================
