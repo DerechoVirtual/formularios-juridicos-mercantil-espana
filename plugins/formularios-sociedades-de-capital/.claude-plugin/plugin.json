@@ -1,0 +1,23 @@
+{
+  "name": "formularios-sociedades-de-capital",
+  "version": "1.0.0",
+  "description": "Sociedades de capital: juntas, administradores, capital y cuentas: 310 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para el día a día societario de las SL y SA: convocatorias y actas de junta, certificaciones de acuerdos, nombramiento y cese de administradores, consejos de administración, aumentos y reducciones de capital, transmisión de participaciones y acciones, cuentas anuales, auditor, disolución y liquidación, y los escritos al Registro Mercantil. Requiere Jurisprudenciator.",
+  "author": {
+    "name": "Derecho Virtual"
+  },
+  "displayName": "Sociedades de capital: juntas, administradores, capital y cuentas · España",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://jurisprudenciator.lexiaipro.org/politica-de-privacidad",
+  "supportUrl": "https://jurisprudenciator.lexiaipro.org/incidencias",
+  "homepage": "https://jurisprudenciator.lexiaipro.org",
+  "termsOfServiceUrl": "https://jurisprudenciator.lexiaipro.org/terminos-y-condiciones",
+  "keywords": [
+    "jurisprudenciator",
+    "legal",
+    "españa",
+    "formularios",
+    "modelos",
+    "mercantil",
+    "sociedades"
+  ]
+}

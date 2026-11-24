@@ -1,0 +1,189 @@
+{
+  "name": "formularios-juridicos-mercantil-espana",
+  "owner": {
+    "name": "Derecho Virtual",
+    "url": "https://jurisprudenciator.lexiaipro.org"
+  },
+  "metadata": {
+    "description": "Formularios jurídicos de España para Claude · Mercantil: 11 plugins por materia (834 formularios), una skill por formulario, cada una conectada a Jurisprudenciator para verificar las normas.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "formularios-sociedades-de-capital",
+      "source": "./plugins/formularios-sociedades-de-capital",
+      "description": "Sociedades de capital: juntas, administradores, capital y cuentas · España (310 formularios). Para el día a día societario de las SL y SA: convocatorias y actas de junta, certificaciones de acuerdos, nombramiento y cese de administradores, consejos de administración, aumentos y reducciones de capital, transmisión de participaciones y acciones, cuentas anuales, auditor, disolución y liquidación, y los escritos al Registro Mercantil. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "sociedades"
+      ]
+    },
+    {
+      "name": "formularios-fusiones-y-escisiones",
+      "source": "./plugins/formularios-fusiones-y-escisiones",
+      "description": "Fusiones, escisiones y transformaciones de sociedades · España (55 formularios). Para las modificaciones estructurales del Real Decreto-ley 5/2023: proyectos comunes de fusión y escisión, acuerdos de junta, anuncios, informes a socios y trabajadores, escrituras de fusión, escisión, transformación y cesión global, y la defensa de acreedores y socios. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "estructurales"
+      ]
+    },
+    {
+      "name": "formularios-cooperativas-y-otras-sociedades",
+      "source": "./plugins/formularios-cooperativas-y-otras-sociedades",
+      "description": "Cooperativas, sociedades laborales y otras formas de empresa · España (113 formularios). Para las formas societarias especiales: cooperativas (estatutos, asambleas, consejo rector, altas y bajas de socios, reembolsos), sociedades laborales y participadas, sociedades agrarias de transformación, de garantía recíproca, agrupaciones de interés económico, comanditarias y colectivas, sociedades profesionales y protocolo familiar. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "otras-sociedades"
+      ]
+    },
+    {
+      "name": "formularios-agencia-distribucion-y-franquicia",
+      "source": "./plugins/formularios-agencia-distribucion-y-franquicia",
+      "description": "Agencia, distribución, franquicia y colaboración entre empresas · España (34 formularios). Para los contratos de colaboración comercial: agencia (Ley 12/1992), distribución exclusiva y selectiva, concesión, franquicia, comisión, patrocinio, alianzas y joint ventures, y las reclamaciones por indemnización de clientela o por resolución. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "distribucion"
+      ]
+    },
+    {
+      "name": "formularios-contratos-mercantiles",
+      "source": "./plugins/formularios-contratos-mercantiles",
+      "description": "Contratos mercantiles: compraventa, suministro, transporte y servicios · España (105 formularios). Para los contratos entre empresas del día a día: compraventa mercantil e internacional, suministro, transporte terrestre, marítimo y aéreo, logística, obra y servicios profesionales, consultoría, publicidad, eventos y turismo, condiciones generales de venta y cláusulas especiales. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "compraventa-servicios"
+      ]
+    },
+    {
+      "name": "formularios-banca-financiacion-y-garantias",
+      "source": "./plugins/formularios-banca-financiacion-y-garantias",
+      "description": "Banca, financiación, valores y garantías · España (68 formularios). Para la financiación empresarial y los productos bancarios: préstamos y créditos, préstamo participativo, leasing, renting, factoring y confirming, avales y garantías a primer requerimiento, prendas e hipotecas mobiliarias, swaps, depósitos y custodia de valores, FEIN y reclamaciones al banco. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "banca"
+      ]
+    },
+    {
+      "name": "formularios-seguros",
+      "source": "./plugins/formularios-seguros",
+      "description": "Seguros: pólizas, coberturas y reclamaciones · España (11 formularios). Para el contrato de seguro: pólizas (vida, responsabilidad civil, defensa jurídica…), declaraciones del asegurado, comunicación del siniestro y reclamaciones a la aseguradora conforme a la Ley de Contrato de Seguro. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "seguros"
+      ]
+    },
+    {
+      "name": "formularios-marcas-patentes-y-propiedad-intelectual",
+      "source": "./plugins/formularios-marcas-patentes-y-propiedad-intelectual",
+      "description": "Marcas, patentes y propiedad intelectual · España (53 formularios). Para proteger y explotar intangibles: licencias y cesiones de marca, patente, modelo de utilidad y diseño, know-how y secretos empresariales, contratos de edición, producción audiovisual y musical, cesión de derechos de autor y obras por encargo, y acciones por infracción. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "propiedad-industrial"
+      ]
+    },
+    {
+      "name": "formularios-tecnologia-y-proteccion-de-datos",
+      "source": "./plugins/formularios-tecnologia-y-proteccion-de-datos",
+      "description": "Contratos tecnológicos, comercio electrónico y protección de datos · España (32 formularios). Para el negocio digital: desarrollo de software, hosting, mantenimiento y outsourcing informático, tienda online y condiciones de uso, contratos de encargado y corresponsable del tratamiento, cláusulas y documentos del RGPD y de la LOPDGDD. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "tecnologia-datos"
+      ]
+    },
+    {
+      "name": "formularios-pleitos-mercantiles-y-concurso",
+      "source": "./plugins/formularios-pleitos-mercantiles-y-concurso",
+      "description": "Pleitos mercantiles: acuerdos sociales, administradores, competencia desleal y concurso · España (33 formularios). Para litigar ante la Sección de lo Mercantil: impugnación de acuerdos sociales, acción social e individual de responsabilidad de administradores, disolución judicial, derecho de información y de separación del socio, competencia desleal y publicidad ilícita, y escritos en el concurso de acreedores. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "litigios-mercantiles"
+      ]
+    },
+    {
+      "name": "formularios-traspasos-y-acuerdos-de-empresa",
+      "source": "./plugins/formularios-traspasos-y-acuerdos-de-empresa",
+      "description": "Traspasos de negocio, confidencialidad y acuerdos de empresa · España (20 formularios). Para operaciones y acuerdos sueltos de empresa: venta y arrendamiento de negocios o industrias, cartera de clientes, cartas de intenciones, acuerdos de confidencialidad (NDA), phantom shares, coworking, contrato estimatorio, requerimientos de pago por morosidad y otras cláusulas de empresa. Requiere Jurisprudenciator.",
+      "version": "1.0.0",
+      "category": "legal",
+      "keywords": [
+        "jurisprudenciator",
+        "legal",
+        "españa",
+        "formularios",
+        "modelos",
+        "mercantil",
+        "otros-mercantil"
+      ]
+    }
+  ]
+}
