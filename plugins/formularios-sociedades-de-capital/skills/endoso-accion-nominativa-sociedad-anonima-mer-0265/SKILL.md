@@ -5,7 +5,7 @@ description: "Endoso de una acción nominativa de una sociedad anónima. Lo reda
 
 # Endoso de una acción nominativa de una sociedad anónima
 
-> Formulario **MER-0265** del plugin **Sociedades de capital: juntas, administradores, capital y cuentas** (`formularios-sociedades-de-capital`) · Mercantil › Sociedades de capital (juntas, órganos, capital y cuentas) · normativa revisada el 24-11-2026.
+> Formulario **MER-0265** del plugin **Sociedades de capital: constitución, capital, administradores y cuentas** (`formularios-sociedades-de-capital`) · Mercantil › Sociedades de capital (juntas, órganos, capital y cuentas) · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,14 +22,15 @@ Para obtener, en pocos minutos, un borrador completo de «Endoso de una acción 
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Endoso de una acción nominativa de una sociedad anónima” para mi caso». También puedes invocarla directamente con `/formularios-sociedades-de-capital:endoso-accion-nominativa-sociedad-anonima-mer-0265`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-sociedades-de-capital:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: constitución, capital, administradores y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -84,43 +85,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-ENDOSO DE ACCIÓN NOMINATIVA
-
-Acción n.º [Nº DE LA ACCIÓN] de [DENOMINACIÓN SOCIAL], S.A., con NIF [NIF] y domicilio social en [DOMICILIO SOCIAL], de [IMPORTE] euros de valor nominal, perteneciente a la serie [SERIE], emitida a nombre de D./Dña. [NOMBRE Y APELLIDOS DEL TITULAR].
-
-Por el presente ENDOSO, D./Dña. [NOMBRE Y APELLIDOS], con DNI [DNI/NIE] y domicilio en [DOMICILIO], en calidad de DONANTE, hace donación pura y simple de esta acción, en pleno dominio, a D./Dña. [NOMBRE Y APELLIDOS], con DNI [DNI/NIE] y domicilio en [DOMICILIO], ACEPTANTE.
-
-El donatario ACEPTA expresamente la donación y el endoso que se le hacen.
-
-En [LOCALIDAD], a [FECHA].
-
-El endosante (donante)
-
-D./Dña. [NOMBRE Y APELLIDOS]
-
-El aceptante (donatario)
-
-D./Dña. [NOMBRE Y APELLIDOS]
-
-NOTAS DE USO
-
-1. Comunicar la transmisión a la sociedad para su anotación en el libro registro de acciones nominativas, respetando las restricciones a la libre transmisibilidad que, en su caso, establezcan los estatutos.
-
-2. La donación puede tener consecuencias fiscales (impuesto sobre sucesiones y donaciones y, en su caso, tributación del donante); conviene comprobarlas antes de formalizar la operación y valorar su formalización en documento público.

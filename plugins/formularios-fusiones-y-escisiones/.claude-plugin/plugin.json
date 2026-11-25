@@ -1,7 +1,7 @@
 {
   "name": "formularios-fusiones-y-escisiones",
-  "version": "1.0.0",
-  "description": "Fusiones, escisiones y transformaciones de sociedades: 55 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para las modificaciones estructurales del Real Decreto-ley 5/2023: proyectos comunes de fusión y escisión, acuerdos de junta, anuncios, informes a socios y trabajadores, escrituras de fusión, escisión, transformación y cesión global, y la defensa de acreedores y socios. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Fusiones, escisiones y transformaciones de sociedades: 55 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para las modificaciones estructurales del Real Decreto-ley 5/2023: proyectos comunes de fusión y escisión, acuerdos de junta, anuncios, informes a socios y trabajadores, escrituras de fusión, escisión, transformación y cesión global, y la defensa de acreedores y socios. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"

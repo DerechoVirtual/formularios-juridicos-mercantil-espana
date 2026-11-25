@@ -5,7 +5,7 @@ description: "Contrato con el consejero delegado de una SL (art. 249.3 LSC). Lo 
 
 # Contrato con el consejero delegado de una SL (art. 249.3 LSC)
 
-> Formulario **MER-0050** del plugin **Sociedades de capital: juntas, administradores, capital y cuentas** (`formularios-sociedades-de-capital`) · Mercantil › Sociedades de capital (juntas, órganos, capital y cuentas) · normativa revisada el 24-11-2026.
+> Formulario **MER-0050** del plugin **Sociedades de capital: constitución, capital, administradores y cuentas** (`formularios-sociedades-de-capital`) · Mercantil › Sociedades de capital (juntas, órganos, capital y cuentas) · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,14 +22,15 @@ Para obtener, en pocos minutos, un borrador completo de «Contrato con el consej
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Contrato con el consejero delegado de una SL (art. 249.3 LSC)” para mi caso». También puedes invocarla directamente con `/formularios-sociedades-de-capital:contrato-consejero-delegado-sl-art-249-3-lsc-mer-0050`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-sociedades-de-capital:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
-- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: juntas, administradores, capital y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
+- `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Sociedades de capital: constitución, capital, administradores y cuentas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
 
@@ -85,114 +86,15 @@ Cuando un miembro del consejo de administración sea nombrado consejero delegado
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-En [LUGAR], a [FECHA].
-
-REUNIDOS
-
-De una parte:
-
-D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ESTADO CIVIL], vecino/a de [LOCALIDAD], domiciliado/a en [DOMICILIO], con documento nacional de identidad número [NÚMERO].
-
-De otra:
-
-D./Dña. [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ESTADO CIVIL], vecino/a de [LOCALIDAD], domiciliado/a en [DOMICILIO], con documento nacional de identidad número [NÚMERO].
-
-INTERVIENEN
-
-D./Dña. [NOMBRE Y APELLIDOS], en nombre y representación de [NOMBRE DEL REPRESENTADO/A], en lo sucesivo LA SOCIEDAD, en virtud de poder otorgado a su favor ante el/la Notario/a de [LOCALIDAD], D./Dña. [NOMBRE Y APELLIDOS], en fecha [FECHA], con el número de protocolo [Nº DE PROTOCOLO].
-
-D./Dña. [NOMBRE Y APELLIDOS], en su propio nombre y derecho, en lo sucesivo [ELEGIR: EL CONSEJERO DELEGADO / LA CONSEJERA DELEGADA]
-[ELEGIR: EL CONSEJERO DELEGADO. / LA CONSEJERA DELEGADA],
-
-Todas las partes, en el respectivo carácter con el que intervienen, se reconocen mutuamente la capacidad legal en Derecho necesaria para concertar el presente CONTRATO DE DELEGACIÓN DE FACULTADES DEL CONSEJO DE ADMINISTRACIÓN, y a tal efecto, libremente y de común acuerdo,
-
-EXPONEN
-
-Que LA SOCIEDAD designa a D./Dña. [NOMBRE Y APELLIDOS] como [ELEGIR: CONSEJERO DELEGADO / CONSEJERA DELEGADA], a cuyo fin celebran ambas partes el presente contrato en cumplimiento de lo previsto en el artículo 249 del Texto Refundido de la Ley de Sociedades de Capital aprobado por Real Decreto Legislativo 1/2010, de 2 de julio (en lo sucesivo, TRLSC), conforme a las siguientes
-
-CLÁUSULAS
-
-I.- Objeto del contrato
-
-LA SOCIEDAD, por medio de su Consejo de Administración constituido el pasado [FECHA] designa
-[ELEGIR: CONSEJERO DELEGADO. / CONSEJERA DELEGADA]a D./Dña. [NOMBRE Y APELLIDOS] y fija por el presente los términos exigidos por el citado art. 249 TRLSC.
-
-II.- Retribución
-
-La retribuciónpor el desempeño de funciones ejecutivas
-[ELEGIR: del CONSEJERO DELEGADO. / de la CONSEJERA DELEGADA]incluirá los siguientes conceptos (puede ser una o varias):
-
-[OPCIONAL — incluir si procede]
-
-Retribución fija anual de [IMPORTE].
-
-[OPCIONAL — incluir si procede]
-
-Retribución variable (en relación a la política retributiva de LA SOCIEDAD) consistente en [DESCRIBIR].
-
-[OPCIONAL — incluir si procede]
-
-Indemnización por cese anticipado en dichas funciones o terminación de la relación contractual consistente en [DESCRIBIR].
-
-[OPCIONAL — incluir si procede]
-
-Pacto de exclusividad valorado en [IMPORTE].
-
-[OPCIONAL — incluir si procede]
-
-Pacto de no concurrencia post-contractual valorado en [IMPORTE].
-
-[OPCIONAL — incluir si procede]
-
-Pacto de permanencia o fidelización valorado en [IMPORTE].
-
-[OPCIONAL — incluir si procede]
-
-Primas de seguro a abonar por la sociedad valoradas en [IMPORTE].
-
-[OPCIONAL — incluir si procede]
-
-Cantidades a abonar por la sociedad en concepto de contribución a sistemas de ahorro valoradas en [IMPORTE].
-
-[OPCIONAL — incluir si procede]
-
-Indemnizaciones por cese anticipado o terminación de la relación contractual y pactos de exclusividad, no concurrencia post-contractual y permanencia o fidelización.
-
-El presente contrato es conforme con la política de retribuciones aprobada por la junta general.
-
-III.- Facultades indelegables
-
-La designación
-[ELEGIR: del CONSEJERO DELEGADO. / de la CONSEJERA DELEGADA]cumple asimismo con lo previsto en el artículo 249 bis TRLSC.
-
-IV.- Aprobación y unión al acta
-
-El presente contrato se aprueba por el consejo de administración con el voto favorable de (mínimo dos terceras partes de sus miembros), habiéndose abstenido
-[ELEGIR: el CONSEJERO DELEGADO. / la CONSEJERA DELEGADA]de asistir a la deliberación y de participar en la votación.
-
-Asimismo se incorpora como Anexo al acta de la sesión.
-
-En [LUGAR], a [FECHA].
-
-LA SOCIEDAD
-
-CONSEJERO/A DELEGADO/A
-
-Firmado: D./Dña. [NOMBRE Y APELLIDOS] Firmado: D./Dña. [NOMBRE Y APELLIDOS]

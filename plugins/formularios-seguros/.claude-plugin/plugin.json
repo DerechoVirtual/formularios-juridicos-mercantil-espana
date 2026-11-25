@@ -1,7 +1,7 @@
 {
   "name": "formularios-seguros",
-  "version": "1.0.0",
-  "description": "Seguros: pólizas, coberturas y reclamaciones: 11 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para el contrato de seguro: pólizas (vida, responsabilidad civil, defensa jurídica…), declaraciones del asegurado, comunicación del siniestro y reclamaciones a la aseguradora conforme a la Ley de Contrato de Seguro. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Seguros: pólizas, coberturas y reclamaciones: 11 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para el contrato de seguro: pólizas (vida, responsabilidad civil, defensa jurídica…), declaraciones del asegurado, comunicación del siniestro y reclamaciones a la aseguradora conforme a la Ley de Contrato de Seguro. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"

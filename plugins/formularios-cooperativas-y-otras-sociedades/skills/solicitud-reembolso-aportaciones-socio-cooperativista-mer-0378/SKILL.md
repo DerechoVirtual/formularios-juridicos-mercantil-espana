@@ -5,7 +5,7 @@ description: "Solicitud de reembolso de las aportaciones de un socio cooperativi
 
 # Solicitud de reembolso de las aportaciones de un socio cooperativista fallecido
 
-> Formulario **MER-0378** del plugin **Cooperativas, sociedades laborales y otras formas de empresa** (`formularios-cooperativas-y-otras-sociedades`) · Mercantil › Cooperativas, sociedades laborales y otras formas societarias · normativa revisada el 24-11-2026.
+> Formulario **MER-0378** del plugin **Cooperativas, sociedades laborales y otras formas de empresa** (`formularios-cooperativas-y-otras-sociedades`) · Mercantil › Cooperativas, sociedades laborales y otras formas societarias · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Solicitud de reembolso
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Solicitud de reembolso de las aportaciones de un socio cooperativista fallecido” para mi caso». También puedes invocarla directamente con `/formularios-cooperativas-y-otras-sociedades:solicitud-reembolso-aportaciones-socio-cooperativista-mer-0378`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-cooperativas-y-otras-sociedades:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Cooperativas, sociedades laborales y otras formas de empresa) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -78,44 +79,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-Los estatutos regularán el reembolso de las aportaciones al capital social en caso de baja en la cooperativa. La liquidación de estas aportaciones se hará según el balance de cierre del ejercicio en el que se produzca la baja. Es aconsejable que la remisión del requerimiento tenga lugar por un medio fehaciente (mediante burofax con acuse de recibo y certificado de contenido, por ejemplo).
-
-Sr. Presidente del consejo rector.
-
-«[NOMBRE O DENOMINACIÓN]».
-
-En [LUGAR], a [FECHA].
-
-D./Dña. [NOMBRE Y APELLIDOS], de nacionalidad española, NIF número [NIF] y domicilio en [LOCALIDAD] de la localidad de [LOCALIDAD]
-
-EXPONE
-
-• 1. Que el socio de la cooperativa D./Dña. [NOMBRE Y APELLIDOS] falleció el día [FECHA], según se acredita con la certificación de defunción que se acompaña al presente escrito.
-
-• 2. Que el solicitante es [PARENTESCO CON EL SOCIO FALLECIDO] del socio fallecido, según se acredita convenientemente a través de los documentos que acompañan a esta solicitud.
-
-• 3. Que los artículos 50.b) y 51 de la Ley 27/1999, de 16 de julio, de Cooperativas, establecen el derecho de reembolso de las aportaciones sociales a los causahabientes del socio fallecido; y
-
-SOLICITA
-
-- Que, en su condición de causahabiente del socio fallecido, le sean reembolsadas las aportaciones de éste al capital social, tanto voluntarias como obligatorias, calculadas conforme a lo dispuesto en el artículo 51 de la Ley 27/1999, de 16 de julio, de Cooperativas.
-- Que, asimismo, le sean reembolsados los demás derechos económicos que puedan corresponder al socio fallecido en la cooperativa y, en particular, las cantidades pendientes de reparto en concepto de retornos.
-
-D./Dña. [NOMBRE Y APELLIDOS]

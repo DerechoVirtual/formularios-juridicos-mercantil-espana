@@ -5,7 +5,7 @@ description: "Contrato de suministro de productos alimentarios. Lo redacta con l
 
 # Contrato de suministro de productos alimentarios
 
-> Formulario **MER-0557** del plugin **Contratos mercantiles: compraventa, suministro, transporte y servicios** (`formularios-contratos-mercantiles`) · Mercantil › Compraventa mercantil, suministro, transporte y servicios · normativa revisada el 24-11-2026.
+> Formulario **MER-0557** del plugin **Contratos mercantiles: compraventa, suministro, transporte y servicios** (`formularios-contratos-mercantiles`) · Mercantil › Compraventa mercantil, suministro, transporte y servicios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Contrato de suministro
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Contrato de suministro de productos alimentarios” para mi caso». También puedes invocarla directamente con `/formularios-contratos-mercantiles:contrato-suministro-productos-alimentarios-mer-0557`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-contratos-mercantiles:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Contratos mercantiles: compraventa, suministro, transporte y servicios) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -90,147 +91,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-REUNIDOS
-
-De una parte:
-
-D. [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ESTADO CIVIL], vecino de [LOCALIDAD], domiciliado en [DOMICILIO], con documento nacional de identidad número [NÚMERO]
-
-De otra:
-
-D. [NOMBRE Y APELLIDOS], mayor de edad, de estado civil [ESTADO CIVIL], vecino de [LOCALIDAD], domiciliado en [DOMICILIO], con documento nacional de identidad número [NÚMERO]
-
-INTERVIENEN
-
-D. [NOMBRE Y APELLIDOS], en nombre y representación de [NOMBRE DEL REPRESENTADO/A], en lo sucesivo "LA SUMINISTRADORA", en virtud de poder otorgado a su favor ante el Notario de [LOCALIDAD] D. [NOMBRE Y APELLIDOS], en fecha [FECHA], con el número de protocolo [Nº DE PROTOCOLO], poder que se halla debidamente inscrito en el Registro Mercantil de [LOCALIDAD] y vigente, según manifiesta.
-
-D. [NOMBRE Y APELLIDOS], en nombre y representación de [NOMBRE DEL REPRESENTADO/A], en lo sucesivo "LA SUMINISTRADA", en virtud de poder otorgado a su favor ante el Notario de [LOCALIDAD] D. [NOMBRE Y APELLIDOS], en fecha [FECHA], con el número de protocolo [Nº DE PROTOCOLO], poder que se halla debidamente inscrito en el Registro Mercantil de [LOCALIDAD] y vigente, según manifiesta.
-
-Todas las partes, en el respectivo carácter con el que intervienen, se reconocen mutuamente la capacidad legal en Derecho necesaria para concertar el presente CONTRATO DE SUMINISTRO ALIMENTARIO, y a tal efecto, libremente y de común acuerdo,
-
-EXPONEN
-
-PRIMERO.- Que LA SUMINISTRADORA es una persona jurídica de derecho privado dedicada a la (fabricación/producción…) de productos alimentarios de primera necesidad.
-
-SEGUNDO.- Que LA SUMINISTRADA, por su parte, se dedica a la comercialización de productos de consumo habitual, necesitando para su proceso de comercialización los bienes fabricados por LA SUMINISTRADORA, por lo que tiene interés en que ésta le suministre dichos bienes.
-
-TERCERO.- Que por ello, ambas partes de común acuerdo llevan a efecto el presenten contrato con arreglo a las siguientes:
-
-CLÁUSULAS
-
-Objeto
-
-LA SUMINISTRADA encargará periódicamente y LA SUMINISTRADORA suministrará periódicamente las cantidades del Producto de acuerdo con las condiciones del presente contrato.
-
-Las calidades y características de dichos bienes son las siguientes:
-
-Precio
-
-LA SUMINISTRADORA venderá los productos a LA SUMINISTRADA ajustándose, durante el primer año de vigencia del contrato, a las tarifas que se acompañan como Anexo II del presente acuerdo.
-
-En tal precio se encuentran comprendidas, a excepción de los portes, cuantas actividades sean precisas para la entrega de los pedidos en el domicilio de LA SUMINISTRADA, lugar donde deberán ser entregados los productos.
-
-Facturación
-
-Basándose en la información proporcionada por LA SUMINISTRADA, LA SUMINISTRADORA le facturará el Producto retirado de las Instalaciones en el mes de cada Fecha de Declaración. Las facturas deberán detallar el número de [UNIDAD DE MEDIDA] suministradas, la fecha de la entrega, el precio de cada [UNIDAD DE MEDIDA], el precio total, y se expedirá por duplicado ejemplar.
-
-Pago
-
-El pago de las facturas emitidas por LA SUMINISTRADORA correspondientes a las declaraciones de consumos [PERIODICIDAD] efectuadas por LA SUMINISTRADA se efectuará el día [FECHA] de cada mes, contra factura recibida, efectuando los abono en la cuenta corriente nº [NÚMERO] que LA SUMINISTRADORA tiene suscrita con la entidad [DENOMINACIÓN SOCIAL] en su sucursal [SUCURSAL] en el plazo de [PLAZO] a contar desde la fecha de recepción de los productos.
-
-El retraso en más de [Nº] días en cualquiera de los pagos dará derecho a LA SUMINISTRADORA a exigir a LA SUMINISTRADA un interés moratorio del [PORCENTAJE] % respecto de cada uno de los pagos no satisfechos puntualmente. Si LA SUMINISTRADA se retrasara en el pago de [Nº] plazos o en el pago del último, la Vendedora podrá optar entre exigir el pago de los plazos pendientes o resolver el contrato, con abono en ambos caso de las indemnizaciones que puedan corresponder.
-
-Entrega
-
-LA SUMINISTRADORA se obliga a entregar y poner a plena disposición de LA SUMINISTRADA el Producto objeto del presente contrato el día [FECHA] de cada [PERIODICIDAD]
-
-Los Productos se entregarán en las Instalaciones [DIRECCIÓN]
-
-LA SUMINISTRADA se compromete a aceptar las mercancías una vez hayan sido entregadas si coinciden con las calidades, forma y tamaño descritos en el Exponendo Primero.
-
-Almacenamiento
-
-LA SUMINISTRADA garantiza que el Producto se almacenará siempre en las Instalaciones, de tal modo que quede claramente identificado como propiedad de LA SUMINISTRADORA. El Producto no se almacenará en ningún recinto ni en ligar distinto de las Instalaciones, a menos que LA SUMINISTRADORA lo autorice previamente por escrito.
-
-LA SUMINISTRADA se hará cargo de los costes de almacenamiento del Producto.
-
-LA SUMINISTRADA garantiza que las Instalaciones estarán en todo momento debidamente acondicionadas para la recepción y almacenamiento del Producto, de modo que pueda asegurarse la integridad del mismo.
-
-LA SUMINISTRADA garantiza por el presente contrato que cumplirá con todas las licencias, permisos y normativas pertinentes de las autoridades de origen legal, locales o de otro tipo exigidas para el almacenamiento del Producto e las Instalaciones.
-
-Duración
-
-El presente contrato tendrá una duración de (meses, años) y podrá ser prorrogado mediante acuerdo celebrado por escrito entre las partes por un plazo igual, siempre y cuando esto se realice con [Nº] días de antelación al vencimiento del plazo inicialmente pactado.
-
-Resolución del contrato
-
-El Contrato podrá resolverse por las siguientes causas:
-
-1. Por voluntad de cualquiera de las Partes cuando medie incumplimiento grave de las obligaciones pactadas.
-
-2. Por acuerdo de las Partes por escrito.
-
-3. La extinción de la personalidad jurídica de cualquiera de las Partes o la suspensión de pagos, quiebra, concurso o embargo de bienes de alguna de ellas a menos que se garantice de cualquier forma la deuda.
-
-En cualquier caso, la Parte que pretenda resolver el presente Contrato alegando incumplimiento de la contraparte, deberá requerirle al cumplimiento de la obligación de forma fehaciente, otorgándole un plazo de [Nº] días a la Parte incumplidora para que pueda subsanar dicho incumplimiento. Transcurrido dicho plazo sin que los incumplimientos hubiesen sido subsanados, el perjudicado podrá ejercitar la mencionada facultad.
-
-En el supuesto de que los incumplimientos fueren de imposible subsanación en el plazo de 30 días, el perjudicado podrá ejercitar directamente la facultad opción, sin necesidad de remitir, previamente, el antedicho requerimiento.
-
-Producida la resolución del contrato, LA SUMINISTRADORA podrá auditar la cantidad de Producto remanente y, a su discreción, retirarlo a costa de LA SUMINISTRADA o facturar a ésta el precio en vigor en la fecha de rescisión. LA SUMISTRADA pagará la cantidad facturada de acuerdo con las condiciones de pago acordadas.
-
-Gastos e impuestos
-
-Todos los gastos e impuestos que se originen como consecuencia de la formalización, cumplimiento o extinción del presente contrato y de las obligaciones que de él se deriven serán de cargo de
-
-Igualmente, los gastos judiciales que se ocasionen por incumplimiento del presente contrato serán por cuenta de la parte incumplidora, incluidos honorarios del Procurador y Abogado aunque sus intervenciones no fueran preceptivas.
-
-Jurisdicción competente y ley aplicable
-
-El conocimiento de los litigios relativos a que diera lugar la interpretación y/o ejecución del presente contrato corresponderá al Tribunal de Instancia del lugar en que se halle la finca.
-
-El presente contrato tiene carácter civil, se regirá por sus propias cláusulas, y en lo en ellas no dispuesto, por lo previsto en el Código Civil y demás leyes especiales.
-
-Notificaciones
-
-Toda notificación que se efectúe entre las partes se hará por escrito y será entregada personalmente o de cualquier otra forma que certifique la recepción por la parte notificada en los respectivos domicilios indicados en el encabezamiento de este Contrato.
-
-Cualquier cambio de domicilio de una de las partes deberá ser notificado a la otra de forma inmediata y por un medio que garantice la recepción del mensaje.
-
-Generalidades
-
-El presente contrato anula y reemplaza cualquier contrato o acuerdo anterior entre las partes con el mismo objeto y sólo podrá ser modificado por un nuevo acuerdo firmado por ambas partes.
-
-Si alguna de las cláusulas del presente contrato fuere declarada nula o inaplicable, dicha cláusula se considerará excluida del contrato, sin que implique la nulidad del mismo. En este caso las partes harán cuanto esté a su alcance para encontrar una solución equivalente que sea válida y que refleje debidamente sus intenciones. Además, téngase en cuanta el art. 1108 CCiv. y Comunicación C 1696 de la Comisión Eruropea relativa a la fuerza mayor y su aplicación.
-
-Los encabezamientos de las distintas cláusulas lo son sólo a efectos informativos, y no afectarán, calificarán o ampliarán la interpretación de este Contrato.
-
-En el caso de que el cumplimiento de este Contrato suponga la necesidad de acceder a datos de carácter personal, como encargados del tratamiento, quedamos obligados al cumplimiento de la LO 3/2018, de 5 diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales y del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 (RGPD) y demás normativa aplicable.
-
-Y en prueba de conformidad y aceptación de cuanto antecede, ambas partes firman los [Nº] folios del presente CONTRATO DE SUMINISTRO ALIMENTARIO, extendido por duplicado y a un solo efecto, en la ciudad y fecha mencionados en el encabezamiento.
-
-Fdo. Don [NOMBRE Y APELLIDOS]
-
-(La Suministradora)
-
-Fdo. Don [NOMBRE Y APELLIDOS]
-
-(La Suministrada)

@@ -1,7 +1,7 @@
 {
   "name": "formularios-traspasos-y-acuerdos-de-empresa",
-  "version": "1.0.0",
-  "description": "Traspasos de negocio, confidencialidad y acuerdos de empresa: 20 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para operaciones y acuerdos sueltos de empresa: venta y arrendamiento de negocios o industrias, cartera de clientes, cartas de intenciones, acuerdos de confidencialidad (NDA), phantom shares, coworking, contrato estimatorio, requerimientos de pago por morosidad y otras cláusulas de empresa. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Traspasos de negocio, confidencialidad y acuerdos de empresa: 20 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para operaciones y acuerdos sueltos de empresa: venta y arrendamiento de negocios o industrias, cartera de clientes, cartas de intenciones, acuerdos de confidencialidad (NDA), phantom shares, coworking, contrato estimatorio, requerimientos de pago por morosidad y otras cláusulas de empresa. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"

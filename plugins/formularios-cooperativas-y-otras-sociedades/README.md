@@ -1,20 +1,20 @@
 # Cooperativas, sociedades laborales y otras formas de empresa
 
-> Plugin de Claude Code `formularios-cooperativas-y-otras-sociedades` · **113 formularios** · Mercantil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-cooperativas-y-otras-sociedades` · **112 formularios** · Mercantil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para las formas societarias especiales: cooperativas (estatutos, asambleas, consejo rector, altas y bajas de socios, reembolsos), sociedades laborales y participadas, sociedades agrarias de transformación, de garantía recíproca, agrupaciones de interés económico, comanditarias y colectivas, sociedades profesionales y protocolo familiar.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
-Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 113 está al final):
+Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 112 está al final):
 
 - **Demandas, peticiones y solicitudes iniciales** (2). Por ejemplo: Demanda del socio contra el acuerdo del consejo rector que califica su baja en la cooperativa; Demanda de impugnación de un acuerdo nulo o anulable de la asamblea general de una cooperativa.
 - **Contratos, pactos y cláusulas** (6). Por ejemplo: Acuerdo de reembolso de aportaciones al socio que causa baja en una cooperativa; Acuerdo de constitución de una unión temporal de empresas (UTE); Acuerdo del consejo rector de una cooperativa sobre la admisión o denegación de un socio.
-- **Estatutos, actas, certificaciones y escrituras** (44). Por ejemplo: Convocatoria del consejo rector por consejeros ante la inacción del presidente; Certificación de los acuerdos del consejo rector de una cooperativa; Convocatoria de la asamblea constituyente de una cooperativa.
+- **Estatutos, actas, certificaciones y escrituras** (43). Por ejemplo: Convocatoria del consejo rector por consejeros ante la inacción del presidente; Certificación de los acuerdos del consejo rector de una cooperativa; Convocatoria de la asamblea constituyente de una cooperativa.
 - **Comunicaciones, requerimientos y cartas** (44). Por ejemplo: Comunicación de intención de transmitir acciones o participaciones laborales a no trabajador fijo; Solicitud del socio cooperativista de información sobre derechos económicos y orden del día; Notificación de la administración de una SL laboral sobre transmisión de participaciones laborales.
 - **Escritos de trámite y otros** (17). Por ejemplo: Separación del socio de la cooperativa por cambio de clase, transformación, fusión o escisión; Lista de asistentes a la asamblea general de una cooperativa; Preaviso al consejo rector de baja voluntaria del socio de una cooperativa.
 
@@ -32,9 +32,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
@@ -42,7 +42,7 @@ El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
 - **Dónde funciona:** en Claude Code y en Claude (web, escritorio y Cowork). Se instala desde este repositorio de GitHub o subiendo el ZIP del plugin.
 - **Jurisprudenciator es imprescindible:** el plugin trae el conector y cada skill trabaja siempre con él. Sin una cuenta de Jurisprudenciator conectada, las skills se paran y no redactan nada. La primera vez hay que iniciar sesión (en Claude Code, con `/mcp`; o con tu URL personal: https://jurisprudenciator.lexiaipro.org/instalacion). Si ya tienes Jurisprudenciator conectado en Claude, las skills usan ese.
-- **Espacio que ocupa:** unos 6.815 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-cooperativas-y-otras-sociedades@formularios-juridicos-mercantil-espana`).
+- **Espacio que ocupa:** unos 6.766 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-cooperativas-y-otras-sociedades@formularios-juridicos-mercantil-espana`).
 
 ## Instalación
 
@@ -57,7 +57,7 @@ En Claude (web, escritorio o Cowork): **Personalizar → Plugins → Añadir mar
 
 Para comprobar que está instalado: `claude plugin list`.
 
-## Lista completa de formularios (113)
+## Lista completa de formularios (112)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -138,7 +138,6 @@ Para comprobar que está instalado: `claude plugin list`.
 | MER-0440 | Acta del consejo rector de una cooperativa que nombra consejero delegado | `acta-consejo-rector-cooperativa-nombra-consejero-mer-0440` |
 | MER-0441 | Convocatoria de reunión del consejo rector de una cooperativa | `convocatoria-reunion-consejo-rector-cooperativa-mer-0441` |
 | MER-0442 | Convocatoria de asamblea general ordinaria o extraordinaria de una cooperativa | `convocatoria-asamblea-general-ordinaria-extraordinaria-mer-0442` |
-| MER-0443 | Estatutos sociales de una cooperativa | `estatutos-sociales-cooperativa-mer-0443` |
 | MER-0444 | Escritura pública de constitución de una cooperativa | `escritura-publica-constitucion-cooperativa-mer-0444` |
 | MER-0445 | Solicitud de un socio al consejo rector de copia certificada de los acuerdos de la asamblea general | `solicitud-socio-consejo-rector-copia-certificada-mer-0445` |
 | MER-0446 | Estatutos sociales de una sociedad comanditaria simple | `estatutos-sociales-sociedad-comanditaria-simple-mer-0446` |

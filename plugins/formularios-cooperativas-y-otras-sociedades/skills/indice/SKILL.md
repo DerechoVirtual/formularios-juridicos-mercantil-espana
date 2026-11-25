@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 113 formularios de Cooperativas, sociedades laborales y otras formas de empresa. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 112 formularios de Cooperativas, sociedades laborales y otras formas de empresa. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Cooperativas, sociedades laborales y otras formas de empresa: índice de formularios
 
-> Plugin `formularios-cooperativas-y-otras-sociedades` · 113 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-cooperativas-y-otras-sociedades` · 112 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,7 +50,7 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
 ### Demandas, peticiones y solicitudes iniciales (2)
 
@@ -70,7 +70,7 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | MER-0374 | Acuerdo de la junta general de adoptar la calificación de sociedad laboral | `acuerdo-junta-general-adoptar-calificacion-sociedad-mer-0374` |
 | MER-0426 | Contrato de venta de aportaciones al capital de una cooperativa a un tercero no socio | `contrato-venta-aportaciones-capital-cooperativa-mer-0426` |
 
-### Estatutos, actas, certificaciones y escrituras (44)
+### Estatutos, actas, certificaciones y escrituras (43)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -100,7 +100,6 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | MER-0440 | Acta del consejo rector de una cooperativa que nombra consejero delegado | `acta-consejo-rector-cooperativa-nombra-consejero-mer-0440` |
 | MER-0441 | Convocatoria de reunión del consejo rector de una cooperativa | `convocatoria-reunion-consejo-rector-cooperativa-mer-0441` |
 | MER-0442 | Convocatoria de asamblea general ordinaria o extraordinaria de una cooperativa | `convocatoria-asamblea-general-ordinaria-extraordinaria-mer-0442` |
-| MER-0443 | Estatutos sociales de una cooperativa | `estatutos-sociales-cooperativa-mer-0443` |
 | MER-0444 | Escritura pública de constitución de una cooperativa | `escritura-publica-constitucion-cooperativa-mer-0444` |
 | MER-0446 | Estatutos sociales de una sociedad comanditaria simple | `estatutos-sociales-sociedad-comanditaria-simple-mer-0446` |
 | MER-0447 | Escritura pública de constitución de una sociedad comanditaria simple | `escritura-publica-constitucion-sociedad-comanditaria-mer-0447` |

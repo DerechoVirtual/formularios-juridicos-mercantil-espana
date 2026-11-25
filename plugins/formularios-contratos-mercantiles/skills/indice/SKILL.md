@@ -1,11 +1,11 @@
 ---
 name: indice
-description: "Índice de los 105 formularios de Contratos mercantiles: compraventa, suministro, transporte y servicios. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
+description: "Índice de los 104 formularios de Contratos mercantiles: compraventa, suministro, transporte y servicios. Úsala cuando el usuario pida un documento de esta materia y no esté claro qué formulario usar: propone el adecuado y lo abre. Requiere Jurisprudenciator."
 ---
 
 # Contratos mercantiles: compraventa, suministro, transporte y servicios: índice de formularios
 
-> Plugin `formularios-contratos-mercantiles` · 105 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-contratos-mercantiles` · 104 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,9 +50,9 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
-### Contratos, pactos y cláusulas (90)
+### Contratos, pactos y cláusulas (89)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -84,7 +84,6 @@ Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (pued
 | MER-0542 | Contrato de asesoría fiscal y llevanza de contabilidad | `contrato-asesoria-fiscal-llevanza-contabilidad-mer-0542` |
 | MER-0543 | Contrato de prestación de servicios de formación | `contrato-prestacion-servicios-formacion-mer-0543` |
 | MER-0544 | Contrato de compraventa internacional entre importador y exportador | `contrato-compraventa-internacional-entre-importador-mer-0544` |
-| MER-0545 | Contrato de externalización de servicios (outsourcing) entre empresas | `contrato-externalizacion-servicios-outsourcing-entre-mer-0545` |
 | MER-0546 | Contrato de ingeniería operativa entre cliente y empresa ejecutante | `contrato-ingenieria-operativa-entre-cliente-empresa-mer-0546` |
 | MER-0547 | Contrato de compraventa mercantil con entrega y pago aplazados (versión abreviada) | `contrato-compraventa-mercantil-entrega-pago-aplazados-mer-0547` |
 | MER-0550 | Compraventa mercantil (al contado versión abreviada) (contrato) | `compraventa-mercantil-contado-version-abreviada-mer-0550` |

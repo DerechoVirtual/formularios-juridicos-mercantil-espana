@@ -5,7 +5,7 @@ description: "Escritura de hipoteca mobiliaria sobre un establecimiento mercanti
 
 # Escritura de hipoteca mobiliaria sobre un establecimiento mercantil
 
-> Formulario **MER-0659** del plugin **Banca, financiación, valores y garantías** (`formularios-banca-financiacion-y-garantias`) · Mercantil › Banca, financiación, valores y garantías · normativa revisada el 24-11-2026.
+> Formulario **MER-0659** del plugin **Banca, financiación, valores y garantías** (`formularios-banca-financiacion-y-garantias`) · Mercantil › Banca, financiación, valores y garantías · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Escritura de hipoteca 
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Escritura de hipoteca mobiliaria sobre un establecimiento mercantil” para mi caso». También puedes invocarla directamente con `/formularios-banca-financiacion-y-garantias:escritura-hipoteca-mobiliaria-sobre-establecimiento-mer-0659`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-banca-financiacion-y-garantias:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Banca, financiación, valores y garantías) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -91,133 +92,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-En [LOCALIDAD], a [DÍA] de [MES] De 20 [AÑO]
-
-Ante mí, Notario del Ilustre Colegio de [COLEGIO], con residencia en [LOCALIDAD]
-
-EXPONEN
-
-I.-Que Don [NOMBRE Y APELLIDOS] es dueño en pleno dominio del establecimiento mercantil [NOMBRE DEL ESTABLECIMIENTO], con NIF [NIF], ubicado en la calle [CALLE], con identificación registral número [NÚMERO] y dedicado a
-
-II.-Que lo adquirió por escritura de compraventa formalizada por el Notario Don [NOMBRE Y APELLIDOS] en fecha [FECHA] a Don [NOMBRE Y APELLIDOS]
-
-III.-Que el establecimiento descrito, propiedad de Don [NOMBRE Y APELLIDOS], se encuentra libre de cargas y su precio de adquisición está íntegramente satisfecho.
-
-IV-Que Don [NOMBRE Y APELLIDOS] reconoce adeudar, en concepto de crédito, a Don [NOMBRE Y APELLIDOS] la cantidad de [IMPORTE] Euros.
-
-CLÁUSULAS
-
-Que Don [NOMBRE Y APELLIDOS] se obliga a reintegrar a la parte acreedora la cantidad que le adeuda, así como los intereses, impuestos y gastos, incluso de carácter judicial, que origine este contrato, con arreglo a lo que se pacta en las siguientes cláusulas:
-
-La deuda deberá ser satisfecha mediante [ÓRGANO] cuotas, comprensivas de capital e intereses, que serán satisfechas el quinto día hábil de cada mes, teniendo lugar el primer vencimiento el día [FECHA]
-
-Domiciliación de los pagos:.
-
-Intereses ordinarios:.
-
-Comisiones:
-
-Gastos a cargo del deudor:
-
-Intereses de demora:
-
-Resolución anticipada por el acreedor.
-
-No obstante el plazo pactado, el acreedor podrá considerar vencida de pleno derecho la obligación de pago y exigir su totalidad cuando concurra cualquiera de las circunstancias siguientes:
-
-a) Cuando la parte deudora incumpliera cualquiera de las obligaciones contraídas en virtud del presente contrato, y especialmente el incumplimiento de cualquier pago en las fechas contractualmente previstas.
-
-b) Cuando esta escritura no fuese inscribible en el Registro de la Propiedad, por cualquier causa imputable al deudor
-
-c) Si el deudor llegare a un convenio en un procedimiento concursal o si iniciado un procedimiento concursal no se llegara al convenio en el plazo de un año o se procediera a la liquidación final, en caso de quiebra, si fueran embargados bienes de su pro- piedad o por cualquier causa disminuyera su solvencia en forma apreciable.
-
-CLÁUSULAS HIPOTECARIAS
-
-Hipoteca
-
-Sin perjuicio de la responsabilidad personal y solidaria de la parte deudora, en garantía total de la deuda indicada - Euros-, Don [NOMBRE Y APELLIDOS] constituye hipoteca a favor de [BENEFICIARIO], que la acepta, sobre el establecimiento antes descrito, fijándose la responsabilidad hipotecaria total en la cantidad de [IMPORTE] Euros.
-
-Obligaciones del hipotecante respecto de los bienes hipotecados
-
-El hipotecante está obligado a continuar el comercio o industria en el establecimiento hipotecado con arreglo a los usos del comercio y a participar al acreedor, dentro de los ocho días, cualquier acto o novedad dañosa.
-
-Extensión de la hipoteca
-
-El derecho real constituido se extenderá:
-
-a) Al derecho arrendaticio del local, con las particularidades descritas en la Cláusula Sexta.
-
-b) A las instalaciones fijas o permanentes del local: instalación eléctrica, tuberías, etcétera.
-
-c) Al nombre comercial, rótulo del establecimiento, marcas distintivas y demás derechos de propiedad industrial e intelectual que se describen: [DESCRIPCIÓN DEL BIEN].
-
-d) A las máquinas, mobiliario, utensilios y demás instrumentos de producción y trabajo que se describen: [DESCRIPCIÓN DEL BIEN].
-
-e) Conforme el artículo 5 de la Ley Hipotecaria Mobiliaria y Prenda sin desplazamiento, a toda clase de indemnizaciones que correspondan al hipotecante, concedidas o debidas por razón de los bienes hipotecados, si el siniestro o hecho que los motiva acaeciere después de la constitución de la hipoteca.
-
-El hipotecante declara que los bienes descritos en los subapartados c) y d) son de su propiedad, su precio está pagado y se destinan de modo permanente a satisfacer las necesidades de la explotación del establecimiento descrito. Tales bienes no están hipotecados, pignorados ni embargados.
-
-Vencimiento anticipado
-
-El acreedor hipotecario podrá, aunque no haya transcurrido el plazo estipulado en el contrato, dar por vencida la obligación por cualquiera de las siguientes causas:
-
-1ª Modificación de la clase de comercio o industria del establecimiento hipotecado, si no se pactare otra cosa.
-
-2ª Incumplimiento de las obligaciones del deudor y en especial la falta de cargas sociales y fiscales y primas de seguros que se pactan:
-
-3ª Enajenación por el deudor, sin consentimiento del acreedor, de alguno de los bienes hipotecados.
-
-4ª Cualquiera otra causa especialmente fijada por la Ley o estipulada en la presente escritura de.
-
-Ejecución de la hipoteca
-
-Expresamente pactan las partes que, sin perjuicio de las acciones judiciales que correspondan a la parte acreedora para la reclamación de la deuda y ejecución de la hipoteca, se pueda proceder, además, a la venta extrajudicial del bien, que se realizará por medio de Notario con las formalidades establecidas en el Reglamento Hipotecario.
-
-En todo caso, se tasa el bien, a efectos de dicha venta extrajudicial, como precio para que, en su caso, sirva de tipo en subasta, en la cantidad de [IMPORTE] Euros.
-
-A los solos efectos de venta extrajudicial, el deudor designa al acreedor como mandatario para que le represente, en su día, en la
-
-venta y transmisión del establecimiento y, en su caso, en todos los trámites referidos al traspaso del local.
-
-Adquisición en ejecución
-
-El adjudicatario, en caso de ejecución, adquirirá, de pleno derecho, la cualidad de arrendatario del establecimiento descrito.
-
-El arrendamiento se pacta por [Nº] años.
-
-A tales efectos se fija una renta mensual de [IMPORTE] Euros, pagadera en [PLAZO DE PAGO]
-
-El adjuticatario -arrendatario- tendrá derecho a [DERECHOS DEL ARRENDATARIO]
-
-El adjuticatario -arrendatario- tendrá la obligación de [OBLIGACIONES DEL ARRENDATARIO]
-
-Gastos
-
-Son de cuenta del deudor, todos los gastos notariales, fiscales y registrales que origine esta escritura, y la cancelación en su día; así como los de ejecución, en su caso, cualquiera que se el procedimiento, incluidos en tal concepto los honorarios y derechos de Letrados y Procuradores intervinientes.
-
-Copias.
-
-Sumisión [FUERO O JURISDICCIÓN]
-
-En estos términos los comparecientes formalizan la presente escritura que aceptan y aprueban en todas sus partes.
-
-RESERVAS Y ADVERTENCIAS LEGALES [TEXTO DE LAS RESERVAS Y ADVERTENCIAS] Y de su contenido, DOY FE.
-
-En el caso de que el cumplimiento de este Contrato suponga la necesidad de acceder a datos de carácter personal, como encargados del tratamiento, quedamos obligados al cumplimiento de la LO 3/2018, de 5 diciembre, de Protección de Datos Personales y Garantía de los Derechos Digitales y del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 (RGPD) y demás normativa aplicable.

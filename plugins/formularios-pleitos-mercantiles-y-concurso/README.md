@@ -1,12 +1,12 @@
 # Pleitos mercantiles: acuerdos sociales, administradores, competencia desleal y concurso
 
-> Plugin de Claude Code `formularios-pleitos-mercantiles-y-concurso` · **33 formularios** · Mercantil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-pleitos-mercantiles-y-concurso` · **33 formularios** · Mercantil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para litigar ante la Sección de lo Mercantil: impugnación de acuerdos sociales, acción social e individual de responsabilidad de administradores, disolución judicial, derecho de información y de separación del socio, competencia desleal y publicidad ilícita, y escritos en el concurso de acreedores.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
@@ -32,9 +32,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 

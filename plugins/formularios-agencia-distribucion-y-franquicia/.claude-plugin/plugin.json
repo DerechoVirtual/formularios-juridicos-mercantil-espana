@@ -1,7 +1,7 @@
 {
   "name": "formularios-agencia-distribucion-y-franquicia",
-  "version": "1.0.0",
-  "description": "Agencia, distribución, franquicia y colaboración entre empresas: 34 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para los contratos de colaboración comercial: agencia (Ley 12/1992), distribución exclusiva y selectiva, concesión, franquicia, comisión, patrocinio, alianzas y joint ventures, y las reclamaciones por indemnización de clientela o por resolución. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Agencia, distribución, franquicia y colaboración entre empresas: 34 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para los contratos de colaboración comercial: agencia (Ley 12/1992), distribución exclusiva y selectiva, concesión, franquicia, comisión, patrocinio, alianzas y joint ventures, y las reclamaciones por indemnización de clientela o por resolución. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"

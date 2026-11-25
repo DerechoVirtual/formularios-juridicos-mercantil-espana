@@ -5,7 +5,7 @@ description: "Contrato de préstamo del vendedor para financiar al comprador de 
 
 # Contrato de préstamo del vendedor para financiar al comprador de bienes muebles
 
-> Formulario **MER-0662** del plugin **Banca, financiación, valores y garantías** (`formularios-banca-financiacion-y-garantias`) · Mercantil › Banca, financiación, valores y garantías · normativa revisada el 24-11-2026.
+> Formulario **MER-0662** del plugin **Banca, financiación, valores y garantías** (`formularios-banca-financiacion-y-garantias`) · Mercantil › Banca, financiación, valores y garantías · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -22,13 +22,14 @@ Para obtener, en pocos minutos, un borrador completo de «Contrato de préstamo 
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Contrato de préstamo del vendedor para financiar al comprador de bienes muebles” para mi caso». También puedes invocarla directamente con `/formularios-banca-financiacion-y-garantias:contrato-prestamo-vendedor-financiar-comprador-bienes-mer-0662`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-banca-financiacion-y-garantias:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Banca, financiación, valores y garantías) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -114,233 +115,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-CONTRATO DE PRÉSTAMO DE FINANCIACIÓN A COMPRADOR DE BIENES MUEBLES
-
-COMPRADOR
-
-Primer apellido: [PRIMER APELLIDO]
-
-Segundo apellido: [SEGUNDO APELLIDO]
-
-Nombre: [NOMBRE]
-
-NIF/CIF: [NIF]
-
-Domicilio: [DOMICILIO]
-
-[OPCIONAL — si el comprador es persona jurídica] Inscrita en: [DATOS REGISTRALES]
-
-[OPCIONAL — si el comprador es persona jurídica] Y en su nombre y representación: [PRIMER APELLIDO, SEGUNDO APELLIDO, NOMBRE, NIF, DOMICILIO]
-
-[OPCIONAL — si hay más de un comprador, repetir el bloque anterior]
-
-FIADOR
-
-Primer apellido: [PRIMER APELLIDO]
-
-Segundo apellido: [SEGUNDO APELLIDO]
-
-Nombre: [NOMBRE]
-
-NIF/CIF: [NIF]
-
-Domicilio: [DOMICILIO]
-
-[OPCIONAL — si el fiador es persona jurídica] Inscrita en: [DATOS REGISTRALES]
-
-[OPCIONAL — si el fiador es persona jurídica] Y en su nombre y representación: [PRIMER APELLIDO, SEGUNDO APELLIDO, NOMBRE, NIF, DOMICILIO]
-
-[OPCIONAL — si no hay fiador, suprimir este bloque]
-
-FINANCIADOR
-
-Denominación: [DENOMINACIÓN SOCIAL]
-
-CIF: [NIF]
-
-Domicilio: [DOMICILIO]
-
-Inscrita en: [DATOS REGISTRALES]
-
-Y en su nombre y representación: [PRIMER APELLIDO, SEGUNDO APELLIDO, NOMBRE, NIF, DOMICILIO]
-
-VENDEDOR: [DENOMINACIÓN O NOMBRE Y APELLIDOS DEL VENDEDOR], quien no interviene en este acto.
-
-OBJETO
-
-Modelo: [MODELO]
-
-Marca: [MARCA]
-
-Número de fabricación o chasis: [Nº DE FABRICACIÓN O CHASIS]
-
-Matrícula (en su caso): [MATRÍCULA]
-
-Unidad de cuenta: [IMPORTE] euros
-
-Precio de la compraventa (valor al contado): [IMPORTE]
-
-Coste de adquisición del bien: [IMPORTE]
-
-Desembolso inicial (si lo hubiera): [IMPORTE]
-
-Préstamo de financiación. Capital del préstamo: [IMPORTE]
-
-Interés por aplazamiento: [Nº DE MESES] meses al [PORCENTAJE] %
-
-Importe total del préstamo: [IMPORTE]
-
-T.A.E.: [PORCENTAJE] %
-
-RECONOCIMIENTO DE DEUDA.– El comprador reconoce deber al financiador la cantidad de [IMPORTE], que se pagará en [Nº DE PLAZOS] plazos conforme al plan de amortización que figura en hoja anexa, señalándose como domicilio de pago [DOMICILIO DE PAGO]. Por consiguiente, con fecha [FECHA] deberá quedar terminado el pago.
-
-DERECHO DE DESISTIMIENTO.– [DESCRIPCIÓN DEL DERECHO DE DESISTIMIENTO DEL COMPRADOR, EN LOS TÉRMINOS Y PLAZOS LEGALMENTE PREVISTOS]
-
-DOMINIO.– El objeto vendido se halla libre de gravámenes, y el dominio [ELEGIR: queda reservado al vendedor o financiador hasta el pago total del precio / se transmite al comprador en este acto].
-
-En prueba de conformidad, firman las partes el presente contrato en [Nº DE HOJAS] hojas numeradas correlativamente y en tantos ejemplares como partes intervienen.
-
-COMPRADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FIADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FINANCIADOR: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-CONDICIONES GENERALES
-
-1. COMPRADORES.– En caso de intervenir varios compradores, se obligan con carácter [ELEGIR: solidario / mancomunado] al cumplimiento de las obligaciones dimanantes del presente contrato.
-
-2. FIADOR.– El o los fiadores afianzan [ELEGIR: solidariamente, con renuncia a los beneficios de excusión, orden y división / en los términos siguientes: [TÉRMINOS DE LA FIANZA]] el cumplimiento de las obligaciones del comprador derivadas de este contrato.
-
-3. PROHIBICIÓN DE DISPONER.– El comprador no podrá realizar ningún acto de disposición o gravamen sin autorización escrita del financiador.
-
-4. MORA EN EL PAGO.– A partir de cada vencimiento no satisfecho, el financiador podrá exigir al comprador el pago de [PORCENTAJE] por ciento sobre el mismo, aplicándose para su cálculo la fórmula [FÓRMULA DE CÁLCULO], sin perjuicio de que la falta de pago de dos de los plazos o del último de ellos pueda dar lugar al vencimiento de lo adeudado o a la resolución del contrato, con los efectos del artículo 10 de la Ley 28/1998.
-
-5. PAGO ANTICIPADO.– El comprador podrá pagar anticipadamente [CONDICIONES DEL PAGO ANTICIPADO, EN SU CASO].
-
-6. CESIÓN DE DERECHOS.– [CONDICIONES EN LAS QUE EL FINANCIADOR PUEDE CEDER SUS DERECHOS DERIVADOS DEL CONTRATO]
-
-7. TASACIÓN.– El valor de tasación del objeto del presente contrato se fijará de la siguiente forma: [FORMA DE FIJACIÓN DEL VALOR DE TASACIÓN].
-
-8. COSTE DE ADQUISICIÓN.– Los elementos que componen el coste de adquisición que figura en la hoja 1 de este contrato son: [ELEMENTOS DEL COSTE DE ADQUISICIÓN].
-
-9. CÁLCULO DEL T.A.E.– La fórmula utilizada para el cálculo del T.A.E. es la recogida en el anexo I de la Ley 16/2011, de 24 de junio, de Contratos de Crédito al Consumo.
-
-10. NOTIFICACIONES.– Se señalan como domicilios a efectos de notificaciones, requerimientos y emplazamientos los siguientes: Comprador: [DOMICILIO]. Fiador: [DOMICILIO]. Financiador: [DOMICILIO].
-
-11. ENTREGA DEL EJEMPLAR DEL CONTRATO.– En cumplimiento de lo establecido en el artículo 6.1 de la Ley 28/1998, cada una de las partes intervinientes deberá recibir un ejemplar del presente contrato, debidamente firmado.
-
-12. PLURALIDAD DE OBJETOS.– En estos casos se entenderá distribuido el importe total del préstamo proporcionalmente al valor al contado de cada bien, salvo pacto en contrario.
-
-13. CONSUMACIÓN DE LA COMPRA.– El comprador se obliga a satisfacer al contado el precio de la compra con el importe del presente préstamo de financiación.
-
-OTRAS CLÁUSULAS.– [OTRAS CLÁUSULAS PACTADAS]
-
-En prueba de conformidad, firman las partes el presente contrato en [Nº DE HOJAS] hojas numeradas correlativamente y en tantos ejemplares como partes intervienen.
-
-COMPRADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FIADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FINANCIADOR: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-ANEXO I. CUADRO DE AMORTIZACIÓN
-
-Vencimiento | Importe del plazo | Amortización de capital | Intereses | Capital pendiente
-
-[FECHA] | [IMPORTE] | [IMPORTE] | [IMPORTE] | [IMPORTE]
-
-[REPETIR UNA LÍNEA POR CADA PLAZO]
-
-En prueba de conformidad, firman las partes el presente contrato en [Nº DE HOJAS] hojas numeradas correlativamente y en tantos ejemplares como partes intervienen.
-
-COMPRADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FIADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FINANCIADOR: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-ANEXO II. PLURALIDAD DE OBJETOS
-
-COMPRADOR: [PRIMER APELLIDO, SEGUNDO APELLIDO, NOMBRE, NIF/CIF, DOMICILIO; SI ES PERSONA JURÍDICA: DATOS DE INSCRIPCIÓN Y DE REPRESENTACIÓN]
-
-FIADOR: [PRIMER APELLIDO, SEGUNDO APELLIDO, NOMBRE, NIF/CIF, DOMICILIO; SI ES PERSONA JURÍDICA: DATOS DE INSCRIPCIÓN Y DE REPRESENTACIÓN]
-
-Objeto 1: Marca: [MARCA]. Modelo: [MODELO]. Nº de fabricación o chasis: [Nº]. Matrícula (en su caso): [MATRÍCULA]. Valor al contado: [IMPORTE].
-
-Objeto 2: Marca: [MARCA]. Modelo: [MODELO]. Nº de fabricación o chasis: [Nº]. Matrícula (en su caso): [MATRÍCULA]. Valor al contado: [IMPORTE].
-
-Objeto 3: Marca: [MARCA]. Modelo: [MODELO]. Nº de fabricación o chasis: [Nº]. Matrícula (en su caso): [MATRÍCULA]. Valor al contado: [IMPORTE].
-
-Objeto 4: Marca: [MARCA]. Modelo: [MODELO]. Nº de fabricación o chasis: [Nº]. Matrícula (en su caso): [MATRÍCULA]. Valor al contado: [IMPORTE].
-
-Objetos no principales y accesorios: [DESCRIPCIÓN]
-
-En prueba de conformidad, firman las partes el presente contrato en [Nº DE HOJAS] hojas numeradas correlativamente y en tantos ejemplares como partes intervienen.
-
-COMPRADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FIADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FINANCIADOR: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-ANEXO III. CLÁUSULAS DE INDEXACIÓN O REVISIÓN DE LAS CONDICIONES ECONÓMICAS
-
-Cláusula de revisión: [CLÁUSULA DE REVISIÓN]
-
-Tipo de interés de referencia (índice de referencia objetivo): [ÍNDICE DE REFERENCIA]
-
-Tipo sustitutivo: [TIPO SUSTITUTIVO]
-
-Fórmula de interés nominal (operaciones pactadas a tipo de interés variable): [FÓRMULA]
-
-A efectos de variación de interés en perjuicio de tercero se fija como tope máximo de interés el [PORCENTAJE] % nominal anual.
-
-En prueba de conformidad, firman las partes el presente contrato en [Nº DE HOJAS] hojas numeradas correlativamente y en tantos ejemplares como partes intervienen.
-
-COMPRADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FIADOR/ES: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-FINANCIADOR: En [LOCALIDAD], a [FECHA]. [FIRMA]
-
-CANCELACIÓN DE CONTRATO DE COMPRAVENTA A PLAZOS
-
-SOLICITUD DE CANCELACIÓN DE LA INSCRIPCIÓN DEL BIEN INSCRITO EN EL REGISTRO DE BIENES MUEBLES
-
-A [REGISTRO DE BIENES MUEBLES COMPETENTE]
-
-SOLICITANTE: [NOMBRE Y APELLIDOS O DENOMINACIÓN SOCIAL], [NIF], con domicilio en [DOMICILIO]
-
-Y en su nombre y representación: [NOMBRE Y APELLIDOS, NIF, DOMICILIO Y TÍTULO DE LA REPRESENTACIÓN]
-
-DATOS DE PRESENTACIÓN: Diario [Nº]. Folio [Nº]. Asiento [Nº].
-
-DATOS DE INSCRIPCIÓN: Nº de bien [Nº]. Folio [Nº].
-
-MOTIVO DE LA CANCELACIÓN: [MOTIVO, P. EJ., PAGO ÍNTEGRO DEL PRECIO APLAZADO]
-
-LA PARTE QUE FIGURA COMO ACREEDORA EN LA INSCRIPCIÓN REGISTRAL SOLICITA SEA CANCELADA LA RESERVA DE DOMINIO Y LA PROHIBICIÓN DE DISPONER, QUEDANDO EL COMPRADOR COMO TITULAR DEL PLENO DOMINIO DEL BIEN DE REFERENCIA.
-
-En [LOCALIDAD], a [DÍA] de [MES] de [AÑO]
-
-El vendedor (firma y sello): [FIRMA Y SELLO]
-
-Legitimación, ratificación o reconocimiento de firmas (obligatoria): [LEGITIMACIÓN, RATIFICACIÓN O RECONOCIMIENTO DE FIRMAS]

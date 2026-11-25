@@ -1,7 +1,7 @@
 {
   "name": "formularios-cooperativas-y-otras-sociedades",
-  "version": "1.0.0",
-  "description": "Cooperativas, sociedades laborales y otras formas de empresa: 113 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para las formas societarias especiales: cooperativas (estatutos, asambleas, consejo rector, altas y bajas de socios, reembolsos), sociedades laborales y participadas, sociedades agrarias de transformación, de garantía recíproca, agrupaciones de interés económico, comanditarias y colectivas, sociedades profesionales y protocolo familiar. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Cooperativas, sociedades laborales y otras formas de empresa: 112 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para las formas societarias especiales: cooperativas (estatutos, asambleas, consejo rector, altas y bajas de socios, reembolsos), sociedades laborales y participadas, sociedades agrarias de transformación, de garantía recíproca, agrupaciones de interés económico, comanditarias y colectivas, sociedades profesionales y protocolo familiar. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"

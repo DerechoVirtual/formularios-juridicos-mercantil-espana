@@ -1,18 +1,18 @@
 # Contratos mercantiles: compraventa, suministro, transporte y servicios
 
-> Plugin de Claude Code `formularios-contratos-mercantiles` · **105 formularios** · Mercantil · normativa revisada el 24-11-2026 · requiere Jurisprudenciator
+> Plugin de Claude Code `formularios-contratos-mercantiles` · **104 formularios** · Mercantil · normativa revisada el 25-11-2026 · requiere Jurisprudenciator
 
 ## Para qué sirve
 
 Para los contratos entre empresas del día a día: compraventa mercantil e internacional, suministro, transporte terrestre, marítimo y aéreo, logística, obra y servicios profesionales, consultoría, publicidad, eventos y turismo, condiciones generales de venta y cláusulas especiales.
 
-Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva.
+Cada formulario es una skill: Claude lo rellena contigo paso a paso y te entrega el documento en Word, con las normas comprobadas en el BOE. Cada skill explica en su `SKILL.md` qué es el formulario, para qué sirve, cómo se usa, qué datos necesita y qué avisos normativos lleva; el formulario seco, listo para rellenar, está en `assets/formulario.md` dentro de la carpeta de la skill.
 
 ## Qué puedes hacer con él
 
-Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 105 está al final):
+Estos son los tipos de documento que trae, con algunos ejemplos (la lista completa de los 104 está al final):
 
-- **Contratos, pactos y cláusulas** (90). Por ejemplo: Contrato de gestión de un hotel por operador hotelero; Contrato de transporte de mercancías de ejecución continuada; Contrato de reserva de alojamiento turístico.
+- **Contratos, pactos y cláusulas** (89). Por ejemplo: Contrato de gestión de un hotel por operador hotelero; Contrato de transporte de mercancías de ejecución continuada; Contrato de reserva de alojamiento turístico.
 - **Comunicaciones, requerimientos y cartas** (2). Por ejemplo: Declaración sobre prestación de servicios a terceros; Carta de encargo de un trabajo de auditoría de cuentas.
 - **Escritos de trámite y otros** (13). Por ejemplo: Suministro de hidrógeno (contrato); Información precontractual normalizada para contratos de viaje combinado; Información precontractual en la venta fuera del establecimiento mercantil.
 
@@ -30,9 +30,9 @@ Estos son los tipos de documento que trae, con algunos ejemplos (la lista comple
 1. Comprueba que Jurisprudenciator está conectado. Si no lo está, se para y te dice cómo conectarlo: no redacta nada sin él. Todos los datos jurídicos del documento (artículos vigentes, sentencias con su ECLI, datos registrales) salen de Jurisprudenciator; nunca de memoria.
 2. Te pide en una sola tanda los datos del caso (partes, órgano, fechas, importes…). Lo que no sepas queda como hueco visible.
 3. Resuelve contigo las opciones que el formulario deja abiertas y decide qué párrafos opcionales entran según los hechos.
-4. Aplica las notas de actualización de la revisión del 24-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
+4. Aplica las notas de actualización de la revisión del 25-11-2026 (reformas legales, órganos judiciales de la LO 1/2025, plazos).
 5. Comprueba en el BOE, con Jurisprudenciator, cada norma que cita el documento; si alguna ha cambiado, usa la redacción vigente y te lo dice.
-6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
+6. Te entrega el documento en Word **tal cual es el formulario**: empieza por su primera línea, sin títulos, notas ni explicaciones añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. En el chat te dice lo que queda pendiente y, si es un escrito, el plazo y ante quién se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
@@ -40,7 +40,7 @@ El resultado es un borrador para que lo revise un profesional antes de usarlo.
 
 - **Dónde funciona:** en Claude Code y en Claude (web, escritorio y Cowork). Se instala desde este repositorio de GitHub o subiendo el ZIP del plugin.
 - **Jurisprudenciator es imprescindible:** el plugin trae el conector y cada skill trabaja siempre con él. Sin una cuenta de Jurisprudenciator conectada, las skills se paran y no redactan nada. La primera vez hay que iniciar sesión (en Claude Code, con `/mcp`; o con tu URL personal: https://jurisprudenciator.lexiaipro.org/instalacion). Si ya tienes Jurisprudenciator conectado en Claude, las skills usan ese.
-- **Espacio que ocupa:** unos 5.757 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-contratos-mercantiles@formularios-juridicos-mercantil-espana`).
+- **Espacio que ocupa:** unos 5.700 tokens en cada conversación mientras esté activado, porque Claude lleva en memoria la descripción de cada skill. Activa solo los plugins que vayas a usar; los demás puedes desactivarlos sin desinstalarlos (`claude plugin disable formularios-contratos-mercantiles@formularios-juridicos-mercantil-espana`).
 
 ## Instalación
 
@@ -55,7 +55,7 @@ En Claude (web, escritorio o Cowork): **Personalizar → Plugins → Añadir mar
 
 Para comprobar que está instalado: `claude plugin list`.
 
-## Lista completa de formularios (105)
+## Lista completa de formularios (104)
 
 | Código | Formulario | Skill |
 |---|---|---|
@@ -91,7 +91,6 @@ Para comprobar que está instalado: `claude plugin list`.
 | MER-0542 | Contrato de asesoría fiscal y llevanza de contabilidad | `contrato-asesoria-fiscal-llevanza-contabilidad-mer-0542` |
 | MER-0543 | Contrato de prestación de servicios de formación | `contrato-prestacion-servicios-formacion-mer-0543` |
 | MER-0544 | Contrato de compraventa internacional entre importador y exportador | `contrato-compraventa-internacional-entre-importador-mer-0544` |
-| MER-0545 | Contrato de externalización de servicios (outsourcing) entre empresas | `contrato-externalizacion-servicios-outsourcing-entre-mer-0545` |
 | MER-0546 | Contrato de ingeniería operativa entre cliente y empresa ejecutante | `contrato-ingenieria-operativa-entre-cliente-empresa-mer-0546` |
 | MER-0547 | Contrato de compraventa mercantil con entrega y pago aplazados (versión abreviada) | `contrato-compraventa-mercantil-entrega-pago-aplazados-mer-0547` |
 | MER-0548 | Formulario de desistimiento aparte para aprovechamiento por turno y productos vacacionales | `formulario-desistimiento-aparte-aprovechamiento-turno-mer-0548` |

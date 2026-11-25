@@ -1,7 +1,7 @@
 {
   "name": "formularios-banca-financiacion-y-garantias",
-  "version": "1.0.0",
-  "description": "Banca, financiación, valores y garantías: 68 formularios revisados el 24-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para la financiación empresarial y los productos bancarios: préstamos y créditos, préstamo participativo, leasing, renting, factoring y confirming, avales y garantías a primer requerimiento, prendas e hipotecas mobiliarias, swaps, depósitos y custodia de valores, FEIN y reclamaciones al banco. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
+  "version": "1.1.0",
+  "description": "Banca, financiación, valores y garantías: 68 formularios revisados el 25-11-2026, cada uno convertido en una skill que lo rellena paso a paso. Para la financiación empresarial y los productos bancarios: préstamos y créditos, préstamo participativo, leasing, renting, factoring y confirming, avales y garantías a primer requerimiento, prendas e hipotecas mobiliarias, swaps, depósitos y custodia de valores, FEIN y reclamaciones al banco. Requiere Jurisprudenciator conectado: sin él las skills no redactan ni verifican nada.",
   "author": {
     "name": "Derecho Virtual",
     "url": "https://jurisprudenciator.lexiaipro.org"

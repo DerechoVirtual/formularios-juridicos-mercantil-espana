@@ -5,7 +5,7 @@ description: "Contrato de patrocinio de un acontecimiento deportivo. Lo redacta 
 
 # Contrato de patrocinio de un acontecimiento deportivo
 
-> Formulario **MER-0497** del plugin **Agencia, distribución, franquicia y colaboración entre empresas** (`formularios-agencia-distribucion-y-franquicia`) · Mercantil › Agencia, distribución, franquicia y colaboración empresarial · normativa revisada el 24-11-2026.
+> Formulario **MER-0497** del plugin **Agencia, distribución, franquicia y colaboración entre empresas** (`formularios-agencia-distribucion-y-franquicia`) · Mercantil › Agencia, distribución, franquicia y colaboración empresarial · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -20,13 +20,14 @@ Para obtener, en pocos minutos, un borrador completo de «Contrato de patrocinio
 1. **Pídelo con tus palabras**, por ejemplo: «Prepárame el documento “Contrato de patrocinio de un acontecimiento deportivo” para mi caso». También puedes invocarla directamente con `/formularios-agencia-distribucion-y-franquicia:contrato-patrocinio-acontecimiento-deportivo-mer-0497`.
 2. **Dale los datos del caso** cuando te los pida (abajo tienes la lista para tenerlos a mano). Lo que no sepas queda como hueco visible.
 3. **Resuelve las opciones** que te plantee (las marcadas [ELEGIR] y [OPCIONAL] en el modelo).
-4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 12, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
+4. **Recibe el documento en Word, tal cual es el formulario**: empieza por su primera línea (por ejemplo «En [LOCALIDAD], a [FECHA]» o «A LA SECCIÓN…»), sin títulos ni notas añadidas, en Times New Roman 11, interlineado 1,15 y texto justificado. Lo pendiente, las normas comprobadas y el plazo te los dice en el chat.
 
 Si no estás seguro de que este sea el formulario que necesitas, usa el índice del plugin: `/formularios-agencia-distribucion-y-franquicia:indice`.
 
 ## Qué contiene esta skill
 
-- Este fichero: al final, en «Texto del formulario», está el formulario tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…].
+- `SKILL.md` (este fichero): qué es el formulario, para qué sirve, cómo se usa, los datos que pide, las normas que cita, los avisos de actualización y las instrucciones para Claude.
+- `assets/formulario.md`: el formulario seco, tal cual, desde su primera línea hasta la firma, con sus campos [EN MAYÚSCULAS] y sus opciones [ELEGIR…] / [OPCIONAL…]. Es el texto que se rellena; no lleva explicaciones.
 - `../indice/marco.md` (en la skill `indice` del plugin): la guía del tema (Agencia, distribución, franquicia y colaboración entre empresas) con las normas, órganos y plazos vigentes que Claude lee antes de redactar.
 
 ## Datos que conviene tener a mano
@@ -90,83 +91,15 @@ Cita solo lo que devuelva Jurisprudenciator (artículo vigente, ECLI o ROJ, dato
 ### Flujo
 
 1. **Paso 0**: comprueba Jurisprudenciator (arriba).
-2. Lee entero el «Texto del formulario» (al final de este fichero) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
+2. Lee entero `assets/formulario.md` (el formulario que vas a rellenar, en la carpeta de esta skill) y la parte de `../indice/marco.md` que afecte al caso. Limítate a la materia de este formulario: no añadas contenido ajeno a él.
 3. Pide los datos de la lista en una sola tanda. Si un dato aparece varias veces, aclara a qué persona o acto corresponde cada vez. Lo que el usuario no sepa se queda como hueco visible con su etiqueta (p. ej. [FECHA]).
 4. Resuelve cada [ELEGIR …] y cada [OPCIONAL …] según los hechos, y sustituye cualquier indicación entre paréntesis del formulario («(se describirá…)», «(indicar…)») por el contenido que corresponda. Redacta las partes que dependen del caso (hechos, motivos, descripción de bienes).
 5. Aplica los avisos de actualización en el lugar que indican. Comprueba con `buscar_articulo` cada norma citada; si alguna ha cambiado, usa la redacción vigente. Si citas jurisprudencia, localízala con `buscar_sentencias` o `buscar_por_cita` y léela con `leer_sentencias`.
 6. Antes de entregarlo, pasa `verificar_escrito` con las frases que citan normas o sentencias y corrige lo que señale.
 7. **Documento final = el formulario tal cual, rellenado y limpio.**
-   - Empieza exactamente por la primera línea del «Texto del formulario» y sigue su estructura y su orden hasta la firma.
+   - Empieza exactamente por la primera línea de `assets/formulario.md` y sigue su estructura y su orden hasta la firma.
    - No pongas en el documento título, nombre del formulario o de la skill, código, encabezados, «Para qué sirve», leyendas, avisos, notas de uso, comentarios ni explicaciones. Tampoco marcas [ELEGIR…] u [OPCIONAL…]: ya están resueltas.
-   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 12 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
+   - Formato Word (.docx, con la skill de Word disponible): **Times New Roman 11 pt** en todo el documento, **interlineado 1,15**, **texto justificado**, márgenes de 2,5 cm. Los rótulos del formulario (REUNIDOS, CLÁUSULAS, HECHOS, SUPLICO…) en su propia línea y en negrita, sin cambiar su texto.
 8. En el chat (nunca dentro del documento): datos pendientes, partes redactadas por ti, normas y sentencias comprobadas con Jurisprudenciator (y, si algún dato sale de internet, cuál y su enlace) y, si es un escrito judicial o administrativo, el plazo y el órgano ante el que se presenta.
 
 El resultado es un borrador para que lo revise un profesional antes de usarlo.
-
-## Texto del formulario
-
-Lo que sigue, hasta el final de este fichero, es el formulario tal cual: desde su primera línea hasta la firma.
-
-En [LUGAR], a [DÍA] de [MES] de [AÑO].
-
-REUNIDOS
-
-De una parte, don [NOMBRE Y APELLIDOS], mayor de edad, con DNI núm [DNI/NIE] y domicilio en [LOCALIDAD], calle [CALLE] De otra parte, don [NOMBRE Y APELLIDOS], mayor de edad, con DNI núm [DNI/NIE] y domicilio en [LOCALIDAD], calle.
-
-INTERVIENEN
-
-El primero, en nombre y representación de [NOMBRE DEL REPRESENTADO/A], domiciliada en [DOMICILIO], calle [CALLE], con NIF [NIF], según resulta de la escritura de apoderamiento otorgada ante el Notario de Madrid, don [NOMBRE DEL NOTARIO], el día [DÍA] de [MES] de [AÑO], con el número [NÚMERO] de su protocolo.
-
-El segundo, en nombre y representación de [NOMBRE DEL REPRESENTADO/A], domiciliada en [DOMICILIO], calle [CALLE], con NIF [NIF], según resulta de la escritura de apoderamiento otorgada ante el Notario de Madrid, don [NOMBRE DEL NOTARIO], el día [DÍA] de [MES] de [AÑO], con el número [NÚMERO] de su protocolo.
-
-DECLARAN
-
-Cada parte interviniente tener capacidad legal suficiente para el otorgamiento de este contrato en su respectiva representación.
-
-EXPONEN
-
-Que [NOMBRE DE LA PARTE] de explotación comercial de [NOMBRE DEL ACONTECIMIENTO]), acontecimiento que se celebrará entre los días [FECHAS] de [MES] de 20 [AÑO] y [DÍA] de [MES] de 20
-
-Que [NOMBRE DE LA PARTE] está interesada en [OBJETO DEL CONTRATO] Por ello
-
-CLÁUSULAS
-
-Cesión del patrocinio en exclusiva
-
-Que [NOMBRE DE LA PARTE] cede en exclusiva a [NOMBRE DE LA PARTE] el patrocinio de la «Meta x» y la realización de las acciones publicitarias y promocionales con ocasión de la [NOMBRE DEL ACONTECIMIENTO] que se mencionan en este contrato.
-
-PRIMERO BIS.-Que [NOMBRE DE LA PARTE] cede en exclusiva a [NOMBRE DE LA PARTE] el patrocinio de [OBJETO DEL PATROCINIO] consistente en las acciones publicitarias y promocionales que se mencionan en este contrato.
-
-Que [NOMBRE DE LA PARTE], por este contrato de patrocinio se compromete a:
-
-a) Aportar la cantidad de [IMPORTE] euros. en metálico, que pagará de la siguiente forma [FORMA DE PAGO].
-
-b) Hacerse cargo de los costes del siguiente material: Programas, entradas, El coste previsto para la confección de los programas es de [IMPORTE] euros; El de la confección de las entradas es de [IMPORTE] euros;
-
-Todas estas cantidades se abonarán por [NOMBRE DE LA PARTE] a la presentación de la correspondiente factura.
-
-c) Encargarse de la confección del equipo deportivo necesario tanto para el entrena- miento como para los partidos oficiales de liga que se menciona a continuación. Dicho equipo deportivo constará de dos juegos del uniforme oficial del club que se compone de camiseta y pantalón corto, y chándal completo de entrenamiento, tanto para los jugadores como para los masajistas. En todas estas prendas constará el logotipo y el nombre de [NOMBRE DE LA PARTE] en el delantero y/o en la espalda, además del nombre y número de los jugadores, según es costumbre. Dichos equipos deberán ser iguales en calidad a la muestra que se une al presente contrato, y estar en perfectas condiciones de uso.
-
-En el caso de los equipos deportivos, se compromete a fabricarlos (o encargarlos)
-
-y tenerlos preparados para su entrega antes del [DÍA] de [MES] de 20 [AÑO]
-
-Si hubiera costes derivados de la venta del catálogo (como instalación especial de un stand para la venta, personal especializado, etc.), éstos correrán por cuenta de la
-
-Que [NOMBRE DE LA PARTE] se compromete a utilizar el equipo deportivo suministrado por [NOMBRE DE LA PARTE] Que, una vez realizado el ingreso de las cantidades a las que se refieren los apartados a y b de la estipulación anterior, [NOMBRE DE LA PARTE] se compromete a facilitar un recibo en el que se especifique el destino de dichas sumas con objeto de que [NOMBRE DE LA PARTE] se pueda acoger a los beneficios fiscales previstos por la ley.
-
-Que [NOMBRE DE LA PARTE] se compromete a incluir el logotipo y la marca de [NOMBRE DE LA PARTE] con la mención expresa del patrocinio que ésta realiza en todos los programas, folletos, carteles, anuncios y cualquier otro material publicitario escrito u oral que se realice con motivo de dicho acontecimiento. Para ello, facilitará con suficiente antelación el formato y modelo del logotipo y nombre corporativo a [NOMBRE DE LA PARTE] con la indicación de los tamaños máximos y mínimos que se deben respetar, y el lugar y la forma de colocación. Si, por razones de tipo técnico, estas indicaciones no pudieran respetarse en su literalidad, deberá consultarse con [NOMBRE DE LA PARTE] para intentar entre ambas encontrar una solución que, al mismo tiempo que respete las normas de diseño corporativo, sea técnicamente viable.
-
-Que [NOMBRE DE LA PARTE] se compromete a mencionar el patrocinio de [NOMBRE DE LA PARTE] en los comunicados de prensa, o ruedas de prensa que se puedan producir con motivo del acontecimiento.
-
-Que este contrato de colaboración supone la exclusiva en cuanto a los derechos de patrocinio del acontecimiento, por lo que no podrá existir otra empresa con la que [NOMBRE DE LA PARTE] firme un contrato análogo.
-
-Que este contrato de colaboración no supone la concesión de una exclusiva en cuanto a los derechos de patrocinio del acontecimiento, por lo que [NOMBRE DE LA PARTE] se reserva
-
-el derecho de buscar, además, otras empresas o instituciones con las que firmar contratos análogos.
-
-Las partes intervienen con renuncia expresa a cualquier Fuero que pudiera corresponderles y se someten de forma igualmente expresa a los Tribunales de [LOCALIDAD].
-
-Los otorgantes conforme con el clausulado de este contrato lo firman y otorgan a todos los efectos legales en el lugar y fecha al comienzo expresados.
-
-Firma Firma

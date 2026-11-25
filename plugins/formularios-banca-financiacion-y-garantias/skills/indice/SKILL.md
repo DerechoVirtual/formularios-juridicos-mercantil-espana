@@ -5,7 +5,7 @@ description: "Índice de los 68 formularios de Banca, financiación, valores y g
 
 # Banca, financiación, valores y garantías: índice de formularios
 
-> Plugin `formularios-banca-financiacion-y-garantias` · 68 formularios · normativa revisada el 24-11-2026.
+> Plugin `formularios-banca-financiacion-y-garantias` · 68 formularios · normativa revisada el 25-11-2026.
 
 ## Qué es
 
@@ -50,7 +50,7 @@ Busca por tipo de documento y por nombre. Cada formulario es una skill de este p
 
 ### Cómo usar el formulario elegido
 
-Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario está al final de ese fichero y la guía del tema es el `marco.md` de esta carpeta.
+Invoca su skill. Si esa skill no aparece en tu lista de skills disponibles (puede pasar cuando hay muchas skills instaladas), lee directamente su fichero `SKILL.md`: está en la carpeta hermana de esta (`../<skill>/SKILL.md`). Síguelo igual que si la hubieras invocado: el formulario que se rellena está en `../<skill>/assets/formulario.md` y la guía del tema es el `marco.md` de esta carpeta.
 
 ### Contratos, pactos y cláusulas (45)
 
